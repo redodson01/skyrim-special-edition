@@ -1,0 +1,14 @@
+UniqueName = Test
+
+
+ExtraBreast1L.amplitude 0.0 0.0
+ExtraBreast2L.amplitude 0.0 0.0
+ExtraBreast3L.amplitude 0.0 0.0
+ExtraBreast1R.amplitude 0.0 0.0
+ExtraBreast2R.amplitude 0.0 0.0
+ExtraBreast3R.amplitude 0.0 0.0
+
+RBreast.amplitude 0.0 0.0
+LBreast.amplitude 0.0 0.0
+
+Breast.amplitude 0.0 0.0
