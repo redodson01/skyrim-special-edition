@@ -1,0 +1,14 @@
+NOT IsActorBase("Skyrim.esm" | 0x000007) AND
+IsRace("Skyrim.esm" | 0x013745) OR
+IsRace("Skyrim.esm" | 0x013748) OR
+IsRace("Skyrim.esm" | 0x088845) OR
+IsRace("Skyrim.esm" | 0x088846) AND
+IsWeaponDrawn() AND
+IsEquippedRightType(1) OR
+IsEquippedRightType(2) OR
+IsEquippedRightType(3) OR
+IsEquippedRightType(4) OR
+IsEquippedRightType(5) OR
+IsEquippedRightType(6) OR
+IsEquippedRightType(10) AND
+NOT IsEquippedLeftType(11)
