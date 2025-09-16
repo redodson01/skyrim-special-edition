@@ -4,6 +4,7 @@
 +Paired Animation Improvements
 +Dynamic Animation Casting - NG
 +Payload Interpreter
++CBPC - Physics with Collisions
 -05-Animation and Physics - Other_separator
 +Open Animation Replacer
 +SMP-NPC crash fix
