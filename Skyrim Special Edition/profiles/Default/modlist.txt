@@ -10,6 +10,7 @@
 -02-Extenders - Step Modifications_separator
 -02-Extenders_separator
 +Cleaned Vanilla Masters
++SKSE Output
 +xEdit Output
 -01-Tools - Step Modifications_separator
 -01-Tools_separator
