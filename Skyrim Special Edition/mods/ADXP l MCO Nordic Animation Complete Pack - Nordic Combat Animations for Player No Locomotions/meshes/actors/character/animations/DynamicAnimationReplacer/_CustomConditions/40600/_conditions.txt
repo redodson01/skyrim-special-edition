@@ -1,0 +1,3 @@
+IsEquippedRightType(6) OR
+IsEquippedRightType(10) AND
+IsActorBase("Skyrim.esm" | 0x000007)
