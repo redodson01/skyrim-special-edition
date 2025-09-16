@@ -1,0 +1,6 @@
+// simple patch file to create and update overwrites or new records in DynDOLOD plugins at LOD generation time
+//
+// use the official DynDOLOD support forum for help, instructions and explanations https://stepmodifications.org/forum/forum/223-dyndolod-xlodgen/
+// 
+overwrite2esp=skyrim.esm;0010581f,Record Header\Record Flags=65536
+overwrite2esp=skyrim.esm;00105824,Record Header\Record Flags=65536
