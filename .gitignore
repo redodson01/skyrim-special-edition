@@ -1,0 +1,9 @@
+*.log
+*.swp
+.DS_Store
+/Skyrim\ Special\ Edition/downloads/*.unfinished
+/Skyrim\ Special\ Edition/downloads/*.unfinished.meta
+/Skyrim\ Special\ Edition/logs/
+/Skyrim\ Special\ Edition/mods/xEdit\ Output/SSEEdit\ Cache/
+/Skyrim\ Special\ Edition/profiles/*/archives.txt
+/Skyrim\ Special\ Edition/webcache/
