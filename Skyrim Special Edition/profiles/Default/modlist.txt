@@ -2,6 +2,7 @@
 +Animation Motion Revolution
 +Paired Animation Improvements - Horse Mount and Dismount Double Sound Fix
 +Paired Animation Improvements
++IFrame Generator RE AE Support
 +Dynamic Animation Casting - NG
 +Payload Interpreter
 +CBPC - Physics with Collisions
