@@ -79,3 +79,4 @@ cckrtsse001_altar.esl
 cccbhsse001-gaunt.esl
 ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
+MCMHelper.esp
