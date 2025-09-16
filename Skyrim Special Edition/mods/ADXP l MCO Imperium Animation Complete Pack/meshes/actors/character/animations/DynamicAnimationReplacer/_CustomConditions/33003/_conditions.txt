@@ -1,0 +1,8 @@
+NOT IsActorBase("Skyrim.esm" | 0x000007) AND
+NOT IsInCombat() AND
+IsRace("Skyrim.esm" | 0x013741) OR
+IsRace("Skyrim.esm" | 0x013744) OR
+IsRace("Skyrim.esm" | 0x08883C) OR
+IsRace("Skyrim.esm" | 0x088844) AND
+IsEquippedLeftType(2) AND
+IsEquippedRightType(2) OR

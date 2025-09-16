@@ -1,0 +1,13 @@
+31001 AC Origin Combat Movement 
+31100 AC Origin Sword
+31110 AC Origin Sword and Shield
+31150 AC Origin Sword Dual wield
+31200 Original Dagger 
+31250 Original Dagger Dual wield
+31300 AC Origin Sickle(as Axe)
+31300 Original WarAxe Dual wield
+31400 BDO Nova Mace
+31450 Original Mace Dual wield
+31500 BDO Warrior GreatSword
+31600 AC Origin Heavyblade(as Battleaxe)
+31700 AC Origin Heavyblunt(as Warhammer)

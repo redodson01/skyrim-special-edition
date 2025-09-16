@@ -1,0 +1,11 @@
+30001 AC Valhalla Movement 
+30100 AC Valhalla Sword
+30150 AC Valhalla Sword DualWield
+30200 AC Valhalla Dagger
+30250 AC Valhalla Dagger DualWield
+30300 AC Valhalla Mace
+30350 AC Valhalla Mace DualWield
+30400 AC Valhalla WarAxe
+30450 AC Valhalla WarAxe DualWield
+30500 AC Valhalla GreatSword
+30600 AC Valhalla BattleAxe/WarHammer
