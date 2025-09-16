@@ -1,0 +1,6 @@
+IsActorBase("Skyrim.esm" | 0x000007) AND
+IsEquippedRightType(4) AND
+NOT IsEquippedLeftType(1) AND
+NOT IsEquippedLeftType(2) AND
+NOT IsEquippedLeftType(3) AND
+NOT IsEquippedLeftType(4) AND
