@@ -1,0 +1,7 @@
+*.log
+/Skyrim\ Special\ Edition/downloads/*.unfinished
+/Skyrim\ Special\ Edition/downloads/*.unfinished.meta
+/Skyrim\ Special\ Edition/logs/
+/Skyrim\ Special\ Edition/profiles/*/archives.txt
+/Skyrim\ Special\ Edition/profiles/*/saves/
+/Skyrim\ Special\ Edition/webcache/
