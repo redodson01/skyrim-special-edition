@@ -3,3 +3,4 @@
 *MCMHelper.esp
 *DynDOLOD Resources SE.esp
 *Cathedral Landscapes.esp
+*XPMSE.esp
