@@ -2,6 +2,7 @@
 +AnimObject Swapper
 +FormList Manipulator - FLM
 +Base Object Swapper
++JContainers SE
 -03-Resources - Step Modifications - The Road Ahead_separator
 +MCM Helper
 +Spell Perk Item Distributor
