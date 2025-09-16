@@ -1,0 +1,24 @@
+# This is Player Collision Event Config file for CBPC
+#
+# 
+##############################################################################
+[Settings]
+MinimumCollisionDuration = 0.3    #Minimum collision duration with actor node to raise an event (in seconds). 
+
+
+
+[PlayerCollisionEventNodes]       #These are the nodes that are used for player collision events
+LeftWandNode
+RightWandNode
+NPC L Hand [LHnd]
+NPC R Hand [RHnd]
+NPC L Finger02 [LF02]
+NPC L Finger12 [LF12]
+NPC L Finger22 [LF22]
+NPC L Finger32 [LF32]
+NPC L Finger42 [LF42]
+NPC R Finger02 [RF02]
+NPC R Finger12 [RF12]
+NPC R Finger22 [RF22]
+NPC R Finger32 [RF32]
+NPC R Finger42 [RF42]

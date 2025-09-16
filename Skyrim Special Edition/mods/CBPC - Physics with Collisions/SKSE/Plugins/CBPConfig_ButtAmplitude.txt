@@ -1,0 +1,4 @@
+RButt.amplitude 1.0 1.0
+LButt.amplitude 1.0 1.0
+
+Butt.amplitude 1.0 1.0

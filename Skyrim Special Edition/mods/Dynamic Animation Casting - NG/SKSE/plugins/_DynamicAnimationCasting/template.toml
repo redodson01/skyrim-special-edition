@@ -1,0 +1,76 @@
+# Create a new "event" array and fill it with these settings:
+# Note, <Form ID> must be give by the string like "Plugin.esp|0xAAAA", same as DAR format
+# 
+# Required
+#   - AnimationEvent         = <String> The animation event you wish to spawn the spells on, check the AnimationEvent.txt
+# 
+# Conditions (*ALL* conditions given must meet, OMIT the conditions you don't use)
+#   - ExclusiveGroup         = <String> Only one event in the same ExclusiveGroup can be triggered on an AnimationEvent. Prevent duplicate trigger when you have multiple conditions for same cast.
+#   - HasActorFormID         = <Form ID> Will only allow the spells to spawn for this actor. Set to 0 or -1 to ignore. Player is "Skyrim.esm|20"
+#   - HasRaceFormID          = <Form ID> Will only allow the spells to spawn for this race. Set to 0 or -1 to ignore.
+#   - HasEffectFormID        = <Form ID> Will only allow the spells to spawn while the actor has this active effect. Set to 0 or -1 to ignore.
+#   - HasKeywordFormID       = <Form ID> Will only allow the spells to spawn while the actor has this keyword. Set to 0 or -1 to ignore.
+#   - HasPerkFormID          = <Form ID> Will only allow the spells to spawn while the actor has this perk. Set to 0 or -1 to ignore.
+#   - IsOnMount              = <Boolean> Will only allow the spells to spawn while the actor is mounting or not. Omit this option to ignore.
+#   - IsSneaking             = <Boolean> Will only allow the spells to spawn while the actor is sneaking or not. Omit this option to ignore.
+#   - IsRunning              = <Boolean> Will only allow the spells to spawn while the actor is running or not. Omit this option to ignore.
+#   - IsEquippedRightFormID  = <Form ID> Will only allow the spells to spawn while the actor holds this weapon. Set to 0 or -1 to ignore.
+#   - IsEquippedLeftFormID   = <Form ID> Will only allow the spells to spawn while the actor holds this weapon. Set to 0 or -1 to ignore.
+#   - HasWeaponType          = <Enum> ["HandToHandMelee" "OneHandSword" "OneHandDagger" "OneHandAxe" "OneHandMace" "TwoHandSword" "TwoHandAxe" "Bow" "Staff" "Crossbow" "Spell" "Shield" "Torch"] will only allow the spells to spawn while the actor's weapon is the given type.
+#   - HasWeaponKeyword       = <Form ID> Will only allow the spells to spawn while the actor's weapon have the given keyword.
+#   - HasWeaponEnchantEffect = <Form ID> Will only allow the spells to spawn while the actor's weapon have the given enchantment.
+#   - Chance                 = <Float> 0-1, Will only cast the spell if the random passed
+#   - Cooldown               = <Float> The cooldown time of re-triggering this event in seconds
+#
+# Spells
+#   -  SpellFormIDs             = <Array[Form ID | "@FOREHAND" | "@OFFHAND" | "@POWER" | "@FAVOURITE" | "@<String>"]>
+#      The spells to cast, special values ares:
+#        - @FOREHAND : The spell equiped at the current hand (only work for Spell/Staff/Scroll)
+#        - @OFFHAND  : The spell equiped at the other hand
+#        - @POWER    : The selected power or shout
+#        - @FAVOURITE: One of the spell in the player's favourite, can be selected by Papyrus script
+#        - @<STRING> : The custom spell name registered by RegisterCustomSpell script, <STRING> can be anything, e.g. @TEST, @MY_MOD
+#      For example, ["Skyrim.esm|0x7D997", "@OFFHAND", "@TEST"], will cast fireball (Skyrim.esm|0x7D997), spell equiped at off hand, and the spell registered with `RegisterCustomSpell("TEST", spell)` 
+#
+# Spells Filtering
+#   -  CastOnlyFirstSpell       = <Boolean> Only cast the first spell passed all filters in spells list
+#   -  CastOnlyKnownSpell       = <Boolean> Only cast the spell if the actor knows it
+#   -  IgnoreConcentrationSpell = <Boolean> Ignore concentration spells which not working well right now
+#   -  IgnoreBoundWeaponSpell   = <Boolean> Ignore bound weapon spells
+# 
+# Properties
+#   - HealthCost                   = <Float> the health cost for spawning the spells.  (NOTE: Only subtracts once, NOT for each spell)
+#   - StaminaCost                  = <Float> the stamina cost for spawning the spells. (NOTE: Only subtracts once, NOT for each spell)
+#   - MagickaCost                  = <Float> the magicka cost for spawning the spells. (NOTE: Only subtracts once, NOT for each spell)
+#   - CastMagickaCostFactor        = <Float> The magicka cost factor for spells, default to 1.0
+#   - EnchantmentCost              = <Float> The base weapon enchantment cost for spawning the spells. (WIP)
+#   - EnchantmentCostFactor        = <Float> The ratio to convert the magika cost to weapon enchantment cost. (WIP)
+#   - Effectiveness                = <Float> The effectiveness of the spell. (Seems only affect anything)
+#   - Magnitude                    = <Float> The base magnitude override of the spell (Seems only work for Restoration spells)
+#   - WeaponEnchantMagnitudeFactor = <Float> Use the weapon enchantment's magnitude to amplify the Magnitude (Seems only work for Restoration spells)
+#   - DualCasting                  = <Boolean> Force triggering the dual cast benifit
+
+# Cast off hand spell when weapons with certain enchantment are wield 
+# [[event]]
+# AnimationEvent = "HitFrame"
+
+# CastMagickaCostFactor = 0.8
+# EnchantmentCost = 0.0
+# EnchantmentCostFactor = 1.0
+# Magnitude = 0.0
+# WeaponEnchantMagnitudeFactor = 0.01
+# DualCasting = true
+
+# HasWeaponEnchantEffect = "EldenCatalysts.esp|0x000839"
+# IgnoreConcentrationSpell = true
+# IgnoreBoundWeaponSpell = true
+
+# SpellFormIDs = ["@FOREHAND","@OFFHAND","@FAVOURITE"]
+
+# # Instant cast spells (no charge time) when sneaking
+# [[event]]
+# AnimationEvent = "BeginCastLeft"
+# HasActorFormID = "Skyrim.esm|20"
+# SpellFormIDs = ["@FOREHAND"]
+# HasWeaponType = "Spell"
+# IsSneaking = true
