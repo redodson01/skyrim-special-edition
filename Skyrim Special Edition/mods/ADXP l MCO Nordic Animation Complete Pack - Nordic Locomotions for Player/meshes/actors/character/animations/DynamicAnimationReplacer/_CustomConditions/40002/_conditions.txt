@@ -1,0 +1,10 @@
+IsActorBase("Skyrim.esm" | 0x000007) AND
+NOT IsInCombat() AND
+IsWeaponDrawn() AND
+IsEquippedRightType(1) OR
+IsEquippedRightType(2) OR
+IsEquippedRightType(3) OR
+IsEquippedRightType(4) OR
+IsEquippedRightType(5) OR
+IsEquippedRightType(6) OR
+IsEquippedRightType(10) OR
