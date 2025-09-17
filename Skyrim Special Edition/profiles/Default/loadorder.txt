@@ -117,3 +117,4 @@ TrueDirectionalMovement.esp
 SimplyKnock.esp
 Take A Peek - New Stealth Mechanic.esp
 SkyParkour.esp
+ImprovedAlternateConversationCamera.esp
