@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/DynamicArmorVariants/main/docs/DynamicArmorVariants.schema.json",
+  "variants": [
+    {
+      "name": "LoweredHoods",
+      "replaceByForm": {
+        "Sentinel - Priests and Acolytes.esp|882": "Sentinel - Priests and Acolytes.esp|8A2",
+        "Sentinel - Priests and Acolytes.esp|864": "Sentinel - Priests and Acolytes.esp|8A0",
+        "Sentinel - Priests and Acolytes.esp|869": "Sentinel - Priests and Acolytes.esp|8A1",
+        "Sentinel - Priests and Acolytes.esp|86C": "Sentinel - Priests and Acolytes.esp|8A3",
+        "Sentinel - Priests and Acolytes.esp|86F": "Sentinel - Priests and Acolytes.esp|8A4",
+        "Sentinel - Priests and Acolytes.esp|89D": "Sentinel - Priests and Acolytes.esp|8A5",
+        "Sentinel - Priests and Acolytes.esp|872": "Sentinel - Priests and Acolytes.esp|8A6",
+        "Sentinel - Priests and Acolytes.esp|8D0": "Sentinel - Priests and Acolytes.esp|8D2"
+      }
+    }
+  ]
+}
