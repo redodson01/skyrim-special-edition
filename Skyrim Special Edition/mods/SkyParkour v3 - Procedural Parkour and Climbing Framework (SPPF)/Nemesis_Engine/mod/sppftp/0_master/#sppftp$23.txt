@@ -1,0 +1,8 @@
+		<hkobject name="#sppftp$23" class="hkbStateMachineEventPropertyArray" signature="0xb07b4388">
+			<hkparam name="events" numelements="1">
+				<hkobject>
+					<hkparam name="id">$eventID[SkyParkour_Start]$</hkparam>
+					<hkparam name="payload">#sppftp$22</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
