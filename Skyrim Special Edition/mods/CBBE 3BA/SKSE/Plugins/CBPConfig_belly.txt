@@ -1,0 +1,59 @@
+# START Belly
+
+Belly.stiffnessX 0.020 0.020
+Belly.stiffnessY 0.020 0.020
+Belly.stiffnessZ 0.020 0.020
+Belly.stiffnessXRot 0.020 0.020
+Belly.stiffnessYRot 0.020 0.020
+Belly.stiffnessZRot 0.020 0.020
+Belly.stiffness2X 0.0055 0.0055
+Belly.stiffness2Y 0.0055 0.0055
+Belly.stiffness2Z 0.0055 0.0055
+Belly.stiffness2XRot 0.0055 0.0055
+Belly.stiffness2YRot 0.0055 0.0055
+Belly.stiffness2ZRot 0.0055 0.0055
+Belly.dampingX 0.020 0.020
+Belly.dampingY 0.020 0.020
+Belly.dampingZ 0.020 0.020
+Belly.dampingXRot 0.020 0.020
+Belly.dampingYRot 0.020 0.020
+Belly.dampingZRot 0.020 0.020
+Belly.Xmaxoffset 3.0 3.0
+Belly.Xminoffset -3.0 -3.0
+Belly.Ymaxoffset 1.0 1.0
+Belly.Yminoffset -1.0 -1.0
+Belly.Zmaxoffset 3.0 3.0
+Belly.Zminoffset -3.0 -3.0
+Belly.XmaxoffsetRot 3.0 3.0
+Belly.XminoffsetRot -3.0 -3.0
+Belly.YmaxoffsetRot 1.0 1.0
+Belly.YminoffsetRot -1.0 -1.0
+Belly.ZmaxoffsetRot 3.0 3.0
+Belly.ZminoffsetRot -3.0 -3.0
+Belly.timetick 1.0 1.0
+Belly.timetickRot 1.0 1.0
+Belly.linearX 1.4 1.4
+Belly.linearY 0.7 0.7
+Belly.linearZ 1.4 1.4
+Belly.rotationalX 0.1 0.1
+Belly.rotationalY 0.1 0.1
+Belly.rotationalZ 0.1 0.1
+Belly.timeStep 0.5 0.5
+Belly.timeStepRot 0.5 0.5
+
+Belly.collisionFriction 0.0 0.0
+Belly.collisionElastic 0.0 0.0
+
+Belly.collisionMultipler 3.0 3.0
+Belly.collisionMultiplerRot 0 0
+
+Belly.collisionXmaxoffset 0.5 0.5
+Belly.collisionXminoffset -0.5 -0.5
+Belly.collisionYmaxoffset 100 100
+Belly.collisionYminoffset -0.5 -0.5
+Belly.collisionZmaxoffset 1.0 1.0
+Belly.collisionZminoffset -1.0 -1.0
+
+# END
+
+#Tuning.rate 60

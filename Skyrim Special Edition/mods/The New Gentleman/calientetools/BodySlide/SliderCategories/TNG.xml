@@ -1,0 +1,12 @@
+<SliderCategories>
+	<Category name="General" defaultHidden="false">
+		<Slider name="Bend" displayname="Bend" />
+		<Slider name="Head" displayname="Head Size" />
+		<Slider name="Length" displayname="Length" />
+		<Slider name="Thickness" displayname="Girth" />
+	</Category>
+	<Category name="Adjustments" defaultHidden="true">
+		<Slider name="InnerForeShrink" displayname="Foreskin Clipping" />
+    <Slider name="Armature" displayname="Armature" />
+	</Category>
+</SliderCategories>
