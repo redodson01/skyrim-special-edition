@@ -32,3 +32,4 @@
 *SurvivalModeImproved.esp
 *BetterThirdPersonSelection.esp
 *TrueDirectionalMovement.esp
+*SkyParkour.esp
