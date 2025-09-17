@@ -16,3 +16,5 @@
 *Grimoire.esp
 *Grimoire - Alternative Armors.esp
 *Vanilla hair remake SMP NPCs.esp
+*Faithful Faces.esp
+*Faithful Faces0.esp
