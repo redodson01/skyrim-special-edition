@@ -79,8 +79,17 @@ cckrtsse001_altar.esl
 cccbhsse001-gaunt.esl
 ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
+Sentinel - Master Plugin.esp
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
 XPMSE.esp
 FSMPM - The FSMP MCM.esp
+Sentinel.esp
+Sentinel - Alternative Armors.esp
+Sentinel - Backpacks and Bandoliers.esp
+Sentinel - City Guards.esp
+Sentinel - Memories of Morrowind.esp
+Sentinel - Priests and Acolytes.esp
+Sentinel - Sailors and Swashbucklers.esp
+aelaOutfitFix.esp
