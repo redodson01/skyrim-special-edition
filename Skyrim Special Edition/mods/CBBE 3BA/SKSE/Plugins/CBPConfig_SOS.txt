@@ -1,0 +1,106 @@
+# START SOS
+
+SOS01.gravityBias 0.0
+SOS02.gravityBias 0.0
+SOS03.gravityBias 0.0
+SOS04.gravityBias 0.0
+SOS05.gravityBias 0.0
+SOS06.gravityBias 0.0
+
+SOS01.gravityCorrection 0.0
+SOS02.gravityCorrection 0.0
+SOS03.gravityCorrection 0.0
+SOS04.gravityCorrection 0.0
+SOS05.gravityCorrection 0.0
+SOS06.gravityCorrection 0.0
+
+# Linear spring stiffness 004
+SOS01.stiffness 0.012
+SOS02.stiffness 0.012
+SOS03.stiffness 0.012
+SOS04.stiffness 0.012
+SOS05.stiffness 0.012
+SOS06.stiffness 0.012
+
+# Quadratic Spring stiffness 0001
+SOS01.stiffness2 0.006
+SOS02.stiffness2 0.006
+SOS03.stiffness2 0.006
+SOS04.stiffness2 0.006
+SOS05.stiffness2 0.006
+SOS06.stiffness2 0.006
+
+# Velocity removed/tick 1.0 would be all velocity removed 012
+SOS01.damping 0.018
+SOS02.damping 0.018
+SOS03.damping 0.018
+SOS04.damping 0.018
+SOS05.damping 0.018
+SOS06.damping 0.018
+
+# Maximum number of units positio can diverge from target 64
+SOS01.maxoffset 8
+SOS02.maxoffset 8
+SOS03.maxoffset 8
+SOS04.maxoffset 8
+SOS05.maxoffset 8
+SOS06.maxoffset 8
+
+# Time Quanta for the physics in ms 4 means that a 16ms frame would be broken down into 4 4ms steps
+SOS01.timetick 2
+SOS02.timetick 2
+SOS03.timetick 2
+SOS04.timetick 2
+SOS05.timetick 2
+SOS06.timetick 2
+
+# Scale of the motion in X/Y/Z - Side, FrontnBack, UpnDown
+SOS01.linearX 0.00
+SOS01.linearY 0.00
+SOS01.linearZ 0.00
+SOS02.linearX 0.00
+SOS02.linearY 0.00
+SOS02.linearZ 0.00
+SOS03.linearX 0.00
+SOS03.linearY 0.00
+SOS03.linearZ 0.00
+SOS04.linearX 0.00
+SOS04.linearY 0.00
+SOS04.linearZ 0.00
+SOS05.linearX 0.00
+SOS05.linearY 0.00
+SOS05.linearZ 0.00
+SOS06.linearX 0.00
+SOS06.linearY 0.00
+SOS06.linearZ 0.00
+
+# Scale of the bones rotation around the X axis
+SOS01.rotationalX 0.01
+SOS01.rotationalY 0.01
+SOS01.rotationalZ 0.01
+SOS02.rotationalX 0.01
+SOS02.rotationalY 0.01
+SOS02.rotationalZ 0.01
+SOS03.rotationalX 0.01
+SOS03.rotationalY 0.01
+SOS03.rotationalZ 0.01
+SOS04.rotationalX 0.01
+SOS04.rotationalY 0.01
+SOS04.rotationalZ 0.01
+SOS05.rotationalX 0.01
+SOS05.rotationalY 0.01
+SOS05.rotationalZ 0.01
+SOS06.rotationalX 0.01
+SOS06.rotationalY 0.01
+SOS06.rotationalZ 0.01
+
+SOS01.timeStep 0.7
+SOS02.timeStep 0.7
+SOS03.timeStep 0.7
+SOS04.timeStep 0.7
+SOS05.timeStep 0.7
+SOS06.timeStep 0.7
+
+# END
+
+#Tuning.rate 300

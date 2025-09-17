@@ -1,0 +1,13 @@
+# START BBP
+
+LBreast.gravityInvertedCorrection -4.0 -0.4
+LBreast.gravityInvertedCorrectionStart 0.65 0.65
+LBreast.gravityInvertedCorrectionEnd 0.99 0.99
+
+RBreast.gravityInvertedCorrection -4.0 -0.4
+RBreast.gravityInvertedCorrectionStart 0.65 0.65 
+RBreast.gravityInvertedCorrectionEnd 0.99 0.99
+
+# END
+
+#Tuning.rate 60

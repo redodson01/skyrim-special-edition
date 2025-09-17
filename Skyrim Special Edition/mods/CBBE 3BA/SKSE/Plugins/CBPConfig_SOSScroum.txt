@@ -1,0 +1,29 @@
+# START SOSScrotum
+
+SOSScrotum.gravityBias 0.0
+
+SOSScrotum.gravityCorrection 0.0
+
+SOSScrotum.stiffness 0.022
+
+SOSScrotum.stiffness2 0.03
+
+SOSScrotum.damping 0.044
+
+SOSScrotum.maxoffset 5
+
+SOSScrotum.timetick 2
+
+SOSScrotum.linearX 0.01
+SOSScrotum.linearY 0.01
+SOSScrotum.linearZ 0.01
+
+SOSScrotum.rotationalX 0.2
+SOSScrotum.rotationalY 0.1
+SOSScrotum.rotationalZ 0.01
+
+SOSScrotum.timeStep 0.5
+
+# END
+
+#Tuning.rate 60

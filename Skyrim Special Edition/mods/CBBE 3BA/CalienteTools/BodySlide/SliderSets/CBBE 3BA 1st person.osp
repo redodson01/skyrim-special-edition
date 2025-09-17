@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE 3BBB Arm (1st person)">
+        <DataFolder>SE 3BBB Amazing</DataFolder>
+        <SourceFile>SE 3BBB Body Amazing v2.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets</OutputPath>
+        <OutputFile GenWeights="true">1stpersonfemalebody</OutputFile>
+        <Shape target="3BA">3BA</Shape>
+        <Shape target="3BA_Anus">3BA_Anus</Shape>
+        <Shape target="3BA_Vagina">3BA_Vagina</Shape>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="3BAArmpitShape_v2" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="3BAArms" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="3BABack" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABack</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="3BABigTorso" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABigTorso</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="3BABreastsConverage_v2" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="3BABreastFlatness2" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="3BABreastGravity2" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="3BABreastHeight" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastHeight</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="3BABreasts" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="3BABreastsFantasy" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="3BABreastsGone" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="3BABreastsNewSH" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="3BABreastsNewSHSymmetry" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="3BABreastsSmall" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="3BABreastsSmall2" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="3BABreastsTogether" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="3BABreastTopSlope" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="3BABreastSideShape" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BABreastSideShape</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="3BAChestDepth" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="3BAChestWidth" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="3BAChubbyArms" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="3BAChubbyWaist" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="3BADoubleMelon" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BADoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="3BAForearmSize" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="3BAMuscleArms" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAMuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="3BAMusclePecs" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAMusclePecs</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="3BAMuscleBack_v2" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="3BAMuscleMoreArms_v2" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="3BAPushUp" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAPushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="3BAShoulderSmooth" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="3BAShoulderTweak" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="3BAShoulderWidth" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAShoulderWidth</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="3BAWaist" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAWaist</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="3BAWristSize" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="3BA7B Upper" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BA7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="3BAVanillaSSEHi" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="3BAVanillaSSELo" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="3BAOldBaseShape" target="3BA" local="true">SE 3BBB Body Amazing v2.osd\3BAOldBaseShape</Data>
+        </Slider>
+        <Slider name="1stArm" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="3BA1stArm" target="3BA" local="true">CBBE 3BA 1st person Arm.osd\3BA1stArm</Data>
+            <Data name="3BA_Vagina1stArm" target="3BA_Vagina" local="true">CBBE 3BA 1st person Arm.osd\3BA_Vagina1stArm</Data>
+            <Data name="3BA_Anus1stArm" target="3BA_Anus" local="true">CBBE 3BA 1st person Arm.osd\3BA_Anus1stArm</Data>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="CBBE 3BBB Hands (1st person)">
+        <DataFolder>CBBE</DataFolder>
+        <SourceFile>CBBE Hands.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets</OutputPath>
+        <OutputFile GenWeights="true">1stpersonfemalehands</OutputFile>
+        <Shape target="Hands">Hands</Shape>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandsWristSize" target="Hands" local="true">CBBE Hands.osd\HandsWristSize</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE 3BBB Hands Beast (1st person)">
+        <DataFolder>CBBE</DataFolder>
+        <SourceFile>CBBE Hands Beast.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets</OutputPath>
+        <OutputFile GenWeights="true">1stpersonfemalehandsargonian</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="HandsWristSize" target="Hands" local="true">CBBE Hands Beast.osd\HandsWristSize</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

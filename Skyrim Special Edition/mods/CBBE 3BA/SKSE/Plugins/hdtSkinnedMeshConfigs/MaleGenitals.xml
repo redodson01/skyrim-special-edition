@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<system>
+	<per-vertex-shape name="MaleGenitals">
+		<margin>0.12</margin>
+		<penetration>0.0</penetration>
+		<shared>public</shared>
+		<tag>Genitals</tag>
+		<no-collide-with-tag>Head</no-collide-with-tag>
+		<no-collide-with-tag>Genitals</no-collide-with-tag>
+		<no-collide-with-tag>collisionThigh</no-collide-with-tag>
+		<no-collide-with-tag>MaleHands</no-collide-with-tag>
+		<no-collide-with-tag>armscoll</no-collide-with-tag>
+		<no-collide-with-tag>MaleBody</no-collide-with-tag>
+		<no-collide-with-tag>hands</no-collide-with-tag>
+		<no-collide-with-tag>Malehands</no-collide-with-tag>
+		<no-collide-with-tag>penis</no-collide-with-tag>
+		<no-collide-with-tag>body</no-collide-with-tag>
+		<no-collide-with-tag>Labia</no-collide-with-tag>
+		<no-collide-with-tag>Lbreast</no-collide-with-tag>
+		<no-collide-with-tag>Rbreast</no-collide-with-tag>
+	</per-vertex-shape>
+</system>
