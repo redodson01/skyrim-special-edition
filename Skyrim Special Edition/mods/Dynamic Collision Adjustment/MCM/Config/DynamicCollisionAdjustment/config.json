@@ -1,0 +1,133 @@
+{
+    "modName": "DynamicCollisionAdjustment",
+    "displayName": "Dynamic Collision Adjustment",
+    "minMcmVersion": 11,
+    "cursorFillMode": "topToBottom",
+    "content": [
+        {
+            "text": "$DynamicCollisionAdjustment_General_HeaderText",
+            "type": "header"
+        },
+        {
+            "id": "bEnableActorScaleFix:General",
+            "text": "$DynamicCollisionAdjustment_EnableActorScaleFix_OptionText",
+            "type": "toggle",
+            "help": "$DynamicCollisionAdjustment_EnableActorScaleFix_InfoText",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            }
+        },
+        {
+            "id": "bEnableStateAdjustments:General",
+            "text": "$DynamicCollisionAdjustment_EnableStateAdjustments_OptionText",
+            "type": "toggle",
+            "help": "$DynamicCollisionAdjustment_EnableStateAdjustments_InfoText",
+            "groupControl": 1,
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            }
+        },
+        {
+            "text": "$DynamicCollisionAdjustment_Scale_HeaderText",
+            "type": "header"
+        },
+        {
+            "id": "fSneakControllerShapeHeightMultiplier:Scale",
+            "text": "$DynamicCollisionAdjustment_SneakControllerShapeHeightMultiplier_OptionText",
+            "type": "slider",
+            "help": "$DynamicCollisionAdjustment_SneakControllerShapeHeightMultiplier_InfoText",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0.5,
+                "max": 1.0,
+                "step": 0.01,
+                "formatString": "{2}",
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "id": "fSwimmingControllerShapeHeightMultiplier:Scale",
+            "text": "$DynamicCollisionAdjustment_SwimmingControllerShapeHeightMultiplier_OptionText",
+            "type": "slider",
+            "help": "$DynamicCollisionAdjustment_SwimmingControllerShapeHeightMultiplier_InfoText",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0.25,
+                "max": 1.0,
+                "step": 0.01,
+                "formatString": "{2}",
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "id": "fSwimmingControllerShapeRadiusMultiplier:Scale",
+            "text": "$DynamicCollisionAdjustment_SwimmingControllerShapeRadiusMultiplier_OptionText",
+            "type": "slider",
+            "help": "$DynamicCollisionAdjustment_SwimmingControllerShapeRadiusMultiplier_InfoText",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 1.0,
+                "max": 4.0,
+                "step": 0.01,
+                "formatString": "{2}",
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "text": "$DynamicCollisionAdjustment_Debug_HeaderText",
+            "type": "header",
+            "position": 1
+        },
+        {
+            "type": "hiddenToggle",
+            "groupControl": 1,
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "DynamicCollisionAdjustment.esl|801"
+            }
+        },
+        {
+            "text": "$DynamicCollisionAdjustment_TrueHUD_OptionText",
+            "type": "text",
+            "help": "$DynamicCollisionAdjustment_TrueHUDEnabled_InfoText",
+            "groupCondition": 1,
+            "groupBehavior": "skip",
+            "valueOptions": {
+                "value": "$DynamicCollisionAdjustment_TrueHUDEnabled_ValueText"
+            }
+        },
+        {
+            "text": "$DynamicCollisionAdjustment_TrueHUD_OptionText",
+            "type": "text",
+            "help": "$DynamicCollisionAdjustment_TrueHUDDisabled_InfoText",
+            "groupCondition": {"NOT": 1},
+            "groupBehavior": "skip",
+            "valueOptions": {
+                "value": "$DynamicCollisionAdjustment_TrueHUDDisabled_ValueText"
+            }
+        },
+        {
+            "id": "uDisplayDebugShapes:Debug",
+            "text": "$DynamicCollisionAdjustment_DisplayDebugShapes_OptionText",
+            "type": "enum",
+            "help": "$DynamicCollisionAdjustment_DisplayDebugShapes_InfoText",
+            "valueOptions": {
+                "options": [
+                    "$DynamicCollisionAdjustment_DisplayDebugShapes_Disabled",
+                    "$DynamicCollisionAdjustment_DisplayDebugShapes_AdjustedOnly",
+                    "$DynamicCollisionAdjustment_DisplayDebugShapes_All"
+                ],
+                "sourceType": "ModSettingInt"
+            }
+        },
+        {
+            "id": "bDisplayCharacterBumper:Debug",
+            "text": "$DynamicCollisionAdjustment_DisplayCharacterBumper_OptionText",
+            "type": "toggle",
+            "help": "$DynamicCollisionAdjustment_DisplayCharacterBumper_InfoText",
+            "valueOptions": {
+                "sourceType": "ModSettingBool"
+            }
+        }
+    ]
+}
