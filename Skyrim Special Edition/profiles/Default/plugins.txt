@@ -33,3 +33,4 @@
 *BetterThirdPersonSelection.esp
 *TrueDirectionalMovement.esp
 *SkyParkour.esp
+*ImprovedAlternateConversationCamera.esp
