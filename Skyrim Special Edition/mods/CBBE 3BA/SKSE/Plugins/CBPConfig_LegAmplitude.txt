@@ -1,0 +1,8 @@
+
+LFrontThigh.amplitude 0.5 0.5
+LRearThigh.amplitude 0.5 0.5
+LRearCalf.amplitude 0.5 0.5
+
+RFrontThigh.amplitude 0.5 0.5
+RRearThigh.amplitude 0.5 0.5
+RRearCalf.amplitude 0.5 0.5
