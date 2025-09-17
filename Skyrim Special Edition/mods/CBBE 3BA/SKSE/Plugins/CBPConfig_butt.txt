@@ -1,0 +1,123 @@
+# START Butt
+
+LButt.stiffnessX 0.015 0.015
+LButt.stiffnessY 0.015 0.015
+LButt.stiffnessZ 0.015 0.015
+RButt.stiffnessX 0.015 0.015
+RButt.stiffnessY 0.015 0.015
+RButt.stiffnessZ 0.015 0.015
+
+LButt.stiffnessXRot 0.015 0.015
+LButt.stiffnessYRot 0.015 0.015
+LButt.stiffnessZRot 0.015 0.015
+RButt.stiffnessXRot 0.015 0.015
+RButt.stiffnessYRot 0.015 0.015
+RButt.stiffnessZRot 0.015 0.015
+
+LButt.stiffness2X 0.0041 0.0041
+LButt.stiffness2Y 0.0041 0.0041
+LButt.stiffness2Z 0.0041 0.0041
+RButt.stiffness2X 0.0041 0.0041
+RButt.stiffness2Y 0.0041 0.0041
+RButt.stiffness2Z 0.0041 0.0041
+
+LButt.stiffness2XRot 0.0041 0.0041
+LButt.stiffness2YRot 0.0041 0.0041
+LButt.stiffness2ZRot 0.0041 0.0041
+RButt.stiffness2XRot 0.0041 0.0041
+RButt.stiffness2YRot 0.0041 0.0041
+RButt.stiffness2ZRot 0.0041 0.0041
+
+LButt.dampingX 0.0175 0.0175
+LButt.dampingY 0.0175 0.0175
+LButt.dampingZ 0.0175 0.0175
+RButt.dampingX 0.0175 0.0175
+RButt.dampingY 0.0175 0.0175
+RButt.dampingZ 0.0175 0.0175
+
+LButt.dampingXRot 0.0175 0.0175
+LButt.dampingYRot 0.0175 0.0175
+LButt.dampingZRot 0.0175 0.0175
+RButt.dampingXRot 0.0175 0.0175
+RButt.dampingYRot 0.0175 0.0175
+RButt.dampingZRot 0.0175 0.0175
+
+LButt.Xmaxoffset 3.0 3.0
+LButt.Xminoffset -3.0 -3.0
+LButt.Ymaxoffset 3.0 3.0
+LButt.Yminoffset -3.0 -3.0
+LButt.Zmaxoffset 1.5 1.5
+LButt.Zminoffset -4.5 -4.5
+RButt.Xmaxoffset 3.0 3.0
+RButt.Xminoffset -3.0 -3.0
+RButt.Ymaxoffset 3.0 3.0
+RButt.Yminoffset -3.0 -3.0
+RButt.Zmaxoffset 1.5 1.5
+RButt.Zminoffset -4.5 -4.5
+
+LButt.XmaxoffsetRot 3.0 3.0
+LButt.XminoffsetRot -3.0 -3.0
+LButt.YmaxoffsetRot 3.0 3.0
+LButt.YminoffsetRot -3.0 -3.0
+LButt.ZmaxoffsetRot 3.0 3.0
+LButt.ZminoffsetRot -3.0 -3.0
+RButt.XmaxoffsetRot 3.0 3.0
+RButt.XminoffsetRot -3.0 -3.0
+RButt.YmaxoffsetRot 3.0 3.0
+RButt.YminoffsetRot -3.0 -3.0
+RButt.ZmaxoffsetRot 3.0 3.0
+RButt.ZminoffsetRot -3.0 -3.0
+
+LButt.timetick 2.5 2.5
+RButt.timetick 2.5 2.5
+
+LButt.timetickRot 2.5 2.5
+RButt.timetickRot 2.5 2.5
+
+LButt.linearX 1.225 1.225
+LButt.linearY 0.7 0.7
+LButt.linearZ 1.05 1.05
+RButt.linearX 1.225 1.225
+RButt.linearY 0.7 0.7
+RButt.linearZ 1.05 1.05
+
+LButt.rotationalX 0.15 0.15
+LButt.rotationalY 0.3 0.3
+LButt.rotationalZ -0.3 -0.3
+RButt.rotationalX 0.15 0.15
+RButt.rotationalY 0.3 0.3
+RButt.rotationalZ 0.3 0.3
+
+LButt.timeStep 0.9 0.9
+RButt.timeStep 0.9 0.9
+
+LButt.timeStepRot 0.9 0.9
+RButt.timeStepRot 0.9 0.9
+
+LButt.collisionXmaxoffset 3.0 3.0
+LButt.collisionXminoffset -3.0 -3.0
+LButt.collisionYmaxoffset 3.0 3.0
+LButt.collisionYminoffset -3.0 -3.0
+LButt.collisionZmaxoffset 1.5 1.5
+LButt.collisionZminoffset -4.5 -4.5
+
+RButt.collisionXmaxoffset 3.0 3.0
+RButt.collisionXminoffset -3.0 -3.0
+RButt.collisionYmaxoffset 3.0 3.0
+RButt.collisionYminoffset -3.0 -3.0
+RButt.collisionZmaxoffset 1.5 1.5
+RButt.collisionZminoffset -4.5 -4.5
+
+LButt.collisionFriction 0.1 0.1
+LButt.collisionElastic 1.0 1.0
+LButt.collisionMultipler 2.0 2.0
+LButt.collisionMultiplerRot 0.2 0.2
+
+RButt.collisionFriction 0.1 0.1
+RButt.collisionElastic 1.0 1.0
+RButt.collisionMultipler 2.0 2.0
+RButt.collisionMultiplerRot 0.2 0.2
+
+# END
+
+#Tuning.rate 60
