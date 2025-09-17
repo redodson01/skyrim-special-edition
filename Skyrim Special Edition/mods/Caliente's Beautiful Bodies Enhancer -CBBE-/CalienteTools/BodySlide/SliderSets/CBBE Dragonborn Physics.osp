@@ -1,0 +1,1124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE Dragonborn - Body - Cultist (Physics)">
+        <DataFolder>CBBE Dragonborn Physics\Body</DataFolder>
+        <SourceFile>Cultist.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\cultist\f</OutputPath>
+        <OutputFile GenWeights="true">cultisttorso</OutputFile>
+        <Shape target="Cultist_Torso" DataFolder="CBBE Dragonborn\Body">Cultist_Torso</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="Cultist_TorsoAnkleSize" target="Cultist_Torso">Cultist.osd\Cultist_TorsoAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoAppleCheeks" target="Cultist_Torso">Cultist.osd\Cultist_TorsoAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoArms" target="Cultist_Torso">Cultist.osd\Cultist_TorsoArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBack" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBackArch" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBelly" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBigBelly" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBigButt" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBigTorso" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBigTorso</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastFlatness2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastFlatness" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastHeight" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastPerkiness" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreasts" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsFantasy" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsGone" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsNewSH" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsSmall" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsSmall2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsTogether" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastTopSlope" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastWidth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoButt" target="Cultist_Torso">Cultist.osd\Cultist_TorsoButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoButtClassic" target="Cultist_Torso">Cultist.osd\Cultist_TorsoButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoButtCrack" target="Cultist_Torso">Cultist.osd\Cultist_TorsoButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoButtShape2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoButtSmall" target="Cultist_Torso">Cultist.osd\Cultist_TorsoButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoCalfSize" target="Cultist_Torso">Cultist.osd\Cultist_TorsoCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoCalfSmooth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoChestDepth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoChestWidth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoChubbyArms" target="Cultist_Torso">Cultist.osd\Cultist_TorsoChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoChubbyButt" target="Cultist_Torso">Cultist.osd\Cultist_TorsoChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoChubbyLegs" target="Cultist_Torso">Cultist.osd\Cultist_TorsoChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoChubbyWaist" target="Cultist_Torso">Cultist.osd\Cultist_TorsoChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoCrotchBack" target="Cultist_Torso">Cultist.osd\Cultist_TorsoCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoDoubleMelon" target="Cultist_Torso">Cultist.osd\Cultist_TorsoDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoForearmSize" target="Cultist_Torso">Cultist.osd\Cultist_TorsoForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoGroin" target="Cultist_Torso">Cultist.osd\Cultist_TorsoGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoHipBone" target="Cultist_Torso">Cultist.osd\Cultist_TorsoHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoHipForward" target="Cultist_Torso">Cultist.osd\Cultist_TorsoHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoHips" target="Cultist_Torso">Cultist.osd\Cultist_TorsoHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoHipUpperWidth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoKneeHeight" target="Cultist_Torso">Cultist.osd\Cultist_TorsoKneeHeight</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoLegShapeClassic" target="Cultist_Torso">Cultist.osd\Cultist_TorsoLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoLegsThin" target="Cultist_Torso">Cultist.osd\Cultist_TorsoLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleAbs" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleArms" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleButt" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleLegs" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMusclePecs" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Cultist_TorsoNeckSeam" target="Cultist_Torso">Cultist.osd\Cultist_TorsoNeckSeam</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoPregnancyBelly" target="Cultist_Torso">Cultist.osd\Cultist_TorsoPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoPushUp" target="Cultist_Torso">Cultist.osd\Cultist_TorsoPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoRibsProminance" target="Cultist_Torso">Cultist.osd\Cultist_TorsoRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoRoundAss" target="Cultist_Torso">Cultist.osd\Cultist_TorsoRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoShoulderSmooth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoShoulderTweak" target="Cultist_Torso">Cultist.osd\Cultist_TorsoShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoShoulderWidth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoSlimThighs" target="Cultist_Torso">Cultist.osd\Cultist_TorsoSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoThighs" target="Cultist_Torso">Cultist.osd\Cultist_TorsoThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoTummyTuck" target="Cultist_Torso">Cultist.osd\Cultist_TorsoTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoWaist" target="Cultist_Torso">Cultist.osd\Cultist_TorsoWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoWaistHeight" target="Cultist_Torso">Cultist.osd\Cultist_TorsoWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoWideWaistLine" target="Cultist_Torso">Cultist.osd\Cultist_TorsoWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="Cultist_TorsoWristSize" target="Cultist_Torso">Cultist.osd\Cultist_TorsoWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="Cultist_Torso7B Lower" target="Cultist_Torso">Cultist.osd\Cultist_Torso7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="Cultist_Torso7B Upper" target="Cultist_Torso">Cultist.osd\Cultist_Torso7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoVanillaSSEHi" target="Cultist_Torso">Cultist.osd\Cultist_TorsoVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoVanillaSSELo" target="Cultist_Torso">Cultist.osd\Cultist_TorsoVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoOldBaseShape" target="Cultist_Torso">Cultist.osd\Cultist_TorsoOldBaseShape</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsNewSHSymmetry" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoKneeShape" target="Cultist_Torso">Cultist.osd\Cultist_TorsoKneeShape</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastSideShape" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastUnderDepth" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_Torso7BLeg_v2" target="Cultist_Torso">Cultist.osd\Cultist_Torso7BLeg_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBackWing_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBellyUnder_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsConverage_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoButtNarrow_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoButtPressed_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoButtPressed_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoCalfFBThicc_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoClavicle_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoClavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoHipNarrow_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoKneeTogether_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoLegSpread_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleBack_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleMoreAbs_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleMoreArms_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoMuscleMoreLegs_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoRibsMore_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoThighFBThicc_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoThighInsideThicc_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoThighOutsideThicc_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoUNPHip_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoUNPHip_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoArmpitShape_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBackValley_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBackValley_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBellyFrontDownFat_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBellyFrontUpFat_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBellySideDownFat_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBellySideUpFat_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoBreastsPressed_v2" target="Cultist_Torso">Cultist.osd\Cultist_TorsoBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoCBPC" target="Cultist_Torso">Cultist.osd\Cultist_TorsoCBPC</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoCrotchGap" target="Cultist_Torso">Cultist.osd\Cultist_TorsoCrotchGap</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="Cultist_TorsoCutepuffyness" target="Cultist_Torso">Cultist.osd\Cultist_TorsoCutepuffyness</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Dragonborn - Body - Darkelf (Physics)">
+        <DataFolder>CBBE Dragonborn Physics\Body</DataFolder>
+        <SourceFile>Darkelf.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\darkelf\f</OutputPath>
+        <OutputFile GenWeights="true">outfit</OutputFile>
+        <Shape target="Outfit_1" DataFolder="CBBE Dragonborn\Body">Outfit_1</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="Outfit_1AnkleSize" target="Outfit_1">Darkelf.osd\Outfit_1AnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="Outfit_1AppleCheeks" target="Outfit_1">Darkelf.osd\Outfit_1AppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="Outfit_1Arms" target="Outfit_1">Darkelf.osd\Outfit_1Arms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="Outfit_1Back" target="Outfit_1">Darkelf.osd\Outfit_1Back</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="Outfit_1BackArch" target="Outfit_1">Darkelf.osd\Outfit_1BackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="Outfit_1Belly" target="Outfit_1">Darkelf.osd\Outfit_1Belly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="Outfit_1BigBelly" target="Outfit_1">Darkelf.osd\Outfit_1BigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="Outfit_1BigButt" target="Outfit_1">Darkelf.osd\Outfit_1BigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="Outfit_1BigTorso" target="Outfit_1">Darkelf.osd\Outfit_1BigTorso</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastFlatness2" target="Outfit_1">Darkelf.osd\Outfit_1BreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastFlatness" target="Outfit_1">Darkelf.osd\Outfit_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastHeight" target="Outfit_1">Darkelf.osd\Outfit_1BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastPerkiness" target="Outfit_1">Darkelf.osd\Outfit_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="Outfit_1Breasts" target="Outfit_1">Darkelf.osd\Outfit_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsFantasy" target="Outfit_1">Darkelf.osd\Outfit_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsGone" target="Outfit_1">Darkelf.osd\Outfit_1BreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsNewSH" target="Outfit_1">Darkelf.osd\Outfit_1BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsSmall" target="Outfit_1">Darkelf.osd\Outfit_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsSmall2" target="Outfit_1">Darkelf.osd\Outfit_1BreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsTogether" target="Outfit_1">Darkelf.osd\Outfit_1BreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastTopSlope" target="Outfit_1">Darkelf.osd\Outfit_1BreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastWidth" target="Outfit_1">Darkelf.osd\Outfit_1BreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="Outfit_1Butt" target="Outfit_1">Darkelf.osd\Outfit_1Butt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="Outfit_1ButtClassic" target="Outfit_1">Darkelf.osd\Outfit_1ButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ButtShape2" target="Outfit_1">Darkelf.osd\Outfit_1ButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="Outfit_1ButtSmall" target="Outfit_1">Darkelf.osd\Outfit_1ButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="Outfit_1CalfSize" target="Outfit_1">Darkelf.osd\Outfit_1CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="Outfit_1CalfSmooth" target="Outfit_1">Darkelf.osd\Outfit_1CalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="Outfit_1ChestDepth" target="Outfit_1">Darkelf.osd\Outfit_1ChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="Outfit_1ChestWidth" target="Outfit_1">Darkelf.osd\Outfit_1ChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="Outfit_1ChubbyArms" target="Outfit_1">Darkelf.osd\Outfit_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="Outfit_1ChubbyButt" target="Outfit_1">Darkelf.osd\Outfit_1ChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="Outfit_1ChubbyLegs" target="Outfit_1">Darkelf.osd\Outfit_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="Outfit_1ChubbyWaist" target="Outfit_1">Darkelf.osd\Outfit_1ChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="Outfit_1CrotchBack" target="Outfit_1">Darkelf.osd\Outfit_1CrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="Outfit_1DoubleMelon" target="Outfit_1">Darkelf.osd\Outfit_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="Outfit_1ForearmSize" target="Outfit_1">Darkelf.osd\Outfit_1ForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="Outfit_1Groin" target="Outfit_1">Darkelf.osd\Outfit_1Groin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="Outfit_1HipBone" target="Outfit_1">Darkelf.osd\Outfit_1HipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="Outfit_1HipForward" target="Outfit_1">Darkelf.osd\Outfit_1HipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="Outfit_1Hips" target="Outfit_1">Darkelf.osd\Outfit_1Hips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="Outfit_1HipUpperWidth" target="Outfit_1">Darkelf.osd\Outfit_1HipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="Outfit_1KneeHeight" target="Outfit_1">Darkelf.osd\Outfit_1KneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="Outfit_1KneeShape" target="Outfit_1">Darkelf.osd\Outfit_1KneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="Outfit_1LegShapeClassic" target="Outfit_1">Darkelf.osd\Outfit_1LegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="Outfit_1LegsThin" target="Outfit_1">Darkelf.osd\Outfit_1LegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleAbs" target="Outfit_1">Darkelf.osd\Outfit_1MuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleArms" target="Outfit_1">Darkelf.osd\Outfit_1MuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleButt" target="Outfit_1">Darkelf.osd\Outfit_1MuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleLegs" target="Outfit_1">Darkelf.osd\Outfit_1MuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="Outfit_1MusclePecs" target="Outfit_1">Darkelf.osd\Outfit_1MusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="Outfit_1NeckSeam" target="Outfit_1">Darkelf.osd\Outfit_1NeckSeam</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="Outfit_1PregnancyBelly" target="Outfit_1">Darkelf.osd\Outfit_1PregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="Outfit_1PushUp" target="Outfit_1">Darkelf.osd\Outfit_1PushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="Outfit_1RibsProminance" target="Outfit_1">Darkelf.osd\Outfit_1RibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="Outfit_1RoundAss" target="Outfit_1">Darkelf.osd\Outfit_1RoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="Outfit_1ShoulderSmooth" target="Outfit_1">Darkelf.osd\Outfit_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="Outfit_1ShoulderTweak" target="Outfit_1">Darkelf.osd\Outfit_1ShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="Outfit_1ShoulderWidth" target="Outfit_1">Darkelf.osd\Outfit_1ShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="Outfit_1SlimThighs" target="Outfit_1">Darkelf.osd\Outfit_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="Outfit_1Thighs" target="Outfit_1">Darkelf.osd\Outfit_1Thighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="Outfit_1TummyTuck" target="Outfit_1">Darkelf.osd\Outfit_1TummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="Outfit_1Waist" target="Outfit_1">Darkelf.osd\Outfit_1Waist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="Outfit_1WaistHeight" target="Outfit_1">Darkelf.osd\Outfit_1WaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="Outfit_1WideWaistLine" target="Outfit_1">Darkelf.osd\Outfit_1WideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="Outfit_1WristSize" target="Outfit_1">Darkelf.osd\Outfit_1WristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="Outfit_17B Lower" target="Outfit_1">Darkelf.osd\Outfit_17B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="Outfit_17B Upper" target="Outfit_1">Darkelf.osd\Outfit_17B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="Outfit_1VanillaSSEHi" target="Outfit_1">Darkelf.osd\Outfit_1VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="Outfit_1VanillaSSELo" target="Outfit_1">Darkelf.osd\Outfit_1VanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="Outfit_1OldBaseShape" target="Outfit_1">Darkelf.osd\Outfit_1OldBaseShape</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsNewSHSymmetry" target="Outfit_1">Darkelf.osd\Outfit_1BreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastSideShape" target="Outfit_1">Darkelf.osd\Outfit_1BreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastUnderDepth" target="Outfit_1">Darkelf.osd\Outfit_1BreastUnderDepth</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_17BLeg_v2" target="Outfit_1">Darkelf.osd\Outfit_17BLeg_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BackWing_v2" target="Outfit_1">Darkelf.osd\Outfit_1BackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BellyUnder_v2" target="Outfit_1">Darkelf.osd\Outfit_1BellyUnder_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ButtNarrow_v2" target="Outfit_1">Darkelf.osd\Outfit_1ButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ButtPressed_v2" target="Outfit_1">Darkelf.osd\Outfit_1ButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ButtSaggy_v2" target="Outfit_1">Darkelf.osd\Outfit_1ButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1CalfFBThicc_v2" target="Outfit_1">Darkelf.osd\Outfit_1CalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1Clavicle_v2" target="Outfit_1">Darkelf.osd\Outfit_1Clavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1HipNarrow_v2" target="Outfit_1">Darkelf.osd\Outfit_1HipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1KneeTogether_v2" target="Outfit_1">Darkelf.osd\Outfit_1KneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1LegSpread_v2" target="Outfit_1">Darkelf.osd\Outfit_1LegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleBack_v2" target="Outfit_1">Darkelf.osd\Outfit_1MuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleMoreAbs_v2" target="Outfit_1">Darkelf.osd\Outfit_1MuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleMoreArms_v2" target="Outfit_1">Darkelf.osd\Outfit_1MuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1MuscleMoreLegs_v2" target="Outfit_1">Darkelf.osd\Outfit_1MuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1RibsMore_v2" target="Outfit_1">Darkelf.osd\Outfit_1RibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ThighFBThicc_v2" target="Outfit_1">Darkelf.osd\Outfit_1ThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ThighInsideThicc_v2" target="Outfit_1">Darkelf.osd\Outfit_1ThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ThighOutsideThicc_v2" target="Outfit_1">Darkelf.osd\Outfit_1ThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1UNPHip_v2" target="Outfit_1">Darkelf.osd\Outfit_1UNPHip_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1ArmpitShape_v2" target="Outfit_1">Darkelf.osd\Outfit_1ArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BackValley_v2" target="Outfit_1">Darkelf.osd\Outfit_1BackValley_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BellyFrontDownFat_v2" target="Outfit_1">Darkelf.osd\Outfit_1BellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BellyFrontUpFat_v2" target="Outfit_1">Darkelf.osd\Outfit_1BellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BellySideDownFat_v2" target="Outfit_1">Darkelf.osd\Outfit_1BellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BellySideUpFat_v2" target="Outfit_1">Darkelf.osd\Outfit_1BellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsConverage_v2" target="Outfit_1">Darkelf.osd\Outfit_1BreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="Outfit_1BreastsPressed_v2" target="Outfit_1">Darkelf.osd\Outfit_1BreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="Outfit_1CBPC" target="Outfit_1">Darkelf.osd\Outfit_1CBPC</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="Outfit_1CrotchGap" target="Outfit_1">Darkelf.osd\Outfit_1CrotchGap</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="Outfit_1Cutepuffyness" target="Outfit_1">Darkelf.osd\Outfit_1Cutepuffyness</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Dragonborn - Body - Miraak (Physics)">
+        <DataFolder>CBBE Dragonborn Physics\Body</DataFolder>
+        <SourceFile>Miraak.nif</SourceFile>
+        <OutputPath>meshes\dlc02\clothes\miraakrobes</OutputPath>
+        <OutputFile GenWeights="true">miraakrobes_f</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="MiraakPauldrons" DataFolder="CBBE Dragonborn\Body">MiraakPauldrons</Shape>
+        <Shape target="MiraakRobes" DataFolder="CBBE Dragonborn\Body">MiraakRobes</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="MiraakRobesAnkleSize" target="MiraakRobes">Miraak.osd\MiraakRobesAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="MiraakRobesAppleCheeks" target="MiraakRobes">Miraak.osd\MiraakRobesAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+            <Data name="MiraakRobesArms" target="MiraakRobes">Miraak.osd\MiraakRobesArms</Data>
+            <Data name="MiraakPauldronsArms" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="MiraakRobesBack" target="MiraakRobes">Miraak.osd\MiraakRobesBack</Data>
+            <Data name="MiraakPauldronsBack" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="MiraakRobesBackArch" target="MiraakRobes">Miraak.osd\MiraakRobesBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="MiraakRobesBelly" target="MiraakRobes">Miraak.osd\MiraakRobesBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="MiraakRobesBigBelly" target="MiraakRobes">Miraak.osd\MiraakRobesBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="MiraakRobesBigButt" target="MiraakRobes">Miraak.osd\MiraakRobesBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="MiraakRobesBigTorso" target="MiraakRobes">Miraak.osd\MiraakRobesBigTorso</Data>
+            <Data name="MiraakPauldronsBigTorso" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBigTorso</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="MiraakRobesBreastFlatness2" target="MiraakRobes">Miraak.osd\MiraakRobesBreastFlatness2</Data>
+            <Data name="MiraakPauldronsBreastFlatness2" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="MiraakRobesBreastFlatness" target="MiraakRobes">Miraak.osd\MiraakRobesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
+            <Data name="MiraakRobesBreastGravity2" target="MiraakRobes">Miraak.osd\MiraakRobesBreastGravity2</Data>
+            <Data name="MiraakPauldronsBreastGravity2" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="MiraakRobesBreastHeight" target="MiraakRobes">Miraak.osd\MiraakRobesBreastHeight</Data>
+            <Data name="MiraakPauldronsBreastHeight" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="MiraakRobesBreastPerkiness" target="MiraakRobes">Miraak.osd\MiraakRobesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+            <Data name="MiraakRobesBreasts" target="MiraakRobes">Miraak.osd\MiraakRobesBreasts</Data>
+            <Data name="MiraakPauldronsBreasts" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="MiraakRobesBreastsFantasy" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsFantasy</Data>
+            <Data name="MiraakPauldronsBreastsFantasy" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="MiraakRobesBreastsGone" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsGone</Data>
+            <Data name="MiraakPauldronsBreastsGone" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="MiraakRobesBreastsNewSH" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsNewSH</Data>
+            <Data name="MiraakPauldronsBreastsNewSH" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="MiraakRobesBreastsSmall" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsSmall</Data>
+            <Data name="MiraakPauldronsBreastsSmall" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="MiraakRobesBreastsSmall2" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsSmall2</Data>
+            <Data name="MiraakPauldronsBreastsSmall2" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="MiraakRobesBreastsTogether" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsTogether</Data>
+            <Data name="MiraakPauldronsBreastsTogether" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="MiraakRobesBreastTopSlope" target="MiraakRobes">Miraak.osd\MiraakRobesBreastTopSlope</Data>
+            <Data name="MiraakPauldronsBreastTopSlope" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="MiraakRobesBreastWidth" target="MiraakRobes">Miraak.osd\MiraakRobesBreastWidth</Data>
+            <Data name="MiraakPauldronsBreastWidth" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="MiraakRobesButt" target="MiraakRobes">Miraak.osd\MiraakRobesButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="MiraakRobesButtClassic" target="MiraakRobes">Miraak.osd\MiraakRobesButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="MiraakRobesButtShape2" target="MiraakRobes">Miraak.osd\MiraakRobesButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="MiraakRobesButtSmall" target="MiraakRobes">Miraak.osd\MiraakRobesButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+            <Data name="MiraakRobesCalfSize" target="MiraakRobes">Miraak.osd\MiraakRobesCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="MiraakRobesCalfSmooth" target="MiraakRobes">Miraak.osd\MiraakRobesCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="MiraakRobesChestDepth" target="MiraakRobes">Miraak.osd\MiraakRobesChestDepth</Data>
+            <Data name="MiraakPauldronsChestDepth" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="MiraakRobesChestWidth" target="MiraakRobes">Miraak.osd\MiraakRobesChestWidth</Data>
+            <Data name="MiraakPauldronsChestWidth" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="MiraakRobesChubbyArms" target="MiraakRobes">Miraak.osd\MiraakRobesChubbyArms</Data>
+            <Data name="MiraakPauldronsChubbyArms" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="MiraakRobesChubbyButt" target="MiraakRobes">Miraak.osd\MiraakRobesChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="MiraakRobesChubbyLegs" target="MiraakRobes">Miraak.osd\MiraakRobesChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="MiraakRobesChubbyWaist" target="MiraakRobes">Miraak.osd\MiraakRobesChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchBack</Data>
+            <Data name="MiraakRobesCrotchBack" target="MiraakRobes">Miraak.osd\MiraakRobesCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="MiraakRobesDoubleMelon" target="MiraakRobes">Miraak.osd\MiraakRobesDoubleMelon</Data>
+            <Data name="MiraakPauldronsDoubleMelon" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+            <Data name="MiraakRobesForearmSize" target="MiraakRobes">Miraak.osd\MiraakRobesForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
+            <Data name="MiraakRobesGroin" target="MiraakRobes">Miraak.osd\MiraakRobesGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="MiraakRobesHipBone" target="MiraakRobes">Miraak.osd\MiraakRobesHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="MiraakRobesHipForward" target="MiraakRobes">Miraak.osd\MiraakRobesHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="MiraakRobesHips" target="MiraakRobes">Miraak.osd\MiraakRobesHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="MiraakRobesHipUpperWidth" target="MiraakRobes">Miraak.osd\MiraakRobesHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
+            <Data name="MiraakRobesKneeHeight" target="MiraakRobes">Miraak.osd\MiraakRobesKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
+            <Data name="MiraakRobesKneeShape" target="MiraakRobes">Miraak.osd\MiraakRobesKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="MiraakRobesLegShapeClassic" target="MiraakRobes">Miraak.osd\MiraakRobesLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="MiraakRobesLegsThin" target="MiraakRobes">Miraak.osd\MiraakRobesLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="MiraakRobesMuscleAbs" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="MiraakRobesMuscleArms" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleArms</Data>
+            <Data name="MiraakPauldronsMuscleArms" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="MiraakRobesMuscleButt" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="MiraakRobesMuscleLegs" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="MiraakRobesMusclePecs" target="MiraakRobes">Miraak.osd\MiraakRobesMusclePecs</Data>
+            <Data name="MiraakPauldronsMusclePecs" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="MiraakRobesNeckSeam" target="MiraakRobes">Miraak.osd\MiraakRobesNeckSeam</Data>
+            <Data name="MiraakPauldronsNeckSeam" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsNeckSeam</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="MiraakRobesPregnancyBelly" target="MiraakRobes">Miraak.osd\MiraakRobesPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+            <Data name="MiraakRobesPushUp" target="MiraakRobes">Miraak.osd\MiraakRobesPushUp</Data>
+            <Data name="MiraakPauldronsPushUp" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="MiraakRobesRibsProminance" target="MiraakRobes">Miraak.osd\MiraakRobesRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="MiraakRobesRoundAss" target="MiraakRobes">Miraak.osd\MiraakRobesRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="MiraakRobesShoulderSmooth" target="MiraakRobes">Miraak.osd\MiraakRobesShoulderSmooth</Data>
+            <Data name="MiraakPauldronsShoulderSmooth" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="MiraakRobesShoulderTweak" target="MiraakRobes">Miraak.osd\MiraakRobesShoulderTweak</Data>
+            <Data name="MiraakPauldronsShoulderTweak" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="MiraakRobesShoulderWidth" target="MiraakRobes">Miraak.osd\MiraakRobesShoulderWidth</Data>
+            <Data name="MiraakPauldronsShoulderWidth" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="MiraakRobesSlimThighs" target="MiraakRobes">Miraak.osd\MiraakRobesSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="MiraakRobesThighs" target="MiraakRobes">Miraak.osd\MiraakRobesThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="MiraakRobesTummyTuck" target="MiraakRobes">Miraak.osd\MiraakRobesTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="MiraakRobesWaist" target="MiraakRobes">Miraak.osd\MiraakRobesWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="MiraakRobesWaistHeight" target="MiraakRobes">Miraak.osd\MiraakRobesWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="MiraakRobesWideWaistLine" target="MiraakRobes">Miraak.osd\MiraakRobesWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+            <Data name="MiraakRobesWristSize" target="MiraakRobes">Miraak.osd\MiraakRobesWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="MiraakRobes7B Lower" target="MiraakRobes">Miraak.osd\MiraakRobes7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+            <Data name="MiraakRobes7B Upper" target="MiraakRobes">Miraak.osd\MiraakRobes7B Upper</Data>
+            <Data name="MiraakPauldrons7B Upper" target="MiraakPauldrons">Miraak.osd\MiraakPauldrons7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="MiraakRobesVanillaSSEHi" target="MiraakRobes">Miraak.osd\MiraakRobesVanillaSSEHi</Data>
+            <Data name="MiraakPauldronsVanillaSSEHi" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="MiraakRobesVanillaSSELo" target="MiraakRobes">Miraak.osd\MiraakRobesVanillaSSELo</Data>
+            <Data name="MiraakPauldronsVanillaSSELo" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="MiraakRobesOldBaseShape" target="MiraakRobes">Miraak.osd\MiraakRobesOldBaseShape</Data>
+            <Data name="MiraakPauldronsOldBaseShape" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsOldBaseShape</Data>
+        </Slider>
+        <Slider name="BodyZap" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRBodyZap" target="BaseShapeHR" local="true">Miraak.osd\BaseShapeHRBodyZap</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSHSymmetry" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSHSymmetry</Data>
+            <Data name="MiraakRobesBreastsNewSHSymmetry" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsNewSHSymmetry</Data>
+            <Data name="MiraakPauldronsBreastsNewSHSymmetry" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="Remove Long Skirt" invert="false" small="0" big="0" zap="true">
+            <Data name="MiraakRobesRemove Long Skirt" target="MiraakRobes">Miraak.osd\MiraakRobesRemove Long Skirt</Data>
+        </Slider>
+        <Slider name="Remove Pauldrons" invert="false" small="0" big="0" zap="true">
+            <Data name="MiraakPauldronsRemove Pauldrons" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsRemove Pauldrons</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastSideShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastSideShape</Data>
+            <Data name="MiraakRobesBreastSideShape" target="MiraakRobes">Miraak.osd\MiraakRobesBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastUnderDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastUnderDepth</Data>
+            <Data name="MiraakRobesBreastUnderDepth" target="MiraakRobes">Miraak.osd\MiraakRobesBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7BLeg_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7BLeg_v2</Data>
+            <Data name="MiraakRobes7BLeg_v2" target="MiraakRobes">Miraak.osd\MiraakRobes7BLeg_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRArmpitShape_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRArmpitShape_v2</Data>
+            <Data name="MiraakRobesArmpitShape_v2" target="MiraakRobes">Miraak.osd\MiraakRobesArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackValley_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackValley_v2</Data>
+            <Data name="MiraakRobesBackValley_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackWing_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackWing_v2</Data>
+            <Data name="MiraakRobesBackWing_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBackWing_v2</Data>
+            <Data name="MiraakPauldronsBackWing_v2" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontDownFat_v2</Data>
+            <Data name="MiraakRobesBellyFrontDownFat_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontUpFat_v2</Data>
+            <Data name="MiraakRobesBellyFrontUpFat_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideDownFat_v2</Data>
+            <Data name="MiraakRobesBellySideDownFat_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideUpFat_v2</Data>
+            <Data name="MiraakRobesBellySideUpFat_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyUnder_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyUnder_v2</Data>
+            <Data name="MiraakRobesBellyUnder_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsConverage_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsConverage_v2</Data>
+            <Data name="MiraakRobesBreastsConverage_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsPressed_v2</Data>
+            <Data name="MiraakRobesBreastsPressed_v2" target="MiraakRobes">Miraak.osd\MiraakRobesBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtNarrow_v2</Data>
+            <Data name="MiraakRobesButtNarrow_v2" target="MiraakRobes">Miraak.osd\MiraakRobesButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtPressed_v2</Data>
+            <Data name="MiraakRobesButtPressed_v2" target="MiraakRobes">Miraak.osd\MiraakRobesButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSaggy_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSaggy_v2</Data>
+            <Data name="MiraakRobesButtSaggy_v2" target="MiraakRobes">Miraak.osd\MiraakRobesButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfFBThicc_v2</Data>
+            <Data name="MiraakRobesCalfFBThicc_v2" target="MiraakRobes">Miraak.osd\MiraakRobesCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRClavicle_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRClavicle_v2</Data>
+            <Data name="MiraakRobesClavicle_v2" target="MiraakRobes">Miraak.osd\MiraakRobesClavicle_v2</Data>
+            <Data name="MiraakPauldronsClavicle_v2" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsClavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipNarrow_v2</Data>
+            <Data name="MiraakRobesHipNarrow_v2" target="MiraakRobes">Miraak.osd\MiraakRobesHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeTogether_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeTogether_v2</Data>
+            <Data name="MiraakRobesKneeTogether_v2" target="MiraakRobes">Miraak.osd\MiraakRobesKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegSpread_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegSpread_v2</Data>
+            <Data name="MiraakRobesLegSpread_v2" target="MiraakRobes">Miraak.osd\MiraakRobesLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleBack_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleBack_v2</Data>
+            <Data name="MiraakRobesMuscleBack_v2" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleBack_v2</Data>
+            <Data name="MiraakPauldronsMuscleBack_v2" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreArms_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreArms_v2</Data>
+            <Data name="MiraakRobesMuscleMoreArms_v2" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleMoreArms_v2</Data>
+            <Data name="MiraakPauldronsMuscleMoreArms_v2" target="MiraakPauldrons">Miraak.osd\MiraakPauldronsMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreLegs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreLegs_v2</Data>
+            <Data name="MiraakRobesMuscleMoreLegs_v2" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsMore_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsMore_v2</Data>
+            <Data name="MiraakRobesRibsMore_v2" target="MiraakRobes">Miraak.osd\MiraakRobesRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighFBThicc_v2</Data>
+            <Data name="MiraakRobesThighFBThicc_v2" target="MiraakRobes">Miraak.osd\MiraakRobesThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighInsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighInsideThicc_v2</Data>
+            <Data name="MiraakRobesThighInsideThicc_v2" target="MiraakRobes">Miraak.osd\MiraakRobesThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighOutsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighOutsideThicc_v2</Data>
+            <Data name="MiraakRobesThighOutsideThicc_v2" target="MiraakRobes">Miraak.osd\MiraakRobesThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPHip_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRUNPHip_v2</Data>
+            <Data name="MiraakRobesUNPHip_v2" target="MiraakRobes">Miraak.osd\MiraakRobesUNPHip_v2</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCBPC" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCBPC</Data>
+            <Data name="MiraakRobesCBPC" target="MiraakRobes">Miraak.osd\MiraakRobesCBPC</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchGap" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchGap</Data>
+            <Data name="MiraakRobesCrotchGap" target="MiraakRobes">Miraak.osd\MiraakRobesCrotchGap</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCutepuffyness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCutepuffyness</Data>
+            <Data name="MiraakRobesCutepuffyness" target="MiraakRobes">Miraak.osd\MiraakRobesCutepuffyness</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreAbs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreAbs_v2</Data>
+            <Data name="MiraakRobesMuscleMoreAbs_v2" target="MiraakRobes">Miraak.osd\MiraakRobesMuscleMoreAbs_v2</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
