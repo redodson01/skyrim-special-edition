@@ -1,0 +1,112 @@
+===================================================
+
+Simply Knock SE
+
+Change Log
+
+===================================================
+
+Release 1.0.0 (12/13/2017)
+
+    Ported to Skyrim SE and SKSE64
+
+===================================================
+
+Simply Knock (original)
+
+Change Log
+
+===================================================
+
+Release 1.0.8 (2/19/2016)
+
+Bug Fixes
+
+    Fixed a Papyrus log error when looking at doors with no key, a regression introduced in 1.0.7.
+
+
+Release 1.0.7 (2/17/2016)
+
+Features and Changes
+
+    Doors are now unlocked automatically if you have a key for them instead of bringing up the door menu.
+
+
+Release 1.0.6 (2/11/2016)
+
+Features and Changes
+
+    Updated the SkyRe compatibility patch. See Files section.
+    Updated the PerMa compatibility patch. See Files section.
+
+
+Bug Fixes
+
+    Fixed an issue where the "Unlock" option would do nothing when using a controller.
+
+    Fixed an issue where PerMa / SkyRe were not granting the player Dexterity / Fingersmith skill when picking a lock while sneaking.
+
+    We now keep the door open a little longer after the player exits a residence before relocking it, in order to give the player's followers a chance to exit. This also greatly reduces the likelihood that an owner will flag the player or a follower for trespassing immediately upon leaving.
+
+    Fixed an issue where ordering a follower to unlock a door would bring up the door menu. (If you are very close to the door when you order your follower to unlock it, this bug can still occur. Order them to unlock it when away from the door in order to avoid this.)
+
+    Added a check to ensure the player was not in a menu when playing the "Hey, beat it!" dialogue after failing a speechcraft check.
+
+
+Release 1.0.5 (2/8/2016)
+
+Features and Changes
+    "Welcome Duration" (how long you can stay once permitted entry) and "Failure Timeout" (how long it takes before you can request entry again after failing) are now separate options.
+
+Bug Fixes
+
+    Dogs can no longer answer the door.
+
+    Better handling of cases (like Chillfurrow Farm) where the door has no owner, but the cell is owned by a single actor.
+
+
+Release 1.0.4 (2/7/2016)
+
+Bug Fixes
+
+    The mod now correctly checks whether or not an actor found in the linked cell is disabled or not. This prevents actors that are disabled until a certain event has occurred (i.e. Calder the House Carl in Hjerim) from answering the door incorrectly.
+
+    If a cell is owned by a single actor instead of a faction (rare), the mod now correctly checks that the actor owner is alive and enabled.
+
+
+Release 1.0.3 (2/6/2016)
+
+Features and Changes
+
+    Added support for compatibility patches for SkyRe, PerMa, and possibly other mods as needed for compatibility patching
+
+    Added SkyRe compatibility patch. See Files section.
+
+    Added PerMa compatibility patch. See Files section.
+
+    Removed the "Alternate Door Menu" option. Recent changes to the main door menu made it unnecessary.
+
+Release 1.0.2 (2/6/2016)
+
+Features and Changes
+
+    Added "Use Alternate Door Menu" option to the Config Menu. This will improve compatibility with Address Unknown (menu will no longer show the destination of the door). However, this option will be less compatible with other mods that override door activation to add additional choices to the menu; only "Knock", "Leave", and "Unlock" will display when this is enabled.
+
+    The Knock menu no longer displays when sneaking; you are taken directly to the lock pick screen.
+
+Bug Fixes
+
+    Fixed a case where children could answer the door when an adult was home.
+
+    Fixed a bug where the bribe dialogue option for children was not appearing.
+
+
+Release 1.0.1 (2/5/2016)
+
+Bug Fixes
+
+    Fixed a bug wherein, after being permitted entry into a residence, all of the residence's belongings were flagged as already owned by the player (i.e. nothing could be "stolen", only "taken").
+
+Release 1.0 (2/5/2016)
+
+Initial release.

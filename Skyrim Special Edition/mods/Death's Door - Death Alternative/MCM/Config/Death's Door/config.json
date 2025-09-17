@@ -1,0 +1,154 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Exit-9B/MCM-Helper/main/docs/config.schema.json",
+    "modName": "Death's Door",
+    "displayName": "Death's Door",
+    "cursorFillMode": "topToBottom",
+    "content": [
+        {
+            "type": "hiddenToggle",
+            "groupControl": 1,
+            "valueOptions": {
+              "sourceType": "PropertyValueBool",
+              "sourceForm": "Death's Door.esp|80A",
+              "propertyName": "MQ101Done"
+            }
+        },
+        {
+            "type": "header",
+            "text": "$General"
+        },
+        {
+            "id": "bEnabled:Main",
+            "type": "toggle",
+            "text": "$Enabled",
+            "help": "$Info Enabled",
+            "groupCondition": 1,
+            "valueOptions": {
+                "defaultValue": 1,
+                "sourceType": "GlobalValue",
+                "sourceForm": "Death's Door.esp|817"
+            }
+        },
+        {
+            "id": "bBeastCurse:Main",
+            "type": "enum",
+            "text": "$Beast Curse",
+            "help": "$Info Beast Curse",
+            "groupCondition": 1,
+            "valueOptions": {
+                "options": ["$Off", "$Risk", "$Always"],
+                "defaultValue": 1,
+                "sourceType": "ModSettingInt"
+            }
+        },
+        {
+            "id": "bHousesOnly:Main",
+            "type": "toggle",
+            "text": "$Houses Only",
+            "help": "$Info Houses Only",
+            "groupCondition": 1,
+            "valueOptions": {
+                "defaultValue": 0,
+                "sourceType": "ModSettingBool"
+            }
+        },
+        {
+            "id": "fWaitTime:Main",
+            "type": "slider",
+            "text": "$Wait Time",
+            "help": "$Info Wait Time",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0,
+                "max": 10,
+                "step": 1,
+                "formatString": "{0} sec",
+                "defaultValue": 3,
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "type": "header",
+            "text": "$Risk"
+        },
+        {
+            "id": "fRiskMin:Main",
+            "type": "slider",
+            "text": "$Risk Min",
+            "help": "$Info Risk Min",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "formatString": "{0}%",
+                "defaultValue": 45,
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "id": "fRiskMax:Main",
+            "type": "slider",
+            "text": "$Risk Max",
+            "help": "$Info Risk Max",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "formatString": "{0}%",
+                "defaultValue": 95,
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "id": "fRiskMod:Main",
+            "type": "slider",
+            "text": "$Risk Mod",
+            "help": "$Info Risk Mod",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "formatString": "{0}%",
+                "defaultValue": 5,
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "type": "header",
+            "text": "$Loss"
+        },
+        {
+            "id": "fLossXP:Main",
+            "type": "slider",
+            "text": "$Experience",
+            "help": "$Info Loss XP",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "formatString": "{0}%",
+                "defaultValue": 50,
+                "sourceType": "ModSettingFloat"
+            }
+        },
+        {
+            "id": "fLossGold:Main",
+            "type": "slider",
+            "text": "$Gold",
+            "help": "$Info Loss Gold",
+            "groupCondition": 1,
+            "valueOptions": {
+                "min": 0,
+                "max": 100,
+                "step": 1,
+                "formatString": "{0}%",
+                "defaultValue": 50,
+                "sourceType": "ModSettingFloat"
+            }
+        }
+    ]
+}

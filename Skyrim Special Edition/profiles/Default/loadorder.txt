@@ -84,6 +84,7 @@ SimpleChildren.esp
 TheNewGentleman.esp
 NoSillyPhysicsDamage.esl
 SmoothCam.esl
+DynamicCollisionAdjustment.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 DynDOLOD Resources SE.esp
@@ -145,3 +146,21 @@ DynamicMercenaryFees.esp
 SurvivalModeImproved.esp
 BetterThirdPersonSelection.esp
 TrueDirectionalMovement.esp
+Simple Fishing Overhaul.esp
+SimplyKnock.esp
+SkyrimsGotTalent-Bards.esp
+SkyrimsGotTalent - Free Movement.esp
+SkyrimsGotTalent-Bards_inigo.esp
+Take A Peek - New Stealth Mechanic.esp
+Taunt Your Enemies.esp
+StreamlinedFishing.esp
+Remote Interactions.esp
+Simple Hunting Overhaul.esp
+SHO - Gourmet Patch.esp
+Death's Door.esp
+SkyParkour.esp
+SensibleBribes.esp
+ImprovedAlternateConversationCamera.esp
+Take a Nap.esp
+sweepingOrganizesStuff.esp
+ShovelBody.esp

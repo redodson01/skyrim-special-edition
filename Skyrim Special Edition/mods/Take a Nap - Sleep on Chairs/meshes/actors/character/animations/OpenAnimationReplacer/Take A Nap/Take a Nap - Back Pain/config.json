@@ -1,0 +1,35 @@
+{
+    "name": "Take a Nap - Back Pain",
+    "priority": 94001547,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "1.0.0.0",
+            "Random value": {
+                "min": 1.0,
+                "max": 100.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 10.0
+            }
+        },
+        {
+            "condition": "HasMagicEffect",
+            "requiredVersion": "1.0.0.0",
+            "Magic effect": {
+                "pluginName": "take a nap.esp",
+                "formID": "809"
+            },
+            "Active effects only": false
+        }
+    ]
+}

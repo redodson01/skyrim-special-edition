@@ -1,0 +1,2 @@
+IsActorBase("Skyrim.esm"|0x000007) AND
+ValueEqualTo("Take A Nap.esp"|0x00000804, 1)

@@ -1,0 +1,3 @@
+		<hkobject name="#sppffp$110" class="hkbExpressionCondition" signature="0x1c3c1045">
+			<hkparam name="expression">!SkyParkourOngoing</hkparam>
+		</hkobject>
