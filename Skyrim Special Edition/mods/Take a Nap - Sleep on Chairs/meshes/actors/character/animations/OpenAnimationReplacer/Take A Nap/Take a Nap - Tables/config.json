@@ -1,0 +1,36 @@
+{
+    "name": "Take a Nap - Tables",
+    "priority": 94001545,
+    "conditions": [
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "form": {
+                    "pluginName": "Take a Nap.esp",
+                    "formID": "804"
+                }
+            },
+            "Comparison": "==",
+            "Value B": {
+                "value": 1.0
+            }
+        },
+        {
+            "condition": "CurrentFurnitureHasKeyword",
+            "requiredVersion": "1.1.0.0",
+            "Keyword": {
+                "editorID": "istable"
+            },
+            "Base": true
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        }
+    ]
+}
