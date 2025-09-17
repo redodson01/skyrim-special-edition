@@ -3,6 +3,7 @@
 +Better Jumping SE
 +Survival Mode Improved - SKSE
 +Better Third Person Selection - BTPS
++SmoothCam
 -10-Gameplay-General - Anvil_separator
 -10-Gameplay-General_separator
 +Actually Useful Butter Churns
