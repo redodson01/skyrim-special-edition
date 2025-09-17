@@ -1,0 +1,38 @@
+# START BBP
+
+LBreast.stiffness 0.01 0.01
+LBreast.stiffness2 0.005 0.005
+LBreast.damping 0.0175 0.0175
+LBreast.maxoffset 7.0 2.5
+LBreast.timetick 2.0 2.0
+LBreast.linearX 1.4 0.7
+LBreast.linearY 0.7 0.35
+LBreast.linearZ 1.225 0.6125
+LBreast.rotationalX 0.08 0.04
+LBreast.rotationalY 0.10 0.05
+LBreast.rotationalZ -0.12 -0.06
+LBreast.timeStep 0.7 0.7
+
+LBreast.collisionMultipler 2.0 2.0
+
+
+RBreast.stiffness 0.01 0.01
+RBreast.stiffness2 0.005 0.005
+RBreast.damping 0.0175 0.0175
+RBreast.maxoffset 7.0 2.5
+RBreast.timetick 2.0 2.0
+RBreast.linearX 1.4 0.7
+RBreast.linearY 0.7 0.35
+RBreast.linearZ 1.225 1.6125
+RBreast.rotationalX 0.08 0.04
+RBreast.rotationalY 0.10 0.05
+RBreast.rotationalZ 0.12 0.06
+RBreast.timeStep 0.7 0.7
+
+RBreast.collisionMultipler 2.0 2.0
+
+
+
+# END
+
+#Tuning.rate 60
