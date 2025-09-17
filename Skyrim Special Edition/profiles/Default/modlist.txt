@@ -2,6 +2,9 @@
 +Kill Caps Lock NG
 +Infinity UI
 +Console Commands Extender - Anniversary Edition Update
++QuickLoot IE - A QuickLoot EE Fork - Overwrite
++QuickLoot IE - A QuickLoot EE Fork - Default
++QuickLoot IE - A QuickLoot EE Fork
 +No Console Spam
 +SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement)
 +ConsolePlusPlus
