@@ -103,3 +103,7 @@ ForswornRetexture Unique Armor of the Old Gods.esp
 UniqueDragonPriests_XB.esp
 CommonClothing-JarlSleeves.esp
 BA_BardSongs_AIO.esp
+Vanilla hair remake SMP NPCs.esp
+Faithful Faces.esp
+Faithful Faces0.esp
+Faithful Faces - Creation Club.esp
