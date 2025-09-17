@@ -83,6 +83,7 @@ Sentinel - Master Plugin.esp
 SimpleChildren.esp
 TheNewGentleman.esp
 NoSillyPhysicsDamage.esl
+SmoothCam.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 DynDOLOD Resources SE.esp

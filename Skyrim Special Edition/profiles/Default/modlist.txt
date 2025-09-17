@@ -3,6 +3,7 @@
 +Better Jumping SE
 +Survival Mode Improved - SKSE
 +Better Third Person Selection - BTPS
++SmoothCam
 -10-Gameplay-General - Anvil_separator
 +Dynamic Mercenary Fees
 -10-Gameplay-General - Step Modifications - The Road Ahead_separator
