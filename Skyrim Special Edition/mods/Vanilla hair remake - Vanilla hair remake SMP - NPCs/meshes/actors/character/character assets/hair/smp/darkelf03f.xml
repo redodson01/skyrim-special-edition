@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2024 Jonas Gernandt
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or 
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+ -->
+
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="FSMP-Validator"
+xsi:schemaLocation="FSMP-Validator I:/mods/utils/hdtSMP64.xsd">
+
+  <bone name="NPC Head [Head]"/>
+
+  <bone-default>
+    <mass>0.01</mass>
+    <inertia x="1" y="1" z="1"/>
+    <linearDamping>0.99</linearDamping>
+    <angularDamping>0.99</angularDamping>
+  </bone-default>
+
+  <bone name="JG DE03 F1 L" />
+  <bone name="JG DE03 F2 L" />
+  <bone name="JG DE03 F1 R" />
+  <bone name="JG DE03 F2 R" />
+
+  <bone-default>
+    <linearDamping>0.9</linearDamping>
+    <angularDamping>0.9</angularDamping>
+  </bone-default>
+
+  <bone name="JG DE03 Tail1A L" />
+  <bone name="JG DE03 Tail1B L" />
+  <bone name="JG DE03 Tail1A R" />
+  <bone name="JG DE03 Tail1B R" />
+
+  <bone name="JG DE03 Tail2A L" />
+  <bone name="JG DE03 Tail2B L" />
+  <bone name="JG DE03 Tail2A R" />
+  <bone name="JG DE03 Tail2B R" />
+
+  <bone-default>
+    <mass>0</mass>
+  </bone-default>
+
+  <generic-constraint-default name="ear">
+    <frameInA>
+      <basis x="0" y="0" z="0" w="1"/>
+      <origin x="0" y="-2.5" z="0"/>
+    </frameInA>
+    <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+    <linearLowerLimit x="0" y="0" z="0"/>
+    <linearUpperLimit x="0" y="0" z="0"/>
+    <angularLowerLimit x="0" y="0" z="-1"/>
+    <angularUpperLimit x="1" y="0" z="1"/>
+    <angularStiffness x="1" y="1" z="1"/>
+  </generic-constraint-default>
+
+  <generic-constraint-default name="tail">
+    <frameInA>
+      <basis x="0" y="0" z="0" w="1"/>
+      <origin x="0" y="-2" z="0"/>
+    </frameInA>
+    <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+    <linearLowerLimit x="0" y="0" z="0"/>
+    <linearUpperLimit x="0" y="0" z="0"/>
+    <angularStiffness x="1" y="1" z="1"/>
+  </generic-constraint-default>
+
+  <generic-constraint-default name="tail_pos" extends="tail">
+    <angularLowerLimit x="0" y="0" z="-0.2" />
+    <angularUpperLimit x="1" y="0" z="1" />
+  </generic-constraint-default>
+
+  <generic-constraint-default name="tail_neg" extends="tail">
+    <angularLowerLimit x="0" y="0" z="-1" />
+    <angularUpperLimit x="1" y="0" z="0.2" />
+  </generic-constraint-default>
+
+
+  <constraint-group>
+    <generic-constraint bodyA="JG DE03 F1 L" bodyB="NPC Head [Head]" template="ear" />
+    <generic-constraint bodyA="JG DE03 F2 L" bodyB="JG DE03 F1 L" template="ear" />
+  </constraint-group>
+
+  <constraint-group>
+    <generic-constraint bodyA="JG DE03 F1 R" bodyB="NPC Head [Head]" template="ear" />
+    <generic-constraint bodyA="JG DE03 F2 R" bodyB="JG DE03 F1 R" template="ear" />
+  </constraint-group>
+
+  <constraint-group>
+    <generic-constraint bodyA="JG DE03 Tail1A L" bodyB="NPC Head [Head]" template="tail_neg" />
+    <generic-constraint bodyA="JG DE03 Tail2A L" bodyB="JG DE03 Tail1A L" template="tail_neg" />
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG DE03 Tail1B L" bodyB="NPC Head [Head]" template="tail_pos" />
+    <generic-constraint bodyA="JG DE03 Tail2B L" bodyB="JG DE03 Tail1B L" template="tail_pos" />
+  </constraint-group>
+
+  <constraint-group>
+    <generic-constraint bodyA="JG DE03 Tail1A R" bodyB="NPC Head [Head]" template="tail_pos" />
+    <generic-constraint bodyA="JG DE03 Tail2A R" bodyB="JG DE03 Tail1A R" template="tail_pos" />
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG DE03 Tail1B R" bodyB="NPC Head [Head]" template="tail_neg" />
+    <generic-constraint bodyA="JG DE03 Tail2B R" bodyB="JG DE03 Tail1B R" template="tail_neg" />
+  </constraint-group>
+	
+</system>
