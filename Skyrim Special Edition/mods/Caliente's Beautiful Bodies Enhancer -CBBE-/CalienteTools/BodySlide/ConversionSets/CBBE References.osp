@@ -1,0 +1,955 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="FO4 CBBE To SSE CBBE">
+        <DataFolder>References</DataFolder>
+        <SourceFile>FO4 CBBE To SSE CBBE.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">temp</OutputFile>
+        <Shape target="RefCBBE">RefCBBE</Shape>
+        <Slider name="FO4 CBBE To SSE CBBE" invert="false" small="0" big="0">
+            <Data name="RefCBBEFO4 CBBE To SSE CBBE" target="RefCBBE" local="true">FO4 CBBE To SSE CBBE.osd\RefCBBEFO4 CBBE To SSE CBBE</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="SK CBBE To SSE CBBE">
+        <DataFolder>References</DataFolder>
+        <SourceFile>SK CBBE To SSE CBBE.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">temp</OutputFile>
+        <Shape target="CBBE">CBBE</Shape>
+        <Slider name="SK CBBE To SSE CBBE" invert="false" small="0" big="0">
+            <Data name="CBBESK CBBE To SSE CBBE" target="CBBE" local="true">SK CBBE To SSE CBBE.osd\CBBESK CBBE To SSE CBBE</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="SK CBBE To SSE CBBE Uniboob">
+        <DataFolder>References</DataFolder>
+        <SourceFile>SK CBBE To SSE CBBE Uniboob.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">temp</OutputFile>
+        <Shape target="CBBE">CBBE</Shape>
+        <Slider name="SK CBBE To SSE CBBE Uniboob" invert="false" small="0" big="0">
+            <Data name="CBBESK CBBE To SSE CBBE Uniboob" target="CBBE" local="true">SK CBBE To SSE CBBE Uniboob.osd\CBBESK CBBE To SSE CBBE Uniboob</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="Vanilla To CBBE">
+        <DataFolder>References</DataFolder>
+        <SourceFile>Vanilla To CBBE.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">temp</OutputFile>
+        <Shape target="BaseShapeHR">CBBE</Shape>
+        <Slider name="Vanilla To CBBE" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanilla To CBBE" target="BaseShapeHR" local="true">Vanilla To CBBE.osd\BaseShapeHRVanilla To CBBE</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="UNP Low To CBBE">
+        <DataFolder>References</DataFolder>
+        <SourceFile>UNP Low To CBBE.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">temp</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Slider name="UNP Low To CBBE" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNP Low To CBBE" target="BaseShapeHR" local="true">UNP Low To CBBE.osd\BaseShapeHRUNP Low To CBBE</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="UNP High To CBBE">
+        <DataFolder>References</DataFolder>
+        <SourceFile>UNP High To CBBE.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets</OutputPath>
+        <OutputFile GenWeights="true">temp</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Slider name="UNP High To CBBE" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNP High To CBBE" target="BaseShapeHR" local="true">UNP High To CBBE.osd\BaseShapeHRUNP High To CBBE</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="UNPB To CBBE">
+        <DataFolder>References</DataFolder>
+        <SourceFile>UNPB To CBBE.nif</SourceFile>
+        <OutputPath>meshes\temp</OutputPath>
+        <OutputFile GenWeights="true">temp</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Slider name="UNPB To CBBE" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPB To CBBE" target="BaseShapeHR" local="true">UNPB To CBBE.osd\BaseShapeHRUNPB To CBBE</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Uniboob">
+        <DataFolder>References</DataFolder>
+        <SourceFile>CBBE Uniboob.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="true">CBBE Uniboob</OutputFile>
+        <Shape target="CBBE - Uniboob">CBBE - Uniboob</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="CBBE - UniboobAnkleSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobAppleCheeks" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobAppleCheeks</Data>
+        </Slider>
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="CBBE - UniboobAreolaSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobAreolaSize</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboobarms" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboobarms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBack" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBackArch" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBigBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBigButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBigTorso" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenter" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenterBig" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCleavage" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastGravity2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastPerkiness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreasts" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsFantasy" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsGone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSH" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSHSymmetry" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsTogether" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastTopSlope" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtClassic" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtCrack" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtShape2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtSmall" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobCalfSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobCalfSmooth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChestDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChestWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyArms" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyLegs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyWaist" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobCrotchBack" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobDoubleMelon" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobForearmSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobGroin" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHipBone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHipForward" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHips" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHipUpperWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobKneeHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobKneeShape" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobLegShapeClassic" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobLegsThin" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleAbs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleArms" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleLegs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMusclePecs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="CBBE - UniboobNeckSeam" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNipBGone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleDistance" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleDown" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleLength" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleManga" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNipplePerkiness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNipplePerkManga" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleTip" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleTipManga" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleUp" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPregnancyBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPushUp" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobRibsProminance" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobRoundAss" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobShoulderSmooth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobShoulderTweak" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobShoulderWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSlimThighs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobThighs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobTummyTuck" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobWaist" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobWaistHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobWideWaistLine" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="CBBE - UniboobWristSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboob7B Lower" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboob7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboob7B Upper" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboob7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSEHi" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSELo" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobOldBaseShape" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="CBBE Uniboob - Breasts Only">
+        <DataFolder>References</DataFolder>
+        <SourceFile>CBBE Uniboob.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="true">CBBE Uniboob</OutputFile>
+        <Shape target="CBBE - Uniboob" DataFolder="CBBE Uniboob">CBBE - Uniboob</Shape>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenter" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenterBig" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCleavage" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastGravity2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastPerkiness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreasts" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsFantasy" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsGone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSH" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSHSymmetry" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsTogether" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastTopSlope" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastWidth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChestDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChestDepth</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobDoubleMelon" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobDoubleMelon</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMusclePecs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMusclePecs</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPregnancyBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPushUp" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPushUp</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboob7B Upper" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboob7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSEHi" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSELo" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobOldBaseShape" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Uniboob Physics">
+        <DataFolder>References</DataFolder>
+        <SourceFile>CBBE Uniboob Physics.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="true">CBBE Uniboob Physics</OutputFile>
+        <Shape target="CBBE - Uniboob">CBBE - Uniboob</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="CBBE - UniboobAnkleSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobAppleCheeks" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobAppleCheeks</Data>
+        </Slider>
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="CBBE - UniboobAreolaSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobAreolaSize</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboobarms" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboobarms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBack" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBackArch" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBigBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBigButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBigTorso" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenter" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenterBig" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCleavage" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastGravity2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastPerkiness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreasts" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsFantasy" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsGone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSH" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSHSymmetry" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsTogether" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastTopSlope" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtClassic" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtCrack" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtShape2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobButtSmall" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobCalfSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobCalfSmooth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChestDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChestWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyArms" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyLegs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChubbyWaist" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobCrotchBack" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobDoubleMelon" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobForearmSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobGroin" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHipBone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHipForward" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHips" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobHipUpperWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobKneeHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobKneeShape" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobLegShapeClassic" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobLegsThin" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleAbs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleArms" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleButt" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMuscleLegs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMusclePecs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="CBBE - UniboobNeckSeam" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNipBGone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleDistance" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleDown" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleLength" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleManga" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNipplePerkiness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNipplePerkManga" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleTip" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleTipManga" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobNippleUp" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPregnancyBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPushUp" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobRibsProminance" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobRoundAss" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobShoulderSmooth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobShoulderTweak" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobShoulderWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSlimThighs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobThighs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobTummyTuck" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobWaist" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobWaistHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobWideWaistLine" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="CBBE - UniboobWristSize" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboob7B Lower" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboob7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboob7B Upper" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboob7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSEHi" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSELo" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobOldBaseShape" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+	<SliderSet name="CBBE Uniboob Physics - Breasts Only">
+        <DataFolder>References</DataFolder>
+        <SourceFile>CBBE Uniboob Physics.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="true">CBBE Uniboob Physics</OutputFile>
+        <Shape target="CBBE - Uniboob" DataFolder="CBBE Uniboob">CBBE - Uniboob</Shape>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenter" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCenterBig" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastCleavage" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastFlatness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastGravity2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastPerkiness" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreasts" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsFantasy" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsGone" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSH" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsNewSHSymmetry" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsSmall2" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastsTogether" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastTopSlope" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobBreastWidth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobBreastWidth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobChestDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobChestDepth</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobDoubleMelon" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobDoubleMelon</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobMusclePecs" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobMusclePecs</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPregnancyBelly" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobPushUp" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobPushUp</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumDepth" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobSternumHeight" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobSternumHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="CBBE - Uniboob7B Upper" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - Uniboob7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSEHi" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobVanillaSSELo" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobOldBaseShape" target="CBBE - Uniboob" local="true">CBBE Uniboob.osd\CBBE - UniboobOldBaseShape</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE to CBBE Uniboob">
+        <DataFolder>References</DataFolder>
+        <SourceFile>CBBE to CBBE Uniboob.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="true">CBBE Uniboob</OutputFile>
+        <Shape target="CBBE - Uniboob" DataFolder="CBBE">CBBE - Uniboob</Shape>
+        <Slider name="CBBE to CBBE - Uniboob" invert="false" small="0" big="0">
+            <Data name="CBBE - UniboobCBBE to CBBE - Uniboob" target="CBBE - Uniboob" local="true">CBBE to CBBE Uniboob.osd\CBBE - UniboobCBBE to CBBE - Uniboob</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE New Sliders 2.0.0">
+        <DataFolder>CBBE</DataFolder>
+        <SourceFile>CBBE Body.nif</SourceFile>
+        <OutputPath>meshes</OutputPath>
+        <OutputFile GenWeights="true">CBBE</OutputFile>
+        <Shape target="BaseShapeHR">CBBE</Shape>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7BLeg_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHR7BLeg_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAreolaPull_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRArmpitShape_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackValley_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackWing_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontDownFat_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontUpFat_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideDownFat_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideUpFat_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyUnder_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsConverage_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsPressed_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtNarrow_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtPressed_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSaggy_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCBPC" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRCBPC</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfFBThicc_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRClavicle_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRClavicle_v2</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchGap" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRCrotchGap</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCutepuffyness" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRCutepuffyness</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipNarrow_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeTogether_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegSpread_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleBack_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreAbs_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreArms_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreLegs_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="NippleInvert_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleInvert_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRNippleInvert_v2</Data>
+        </Slider>
+        <Slider name="NipplePuffy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePuffy_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRNipplePuffy_v2</Data>
+        </Slider>
+        <Slider name="NippleShy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleShy_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRNippleShy_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash1_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSquash1_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRNippleSquash1_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash2_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSquash2_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRNippleSquash2_v2</Data>
+        </Slider>
+        <Slider name="NippleThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleThicc_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRNippleThicc_v2</Data>
+        </Slider>
+        <Slider name="NippleTube_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTube_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRNippleTube_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsMore_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighFBThicc_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighInsideThicc_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighOutsideThicc_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPHip_v2" target="BaseShapeHR" local="true">CBBE Body.osd\BaseShapeHRUNPHip_v2</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
