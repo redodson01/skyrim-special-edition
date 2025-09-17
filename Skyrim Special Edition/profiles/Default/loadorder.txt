@@ -97,3 +97,7 @@ Sentinel - Priests and Acolytes.esp
 Sentinel - Sailors and Swashbucklers.esp
 aelaOutfitFix.esp
 BA_BardSongs_AIO.esp
+Vanilla hair remake SMP NPCs.esp
+Faithful Faces.esp
+Faithful Faces0.esp
+Faithful Faces - Creation Club.esp
