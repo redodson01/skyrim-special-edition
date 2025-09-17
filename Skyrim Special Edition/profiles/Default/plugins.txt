@@ -6,6 +6,7 @@
 *Sentinel - Master Plugin.esp
 *TheNewGentleman.esp
 *NoSillyPhysicsDamage.esl
+*SmoothCam.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
@@ -49,3 +50,6 @@
 *Brawl Lines Expansion.esp
 *buy and sell torches.esp
 *DynamicMercenaryFees.esp
+*SurvivalModeImproved.esp
+*BetterThirdPersonSelection.esp
+*TrueDirectionalMovement.esp
