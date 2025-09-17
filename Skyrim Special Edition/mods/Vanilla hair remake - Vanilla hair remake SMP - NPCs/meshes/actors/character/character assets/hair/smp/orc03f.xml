@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2024 Jonas Gernandt
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or 
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+ -->
+
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="FSMP-Validator"
+xsi:schemaLocation="FSMP-Validator I:/mods/utils/hdtSMP64.xsd">
+
+  <bone name="NPC Head [Head]"/>
+
+  <bone-default>
+    <mass>0.01</mass>
+    <inertia x="1" y="1" z="1"/>
+    <linearDamping>0.5</linearDamping>
+    <angularDamping>0.5</angularDamping>
+  </bone-default>
+  
+  <bone name="JG Orc03 Tail1 L" />
+  <bone name="JG Orc03 Tail2 L" />
+  <bone name="JG Orc03 Tail1 R" />
+  <bone name="JG Orc03 Tail2 R" />
+
+  <bone-default>
+    <mass>0</mass>
+  </bone-default>
+
+  <generic-constraint-default name="tail">
+    <frameInA>
+      <basis x="0" y="0" z="0" w="1"/>
+      <origin x="0" y="-3.5" z="0"/>
+    </frameInA>
+    <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+    <linearLowerLimit x="0" y="0" z="0"/>
+    <linearUpperLimit x="0" y="0" z="0"/>
+    <angularStiffness x="3" y="1" z="3"/>
+    <angularDamping x="2" y="1" z="2"/>
+  </generic-constraint-default>
+
+  <generic-constraint-default name="left" extends="tail">
+    <angularLowerLimit x="0" y="0" z="-1.0"/>
+    <angularUpperLimit x="1" y="0" z="0.5"/>
+  </generic-constraint-default>
+  
+  <generic-constraint-default name="right" extends="tail">
+    <angularLowerLimit x="0" y="0" z="-0.5"/>
+    <angularUpperLimit x="1" y="0" z="1.0"/>
+  </generic-constraint-default>
+
+  <constraint-group>
+    <generic-constraint bodyA="JG Orc03 Tail1 L" bodyB="NPC Head [Head]" template="left"/>
+    <generic-constraint bodyA="JG Orc03 Tail2 L" bodyB="JG Orc03 Tail1 L" template="left"/>
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG Orc03 Tail1 R" bodyB="NPC Head [Head]" template="right"/>
+    <generic-constraint bodyA="JG Orc03 Tail2 R" bodyB="JG Orc03 Tail1 R" template="right"/>
+  </constraint-group>
+	
+</system>

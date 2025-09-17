@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2024 Jonas Gernandt
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or 
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+ -->
+
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="FSMP-Validator"
+xsi:schemaLocation="FSMP-Validator I:/mods/utils/hdtSMP64.xsd">
+
+	<bone name="NPC Head [Head]"/>
+	
+	<bone-default>
+		<mass>0.01</mass>
+		<inertia x="1" y="1" z="1"/>
+		<linearDamping>0.5</linearDamping>
+		<angularDamping>0.5</angularDamping>
+	</bone-default>
+	
+	<bone name="JG Hair10 B1 L" />
+	<bone name="JG Hair10 B2 L" />
+	<bone name="JG Hair10 B1 R" />
+	<bone name="JG Hair10 B2 R" />
+	<bone name="JG Hair10 B1" />
+	<bone name="JG Hair10 B2" />
+	<bone name="JG Hair10 Tail1 L" />
+	<bone name="JG Hair10 Tail2 L" />
+	<bone name="JG Hair10 Tail1 R" />
+	<bone name="JG Hair10 Tail2 R" />
+	
+	<bone-default>
+		<mass>0</mass>
+	</bone-default>
+	
+	<generic-constraint-default name="side">
+		<frameInA>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="-3.25" z="0"/>
+		</frameInA>
+		<useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+		<linearLowerLimit x="0" y="0" z="0"/>
+		<linearUpperLimit x="0" y="0" z="0"/>
+		<angularLowerLimit x="0" y="0" z="-1"/>
+		<angularUpperLimit x="1" y="0" z="1"/>
+		<angularStiffness x="1" y="1" z="1"/>
+    <angularDamping x="5" y="1" z="5"/>
+	</generic-constraint-default>
+	
+	<generic-constraint-default name="back" extends="side">
+		<angularUpperLimit x="0.3" y="0" z="1"/>
+	</generic-constraint-default>
+	
+	<generic-constraint-default name="tail_left" extends="side">
+		<frameInA>
+			<basis x="0" y="0" z="0" w="1"/>
+			<origin x="0" y="-2.5" z="0"/>
+		</frameInA>
+		<angularLowerLimit x="0" y="0" z="-1"/>
+		<angularUpperLimit x="1" y="0" z="0.2"/>
+	</generic-constraint-default>
+	
+	<generic-constraint-default name="tail_right" extends="tail_left">
+		<angularLowerLimit x="0" y="0" z="-0.2"/>
+		<angularUpperLimit x="1" y="0" z="1"/>
+	</generic-constraint-default>
+	
+	<constraint-group>
+		<generic-constraint bodyA="JG Hair10 B1 L" bodyB="NPC Head [Head]" template="side"/>
+		<generic-constraint bodyA="JG Hair10 B2 L" bodyB="JG Hair10 B1 L" template="side"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="JG Hair10 B1 R" bodyB="NPC Head [Head]" template="side"/>
+		<generic-constraint bodyA="JG Hair10 B2 R" bodyB="JG Hair10 B1 R" template="side"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="JG Hair10 B1" bodyB="NPC Head [Head]" template="back"/>
+		<generic-constraint bodyA="JG Hair10 B2" bodyB="JG Hair10 B1" template="back"/>
+	</constraint-group>
+	
+	<constraint-group>
+		<generic-constraint bodyA="JG Hair10 Tail1 L" bodyB="NPC Head [Head]" template="tail_left"/>
+		<generic-constraint bodyA="JG Hair10 Tail2 L" bodyB="JG Hair10 Tail1 L" template="tail_left"/>
+	</constraint-group>
+	<constraint-group>
+		<generic-constraint bodyA="JG Hair10 Tail1 R" bodyB="NPC Head [Head]" template="tail_right"/>
+		<generic-constraint bodyA="JG Hair10 Tail2 R" bodyB="JG Hair10 Tail1 R" template="tail_right"/>
+	</constraint-group>
+	
+</system>

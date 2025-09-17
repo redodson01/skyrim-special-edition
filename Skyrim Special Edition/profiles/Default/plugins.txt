@@ -38,3 +38,4 @@
 *CommonClothing-JarlSleeves.esp
 *BA_BardSongs_AIO.esp
 *FacegenForKids.esp
+*Vanilla hair remake SMP NPCs.esp
