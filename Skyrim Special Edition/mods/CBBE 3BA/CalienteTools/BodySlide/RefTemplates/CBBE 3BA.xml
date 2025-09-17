@@ -1,0 +1,6 @@
+<RefTemplates>
+    <Template sourcefile="SliderSets\SE 3BBB Amazing.osp" set="CBBE 3BBB Body Amazing" loadAll="true">CBBE 3BA Body</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA Reference.osp" set="CBBE 3BA Ref">Sliders: CBBE 3BA Ref</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA Reference.osp" set="CBBE 3BA Ref for 3BA sliders">Sliders: CBBE 3BA Ref (Only3BA Sliders)</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA Reference.osp" set="CBBE 3BA remove nip sliders">Sliders: CBBE 3BA zRemove Nipple Sliders</Template>
+</RefTemplates>

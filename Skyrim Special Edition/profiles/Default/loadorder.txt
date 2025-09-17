@@ -81,6 +81,7 @@ ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
 Sentinel - Master Plugin.esp
 SimpleChildren.esp
+TheNewGentleman.esp
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 DynDOLOD Resources SE.esp
@@ -122,3 +123,6 @@ Vanilla hair remake SMP NPCs.esp
 Faithful Faces.esp
 Faithful Faces0.esp
 Faithful Faces - Creation Club.esp
+CBBE.esp
+3BBB.esp
+SOSPhysicsManager.esp

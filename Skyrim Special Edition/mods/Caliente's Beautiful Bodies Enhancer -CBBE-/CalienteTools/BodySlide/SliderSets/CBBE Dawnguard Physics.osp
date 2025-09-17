@@ -1,0 +1,2442 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE Dawnguard - Body - Blind Moth Priest (Physics)">
+        <DataFolder>CBBE Dawnguard Physics\Body</DataFolder>
+        <SourceFile>Blind Moth Priest.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\blindmothpriest</OutputPath>
+        <OutputFile GenWeights="true">blindmothpriestrobesf</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="robes" DataFolder="CBBE Dawnguard\Body">robes</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="robesAnkleSize" target="robes">Monk.osd\robesAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="robesAppleCheeks" target="robes">Monk.osd\robesAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+            <Data name="robesArms" target="robes">Monk.osd\robesArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="robesBack" target="robes">Monk.osd\robesBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="robesBackArch" target="robes">Monk.osd\robesBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="robesBelly" target="robes">Monk.osd\robesBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="robesBigBelly" target="robes">Monk.osd\robesBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="robesBigButt" target="robes">Monk.osd\robesBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="robesBigTorso" target="robes">Monk.osd\robesBigTorso</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="robesBreastFlatness2" target="robes">Monk.osd\robesBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="robesBreastFlatness" target="robes">Monk.osd\robesBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
+            <Data name="robesBreastGravity2" target="robes">Monk.osd\robesBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="robesBreastHeight" target="robes">Monk.osd\robesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="robesBreastPerkiness" target="robes">Monk.osd\robesBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+            <Data name="robesBreasts" target="robes">Monk.osd\robesBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="robesBreastsFantasy" target="robes">Monk.osd\robesBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="robesBreastsGone" target="robes">Monk.osd\robesBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="robesBreastsNewSH" target="robes">Monk.osd\robesBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="robesBreastsSmall" target="robes">Monk.osd\robesBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="robesBreastsSmall2" target="robes">Monk.osd\robesBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="robesBreastsTogether" target="robes">Monk.osd\robesBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="robesBreastTopSlope" target="robes">Monk.osd\robesBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="robesBreastWidth" target="robes">Monk.osd\robesBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="robesButt" target="robes">Monk.osd\robesButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="robesButtClassic" target="robes">Monk.osd\robesButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="robesButtShape2" target="robes">Monk.osd\robesButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="robesButtSmall" target="robes">Monk.osd\robesButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+            <Data name="robesCalfSize" target="robes">Monk.osd\robesCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="robesCalfSmooth" target="robes">Monk.osd\robesCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="robesChestDepth" target="robes">Monk.osd\robesChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="robesChestWidth" target="robes">Monk.osd\robesChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="robesChubbyArms" target="robes">Monk.osd\robesChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="robesChubbyButt" target="robes">Monk.osd\robesChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="robesChubbyLegs" target="robes">Monk.osd\robesChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="robesChubbyWaist" target="robes">Monk.osd\robesChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="robesDoubleMelon" target="robes">Monk.osd\robesDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+            <Data name="robesForearmSize" target="robes">Monk.osd\robesForearmSize</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="robesHipBone" target="robes">Monk.osd\robesHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="robesHipForward" target="robes">Monk.osd\robesHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="robesHips" target="robes">Monk.osd\robesHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="robesHipUpperWidth" target="robes">Monk.osd\robesHipUpperWidth</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="robesLegShapeClassic" target="robes">Monk.osd\robesLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="robesLegsThin" target="robes">Monk.osd\robesLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="robesMuscleAbs" target="robes">Monk.osd\robesMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="robesMuscleArms" target="robes">Monk.osd\robesMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="robesMuscleButt" target="robes">Monk.osd\robesMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="robesMuscleLegs" target="robes">Monk.osd\robesMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="robesMusclePecs" target="robes">Monk.osd\robesMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="robesNeckSeam" target="robes">Monk.osd\robesNeckSeam</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="robesPregnancyBelly" target="robes">Monk.osd\robesPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+            <Data name="robesPushUp" target="robes">Monk.osd\robesPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="robesRibsProminance" target="robes">Monk.osd\robesRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="robesRoundAss" target="robes">Monk.osd\robesRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="robesShoulderSmooth" target="robes">Monk.osd\robesShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="robesShoulderTweak" target="robes">Monk.osd\robesShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="robesShoulderWidth" target="robes">Monk.osd\robesShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="robesSlimThighs" target="robes">Monk.osd\robesSlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="robesThighs" target="robes">Monk.osd\robesThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="robesTummyTuck" target="robes">Monk.osd\robesTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="robesWaist" target="robes">Monk.osd\robesWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="robesWaistHeight" target="robes">Monk.osd\robesWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="robesWideWaistLine" target="robes">Monk.osd\robesWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+            <Data name="robesWristSize" target="robes">Monk.osd\robesWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="robes7B Lower" target="robes">Monk.osd\robes7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+            <Data name="robes7B Upper" target="robes">Monk.osd\robes7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="robesVanillaSSEHi" target="robes">Monk.osd\robesVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="robesVanillaSSELo" target="robes">Monk.osd\robesVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="robesOldBaseShape" target="robes">Monk.osd\robesOldBaseShape</Data>
+        </Slider>
+        <Slider name="BodyZap" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRBodyZap" target="BaseShapeHR" local="true">Blind Moth Priest.osd\BaseShapeHRBodyZap</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSHSymmetry" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSHSymmetry</Data>
+            <Data name="robesBreastsNewSHSymmetry" target="robes">Monk.osd\robesBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastSideShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastSideShape</Data>
+            <Data name="robesBreastSideShape" target="robes">Monk.osd\robesBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastUnderDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastUnderDepth</Data>
+            <Data name="robesBreastUnderDepth" target="robes">Monk.osd\robesBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7BLeg_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7BLeg_v2</Data>
+            <Data name="robes7BLeg_v2" target="robes">Monk.osd\robes7BLeg_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRArmpitShape_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRArmpitShape_v2</Data>
+            <Data name="robesArmpitShape_v2" target="robes">Monk.osd\robesArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackValley_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackValley_v2</Data>
+            <Data name="robesBackValley_v2" target="robes">Monk.osd\robesBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackWing_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackWing_v2</Data>
+            <Data name="robesBackWing_v2" target="robes">Monk.osd\robesBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontDownFat_v2</Data>
+            <Data name="robesBellyFrontDownFat_v2" target="robes">Monk.osd\robesBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontUpFat_v2</Data>
+            <Data name="robesBellyFrontUpFat_v2" target="robes">Monk.osd\robesBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideDownFat_v2</Data>
+            <Data name="robesBellySideDownFat_v2" target="robes">Monk.osd\robesBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideUpFat_v2</Data>
+            <Data name="robesBellySideUpFat_v2" target="robes">Monk.osd\robesBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyUnder_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyUnder_v2</Data>
+            <Data name="robesBellyUnder_v2" target="robes">Monk.osd\robesBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsConverage_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsConverage_v2</Data>
+            <Data name="robesBreastsConverage_v2" target="robes">Monk.osd\robesBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsPressed_v2</Data>
+            <Data name="robesBreastsPressed_v2" target="robes">Monk.osd\robesBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtNarrow_v2</Data>
+            <Data name="robesButtNarrow_v2" target="robes">Monk.osd\robesButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtPressed_v2</Data>
+            <Data name="robesButtPressed_v2" target="robes">Monk.osd\robesButtPressed_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfFBThicc_v2</Data>
+            <Data name="robesCalfFBThicc_v2" target="robes">Monk.osd\robesCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRClavicle_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRClavicle_v2</Data>
+            <Data name="robesClavicle_v2" target="robes">Monk.osd\robesClavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipNarrow_v2</Data>
+            <Data name="robesHipNarrow_v2" target="robes">Monk.osd\robesHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegSpread_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegSpread_v2</Data>
+            <Data name="robesLegSpread_v2" target="robes">Monk.osd\robesLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleBack_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleBack_v2</Data>
+            <Data name="robesMuscleBack_v2" target="robes">Monk.osd\robesMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreAbs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreAbs_v2</Data>
+            <Data name="robesMuscleMoreAbs_v2" target="robes">Monk.osd\robesMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreArms_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreArms_v2</Data>
+            <Data name="robesMuscleMoreArms_v2" target="robes">Monk.osd\robesMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreLegs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreLegs_v2</Data>
+            <Data name="robesMuscleMoreLegs_v2" target="robes">Monk.osd\robesMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsMore_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsMore_v2</Data>
+            <Data name="robesRibsMore_v2" target="robes">Monk.osd\robesRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighFBThicc_v2</Data>
+            <Data name="robesThighFBThicc_v2" target="robes">Monk.osd\robesThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighOutsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighOutsideThicc_v2</Data>
+            <Data name="robesThighOutsideThicc_v2" target="robes">Monk.osd\robesThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPHip_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRUNPHip_v2</Data>
+            <Data name="robesUNPHip_v2" target="robes">Monk.osd\robesUNPHip_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Dawnguard - Body - Prisoner Bloody (Physics)">
+        <DataFolder>CBBE Dawnguard Physics\Body</DataFolder>
+        <SourceFile>Prisoner Bloody.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\prisoner</OutputPath>
+        <OutputFile GenWeights="true">prisonerclothesbloody_f</OutputFile>
+        <Shape target="Bra" DataFolder="CBBE Dawnguard\Body">Bra</Shape>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="clothes" DataFolder="CBBE Dawnguard\Body">clothes</Shape>
+        <Shape target="clothes_underwear" DataFolder="CBBE Dawnguard\Body">clothes_underwear</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="clothesAnkleSize" target="clothes">Prisoner Bloody.osd\clothesAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="clothesAppleCheeks" target="clothes">Prisoner Bloody.osd\clothesAppleCheeks</Data>
+            <Data name="clothes_underwearAppleCheeks" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearAppleCheeks</Data>
+            <Data name="BraAppleCheeks" target="Bra">Prisoner Bloody.osd\BraAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+            <Data name="clothesArms" target="clothes">Prisoner Bloody.osd\clothesArms</Data>
+            <Data name="clothes_underwearArms" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearArms</Data>
+            <Data name="BraArms" target="Bra">Prisoner Bloody.osd\BraArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="clothesBack" target="clothes">Prisoner Bloody.osd\clothesBack</Data>
+            <Data name="clothes_underwearBack" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBack</Data>
+            <Data name="BraBack" target="Bra">Prisoner Bloody.osd\BraBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="clothesBackArch" target="clothes">Prisoner Bloody.osd\clothesBackArch</Data>
+            <Data name="clothes_underwearBackArch" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBackArch</Data>
+            <Data name="BraBackArch" target="Bra">Prisoner Bloody.osd\BraBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="clothesBelly" target="clothes">Prisoner Bloody.osd\clothesBelly</Data>
+            <Data name="BraBelly" target="Bra">Prisoner Bloody.osd\BraBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="clothesBigBelly" target="clothes">Prisoner Bloody.osd\clothesBigBelly</Data>
+            <Data name="BraBigBelly" target="Bra">Prisoner Bloody.osd\BraBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="clothesBigButt" target="clothes">Prisoner Bloody.osd\clothesBigButt</Data>
+            <Data name="BraBigButt" target="Bra">Prisoner Bloody.osd\BraBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="clothesBigTorso" target="clothes">Prisoner Bloody.osd\clothesBigTorso</Data>
+            <Data name="clothes_underwearBigTorso" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBigTorso</Data>
+            <Data name="BraBigTorso" target="Bra">Prisoner Bloody.osd\BraBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
+            <Data name="clothesBreastCenter" target="clothes">Prisoner Bloody.osd\clothesBreastCenter</Data>
+            <Data name="clothes_underwearBreastCenter" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastCenter</Data>
+            <Data name="BraBreastCenter" target="Bra">Prisoner Bloody.osd\BraBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenterBig</Data>
+            <Data name="clothesBreastCenterBig" target="clothes">Prisoner Bloody.osd\clothesBreastCenterBig</Data>
+            <Data name="BraBreastCenterBig" target="Bra">Prisoner Bloody.osd\BraBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCleavage</Data>
+            <Data name="clothesBreastCleavage" target="clothes">Prisoner Bloody.osd\clothesBreastCleavage</Data>
+            <Data name="BraBreastCleavage" target="Bra">Prisoner Bloody.osd\BraBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="clothesBreastFlatness2" target="clothes">Prisoner Bloody.osd\clothesBreastFlatness2</Data>
+            <Data name="clothes_underwearBreastFlatness2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastFlatness2</Data>
+            <Data name="BraBreastFlatness2" target="Bra">Prisoner Bloody.osd\BraBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="clothesBreastFlatness" target="clothes">Prisoner Bloody.osd\clothesBreastFlatness</Data>
+            <Data name="clothes_underwearBreastFlatness" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastFlatness</Data>
+            <Data name="BraBreastFlatness" target="Bra">Prisoner Bloody.osd\BraBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
+            <Data name="clothesBreastGravity2" target="clothes">Prisoner Bloody.osd\clothesBreastGravity2</Data>
+            <Data name="clothes_underwearBreastGravity2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastGravity2</Data>
+            <Data name="BraBreastGravity2" target="Bra">Prisoner Bloody.osd\BraBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="clothesBreastHeight" target="clothes">Prisoner Bloody.osd\clothesBreastHeight</Data>
+            <Data name="clothes_underwearBreastHeight" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastHeight</Data>
+            <Data name="BraBreastHeight" target="Bra">Prisoner Bloody.osd\BraBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="clothesBreastPerkiness" target="clothes">Prisoner Bloody.osd\clothesBreastPerkiness</Data>
+            <Data name="clothes_underwearBreastPerkiness" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastPerkiness</Data>
+            <Data name="BraBreastPerkiness" target="Bra">Prisoner Bloody.osd\BraBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+            <Data name="clothesBreasts" target="clothes">Prisoner Bloody.osd\clothesBreasts</Data>
+            <Data name="clothes_underwearBreasts" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreasts</Data>
+            <Data name="BraBreasts" target="Bra">Prisoner Bloody.osd\BraBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="clothesBreastsFantasy" target="clothes">Prisoner Bloody.osd\clothesBreastsFantasy</Data>
+            <Data name="clothes_underwearBreastsFantasy" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsFantasy</Data>
+            <Data name="BraBreastsFantasy" target="Bra">Prisoner Bloody.osd\BraBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="clothesBreastsGone" target="clothes">Prisoner Bloody.osd\clothesBreastsGone</Data>
+            <Data name="clothes_underwearBreastsGone" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsGone</Data>
+            <Data name="BraBreastsGone" target="Bra">Prisoner Bloody.osd\BraBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="clothesBreastsNewSH" target="clothes">Prisoner Bloody.osd\clothesBreastsNewSH</Data>
+            <Data name="clothes_underwearBreastsNewSH" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsNewSH</Data>
+            <Data name="BraBreastsNewSH" target="Bra">Prisoner Bloody.osd\BraBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="clothesBreastsSmall" target="clothes">Prisoner Bloody.osd\clothesBreastsSmall</Data>
+            <Data name="clothes_underwearBreastsSmall" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsSmall</Data>
+            <Data name="BraBreastsSmall" target="Bra">Prisoner Bloody.osd\BraBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="clothesBreastsSmall2" target="clothes">Prisoner Bloody.osd\clothesBreastsSmall2</Data>
+            <Data name="clothes_underwearBreastsSmall2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsSmall2</Data>
+            <Data name="BraBreastsSmall2" target="Bra">Prisoner Bloody.osd\BraBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="clothesBreastsTogether" target="clothes">Prisoner Bloody.osd\clothesBreastsTogether</Data>
+            <Data name="clothes_underwearBreastsTogether" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsTogether</Data>
+            <Data name="BraBreastsTogether" target="Bra">Prisoner Bloody.osd\BraBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="clothesBreastTopSlope" target="clothes">Prisoner Bloody.osd\clothesBreastTopSlope</Data>
+            <Data name="clothes_underwearBreastTopSlope" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastTopSlope</Data>
+            <Data name="BraBreastTopSlope" target="Bra">Prisoner Bloody.osd\BraBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="clothesBreastWidth" target="clothes">Prisoner Bloody.osd\clothesBreastWidth</Data>
+            <Data name="clothes_underwearBreastWidth" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastWidth</Data>
+            <Data name="BraBreastWidth" target="Bra">Prisoner Bloody.osd\BraBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="clothesButt" target="clothes">Prisoner Bloody.osd\clothesButt</Data>
+            <Data name="BraButt" target="Bra">Prisoner Bloody.osd\BraButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="clothesButtClassic" target="clothes">Prisoner Bloody.osd\clothesButtClassic</Data>
+            <Data name="clothes_underwearButtClassic" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearButtClassic</Data>
+            <Data name="BraButtClassic" target="Bra">Prisoner Bloody.osd\BraButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtCrack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtCrack</Data>
+            <Data name="clothesButtCrack" target="clothes">Prisoner Bloody.osd\clothesButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="clothesButtShape2" target="clothes">Prisoner Bloody.osd\clothesButtShape2</Data>
+            <Data name="clothes_underwearButtShape2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearButtShape2</Data>
+            <Data name="BraButtShape2" target="Bra">Prisoner Bloody.osd\BraButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="clothesButtSmall" target="clothes">Prisoner Bloody.osd\clothesButtSmall</Data>
+            <Data name="BraButtSmall" target="Bra">Prisoner Bloody.osd\BraButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+            <Data name="clothesCalfSize" target="clothes">Prisoner Bloody.osd\clothesCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="clothesCalfSmooth" target="clothes">Prisoner Bloody.osd\clothesCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="clothesChestDepth" target="clothes">Prisoner Bloody.osd\clothesChestDepth</Data>
+            <Data name="clothes_underwearChestDepth" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearChestDepth</Data>
+            <Data name="BraChestDepth" target="Bra">Prisoner Bloody.osd\BraChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="clothesChestWidth" target="clothes">Prisoner Bloody.osd\clothesChestWidth</Data>
+            <Data name="clothes_underwearChestWidth" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearChestWidth</Data>
+            <Data name="BraChestWidth" target="Bra">Prisoner Bloody.osd\BraChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="clothesChubbyArms" target="clothes">Prisoner Bloody.osd\clothesChubbyArms</Data>
+            <Data name="clothes_underwearChubbyArms" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearChubbyArms</Data>
+            <Data name="BraChubbyArms" target="Bra">Prisoner Bloody.osd\BraChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="clothesChubbyButt" target="clothes">Prisoner Bloody.osd\clothesChubbyButt</Data>
+            <Data name="clothes_underwearChubbyButt" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearChubbyButt</Data>
+            <Data name="BraChubbyButt" target="Bra">Prisoner Bloody.osd\BraChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="clothesChubbyLegs" target="clothes">Prisoner Bloody.osd\clothesChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="clothesChubbyWaist" target="clothes">Prisoner Bloody.osd\clothesChubbyWaist</Data>
+            <Data name="clothes_underwearChubbyWaist" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearChubbyWaist</Data>
+            <Data name="BraChubbyWaist" target="Bra">Prisoner Bloody.osd\BraChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchBack</Data>
+            <Data name="clothesCrotchBack" target="clothes">Prisoner Bloody.osd\clothesCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="clothesDoubleMelon" target="clothes">Prisoner Bloody.osd\clothesDoubleMelon</Data>
+            <Data name="clothes_underwearDoubleMelon" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearDoubleMelon</Data>
+            <Data name="BraDoubleMelon" target="Bra">Prisoner Bloody.osd\BraDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRGroin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRGroin</Data>
+            <Data name="clothesGroin" target="clothes">Prisoner Bloody.osd\clothesGroin</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="clothesHipBone" target="clothes">Prisoner Bloody.osd\clothesHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="clothesHipForward" target="clothes">Prisoner Bloody.osd\clothesHipForward</Data>
+            <Data name="clothes_underwearHipForward" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearHipForward</Data>
+            <Data name="BraHipForward" target="Bra">Prisoner Bloody.osd\BraHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="clothesHips" target="clothes">Prisoner Bloody.osd\clothesHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="clothesHipUpperWidth" target="clothes">Prisoner Bloody.osd\clothesHipUpperWidth</Data>
+            <Data name="BraHipUpperWidth" target="Bra">Prisoner Bloody.osd\BraHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
+            <Data name="clothesKneeHeight" target="clothes">Prisoner Bloody.osd\clothesKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
+            <Data name="clothesKneeShape" target="clothes">Prisoner Bloody.osd\clothesKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="clothesLegShapeClassic" target="clothes">Prisoner Bloody.osd\clothesLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="clothesLegsThin" target="clothes">Prisoner Bloody.osd\clothesLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="clothesMuscleAbs" target="clothes">Prisoner Bloody.osd\clothesMuscleAbs</Data>
+            <Data name="BraMuscleAbs" target="Bra">Prisoner Bloody.osd\BraMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="clothesMuscleArms" target="clothes">Prisoner Bloody.osd\clothesMuscleArms</Data>
+            <Data name="clothes_underwearMuscleArms" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearMuscleArms</Data>
+            <Data name="BraMuscleArms" target="Bra">Prisoner Bloody.osd\BraMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="clothesMuscleButt" target="clothes">Prisoner Bloody.osd\clothesMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="clothesMuscleLegs" target="clothes">Prisoner Bloody.osd\clothesMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="clothesMusclePecs" target="clothes">Prisoner Bloody.osd\clothesMusclePecs</Data>
+            <Data name="clothes_underwearMusclePecs" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearMusclePecs</Data>
+            <Data name="BraMusclePecs" target="Bra">Prisoner Bloody.osd\BraMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="clothesNeckSeam" target="clothes">Prisoner Bloody.osd\clothesNeckSeam</Data>
+            <Data name="clothes_underwearNeckSeam" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearNeckSeam</Data>
+            <Data name="BraNeckSeam" target="Bra">Prisoner Bloody.osd\BraNeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDown" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDown</Data>
+            <Data name="clothes_underwearNippleDown" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearNippleDown</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePerkManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePerkManga</Data>
+            <Data name="clothesNipplePerkManga" target="clothes">Prisoner Bloody.osd\clothesNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleUp</Data>
+            <Data name="clothes_underwearNippleUp" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearNippleUp</Data>
+            <Data name="BraNippleUp" target="Bra">Prisoner Bloody.osd\BraNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="clothesPregnancyBelly" target="clothes">Prisoner Bloody.osd\clothesPregnancyBelly</Data>
+            <Data name="clothes_underwearPregnancyBelly" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearPregnancyBelly</Data>
+            <Data name="BraPregnancyBelly" target="Bra">Prisoner Bloody.osd\BraPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+            <Data name="clothesPushUp" target="clothes">Prisoner Bloody.osd\clothesPushUp</Data>
+            <Data name="clothes_underwearPushUp" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearPushUp</Data>
+            <Data name="BraPushUp" target="Bra">Prisoner Bloody.osd\BraPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="clothesRibsProminance" target="clothes">Prisoner Bloody.osd\clothesRibsProminance</Data>
+            <Data name="clothes_underwearRibsProminance" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearRibsProminance</Data>
+            <Data name="BraRibsProminance" target="Bra">Prisoner Bloody.osd\BraRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="clothesRoundAss" target="clothes">Prisoner Bloody.osd\clothesRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="clothesShoulderSmooth" target="clothes">Prisoner Bloody.osd\clothesShoulderSmooth</Data>
+            <Data name="clothes_underwearShoulderSmooth" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearShoulderSmooth</Data>
+            <Data name="BraShoulderSmooth" target="Bra">Prisoner Bloody.osd\BraShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="clothesShoulderTweak" target="clothes">Prisoner Bloody.osd\clothesShoulderTweak</Data>
+            <Data name="clothes_underwearShoulderTweak" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearShoulderTweak</Data>
+            <Data name="BraShoulderTweak" target="Bra">Prisoner Bloody.osd\BraShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="clothesShoulderWidth" target="clothes">Prisoner Bloody.osd\clothesShoulderWidth</Data>
+            <Data name="clothes_underwearShoulderWidth" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearShoulderWidth</Data>
+            <Data name="BraShoulderWidth" target="Bra">Prisoner Bloody.osd\BraShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="clothesSlimThighs" target="clothes">Prisoner Bloody.osd\clothesSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumHeight</Data>
+            <Data name="clothesSternumHeight" target="clothes">Prisoner Bloody.osd\clothesSternumHeight</Data>
+            <Data name="BraSternumHeight" target="Bra">Prisoner Bloody.osd\BraSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="clothesThighs" target="clothes">Prisoner Bloody.osd\clothesThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="clothesTummyTuck" target="clothes">Prisoner Bloody.osd\clothesTummyTuck</Data>
+            <Data name="BraTummyTuck" target="Bra">Prisoner Bloody.osd\BraTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="clothesWaist" target="clothes">Prisoner Bloody.osd\clothesWaist</Data>
+            <Data name="clothes_underwearWaist" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearWaist</Data>
+            <Data name="BraWaist" target="Bra">Prisoner Bloody.osd\BraWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="clothesWaistHeight" target="clothes">Prisoner Bloody.osd\clothesWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="clothesWideWaistLine" target="clothes">Prisoner Bloody.osd\clothesWideWaistLine</Data>
+            <Data name="clothes_underwearWideWaistLine" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearWideWaistLine</Data>
+            <Data name="BraWideWaistLine" target="Bra">Prisoner Bloody.osd\BraWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="clothes7B Lower" target="clothes">Prisoner Bloody.osd\clothes7B Lower</Data>
+            <Data name="clothes_underwear7B Lower" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwear7B Lower</Data>
+            <Data name="Bra7B Lower" target="Bra">Prisoner Bloody.osd\Bra7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+            <Data name="clothes7B Upper" target="clothes">Prisoner Bloody.osd\clothes7B Upper</Data>
+            <Data name="clothes_underwear7B Upper" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwear7B Upper</Data>
+            <Data name="Bra7B Upper" target="Bra">Prisoner Bloody.osd\Bra7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="clothesVanillaSSEHi" target="clothes">Prisoner Bloody.osd\clothesVanillaSSEHi</Data>
+            <Data name="clothes_underwearVanillaSSEHi" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearVanillaSSEHi</Data>
+            <Data name="BraVanillaSSEHi" target="Bra">Prisoner Bloody.osd\BraVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="clothesVanillaSSELo" target="clothes">Prisoner Bloody.osd\clothesVanillaSSELo</Data>
+            <Data name="clothes_underwearVanillaSSELo" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearVanillaSSELo</Data>
+            <Data name="BraVanillaSSELo" target="Bra">Prisoner Bloody.osd\BraVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="clothesOldBaseShape" target="clothes">Prisoner Bloody.osd\clothesOldBaseShape</Data>
+            <Data name="clothes_underwearOldBaseShape" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearOldBaseShape</Data>
+            <Data name="BraOldBaseShape" target="Bra">Prisoner Bloody.osd\BraOldBaseShape</Data>
+        </Slider>
+        <Slider name="BodyZap" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRBodyZap" target="BaseShapeHR" local="true">Prisoner Bloody.osd\BaseShapeHRBodyZap</Data>
+        </Slider>
+        <Slider name="Remove Straps" invert="false" small="0" big="0" zap="true">
+            <Data name="clothes_underwearRemove Straps" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearRemove Straps</Data>
+        </Slider>
+        <Slider name="Remove Top" invert="false" small="0" big="0" zap="true" zaptoggles="ShowBra;GaplessPants;NoStraps;TopBodyZap;">
+            <Data name="clothesRemove Top" target="clothes">Prisoner Bloody.osd\clothesRemove Top</Data>
+        </Slider>
+        <Slider name="ShowBra" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BraShowBra" target="Bra">Prisoner Bloody.osd\BraShowBra</Data>
+        </Slider>
+        <Slider name="GaplessPants" invert="false" small="0" big="0" hidden="true">
+            <Data name="clothesGaplessPants" target="clothes">Prisoner Bloody.osd\clothesGaplessPants</Data>
+        </Slider>
+        <Slider name="NoStraps" invert="false" small="0" big="0" hidden="true" zap="true">
+            <Data name="clothes_underwearNoStraps" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearNoStraps</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSHSymmetry" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSHSymmetry</Data>
+            <Data name="clothesBreastsNewSHSymmetry" target="clothes">Prisoner Bloody.osd\clothesBreastsNewSHSymmetry</Data>
+            <Data name="clothes_underwearBreastsNewSHSymmetry" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsNewSHSymmetry</Data>
+            <Data name="BraBreastsNewSHSymmetry" target="Bra">Prisoner Bloody.osd\BraBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="Remove Bra" invert="false" small="0" big="0" zap="true" zaptoggles="HideNip;">
+            <Data name="BraRemove Bra" target="Bra">Prisoner Bloody.osd\BraRemove Bra</Data>
+        </Slider>
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaSize</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastSideShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastSideShape</Data>
+            <Data name="clothesBreastSideShape" target="clothes">Prisoner Bloody.osd\clothesBreastSideShape</Data>
+            <Data name="clothes_underwearBreastSideShape" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastSideShape</Data>
+            <Data name="BraBreastSideShape" target="Bra">Prisoner Bloody.osd\BraBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastUnderDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastUnderDepth</Data>
+            <Data name="clothesBreastUnderDepth" target="clothes">Prisoner Bloody.osd\clothesBreastUnderDepth</Data>
+            <Data name="BraBreastUnderDepth" target="Bra">Prisoner Bloody.osd\BraBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtDimples" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtDimples</Data>
+            <Data name="clothesButtDimples" target="clothes">Prisoner Bloody.osd\clothesButtDimples</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtUnderFold" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtUnderFold</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipCarved" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipCarved</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNavelEven" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNavelEven</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipBGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDistance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleLength" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTip" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTipManga" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleDip" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleDip" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleDip</Data>
+        </Slider>
+        <Slider name="HideNip" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRHideNip" target="BaseShapeHR" local="true">Prisoner Bloody.osd\BaseShapeHRHideNip</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7BLeg_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7BLeg_v2</Data>
+            <Data name="clothes7BLeg_v2" target="clothes">Prisoner Bloody.osd\clothes7BLeg_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAreolaPull_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRArmpitShape_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRArmpitShape_v2</Data>
+            <Data name="clothesArmpitShape_v2" target="clothes">Prisoner Bloody.osd\clothesArmpitShape_v2</Data>
+            <Data name="clothes_underwearArmpitShape_v2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearArmpitShape_v2</Data>
+            <Data name="BraArmpitShape_v2" target="Bra">Prisoner Bloody.osd\BraArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackValley_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackValley_v2</Data>
+            <Data name="clothesBackValley_v2" target="clothes">Prisoner Bloody.osd\clothesBackValley_v2</Data>
+            <Data name="BraBackValley_v2" target="Bra">Prisoner Bloody.osd\BraBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackWing_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackWing_v2</Data>
+            <Data name="clothesBackWing_v2" target="clothes">Prisoner Bloody.osd\clothesBackWing_v2</Data>
+            <Data name="clothes_underwearBackWing_v2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBackWing_v2</Data>
+            <Data name="BraBackWing_v2" target="Bra">Prisoner Bloody.osd\BraBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontDownFat_v2</Data>
+            <Data name="clothesBellyFrontDownFat_v2" target="clothes">Prisoner Bloody.osd\clothesBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontUpFat_v2</Data>
+            <Data name="clothesBellyFrontUpFat_v2" target="clothes">Prisoner Bloody.osd\clothesBellyFrontUpFat_v2</Data>
+            <Data name="BraBellyFrontUpFat_v2" target="Bra">Prisoner Bloody.osd\BraBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideDownFat_v2</Data>
+            <Data name="clothesBellySideDownFat_v2" target="clothes">Prisoner Bloody.osd\clothesBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideUpFat_v2</Data>
+            <Data name="clothesBellySideUpFat_v2" target="clothes">Prisoner Bloody.osd\clothesBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyUnder_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyUnder_v2</Data>
+            <Data name="clothesBellyUnder_v2" target="clothes">Prisoner Bloody.osd\clothesBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsConverage_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsConverage_v2</Data>
+            <Data name="clothesBreastsConverage_v2" target="clothes">Prisoner Bloody.osd\clothesBreastsConverage_v2</Data>
+            <Data name="BraBreastsConverage_v2" target="Bra">Prisoner Bloody.osd\BraBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsPressed_v2</Data>
+            <Data name="clothesBreastsPressed_v2" target="clothes">Prisoner Bloody.osd\clothesBreastsPressed_v2</Data>
+            <Data name="clothes_underwearBreastsPressed_v2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearBreastsPressed_v2</Data>
+            <Data name="BraBreastsPressed_v2" target="Bra">Prisoner Bloody.osd\BraBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtNarrow_v2</Data>
+            <Data name="clothesButtNarrow_v2" target="clothes">Prisoner Bloody.osd\clothesButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtPressed_v2</Data>
+            <Data name="clothesButtPressed_v2" target="clothes">Prisoner Bloody.osd\clothesButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSaggy_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSaggy_v2</Data>
+            <Data name="clothesButtSaggy_v2" target="clothes">Prisoner Bloody.osd\clothesButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCBPC" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCBPC</Data>
+            <Data name="clothesCBPC" target="clothes">Prisoner Bloody.osd\clothesCBPC</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfFBThicc_v2</Data>
+            <Data name="clothesCalfFBThicc_v2" target="clothes">Prisoner Bloody.osd\clothesCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRClavicle_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRClavicle_v2</Data>
+            <Data name="clothesClavicle_v2" target="clothes">Prisoner Bloody.osd\clothesClavicle_v2</Data>
+            <Data name="clothes_underwearClavicle_v2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearClavicle_v2</Data>
+            <Data name="BraClavicle_v2" target="Bra">Prisoner Bloody.osd\BraClavicle_v2</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchGap" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchGap</Data>
+            <Data name="clothesCrotchGap" target="clothes">Prisoner Bloody.osd\clothesCrotchGap</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCutepuffyness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCutepuffyness</Data>
+            <Data name="clothesCutepuffyness" target="clothes">Prisoner Bloody.osd\clothesCutepuffyness</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipNarrow_v2</Data>
+            <Data name="clothesHipNarrow_v2" target="clothes">Prisoner Bloody.osd\clothesHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeTogether_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeTogether_v2</Data>
+            <Data name="clothesKneeTogether_v2" target="clothes">Prisoner Bloody.osd\clothesKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegSpread_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegSpread_v2</Data>
+            <Data name="clothesLegSpread_v2" target="clothes">Prisoner Bloody.osd\clothesLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleBack_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleBack_v2</Data>
+            <Data name="clothesMuscleBack_v2" target="clothes">Prisoner Bloody.osd\clothesMuscleBack_v2</Data>
+            <Data name="clothes_underwearMuscleBack_v2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearMuscleBack_v2</Data>
+            <Data name="BraMuscleBack_v2" target="Bra">Prisoner Bloody.osd\BraMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreAbs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreAbs_v2</Data>
+            <Data name="clothesMuscleMoreAbs_v2" target="clothes">Prisoner Bloody.osd\clothesMuscleMoreAbs_v2</Data>
+            <Data name="BraMuscleMoreAbs_v2" target="Bra">Prisoner Bloody.osd\BraMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreArms_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreArms_v2</Data>
+            <Data name="clothesMuscleMoreArms_v2" target="clothes">Prisoner Bloody.osd\clothesMuscleMoreArms_v2</Data>
+            <Data name="clothes_underwearMuscleMoreArms_v2" target="clothes_underwear">Prisoner Bloody.osd\clothes_underwearMuscleMoreArms_v2</Data>
+            <Data name="BraMuscleMoreArms_v2" target="Bra">Prisoner Bloody.osd\BraMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreLegs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreLegs_v2</Data>
+            <Data name="clothesMuscleMoreLegs_v2" target="clothes">Prisoner Bloody.osd\clothesMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="NippleInvert_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleInvert_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleInvert_v2</Data>
+        </Slider>
+        <Slider name="NipplePuffy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNipplePuffy_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNipplePuffy_v2</Data>
+        </Slider>
+        <Slider name="NippleShy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleShy_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleShy_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash1_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSquash1_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleSquash1_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash2_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleSquash2_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleSquash2_v2</Data>
+        </Slider>
+        <Slider name="NippleThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleThicc_v2</Data>
+        </Slider>
+        <Slider name="NippleTube_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRNippleTube_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNippleTube_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsMore_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsMore_v2</Data>
+            <Data name="clothesRibsMore_v2" target="clothes">Prisoner Bloody.osd\clothesRibsMore_v2</Data>
+            <Data name="BraRibsMore_v2" target="Bra">Prisoner Bloody.osd\BraRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighFBThicc_v2</Data>
+            <Data name="clothesThighFBThicc_v2" target="clothes">Prisoner Bloody.osd\clothesThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighInsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighInsideThicc_v2</Data>
+            <Data name="clothesThighInsideThicc_v2" target="clothes">Prisoner Bloody.osd\clothesThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighOutsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighOutsideThicc_v2</Data>
+            <Data name="clothesThighOutsideThicc_v2" target="clothes">Prisoner Bloody.osd\clothesThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPHip_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRUNPHip_v2</Data>
+            <Data name="clothesUNPHip_v2" target="clothes">Prisoner Bloody.osd\clothesUNPHip_v2</Data>
+            <Data name="BraUNPHip_v2" target="Bra">Prisoner Bloody.osd\BraUNPHip_v2</Data>
+        </Slider>
+        <Slider name="TopBodyZap" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRTopBodyZap" target="BaseShapeHR" local="true">Prisoner Bloody.osd\BaseShapeHRTopBodyZap</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Dawnguard - Body - Vampire Robes (Physics)">
+        <DataFolder>CBBE Dawnguard Physics\Body</DataFolder>
+        <SourceFile>Vampire Robes.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampclothes</OutputPath>
+        <OutputFile GenWeights="true">vampclothesf</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="accesories" DataFolder="CBBE Dawnguard\Body">accesories</Shape>
+        <Shape target="outfit_1" DataFolder="CBBE Dawnguard\Body">outfit_1</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="outfit_1AnkleSize" target="outfit_1">Vampire Robes.osd\outfit_1AnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="outfit_1AppleCheeks" target="outfit_1">Vampire Robes.osd\outfit_1AppleCheeks</Data>
+            <Data name="accesoriesAppleCheeks" target="accesories">Vampire Robes.osd\accesoriesAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+            <Data name="outfit_1Arms" target="outfit_1">Vampire Robes.osd\outfit_1Arms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="outfit_1Back" target="outfit_1">Vampire Robes.osd\outfit_1Back</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="outfit_1BackArch" target="outfit_1">Vampire Robes.osd\outfit_1BackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="outfit_1Belly" target="outfit_1">Vampire Robes.osd\outfit_1Belly</Data>
+            <Data name="accesoriesBelly" target="accesories">Vampire Robes.osd\accesoriesBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="outfit_1BigBelly" target="outfit_1">Vampire Robes.osd\outfit_1BigBelly</Data>
+            <Data name="accesoriesBigBelly" target="accesories">Vampire Robes.osd\accesoriesBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="outfit_1BigButt" target="outfit_1">Vampire Robes.osd\outfit_1BigButt</Data>
+            <Data name="accesoriesBigButt" target="accesories">Vampire Robes.osd\accesoriesBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="outfit_1BigTorso" target="outfit_1">Vampire Robes.osd\outfit_1BigTorso</Data>
+            <Data name="accesoriesBigTorso" target="accesories">Vampire Robes.osd\accesoriesBigTorso</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="outfit_1BreastFlatness2" target="outfit_1">Vampire Robes.osd\outfit_1BreastFlatness2</Data>
+            <Data name="accesoriesBreastFlatness2" target="accesories">Vampire Robes.osd\accesoriesBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="outfit_1BreastFlatness" target="outfit_1">Vampire Robes.osd\outfit_1BreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
+            <Data name="outfit_1BreastGravity2" target="outfit_1">Vampire Robes.osd\outfit_1BreastGravity2</Data>
+            <Data name="accesoriesBreastGravity2" target="accesories">Vampire Robes.osd\accesoriesBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="outfit_1BreastHeight" target="outfit_1">Vampire Robes.osd\outfit_1BreastHeight</Data>
+            <Data name="accesoriesBreastHeight" target="accesories">Vampire Robes.osd\accesoriesBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="outfit_1BreastPerkiness" target="outfit_1">Vampire Robes.osd\outfit_1BreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+            <Data name="outfit_1Breasts" target="outfit_1">Vampire Robes.osd\outfit_1Breasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="outfit_1BreastsFantasy" target="outfit_1">Vampire Robes.osd\outfit_1BreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="outfit_1BreastsGone" target="outfit_1">Vampire Robes.osd\outfit_1BreastsGone</Data>
+            <Data name="accesoriesBreastsGone" target="accesories">Vampire Robes.osd\accesoriesBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="outfit_1BreastsNewSH" target="outfit_1">Vampire Robes.osd\outfit_1BreastsNewSH</Data>
+            <Data name="accesoriesBreastsNewSH" target="accesories">Vampire Robes.osd\accesoriesBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="outfit_1BreastsSmall" target="outfit_1">Vampire Robes.osd\outfit_1BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="outfit_1BreastsSmall2" target="outfit_1">Vampire Robes.osd\outfit_1BreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="outfit_1BreastsTogether" target="outfit_1">Vampire Robes.osd\outfit_1BreastsTogether</Data>
+            <Data name="accesoriesBreastsTogether" target="accesories">Vampire Robes.osd\accesoriesBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="outfit_1BreastTopSlope" target="outfit_1">Vampire Robes.osd\outfit_1BreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="outfit_1BreastWidth" target="outfit_1">Vampire Robes.osd\outfit_1BreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="outfit_1Butt" target="outfit_1">Vampire Robes.osd\outfit_1Butt</Data>
+            <Data name="accesoriesButt" target="accesories">Vampire Robes.osd\accesoriesButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="outfit_1ButtClassic" target="outfit_1">Vampire Robes.osd\outfit_1ButtClassic</Data>
+            <Data name="accesoriesButtClassic" target="accesories">Vampire Robes.osd\accesoriesButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="outfit_1ButtShape2" target="outfit_1">Vampire Robes.osd\outfit_1ButtShape2</Data>
+            <Data name="accesoriesButtShape2" target="accesories">Vampire Robes.osd\accesoriesButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="outfit_1ButtSmall" target="outfit_1">Vampire Robes.osd\outfit_1ButtSmall</Data>
+            <Data name="accesoriesButtSmall" target="accesories">Vampire Robes.osd\accesoriesButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+            <Data name="outfit_1CalfSize" target="outfit_1">Vampire Robes.osd\outfit_1CalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="outfit_1CalfSmooth" target="outfit_1">Vampire Robes.osd\outfit_1CalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="outfit_1ChestDepth" target="outfit_1">Vampire Robes.osd\outfit_1ChestDepth</Data>
+            <Data name="accesoriesChestDepth" target="accesories">Vampire Robes.osd\accesoriesChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="outfit_1ChestWidth" target="outfit_1">Vampire Robes.osd\outfit_1ChestWidth</Data>
+            <Data name="accesoriesChestWidth" target="accesories">Vampire Robes.osd\accesoriesChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="outfit_1ChubbyArms" target="outfit_1">Vampire Robes.osd\outfit_1ChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="outfit_1ChubbyButt" target="outfit_1">Vampire Robes.osd\outfit_1ChubbyButt</Data>
+            <Data name="accesoriesChubbyButt" target="accesories">Vampire Robes.osd\accesoriesChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="outfit_1ChubbyLegs" target="outfit_1">Vampire Robes.osd\outfit_1ChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="outfit_1ChubbyWaist" target="outfit_1">Vampire Robes.osd\outfit_1ChubbyWaist</Data>
+            <Data name="accesoriesChubbyWaist" target="accesories">Vampire Robes.osd\accesoriesChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="outfit_1DoubleMelon" target="outfit_1">Vampire Robes.osd\outfit_1DoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+            <Data name="outfit_1ForearmSize" target="outfit_1">Vampire Robes.osd\outfit_1ForearmSize</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="outfit_1HipBone" target="outfit_1">Vampire Robes.osd\outfit_1HipBone</Data>
+            <Data name="accesoriesHipBone" target="accesories">Vampire Robes.osd\accesoriesHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="outfit_1HipForward" target="outfit_1">Vampire Robes.osd\outfit_1HipForward</Data>
+            <Data name="accesoriesHipForward" target="accesories">Vampire Robes.osd\accesoriesHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="outfit_1Hips" target="outfit_1">Vampire Robes.osd\outfit_1Hips</Data>
+            <Data name="accesoriesHips" target="accesories">Vampire Robes.osd\accesoriesHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="outfit_1HipUpperWidth" target="outfit_1">Vampire Robes.osd\outfit_1HipUpperWidth</Data>
+            <Data name="accesoriesHipUpperWidth" target="accesories">Vampire Robes.osd\accesoriesHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="outfit_1LegShapeClassic" target="outfit_1">Vampire Robes.osd\outfit_1LegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="outfit_1LegsThin" target="outfit_1">Vampire Robes.osd\outfit_1LegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="outfit_1MuscleAbs" target="outfit_1">Vampire Robes.osd\outfit_1MuscleAbs</Data>
+            <Data name="accesoriesMuscleAbs" target="accesories">Vampire Robes.osd\accesoriesMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="outfit_1MuscleArms" target="outfit_1">Vampire Robes.osd\outfit_1MuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="outfit_1MuscleButt" target="outfit_1">Vampire Robes.osd\outfit_1MuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="outfit_1MuscleLegs" target="outfit_1">Vampire Robes.osd\outfit_1MuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="outfit_1MusclePecs" target="outfit_1">Vampire Robes.osd\outfit_1MusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="outfit_1NeckSeam" target="outfit_1">Vampire Robes.osd\outfit_1NeckSeam</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="outfit_1PregnancyBelly" target="outfit_1">Vampire Robes.osd\outfit_1PregnancyBelly</Data>
+            <Data name="accesoriesPregnancyBelly" target="accesories">Vampire Robes.osd\accesoriesPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+            <Data name="outfit_1PushUp" target="outfit_1">Vampire Robes.osd\outfit_1PushUp</Data>
+            <Data name="accesoriesPushUp" target="accesories">Vampire Robes.osd\accesoriesPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="outfit_1RibsProminance" target="outfit_1">Vampire Robes.osd\outfit_1RibsProminance</Data>
+            <Data name="accesoriesRibsProminance" target="accesories">Vampire Robes.osd\accesoriesRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="outfit_1RoundAss" target="outfit_1">Vampire Robes.osd\outfit_1RoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="outfit_1ShoulderSmooth" target="outfit_1">Vampire Robes.osd\outfit_1ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="outfit_1ShoulderTweak" target="outfit_1">Vampire Robes.osd\outfit_1ShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="outfit_1ShoulderWidth" target="outfit_1">Vampire Robes.osd\outfit_1ShoulderWidth</Data>
+            <Data name="accesoriesShoulderWidth" target="accesories">Vampire Robes.osd\accesoriesShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="outfit_1SlimThighs" target="outfit_1">Vampire Robes.osd\outfit_1SlimThighs</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="outfit_1Thighs" target="outfit_1">Vampire Robes.osd\outfit_1Thighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="outfit_1TummyTuck" target="outfit_1">Vampire Robes.osd\outfit_1TummyTuck</Data>
+            <Data name="accesoriesTummyTuck" target="accesories">Vampire Robes.osd\accesoriesTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="outfit_1Waist" target="outfit_1">Vampire Robes.osd\outfit_1Waist</Data>
+            <Data name="accesoriesWaist" target="accesories">Vampire Robes.osd\accesoriesWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="outfit_1WaistHeight" target="outfit_1">Vampire Robes.osd\outfit_1WaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="outfit_1WideWaistLine" target="outfit_1">Vampire Robes.osd\outfit_1WideWaistLine</Data>
+            <Data name="accesoriesWideWaistLine" target="accesories">Vampire Robes.osd\accesoriesWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+            <Data name="outfit_1WristSize" target="outfit_1">Vampire Robes.osd\outfit_1WristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="outfit_17B Lower" target="outfit_1">Vampire Robes.osd\outfit_17B Lower</Data>
+            <Data name="accesories7B Lower" target="accesories">Vampire Robes.osd\accesories7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+            <Data name="outfit_17B Upper" target="outfit_1">Vampire Robes.osd\outfit_17B Upper</Data>
+            <Data name="accesories7B Upper" target="accesories">Vampire Robes.osd\accesories7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="outfit_1VanillaSSEHi" target="outfit_1">Vampire Robes.osd\outfit_1VanillaSSEHi</Data>
+            <Data name="accesoriesVanillaSSEHi" target="accesories">Vampire Robes.osd\accesoriesVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="outfit_1VanillaSSELo" target="outfit_1">Vampire Robes.osd\outfit_1VanillaSSELo</Data>
+            <Data name="accesoriesVanillaSSELo" target="accesories">Vampire Robes.osd\accesoriesVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="outfit_1OldBaseShape" target="outfit_1">Vampire Robes.osd\outfit_1OldBaseShape</Data>
+            <Data name="accesoriesOldBaseShape" target="accesories">Vampire Robes.osd\accesoriesOldBaseShape</Data>
+        </Slider>
+        <Slider name="BodyZap" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRBodyZap" target="BaseShapeHR" local="true">Vampire Robes.osd\BaseShapeHRBodyZap</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSHSymmetry" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSHSymmetry</Data>
+            <Data name="outfit_1BreastsNewSHSymmetry" target="outfit_1">Vampire Robes.osd\outfit_1BreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastSideShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastSideShape</Data>
+            <Data name="outfit_1BreastSideShape" target="outfit_1">Vampire Robes.osd\outfit_1BreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastUnderDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastUnderDepth</Data>
+            <Data name="outfit_1BreastUnderDepth" target="outfit_1">Vampire Robes.osd\outfit_1BreastUnderDepth</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7BLeg_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7BLeg_v2</Data>
+            <Data name="outfit_17BLeg_v2" target="outfit_1">Vampire Robes.osd\outfit_17BLeg_v2</Data>
+            <Data name="accesories7BLeg_v2" target="accesories">Vampire Robes.osd\accesories7BLeg_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRArmpitShape_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRArmpitShape_v2</Data>
+            <Data name="outfit_1ArmpitShape_v2" target="outfit_1">Vampire Robes.osd\outfit_1ArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackValley_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackValley_v2</Data>
+            <Data name="outfit_1BackValley_v2" target="outfit_1">Vampire Robes.osd\outfit_1BackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackWing_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackWing_v2</Data>
+            <Data name="outfit_1BackWing_v2" target="outfit_1">Vampire Robes.osd\outfit_1BackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontDownFat_v2</Data>
+            <Data name="outfit_1BellyFrontDownFat_v2" target="outfit_1">Vampire Robes.osd\outfit_1BellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontUpFat_v2</Data>
+            <Data name="outfit_1BellyFrontUpFat_v2" target="outfit_1">Vampire Robes.osd\outfit_1BellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideDownFat_v2</Data>
+            <Data name="outfit_1BellySideDownFat_v2" target="outfit_1">Vampire Robes.osd\outfit_1BellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideUpFat_v2</Data>
+            <Data name="outfit_1BellySideUpFat_v2" target="outfit_1">Vampire Robes.osd\outfit_1BellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyUnder_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyUnder_v2</Data>
+            <Data name="outfit_1BellyUnder_v2" target="outfit_1">Vampire Robes.osd\outfit_1BellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsConverage_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsConverage_v2</Data>
+            <Data name="outfit_1BreastsConverage_v2" target="outfit_1">Vampire Robes.osd\outfit_1BreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsPressed_v2</Data>
+            <Data name="outfit_1BreastsPressed_v2" target="outfit_1">Vampire Robes.osd\outfit_1BreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtNarrow_v2</Data>
+            <Data name="outfit_1ButtNarrow_v2" target="outfit_1">Vampire Robes.osd\outfit_1ButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtPressed_v2</Data>
+            <Data name="outfit_1ButtPressed_v2" target="outfit_1">Vampire Robes.osd\outfit_1ButtPressed_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfFBThicc_v2</Data>
+            <Data name="outfit_1CalfFBThicc_v2" target="outfit_1">Vampire Robes.osd\outfit_1CalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRClavicle_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRClavicle_v2</Data>
+            <Data name="outfit_1Clavicle_v2" target="outfit_1">Vampire Robes.osd\outfit_1Clavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipNarrow_v2</Data>
+            <Data name="outfit_1HipNarrow_v2" target="outfit_1">Vampire Robes.osd\outfit_1HipNarrow_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegSpread_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegSpread_v2</Data>
+            <Data name="outfit_1LegSpread_v2" target="outfit_1">Vampire Robes.osd\outfit_1LegSpread_v2</Data>
+            <Data name="accesoriesLegSpread_v2" target="accesories">Vampire Robes.osd\accesoriesLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleBack_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleBack_v2</Data>
+            <Data name="outfit_1MuscleBack_v2" target="outfit_1">Vampire Robes.osd\outfit_1MuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreAbs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreAbs_v2</Data>
+            <Data name="outfit_1MuscleMoreAbs_v2" target="outfit_1">Vampire Robes.osd\outfit_1MuscleMoreAbs_v2</Data>
+            <Data name="accesoriesMuscleMoreAbs_v2" target="accesories">Vampire Robes.osd\accesoriesMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreArms_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreArms_v2</Data>
+            <Data name="outfit_1MuscleMoreArms_v2" target="outfit_1">Vampire Robes.osd\outfit_1MuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreLegs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreLegs_v2</Data>
+            <Data name="outfit_1MuscleMoreLegs_v2" target="outfit_1">Vampire Robes.osd\outfit_1MuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsMore_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsMore_v2</Data>
+            <Data name="outfit_1RibsMore_v2" target="outfit_1">Vampire Robes.osd\outfit_1RibsMore_v2</Data>
+            <Data name="accesoriesRibsMore_v2" target="accesories">Vampire Robes.osd\accesoriesRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighFBThicc_v2</Data>
+            <Data name="outfit_1ThighFBThicc_v2" target="outfit_1">Vampire Robes.osd\outfit_1ThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighOutsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighOutsideThicc_v2</Data>
+            <Data name="outfit_1ThighOutsideThicc_v2" target="outfit_1">Vampire Robes.osd\outfit_1ThighOutsideThicc_v2</Data>
+            <Data name="accesoriesThighOutsideThicc_v2" target="accesories">Vampire Robes.osd\accesoriesThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPHip_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRUNPHip_v2</Data>
+            <Data name="outfit_1UNPHip_v2" target="outfit_1">Vampire Robes.osd\outfit_1UNPHip_v2</Data>
+            <Data name="accesoriesUNPHip_v2" target="accesories">Vampire Robes.osd\accesoriesUNPHip_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Dawnguard - Body - Vampire Royal Robes (Physics)">
+        <DataFolder>CBBE Dawnguard Physics\Body</DataFolder>
+        <SourceFile>Vampire Royal Robes.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirerobesf</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="robes" DataFolder="CBBE Dawnguard\Body">robes</Shape>
+        <Shape target="robes_bodice" DataFolder="CBBE Dawnguard\Body">robes_bodice</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="robesAnkleSize" target="robes">Vampire Royal Robes.osd\robesAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="robesAppleCheeks" target="robes">Vampire Royal Robes.osd\robesAppleCheeks</Data>
+        </Slider>
+        <Slider name="AreolaSize" invert="false" small="0" big="0" uv="true">
+            <Data name="BaseShapeHRAreolaSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaSize</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+            <Data name="robesArms" target="robes">Vampire Royal Robes.osd\robesArms</Data>
+            <Data name="robes_bodiceArms" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="robesBack" target="robes">Vampire Royal Robes.osd\robesBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="robesBackArch" target="robes">Vampire Royal Robes.osd\robesBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="robesBelly" target="robes">Vampire Royal Robes.osd\robesBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="robesBigBelly" target="robes">Vampire Royal Robes.osd\robesBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="robesBigButt" target="robes">Vampire Royal Robes.osd\robesBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="robesBigTorso" target="robes">Vampire Royal Robes.osd\robesBigTorso</Data>
+            <Data name="robes_bodiceBigTorso" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
+            <Data name="robesBreastCenter" target="robes">Vampire Royal Robes.osd\robesBreastCenter</Data>
+            <Data name="robes_bodiceBreastCenter" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenterBig</Data>
+            <Data name="robesBreastCenterBig" target="robes">Vampire Royal Robes.osd\robesBreastCenterBig</Data>
+            <Data name="robes_bodiceBreastCenterBig" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCleavage</Data>
+            <Data name="robesBreastCleavage" target="robes">Vampire Royal Robes.osd\robesBreastCleavage</Data>
+            <Data name="robes_bodiceBreastCleavage" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="robesBreastFlatness2" target="robes">Vampire Royal Robes.osd\robesBreastFlatness2</Data>
+            <Data name="robes_bodiceBreastFlatness2" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="robesBreastFlatness" target="robes">Vampire Royal Robes.osd\robesBreastFlatness</Data>
+            <Data name="robes_bodiceBreastFlatness" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastGravity2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastGravity2</Data>
+            <Data name="robesBreastGravity2" target="robes">Vampire Royal Robes.osd\robesBreastGravity2</Data>
+            <Data name="robes_bodiceBreastGravity2" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="robesBreastHeight" target="robes">Vampire Royal Robes.osd\robesBreastHeight</Data>
+            <Data name="robes_bodiceBreastHeight" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="robesBreastPerkiness" target="robes">Vampire Royal Robes.osd\robesBreastPerkiness</Data>
+            <Data name="robes_bodiceBreastPerkiness" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+            <Data name="robesBreasts" target="robes">Vampire Royal Robes.osd\robesBreasts</Data>
+            <Data name="robes_bodiceBreasts" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="robesBreastsFantasy" target="robes">Vampire Royal Robes.osd\robesBreastsFantasy</Data>
+            <Data name="robes_bodiceBreastsFantasy" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="robesBreastsGone" target="robes">Vampire Royal Robes.osd\robesBreastsGone</Data>
+            <Data name="robes_bodiceBreastsGone" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="robesBreastsNewSH" target="robes">Vampire Royal Robes.osd\robesBreastsNewSH</Data>
+            <Data name="robes_bodiceBreastsNewSH" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="robesBreastsSmall" target="robes">Vampire Royal Robes.osd\robesBreastsSmall</Data>
+            <Data name="robes_bodiceBreastsSmall" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="robesBreastsSmall2" target="robes">Vampire Royal Robes.osd\robesBreastsSmall2</Data>
+            <Data name="robes_bodiceBreastsSmall2" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="robesBreastsTogether" target="robes">Vampire Royal Robes.osd\robesBreastsTogether</Data>
+            <Data name="robes_bodiceBreastsTogether" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="robesBreastTopSlope" target="robes">Vampire Royal Robes.osd\robesBreastTopSlope</Data>
+            <Data name="robes_bodiceBreastTopSlope" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="robesBreastWidth" target="robes">Vampire Royal Robes.osd\robesBreastWidth</Data>
+            <Data name="robes_bodiceBreastWidth" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="robesButt" target="robes">Vampire Royal Robes.osd\robesButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="robesButtClassic" target="robes">Vampire Royal Robes.osd\robesButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtCrack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtCrack</Data>
+            <Data name="robesButtCrack" target="robes">Vampire Royal Robes.osd\robesButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="robesButtShape2" target="robes">Vampire Royal Robes.osd\robesButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="robesButtSmall" target="robes">Vampire Royal Robes.osd\robesButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+            <Data name="robesCalfSize" target="robes">Vampire Royal Robes.osd\robesCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="robesCalfSmooth" target="robes">Vampire Royal Robes.osd\robesCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="robesChestDepth" target="robes">Vampire Royal Robes.osd\robesChestDepth</Data>
+            <Data name="robes_bodiceChestDepth" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="robesChestWidth" target="robes">Vampire Royal Robes.osd\robesChestWidth</Data>
+            <Data name="robes_bodiceChestWidth" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="robesChubbyArms" target="robes">Vampire Royal Robes.osd\robesChubbyArms</Data>
+            <Data name="robes_bodiceChubbyArms" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="robesChubbyButt" target="robes">Vampire Royal Robes.osd\robesChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="robesChubbyLegs" target="robes">Vampire Royal Robes.osd\robesChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="robesChubbyWaist" target="robes">Vampire Royal Robes.osd\robesChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="robesDoubleMelon" target="robes">Vampire Royal Robes.osd\robesDoubleMelon</Data>
+            <Data name="robes_bodiceDoubleMelon" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+            <Data name="robesForearmSize" target="robes">Vampire Royal Robes.osd\robesForearmSize</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="robesHipBone" target="robes">Vampire Royal Robes.osd\robesHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="robesHipForward" target="robes">Vampire Royal Robes.osd\robesHipForward</Data>
+            <Data name="robes_bodiceHipForward" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="robesHips" target="robes">Vampire Royal Robes.osd\robesHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="robesHipUpperWidth" target="robes">Vampire Royal Robes.osd\robesHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
+            <Data name="robesKneeHeight" target="robes">Vampire Royal Robes.osd\robesKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
+            <Data name="robesKneeShape" target="robes">Vampire Royal Robes.osd\robesKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="robesLegShapeClassic" target="robes">Vampire Royal Robes.osd\robesLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="robesLegsThin" target="robes">Vampire Royal Robes.osd\robesLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="robesMuscleAbs" target="robes">Vampire Royal Robes.osd\robesMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="robesMuscleArms" target="robes">Vampire Royal Robes.osd\robesMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="robesMuscleButt" target="robes">Vampire Royal Robes.osd\robesMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="robesMuscleLegs" target="robes">Vampire Royal Robes.osd\robesMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="robesMusclePecs" target="robes">Vampire Royal Robes.osd\robesMusclePecs</Data>
+            <Data name="robes_bodiceMusclePecs" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="robesNeckSeam" target="robes">Vampire Royal Robes.osd\robesNeckSeam</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="robesPregnancyBelly" target="robes">Vampire Royal Robes.osd\robesPregnancyBelly</Data>
+            <Data name="robes_bodicePregnancyBelly" target="robes_bodice">Vampire Royal Robes.osd\robes_bodicePregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+            <Data name="robesPushUp" target="robes">Vampire Royal Robes.osd\robesPushUp</Data>
+            <Data name="robes_bodicePushUp" target="robes_bodice">Vampire Royal Robes.osd\robes_bodicePushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="robesRibsProminance" target="robes">Vampire Royal Robes.osd\robesRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="robesRoundAss" target="robes">Vampire Royal Robes.osd\robesRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="robesShoulderSmooth" target="robes">Vampire Royal Robes.osd\robesShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="robesShoulderTweak" target="robes">Vampire Royal Robes.osd\robesShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="robesShoulderWidth" target="robes">Vampire Royal Robes.osd\robesShoulderWidth</Data>
+            <Data name="robes_bodiceShoulderWidth" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="robesSlimThighs" target="robes">Vampire Royal Robes.osd\robesSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="robesThighs" target="robes">Vampire Royal Robes.osd\robesThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="robesTummyTuck" target="robes">Vampire Royal Robes.osd\robesTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="robesWaist" target="robes">Vampire Royal Robes.osd\robesWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="robesWaistHeight" target="robes">Vampire Royal Robes.osd\robesWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="robesWideWaistLine" target="robes">Vampire Royal Robes.osd\robesWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+            <Data name="robesWristSize" target="robes">Vampire Royal Robes.osd\robesWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="robes7B Lower" target="robes">Vampire Royal Robes.osd\robes7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+            <Data name="robes7B Upper" target="robes">Vampire Royal Robes.osd\robes7B Upper</Data>
+            <Data name="robes_bodice7B Upper" target="robes_bodice">Vampire Royal Robes.osd\robes_bodice7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="robesVanillaSSEHi" target="robes">Vampire Royal Robes.osd\robesVanillaSSEHi</Data>
+            <Data name="robes_bodiceVanillaSSEHi" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="robesVanillaSSELo" target="robes">Vampire Royal Robes.osd\robesVanillaSSELo</Data>
+            <Data name="robes_bodiceVanillaSSELo" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="robesOldBaseShape" target="robes">Vampire Royal Robes.osd\robesOldBaseShape</Data>
+            <Data name="robes_bodiceOldBaseShape" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceOldBaseShape</Data>
+        </Slider>
+        <Slider name="BodyZap" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRBodyZap" target="BaseShapeHR" local="true">Vampire Royal Robes.osd\BaseShapeHRBodyZap</Data>
+        </Slider>
+        <Slider name="Remove Cover" invert="false" small="0" big="0" zap="true">
+            <Data name="robes_bodiceRemove Cover" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceRemove Cover</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSHSymmetry" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSHSymmetry</Data>
+            <Data name="robesBreastsNewSHSymmetry" target="robes">Vampire Royal Robes.osd\robesBreastsNewSHSymmetry</Data>
+            <Data name="robes_bodiceBreastsNewSHSymmetry" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastSideShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastSideShape</Data>
+            <Data name="robesBreastSideShape" target="robes">Vampire Royal Robes.osd\robesBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastUnderDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastUnderDepth</Data>
+            <Data name="robesBreastUnderDepth" target="robes">Vampire Royal Robes.osd\robesBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7BLeg_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7BLeg_v2</Data>
+            <Data name="robes7BLeg_v2" target="robes">Vampire Royal Robes.osd\robes7BLeg_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRArmpitShape_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRArmpitShape_v2</Data>
+            <Data name="robesArmpitShape_v2" target="robes">Vampire Royal Robes.osd\robesArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackValley_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackValley_v2</Data>
+            <Data name="robesBackValley_v2" target="robes">Vampire Royal Robes.osd\robesBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackWing_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackWing_v2</Data>
+            <Data name="robesBackWing_v2" target="robes">Vampire Royal Robes.osd\robesBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontDownFat_v2</Data>
+            <Data name="robesBellyFrontDownFat_v2" target="robes">Vampire Royal Robes.osd\robesBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontUpFat_v2</Data>
+            <Data name="robesBellyFrontUpFat_v2" target="robes">Vampire Royal Robes.osd\robesBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideDownFat_v2</Data>
+            <Data name="robesBellySideDownFat_v2" target="robes">Vampire Royal Robes.osd\robesBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideUpFat_v2</Data>
+            <Data name="robesBellySideUpFat_v2" target="robes">Vampire Royal Robes.osd\robesBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyUnder_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyUnder_v2</Data>
+            <Data name="robesBellyUnder_v2" target="robes">Vampire Royal Robes.osd\robesBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsConverage_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsConverage_v2</Data>
+            <Data name="robesBreastsConverage_v2" target="robes">Vampire Royal Robes.osd\robesBreastsConverage_v2</Data>
+            <Data name="robes_bodiceBreastsConverage_v2" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsPressed_v2</Data>
+            <Data name="robesBreastsPressed_v2" target="robes">Vampire Royal Robes.osd\robesBreastsPressed_v2</Data>
+            <Data name="robes_bodiceBreastsPressed_v2" target="robes_bodice">Vampire Royal Robes.osd\robes_bodiceBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtNarrow_v2</Data>
+            <Data name="robesButtNarrow_v2" target="robes">Vampire Royal Robes.osd\robesButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtPressed_v2</Data>
+            <Data name="robesButtPressed_v2" target="robes">Vampire Royal Robes.osd\robesButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSaggy_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSaggy_v2</Data>
+            <Data name="robesButtSaggy_v2" target="robes">Vampire Royal Robes.osd\robesButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="CBPC" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCBPC" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCBPC</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfFBThicc_v2</Data>
+            <Data name="robesCalfFBThicc_v2" target="robes">Vampire Royal Robes.osd\robesCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRClavicle_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRClavicle_v2</Data>
+            <Data name="robesClavicle_v2" target="robes">Vampire Royal Robes.osd\robesClavicle_v2</Data>
+        </Slider>
+        <Slider name="CrotchGap" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCrotchGap" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCrotchGap</Data>
+            <Data name="robesCrotchGap" target="robes">Vampire Royal Robes.osd\robesCrotchGap</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCutepuffyness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCutepuffyness</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipNarrow_v2</Data>
+            <Data name="robesHipNarrow_v2" target="robes">Vampire Royal Robes.osd\robesHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeTogether_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeTogether_v2</Data>
+            <Data name="robesKneeTogether_v2" target="robes">Vampire Royal Robes.osd\robesKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegSpread_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegSpread_v2</Data>
+            <Data name="robesLegSpread_v2" target="robes">Vampire Royal Robes.osd\robesLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleBack_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleBack_v2</Data>
+            <Data name="robesMuscleBack_v2" target="robes">Vampire Royal Robes.osd\robesMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreArms_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreArms_v2</Data>
+            <Data name="robesMuscleMoreArms_v2" target="robes">Vampire Royal Robes.osd\robesMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreLegs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreLegs_v2</Data>
+            <Data name="robesMuscleMoreLegs_v2" target="robes">Vampire Royal Robes.osd\robesMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsMore_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsMore_v2</Data>
+            <Data name="robesRibsMore_v2" target="robes">Vampire Royal Robes.osd\robesRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighFBThicc_v2</Data>
+            <Data name="robesThighFBThicc_v2" target="robes">Vampire Royal Robes.osd\robesThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighInsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighInsideThicc_v2</Data>
+            <Data name="robesThighInsideThicc_v2" target="robes">Vampire Royal Robes.osd\robesThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighOutsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighOutsideThicc_v2</Data>
+            <Data name="robesThighOutsideThicc_v2" target="robes">Vampire Royal Robes.osd\robesThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPHip_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRUNPHip_v2</Data>
+            <Data name="robesUNPHip_v2" target="robes">Vampire Royal Robes.osd\robesUNPHip_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE Dawnguard - Body - Vampire Armor (Physics)">
+        <DataFolder>CBBE Dawnguard Physics\Body</DataFolder>
+        <SourceFile>Vampire Armor.nif</SourceFile>
+        <OutputPath>meshes\dlc01\clothes\vampire</OutputPath>
+        <OutputFile GenWeights="true">vampirerobesf_alt</OutputFile>
+        <Shape target="BaseShapeHR" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="vampire_robes_alt" DataFolder="CBBE Dawnguard\Body">vampire_robes_alt</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRAnkleSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAnkleSize</Data>
+            <Data name="vampire_robes_altAnkleSize" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAppleCheeks" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAppleCheeks</Data>
+            <Data name="vampire_robes_altAppleCheeks" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altAppleCheeks</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRarms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRarms</Data>
+            <Data name="vampire_robes_altArms" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altArms</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBack" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBack</Data>
+            <Data name="vampire_robes_altBack" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackArch" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackArch</Data>
+            <Data name="vampire_robes_altBackArch" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBelly</Data>
+            <Data name="vampire_robes_altBelly" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigBelly</Data>
+            <Data name="vampire_robes_altBigBelly" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigButt</Data>
+            <Data name="vampire_robes_altBigButt" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBigTorso" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBigTorso</Data>
+            <Data name="vampire_robes_altBigTorso" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenter" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenter</Data>
+            <Data name="vampire_robes_altBreastCenter" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCenterBig" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCenterBig</Data>
+            <Data name="vampire_robes_altBreastCenterBig" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastCleavage" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastCleavage</Data>
+            <Data name="vampire_robes_altBreastCleavage" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlatness2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlatness2</Data>
+            <Data name="vampire_robes_altBreastFlatness2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastFlattness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastFlattness</Data>
+            <Data name="vampire_robes_altBreastFlatness" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastFlatness</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastHeight</Data>
+            <Data name="vampire_robes_altBreastHeight" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastPerkiness" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastPerkiness</Data>
+            <Data name="vampire_robes_altBreastPerkiness" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreasts" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreasts</Data>
+            <Data name="vampire_robes_altBreasts" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsFantasy" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsFantasy</Data>
+            <Data name="vampire_robes_altBreastsFantasy" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsGone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsGone</Data>
+            <Data name="vampire_robes_altBreastsGone" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSH" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSH</Data>
+            <Data name="vampire_robes_altBreastsNewSH" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall</Data>
+            <Data name="vampire_robes_altBreastsSmall" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsSmall2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsSmall2</Data>
+            <Data name="vampire_robes_altBreastsSmall2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsTogether" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsTogether</Data>
+            <Data name="vampire_robes_altBreastsTogether" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastTopSlope" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastTopSlope</Data>
+            <Data name="vampire_robes_altBreastTopSlope" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastWidth</Data>
+            <Data name="vampire_robes_altBreastWidth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastWidth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButt</Data>
+            <Data name="vampire_robes_altButt" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtClassic</Data>
+            <Data name="vampire_robes_altButtClassic" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altButtClassic</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtShape2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtShape2</Data>
+            <Data name="vampire_robes_altButtShape2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSmall" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSmall</Data>
+            <Data name="vampire_robes_altButtSmall" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altButtSmall</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSize</Data>
+            <Data name="vampire_robes_altCalfSize" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfSmooth</Data>
+            <Data name="vampire_robes_altCalfSmooth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestDepth</Data>
+            <Data name="vampire_robes_altChestDepth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChestWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChestWidth</Data>
+            <Data name="vampire_robes_altChestWidth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyArms</Data>
+            <Data name="vampire_robes_altChubbyArms" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyButt</Data>
+            <Data name="vampire_robes_altChubbyButt" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyLegs</Data>
+            <Data name="vampire_robes_altChubbyLegs" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRChubbyWaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRChubbyWaist</Data>
+            <Data name="vampire_robes_altChubbyWaist" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRDoubleMelon" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRDoubleMelon</Data>
+            <Data name="vampire_robes_altDoubleMelon" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRForearmSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRForearmSize</Data>
+            <Data name="vampire_robes_altForearmSize" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altForearmSize</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipbone" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipbone</Data>
+            <Data name="vampire_robes_altHipBone" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altHipBone</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipForward" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipForward</Data>
+            <Data name="vampire_robes_altHipForward" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHips" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHips</Data>
+            <Data name="vampire_robes_altHips" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipUpperWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipUpperWidth</Data>
+            <Data name="vampire_robes_altHipUpperWidth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altHipUpperWidth</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeHeight</Data>
+            <Data name="vampire_robes_altKneeHeight" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeShape</Data>
+            <Data name="vampire_robes_altKneeShape" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegShapeClassic" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegShapeClassic</Data>
+            <Data name="vampire_robes_altLegShapeClassic" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegsThin" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegsThin</Data>
+            <Data name="vampire_robes_altLegsThin" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleAbs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleAbs</Data>
+            <Data name="vampire_robes_altMuscleAbs" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleArms" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleArms</Data>
+            <Data name="vampire_robes_altMuscleArms" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleButt" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleButt</Data>
+            <Data name="vampire_robes_altMuscleButt" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleLegs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleLegs</Data>
+            <Data name="vampire_robes_altMuscleLegs" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMusclePecs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMusclePecs</Data>
+            <Data name="vampire_robes_altMusclePecs" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="BaseShapeHRNeckSeam" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRNeckSeam</Data>
+            <Data name="vampire_robes_altNeckSeam" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altNeckSeam</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPregnancyBelly" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPregnancyBelly</Data>
+            <Data name="vampire_robes_altPregnancyBelly" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRPushUp" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRPushUp</Data>
+            <Data name="vampire_robes_altPushUp" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsProminance" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsProminance</Data>
+            <Data name="vampire_robes_altRibsProminance" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRoundAss" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRoundAss</Data>
+            <Data name="vampire_robes_altRoundAss" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRShoulderSmooth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRShoulderSmooth</Data>
+            <Data name="vampire_robes_altShoulderSmooth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altShoulderSmooth</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshouldertweak" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshouldertweak</Data>
+            <Data name="vampire_robes_altShoulderTweak" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRshoulderWidth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRshoulderWidth</Data>
+            <Data name="vampire_robes_altShoulderWidth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altShoulderWidth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSlimThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSlimThighs</Data>
+            <Data name="vampire_robes_altSlimThighs" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRSternumHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRSternumHeight</Data>
+            <Data name="vampire_robes_altSternumHeight" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighs" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighs</Data>
+            <Data name="vampire_robes_altThighs" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRTummyTuck" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRTummyTuck</Data>
+            <Data name="vampire_robes_altTummyTuck" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altTummyTuck</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRwaist" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRwaist</Data>
+            <Data name="vampire_robes_altWaist" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altWaist</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWaistHeight" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWaistHeight</Data>
+            <Data name="vampire_robes_altWaistHeight" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRWideWaistLine" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWideWaistLine</Data>
+            <Data name="vampire_robes_altWideWaistLine" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="BaseShapeHRWristSize" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRWristSize</Data>
+            <Data name="vampire_robes_altWristSize" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Lower" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Lower</Data>
+            <Data name="vampire_robes_alt7B Lower" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_alt7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7B Upper" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7B Upper</Data>
+            <Data name="vampire_robes_alt7B Upper" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_alt7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSEHi" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSEHi</Data>
+            <Data name="vampire_robes_altVanillaSSEHi" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRVanillaSSELo" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRVanillaSSELo</Data>
+            <Data name="vampire_robes_altVanillaSSELo" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHROldBaseShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHROldBaseShape</Data>
+            <Data name="vampire_robes_altOldBaseShape" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altOldBaseShape</Data>
+        </Slider>
+        <Slider name="BodyZap" invert="false" small="100" big="100" hidden="true" zap="true">
+            <Data name="BaseShapeHRBodyZap" target="BaseShapeHR" local="true">Vampire Armor.osd\BaseShapeHRBodyZap</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsNewSHSymmetry" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsNewSHSymmetry</Data>
+            <Data name="vampire_robes_altBreastsNewSHSymmetry" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastSideShape" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastSideShape</Data>
+            <Data name="vampire_robes_altBreastSideShape" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastUnderDepth" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastUnderDepth</Data>
+            <Data name="vampire_robes_altBreastUnderDepth" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHR7BLeg_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHR7BLeg_v2</Data>
+            <Data name="vampire_robes_alt7BLeg_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_alt7BLeg_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRAreolaPull_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRArmpitShape_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRArmpitShape_v2</Data>
+            <Data name="vampire_robes_altArmpitShape_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackValley_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackValley_v2</Data>
+            <Data name="vampire_robes_altBackValley_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBackWing_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBackWing_v2</Data>
+            <Data name="vampire_robes_altBackWing_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontDownFat_v2</Data>
+            <Data name="vampire_robes_altBellyFrontDownFat_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyFrontUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyFrontUpFat_v2</Data>
+            <Data name="vampire_robes_altBellyFrontUpFat_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideDownFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideDownFat_v2</Data>
+            <Data name="vampire_robes_altBellySideDownFat_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellySideUpFat_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellySideUpFat_v2</Data>
+            <Data name="vampire_robes_altBellySideUpFat_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBellyUnder_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBellyUnder_v2</Data>
+            <Data name="vampire_robes_altBellyUnder_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsConverage_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsConverage_v2</Data>
+            <Data name="vampire_robes_altBreastsConverage_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRBreastsPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRBreastsPressed_v2</Data>
+            <Data name="vampire_robes_altBreastsPressed_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtNarrow_v2</Data>
+            <Data name="vampire_robes_altButtNarrow_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtPressed_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtPressed_v2</Data>
+            <Data name="vampire_robes_altButtPressed_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRButtSaggy_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRButtSaggy_v2</Data>
+            <Data name="vampire_robes_altButtSaggy_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRCalfFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRCalfFBThicc_v2</Data>
+            <Data name="vampire_robes_altCalfFBThicc_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRClavicle_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRClavicle_v2</Data>
+            <Data name="vampire_robes_altClavicle_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altClavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRHipNarrow_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRHipNarrow_v2</Data>
+            <Data name="vampire_robes_altHipNarrow_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRKneeTogether_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRKneeTogether_v2</Data>
+            <Data name="vampire_robes_altKneeTogether_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRLegSpread_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRLegSpread_v2</Data>
+            <Data name="vampire_robes_altLegSpread_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altLegSpread_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleBack_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleBack_v2</Data>
+            <Data name="vampire_robes_altMuscleBack_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreArms_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreArms_v2</Data>
+            <Data name="vampire_robes_altMuscleMoreArms_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRMuscleMoreLegs_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRMuscleMoreLegs_v2</Data>
+            <Data name="vampire_robes_altMuscleMoreLegs_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRRibsMore_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRRibsMore_v2</Data>
+            <Data name="vampire_robes_altRibsMore_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighFBThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighFBThicc_v2</Data>
+            <Data name="vampire_robes_altThighFBThicc_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighInsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighInsideThicc_v2</Data>
+            <Data name="vampire_robes_altThighInsideThicc_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRThighOutsideThicc_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRThighOutsideThicc_v2</Data>
+            <Data name="vampire_robes_altThighOutsideThicc_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="BaseShapeHRUNPHip_v2" target="BaseShapeHR">CBBE Body.osd\BaseShapeHRUNPHip_v2</Data>
+            <Data name="vampire_robes_altUNPHip_v2" target="vampire_robes_alt">Vampire Armor.osd\vampire_robes_altUNPHip_v2</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

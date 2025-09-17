@@ -1,0 +1,11 @@
+# START BBP
+
+LBreast.gravityBias 0.003 0.0003
+LBreast.gravityCorrection -0.3 -0.03
+
+RBreast.gravityBias 0.003 0.0003
+RBreast.gravityCorrection -0.3 -0.03
+
+# END
+
+#Tuning.rate 60
