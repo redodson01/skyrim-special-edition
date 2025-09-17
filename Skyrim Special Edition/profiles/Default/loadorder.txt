@@ -83,6 +83,7 @@ Sentinel - Master Plugin.esp
 TheNewGentleman.esp
 NoSillyPhysicsDamage.esl
 SmoothCam.esl
+DynamicCollisionAdjustment.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
@@ -120,3 +121,11 @@ DynamicMercenaryFees.esp
 SurvivalModeImproved.esp
 BetterThirdPersonSelection.esp
 TrueDirectionalMovement.esp
+SimplyKnock.esp
+SkyrimsGotTalent-Bards.esp
+SkyrimsGotTalent - Free Movement.esp
+Take A Peek - New Stealth Mechanic.esp
+SkyParkour.esp
+SensibleBribes.esp
+ImprovedAlternateConversationCamera.esp
+Take a Nap.esp
