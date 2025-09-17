@@ -95,3 +95,4 @@ Sentinel - Sailors and Swashbucklers.esp
 aelaOutfitFix.esp
 Grimoire.esp
 Grimoire - Alternative Armors.esp
+Vanilla hair remake SMP NPCs.esp
