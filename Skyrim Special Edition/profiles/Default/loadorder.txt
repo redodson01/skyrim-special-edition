@@ -81,6 +81,7 @@ ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
 Sentinel - Master Plugin.esp
 SimpleChildren.esp
+TheNewGentleman.esp
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 DynDOLOD Resources SE.esp

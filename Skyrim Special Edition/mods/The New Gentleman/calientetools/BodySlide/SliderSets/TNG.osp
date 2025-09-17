@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="[TNG] Circumcised Penis">
+        <DataFolder>TNG</DataFolder>
+        <SourceFile>Circumcised Penis.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets\TNG</OutputPath>
+        <OutputFile GenWeights="true" PreventMorphFile="false" KeepZappedShapes="false">c_genitals</OutputFile>
+        <Shape target="MaleGenitals" DataFolder="TNG">MaleGenitals</Shape>
+        <Slider name="Weight" invert="false" small="0" big="100" hidden="true">
+            <Data name="MaleGenitalsWeight" target="MaleGenitals" local="true">Circumcised Penis.osd\MaleGenitalsWeight</Data>
+        </Slider>
+        <Slider name="Length" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsLength" target="MaleGenitals" local="true">Circumcised Penis.osd\MaleGenitalsLength</Data>
+        </Slider>
+        <Slider name="Thickness" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsThickness" target="MaleGenitals" local="true">Circumcised Penis.osd\MaleGenitalsThickness</Data>
+        </Slider>
+        <Slider name="Bend" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsBend" target="MaleGenitals" local="true">Circumcised Penis.osd\MaleGenitalsBend</Data>
+        </Slider>
+        <Slider name="Head" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsHead" target="MaleGenitals" local="true">Circumcised Penis.osd\MaleGenitalsHead</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="[TNG] Regular Penis-Style 1">
+        <DataFolder>TNG</DataFolder>
+        <SourceFile>Regular Penis-Style 1.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets\TNG</OutputPath>
+        <OutputFile GenWeights="true" PreventMorphFile="false" KeepZappedShapes="false">r_genitals</OutputFile>
+        <Shape target="MaleGenitals" DataFolder="TNG">MaleGenitals</Shape>
+        <Slider name="Weight" invert="false" small="0" big="100" hidden="true">
+            <Data name="MaleGenitalsWeight" target="MaleGenitals" local="true">Regular Penis-Style 1.osd\MaleGenitalsWeight</Data>
+        </Slider>
+        <Slider name="Length" invert="false" small="50" big="50">
+            <Data name="MaleGenitalsLength" target="MaleGenitals" local="true">Regular Penis-Style 1.osd\MaleGenitalsLength</Data>
+        </Slider>
+        <Slider name="Thickness" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsThickness" target="MaleGenitals" local="true">Regular Penis-Style 1.osd\MaleGenitalsThickness</Data>
+        </Slider>
+        <Slider name="Bend" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsBend" target="MaleGenitals" local="true">Regular Penis-Style 1.osd\MaleGenitalsBend</Data>
+        </Slider>
+        <Slider name="Head" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsHead" target="MaleGenitals" local="true">Regular Penis-Style 1.osd\MaleGenitalsHead</Data>
+        </Slider>
+        <Slider name="Armature" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsArmature" target="MaleGenitals" local="true">Regular Penis-Style 1.osd\MaleGenitalsArmature</Data>
+        </Slider>
+        <Slider name="InnerForeShrink" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsInnerForeShrink" target="MaleGenitals" local="true">Regular Penis-Style 1.osd\MaleGenitalsInnerForeShrink</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="[TNG] Regular Penis-Style 2">
+        <DataFolder>TNG</DataFolder>
+        <SourceFile>Regular Penis-Style 2.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets\TNG</OutputPath>
+        <OutputFile GenWeights="true" PreventMorphFile="false" KeepZappedShapes="false">r2_genitals</OutputFile>
+        <Shape target="MaleGenitals" DataFolder="TNG">MaleGenitals</Shape>
+        <Slider name="Weight" invert="false" small="0" big="100" hidden="true">
+            <Data name="MaleGenitalsWeight" target="MaleGenitals" local="true">Regular Penis-Style 2.osd\MaleGenitalsWeight</Data>
+        </Slider>
+        <Slider name="Length" invert="false" small="50" big="50">
+            <Data name="MaleGenitalsLength" target="MaleGenitals" local="true">Regular Penis-Style 2.osd\MaleGenitalsLength</Data>
+        </Slider>
+        <Slider name="Thickness" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsThickness" target="MaleGenitals" local="true">Regular Penis-Style 2.osd\MaleGenitalsThickness</Data>
+        </Slider>
+        <Slider name="Bend" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsBend" target="MaleGenitals" local="true">Regular Penis-Style 2.osd\MaleGenitalsBend</Data>
+        </Slider>
+        <Slider name="Head" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsHead" target="MaleGenitals" local="true">Regular Penis-Style 2.osd\MaleGenitalsHead</Data>
+        </Slider>
+        <Slider name="Armature" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsArmature" target="MaleGenitals" local="true">Regular Penis-Style 2.osd\MaleGenitalsArmature</Data>
+        </Slider>
+        <Slider name="InnerForeShrink" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsInnerForeShrink" target="MaleGenitals" local="true">Regular Penis-Style 2.osd\MaleGenitalsInnerForeShrink</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="[TNG] Muscular Penis-Style 1">
+        <DataFolder>TNG</DataFolder>
+        <SourceFile>Muscular Penis-Style 1.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets\TNG</OutputPath>
+        <OutputFile GenWeights="true" PreventMorphFile="false" KeepZappedShapes="false">m_genitals</OutputFile>
+        <Shape target="MaleGenitals" DataFolder="TNG">MaleGenitals</Shape>
+        <Slider name="Weight" invert="false" small="0" big="100" hidden="true">
+            <Data name="MaleGenitalsWeight" target="MaleGenitals" local="true">Muscular Penis-Style 1.osd\MaleGenitalsWeight</Data>
+        </Slider>
+        <Slider name="Length" invert="false" small="50" big="50">
+            <Data name="MaleGenitalsLength" target="MaleGenitals" local="true">Muscular Penis-Style 1.osd\MaleGenitalsLength</Data>
+        </Slider>
+        <Slider name="Thickness" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsThickness" target="MaleGenitals" local="true">Muscular Penis-Style 1.osd\MaleGenitalsThickness</Data>
+        </Slider>
+        <Slider name="Bend" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsBend" target="MaleGenitals" local="true">Muscular Penis-Style 1.osd\MaleGenitalsBend</Data>
+        </Slider>
+        <Slider name="Head" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsHead" target="MaleGenitals" local="true">Muscular Penis-Style 1.osd\MaleGenitalsHead</Data>
+        </Slider>
+        <Slider name="Armature" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsArmature" target="MaleGenitals" local="true">Muscular Penis-Style 1.osd\MaleGenitalsArmature</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="[TNG] Muscular Penis-Style 2">
+        <DataFolder>TNG</DataFolder>
+        <SourceFile>Muscular Penis-Style 2.nif</SourceFile>
+        <OutputPath>meshes\actors\character\character assets\TNG</OutputPath>
+        <OutputFile GenWeights="true" PreventMorphFile="false" KeepZappedShapes="false">m2_genitals</OutputFile>
+        <Shape target="MaleGenitals" DataFolder="TNG">MaleGenitals</Shape>
+        <Slider name="Weight" invert="false" small="0" big="100" hidden="true">
+            <Data name="MaleGenitalsWeight" target="MaleGenitals" local="true">Muscular Penis-Style 2.osd\MaleGenitalsWeight</Data>
+        </Slider>
+        <Slider name="Length" invert="false" small="50" big="50">
+            <Data name="MaleGenitalsLength" target="MaleGenitals" local="true">Muscular Penis-Style 2.osd\MaleGenitalsLength</Data>
+        </Slider>
+        <Slider name="Thickness" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsThickness" target="MaleGenitals" local="true">Muscular Penis-Style 2.osd\MaleGenitalsThickness</Data>
+        </Slider>
+        <Slider name="Bend" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsBend" target="MaleGenitals" local="true">Muscular Penis-Style 2.osd\MaleGenitalsBend</Data>
+        </Slider>
+        <Slider name="Head" invert="false" small="0" big="0">
+            <Data name="MaleGenitalsHead" target="MaleGenitals" local="true">Muscular Penis-Style 2.osd\MaleGenitalsHead</Data>
+        </Slider>
+        <Slider name="Armature" invert="false" small="0" big="0" hidden="true">
+            <Data name="MaleGenitalsArmature" target="MaleGenitals" local="true">Muscular Penis-Style 2.osd\MaleGenitalsArmature</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
