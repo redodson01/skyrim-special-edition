@@ -13,3 +13,5 @@
 *Sentinel - Priests and Acolytes.esp
 *Sentinel - Sailors and Swashbucklers.esp
 *aelaOutfitFix.esp
+*Grimoire.esp
+*Grimoire - Alternative Armors.esp
