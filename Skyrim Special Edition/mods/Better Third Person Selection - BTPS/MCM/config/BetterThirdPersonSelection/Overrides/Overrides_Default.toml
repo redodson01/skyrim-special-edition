@@ -1,0 +1,312 @@
+ignore = [
+]
+
+# --- Claw doors ---
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyhole01.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholecoral.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholediamond.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholeebony.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholeemerald.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholeglass.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholeiron.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholeivory.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholeruby.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorkeyholesapphire.nif"
+	widgetBasePos = "center"
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoordlc2amethyst.nif"
+	widgetBasePos = "center"
+	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorsmallwheel01.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 25.0}	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorsmallwheel02.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 25.0}	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorsmallwheel03.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 25.0}	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorsmallwheel04.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 25.0}	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorsmallwheel05.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 25.0}	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorsmallwheel06.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 25.0}
+	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoormediumwheel01.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 50.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoormediumwheel02.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 50.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoormediumwheel03.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 50.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoormediumwheel04.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 50.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoormediumwheel05.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 50.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoormediumwheel06.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 50.0}
+	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorlargewheel01.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 75.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorlargewheel02.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 75.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorlargewheel03.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 75.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorlargewheel04.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 75.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorlargewheel05.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 75.0}
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\puzzledoor\\puzzledoorlargewheel06.nif"
+	widgetBasePos = "center"
+	widgetPosOffset = { z = 75.0}
+	
+# ---
+
+[[objectOverrides]]
+	modelName = "Furniture\\Noble\\noblewardrobe01.nif"
+	clObjects = [
+		{ path = ["DoorR01"] },
+	]
+	
+[[objectOverrides]]
+	modelName = "clutter\\containers\\chest01\\chest01.nif"
+	clObjects = [
+		{ path = ["Lid"] },
+	]	
+	
+[[objectOverrides]]
+	modelName = "clutter\\upperclass\\upperchest01.nif"
+	clObjects = [
+		{ path = ["Chest", "Lid"] },
+	]
+	
+[[objectOverrides]]
+	modelName = "furniture\\noble\\noblechest01.nif"
+	clObjects = [
+		{ path = ["Lid01"] },
+	]	
+	
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\mediumdoor\\ruinsmediumdoor01.nif"
+	clObjects = [
+		{ path = ["NorMediumDoor01"] },
+		{ path = ["NorMediumDoor02"] },
+	]
+
+# dessicated corpse
+[[objectOverrides]]
+	modelName = "effects\\fxspiderwebkitdinnerhumangnd.nif"
+	clObjects = [
+		{ path = ["Bone01", "Bone02"] },
+	]
+
+[[objectOverrides]]
+	modelName = "furniture\\noble\\nobletablelongbench02.nif"
+	widgetBasePos = "top"
+	widgetPosOffset = { z = 30.0}
+
+[[objectOverrides]]
+	modelName = "architecture\\solitude\\doors\\sdoorjail01.nif"
+	clObjects = [
+		{ path = ["Door Left"] },
+		{ path = ["DoorRight"] },
+	]
+
+[[objectOverrides]]
+	modelName = "dungeons\\imperial\\door\\impwooddoordouble01.nif"
+	clObjects = [
+		{ path = ["DoorRight"] },
+		{ path = ["DoorLeft"] },
+	]
+
+[[objectOverrides]]
+	modelName = "dungeons\\imperial\\door\\impwooddoorsingle01.nif"
+	clObjects = [
+		{ path = ["FortRuinsDoor01"] },
+	]
+	
+[[objectOverrides]]
+	modelName = "dungeons\\riften\\ratwayhall\\riftenrwdoorjail01.nif"
+	clObjects = [
+		{ path = ["Door"] }
+	]
+	
+[[objectOverrides]]
+	modelName = "dungeons\\riften\\ratwayhall\\riftenrwdoorload01.nif"
+	clObjects = [
+		{ path = ["Door02"] }
+	]
+	
+[[objectOverrides]]
+	modelName = "dungeons\\riften\\ratwayhall\\riftenrwdoor01.nif"
+	clObjects = [
+		{ path = ["Door01"] }
+	]
+	
+[[objectOverrides]]
+	modelName = "dungeons\\ship\\shipdoor02.nif"
+	clObjects = [
+		{ path = ["Door02"] }
+	]
+	
+[[objectOverrides]]
+	modelName = "dungeons\\ship\\shipdoor01.nif"
+	clObjects = [
+		{ path = ["Door01"] }
+	]
+		
+## example: make object with specified mesh easier to select
+##[[objectOverrides]]
+##	modelName = "clutter\\common\\cupboard01.nif"
+##	priorityModifier = "multiply"
+##	priorityValue = 0.75
+
+## replaces the cupboard's collision box in order to make it easier to select. Only used by BTPS internally.
+## Might give undesired results if the cupboard mesh is replaced with something else
+[[objectOverrides]]
+	modelName = "clutter\\common\\cupboard01.nif"
+	widgetBasePos = "center"
+	
+	## will ignore if no path is specified, so just add an invalid path in order to make sure
+	## all native collision boxes are ignored
+	clObjects = [
+		{ path = ["NONE"] }
+	]
+	
+	## add a new collision box
+	customClObjects = [
+		{ boundMin = {x = -65.0, y = -25.0, z = -35}, boundMax = {x = 65.0, y = 25.0, z = 65.0}, rotation = {x = 0.0, y = 0.0, z = 0.0} }
+	]
+	
+[[objectOverrides]]
+	modelName = "clutter\\falmer\\falmerbigfencegate01.nif"
+	clObjects = [
+		{ path = ["Claw02"] },
+		{ path = ["Claw08"] }
+	]
+	
+[[objectOverrides]]
+	modelName = "architecture\\solitude\\doors\\sdoorjail02load.nif"
+	clObjects = [
+		{ path = [""] }
+	]
+	
+[[objectOverrides]]
+	modelName = "architecture\\solitude\\doors\\shousedoor03.nif"
+	clObjects = [
+		{ path = ["Door left"] },
+		{ path = ["Door right01"] }
+	]
+	
+[[objectOverrides]]
+	modelName = "dungeons\\imperial\\door\\impwallcage01.nif"
+	clObjects = [
+		{ path = ["Gate"] }
+	]
+
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\wooddoor\\ruinswooddoor01.nif"
+	clObjects = [
+		{ path = ["Object07"] },
+		{ path = ["Ruins_WoodenDoor02"] }
+	]
+
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\smdoor01\\nordoorsm01.nif"
+	clObjects = [
+		{ path = ["LeftDoor01"] },
+		{ path = ["RightDoor01"] }
+	]
+
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\smdoor02\\nordoorsm02.nif"
+	clObjects = [
+		{ path = ["LeftDoor01"] },
+		{ path = ["RightDoor01"] }
+	]
+
+[[objectOverrides]]
+	modelName = "dungeons\\nordic\\doors\\animated\\smdoor02\\nordoorsm02flipped.nif"
+	clObjects = [
+		{ path = ["LeftDoor04"] },
+		{ path = ["RightDoor04"] }
+	]
+
+[[objectOverrides]]
+	modelName = "dungeons\\mines\\minedoorload01.nif"
+	clObjects = [
+		{ path = ["MineDoorLeft01"] },
+		{ path = ["MineDoorRight02"] }
+	]
+
+[[objectOverrides]]
+	modelName = "clutter\\stockade\\stockadegate01.nif"
+	clObjects = [
+		{ path = ["a_RightDoor"] },
+		{ path = ["a_LeftDoor"] }
+	]
+
+[[objectOverrides]]
+	modelName = "clutter\\helgen\\helgengate01.nif"
+	clObjects = [
+		{ path = ["DoorLeft"] },
+		{ path = ["DoorRight"] }
+	]
+
+## MOD: Missives
+[[objectOverrides]]
+	modelName = "clutter\\missives\\missiveboard.nif"
+	clObjects = [
+	{ path = ["MissiveBoard"] }
+	]
