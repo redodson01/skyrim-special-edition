@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderPresets>
+    <Preset name="TNG Default" set="">
+        <Group name="TNG"/>
+        <SetSlider name="Length" size="big" value="0"/>
+        <SetSlider name="Length" size="small" value="0"/>
+    </Preset>
+</SliderPresets>
