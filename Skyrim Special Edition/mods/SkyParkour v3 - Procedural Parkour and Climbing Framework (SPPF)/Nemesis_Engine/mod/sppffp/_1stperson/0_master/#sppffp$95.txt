@@ -1,0 +1,8 @@
+		<hkobject name="#sppffp$95" class="BSiStateTaggingGenerator" signature="0xf0826fc1">
+			<hkparam name="variableBindingSet">#sppffp$94</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">SPPF_iStateTag</hkparam>
+			<hkparam name="pDefaultGenerator">#sppffp$93</hkparam>
+			<hkparam name="iStateToSetAs">-1</hkparam>
+			<hkparam name="iPriority">0</hkparam>
+		</hkobject>
