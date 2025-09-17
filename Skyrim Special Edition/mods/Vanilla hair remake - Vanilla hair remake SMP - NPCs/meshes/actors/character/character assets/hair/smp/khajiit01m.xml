@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+Copyright 2024 Jonas Gernandt
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software 
+and associated documentation files (the "Software"), to deal in the Software without restriction, 
+including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, 
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or 
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, 
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR 
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE 
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
+ -->
+
+<system xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="FSMP-Validator"
+xsi:schemaLocation="FSMP-Validator I:/mods/utils/hdtSMP64.xsd">
+
+  <bone name="NPC Head [Head]"/>
+
+  <bone-default>
+    <mass>0.01</mass>
+    <inertia x="1" y="1" z="1"/>
+    <linearDamping>0.95</linearDamping>
+    <angularDamping>0.95</angularDamping>
+  </bone-default>
+
+  <bone name="JG Hair04 S1 L" />
+  <bone name="JG Hair04 S2 L" />
+  <bone name="JG Hair04 S1 R" />
+  <bone name="JG Hair04 S2 R" />
+  <bone name="JG Hair04 B1" />
+  <bone name="JG Hair04 B2" />
+
+  <bone-default>
+    <mass>0.01</mass>
+    <inertia x="1" y="1" z="1"/>
+    <linearDamping>0</linearDamping>
+    <angularDamping>0</angularDamping>
+    <gravity-factor>0</gravity-factor>
+  </bone-default>
+  
+  <bone name="JG Hair04 Top1 L" />
+  <bone name="JG Hair04 Top1 R" />
+  <bone name="JG Hair04 Top1 B" />
+
+  <bone-default>
+    <mass>0.01</mass>
+    <inertia x="1" y="1" z="1"/>
+    <linearDamping>0</linearDamping>
+    <angularDamping>0</angularDamping>
+    <gravity-factor>1</gravity-factor>
+  </bone-default>
+  
+  <bone name="JG Hair04 BraidF1 L" />
+  <bone name="JG Hair04 BraidF2 L" />
+  <bone name="JG Hair04 BraidF1 R" />
+  <bone name="JG Hair04 BraidF2 R" />
+  <bone name="JG Hair04 BraidB1 L" />
+  <bone name="JG Hair04 BraidB2 L" />
+  <bone name="JG Hair04 BraidB1 R" />
+  <bone name="JG Hair04 BraidB2 R" />
+
+  <bone-default>
+    <mass>0</mass>
+  </bone-default>
+
+  <generic-constraint-default name="base">
+    <frameInA>
+      <basis x="0" y="0" z="0" w="1"/>
+      <origin x="0" y="-3.5" z="0"/>
+    </frameInA>
+    <useLinearReferenceFrameA>false</useLinearReferenceFrameA>
+    <linearLowerLimit x="0" y="0" z="0"/>
+    <linearUpperLimit x="0" y="0" z="0"/>
+    <angularStiffness x="1" y="1" z="1"/>
+  </generic-constraint-default>
+  
+  <generic-constraint-default name="side" extends="base">
+    <angularLowerLimit x="0" y="0" z="-0.6"/>
+    <angularUpperLimit x="0.6" y="0" z="0.6"/>
+  </generic-constraint-default>
+
+  <generic-constraint-default name="back" extends="base">
+    <frameInA>
+      <basis x="0" y="0" z="0" w="1"/>
+      <origin x="0" y="-3.75" z="0"/>
+    </frameInA>
+    <angularLowerLimit x="0" y="0" z="-0.6"/>
+    <angularUpperLimit x="0.2" y="0" z="0.6"/>
+  </generic-constraint-default>
+
+  <generic-constraint-default name="top" extends="base">
+    <frameInA>
+      <basis x="0" y="0" z="0" w="1"/>
+      <origin x="0" y="-5" z="0"/>
+    </frameInA>
+    <angularLowerLimit x="0" y="0" z="-0.2"/>
+    <angularUpperLimit x="0.2" y="0" z="0.2"/>
+    <angularStiffness x="100" y="1" z="100"/>
+    <angularDamping x="10" y="0" z="10"></angularDamping>
+  </generic-constraint-default>
+
+  <generic-constraint-default name="braid" extends="base">
+    <angularLowerLimit x="0" y="0" z="-1"/>
+    <angularUpperLimit x="1" y="0" z="1"/>
+    <angularStiffness x="3" y="1" z="3"/>
+    <angularDamping x="3" y="0" z="3"></angularDamping>
+  </generic-constraint-default>
+
+  <constraint-group>
+    <generic-constraint bodyA="JG Hair04 S1 L" bodyB="NPC Head [Head]" template="side" />
+    <generic-constraint bodyA="JG Hair04 S2 L" bodyB="JG Hair04 S1 L" template="side" />
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG Hair04 S1 R" bodyB="NPC Head [Head]" template="side" />
+    <generic-constraint bodyA="JG Hair04 S2 R" bodyB="JG Hair04 S1 R" template="side" />
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG Hair04 B1" bodyB="NPC Head [Head]" template="back" />
+    <generic-constraint bodyA="JG Hair04 B2" bodyB="JG Hair04 B1" template="back" />
+  </constraint-group>
+
+  <generic-constraint bodyA="JG Hair04 Top1 L" bodyB="NPC Head [Head]" template="top" />
+  <generic-constraint bodyA="JG Hair04 Top1 B" bodyB="NPC Head [Head]" template="top" />
+  <generic-constraint bodyA="JG Hair04 Top1 R" bodyB="NPC Head [Head]" template="top" />
+  
+  <constraint-group>
+    <generic-constraint bodyA="JG Hair04 BraidF1 L" bodyB="NPC Head [Head]" template="braid" />
+    <generic-constraint bodyA="JG Hair04 BraidF2 L" bodyB="JG Hair04 BraidF1 L" template="braid" />
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG Hair04 BraidB1 L" bodyB="NPC Head [Head]" template="braid" />
+    <generic-constraint bodyA="JG Hair04 BraidB2 L" bodyB="JG Hair04 BraidB1 L" template="braid" />
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG Hair04 BraidF1 R" bodyB="NPC Head [Head]" template="braid" />
+    <generic-constraint bodyA="JG Hair04 BraidF2 R" bodyB="JG Hair04 BraidF1 R" template="braid" />
+  </constraint-group>
+  <constraint-group>
+    <generic-constraint bodyA="JG Hair04 BraidB1 R" bodyB="NPC Head [Head]" template="braid" />
+    <generic-constraint bodyA="JG Hair04 BraidB2 R" bodyB="JG Hair04 BraidB1 R" template="braid" />
+  </constraint-group>
+	
+</system>
