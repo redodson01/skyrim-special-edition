@@ -80,3 +80,4 @@
 *Death's Door.esp
 *SkyParkour.esp
 *SensibleBribes.esp
+*ImprovedAlternateConversationCamera.esp
