@@ -116,3 +116,4 @@ Hunters Not Bandits.esp
 Simplicity of Seeding.esp
 buy and sell torches.esp
 DynamicMercenaryFees.esp
+SurvivalModeImproved.esp
