@@ -2,6 +2,7 @@
 *Sentinel - Master Plugin.esp
 *TheNewGentleman.esp
 *NoSillyPhysicsDamage.esl
+*SmoothCam.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
@@ -29,3 +30,6 @@
 *Hunters Not Bandits.esp
 *Simplicity of Seeding.esp
 *buy and sell torches.esp
+*SurvivalModeImproved.esp
+*BetterThirdPersonSelection.esp
+*TrueDirectionalMovement.esp
