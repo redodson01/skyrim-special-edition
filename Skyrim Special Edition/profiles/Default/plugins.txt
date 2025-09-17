@@ -47,3 +47,4 @@
 *Take A Peek - New Stealth Mechanic.esp
 *SkyParkour.esp
 *SensibleBribes.esp
+*ImprovedAlternateConversationCamera.esp
