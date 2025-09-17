@@ -85,3 +85,5 @@ Cathedral Landscapes.esp
 XPMSE.esp
 FSMPM - The FSMP MCM.esp
 DynamicLoweredHoods.esp
+Grimoire.esp
+Grimoire - Alternative Armors.esp
