@@ -75,3 +75,4 @@
 *Dynamic Activation Key - MCM.esp
 *Dynamic Activation Key - Addons Collection.esp
 *hideQuestItems.esp
+*QuickLootIE.esp
