@@ -83,6 +83,7 @@ Sentinel - Master Plugin.esp
 TheNewGentleman.esp
 NoSillyPhysicsDamage.esl
 SmoothCam.esl
+DynamicCollisionAdjustment.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
@@ -113,3 +114,7 @@ buy and sell torches.esp
 SurvivalModeImproved.esp
 BetterThirdPersonSelection.esp
 TrueDirectionalMovement.esp
+SimplyKnock.esp
+Take A Peek - New Stealth Mechanic.esp
+SkyParkour.esp
+ImprovedAlternateConversationCamera.esp
