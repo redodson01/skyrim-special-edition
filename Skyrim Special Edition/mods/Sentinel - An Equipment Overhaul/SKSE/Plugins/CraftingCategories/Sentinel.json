@@ -1,0 +1,390 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/CraftingCategories/main/docs/CraftingCategories.schema.json",
+  "sections": {
+    "$ALL": {
+      "icon": {
+        "source": "craftingcategories/icons.swf",
+        "label": "all"
+      }
+    },
+    "$MISC": {
+      "icon": {
+        "source": "skyui/icons_item_psychosteve.swf",
+        "label": "misc_ingot"
+      }
+    },
+    "$WEAPONS": {
+      "priority": 10,
+      "keywords": [
+        "VendorItemArrow",
+        "WeapTypeBattleaxe",
+        "WeapTypeBow",
+        "WeapTypeDagger",
+        "WeapTypeGreatsword",
+        "WeapTypeMace",
+        "WeapTypeStaff",
+        "WeapTypeSword",
+        "WeapTypeWarAxe",
+        "WeapTypeWarhammer"
+      ],
+      "icon": {
+        "source": "skyui/icons_item_psychosteve.swf",
+        "label": "weapon_waraxe"
+      }
+    },
+    "$ARMOR & CLOTHING": {
+      "priority": 20,
+      "keywords": [
+        "ArmorHeavy",
+        "ArmorLight",
+        "ArmorShield",
+		"ArmorClothing",
+		"BYOHAdoptionClothesKeyword"
+      ],
+      "icon": {
+        "source": "skyui/icons_item_psychosteve.swf",
+        "label": "armor_head"
+      }
+    },
+    "$JEWELRY": {
+      "priority": 30,
+      "keywords": [ "ArmorJewelry" ],
+      "icon": {
+        "source": "skyui/icons_item_psychosteve.swf",
+        "label": "armor_ring"
+      }
+    },
+    "$FOOD": {
+      "priority": 40,
+      "keywords": [ "VendorItemFood" ],
+      "icon": {
+        "source": "skyui/icons_item_psychosteve.swf",
+        "label": "default_food"
+      }
+    }
+  },
+  "categories": {
+    "$WAltmer": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialElven","WeapMaterialGlass" ]
+    },
+    "$WAmber": {
+      "section": "$WEAPONS",
+      "keywords": [ "ccBGSSSE025_WeapMaterialAmber" ]
+    },
+    "$WBosmer": {
+      "section": "$WEAPONS",
+      "keywords": [ "TH_MaterialBosmer" ]
+    },
+    "$WCommon": {
+      "section": "$WEAPONS",
+      "keywords": [ "TH_MaterialCommon", 
+					"ccBGSSSE001_FishingPoleKW", 
+					"WeapMaterialWood" ]
+    },
+    "$WDaedric": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialDaedric", 
+					"ccBGSSSE025_WeapMaterialDark",
+					"ccBGSSSE025_WeapMaterialGolden" ]
+    },
+    "$WDragon": {
+      "section": "$WEAPONS",
+      "keywords": [ "DLC1WeapMaterialDragonbone" ]
+    },
+    "$WDragonCult": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialDraugr", "WeapMaterialDraugrHoned" ]
+    },
+    "$WDunmer": {
+      "section": "$WEAPONS",
+      "keywords": [ "DLC2ArmorMaterialBonemoldLight","TH_MaterialDunmer" ]
+    },
+    "$WDwarven": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialDwarven" ]
+    },
+    "$WEbony": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialEbony" ]
+    },
+    "$WFalmer": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialFalmer", "WeapMaterialFalmerHoned" ]
+    },
+    "$WGuard": {
+      "section": "$WEAPONS",
+      "keywords": [ "TH_MaterialGuard" ]
+    },
+    "$WImperial": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialImperial" ]
+    },
+    "$WIron": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialIron" ]
+    },
+    "$WKhajiiti": {
+      "section": "$WEAPONS",
+      "keywords": [ "TH_MaterialKhajiit" ]
+    },
+    "$WMadness": {
+      "section": "$WEAPONS",
+      "keywords": [ "ccBGSSSE025_WeapMaterialMadness" ]
+    },
+    "$WNordic": {
+      "section": "$WEAPONS",
+      "keywords": [ "DLC2WeaponMaterialNordic" ]
+    },
+    "$WOrcish": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialOrcish" ]
+    },
+    "$WSilver": {
+      "section": "$WEAPONS",
+      "keywords": [ "WeapMaterialSilver" ]
+    },
+    "$WStalhrim": {
+      "section": "$WEAPONS",
+      "keywords": [ "DLC2WeaponMaterialStalhrim" ]
+    },
+    "$WSteel": {
+      "section": "$WEAPONS",
+      "keywords": [ "TH_MaterialSteel" ]
+    },
+    "$WStormcloak": {
+      "section": "$WEAPONS",
+      "keywords": [ "TH_MaterialStormcloak" ]
+    },
+    "$Aedric": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ArmorMaterialTsun" ]
+    },
+	"$Altmer": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialElven", 
+					"ArmorMaterialElvenGilded", 
+					"ArmorMaterialGlass" ]
+    },
+    "$Amber": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ccBGSSSE025_ArmorMaterialAmber" ]
+    },
+    "$Blades": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialBlades" ]
+    },
+    "$Bosmer": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "TH_MaterialBosmer" ]
+    },
+    "$Common": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "TH_MaterialCommon" ]
+    },
+    "$Companions": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ArmorMaterialWolf" ]
+    },
+    "$Daedric": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialDaedric",
+					"ccBGSSSE025_ArmorMaterialDark",
+					"ccBGSSSE025_ArmorMaterialGolden" ]
+    },
+    "$DarkB": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorDarkBrotherhood" ]
+    },
+    "$Dawnguard": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "DLC1ArmorMaterialDawnguard" ]
+    },
+    "$Dragon": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialDragonplate", "ArmorMaterialDragonscale" ]
+    },
+    "$DragonCult": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [  ]
+    },
+    "$Dunmer": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "DLC2ArmorMaterialBonemoldHeavy", 
+					"DLC2ArmorMaterialBonemoldLight", 
+					"DLC2ArmorMaterialChitinHeavy", 
+					"DLC2ArmorMaterialChitinLight", 
+					"ccASVSSE001_ArmorOrdinator", 
+					"ccASVSSE001_ArmorOrdinatorIndoril",
+					"TH_MaterialDunmer"	]
+    },
+    "$Dwarven": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialDwarven", "DLC1LD_CraftingMaterialAetherium" ]
+    },
+    "$Ebony": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialEbony" ]
+    },
+    "$Falmer": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "DLC1ArmorMaterielFalmerHeavy", "DLC1ArmorMaterielFalmerHeavyOriginal" ]
+    },
+    "$Fur": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "TH_MaterialFur","ArmorMaterialForsworn" ]
+    },
+    "$Guard": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "WAF_ArmorMaterialGuard", "TH_MaterialGuard" ]
+    },
+    "$Hide": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "TH_MaterialHide", 
+					"ArmorMaterialStudded",
+					"MCE_ArmorMaterialExecutioner", 
+					"MCE_ArmorMaterialGiant" ]
+    },
+    "$Imperial": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialImperialHeavy", 
+					"ArmorMaterialImperialLight", 
+					"ArmorMaterialImperialStudded" ]
+    },
+    "$Iron": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "TH_MaterialIron", "ArmorMaterialIronBanded" ]
+    },
+    "$Khajiiti": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "TH_MaterialKhajiit","ArmorMaterialLightKhajiitiSteel" ]
+    },
+    "$Leather": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "TH_MaterialLeather" ]
+    },
+    "$Madness": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ccBGSSSE025_ArmorMaterialMadness" ]
+    },
+    "$Nordic": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "DLC2ArmorMaterialNordicHeavy", "DLC2ArmorMaterialNordicLight" ]
+    },
+    "$Orcish": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialOrcish","ccBGSSSE055_ArmorMaterialOrcishLight" ]
+    },
+    "$Plate": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialSteelPlate", "TH_MaterialSilver" ]
+    },
+    "$Scaled": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialScaled" ]
+    },
+    "$Stalhrim": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "DLC2ArmorMaterialStalhrimHeavy", "DLC2ArmorMaterialStalhrimLight" ]
+    },
+    "$Steel": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialSteel" ]
+    },
+    "$Stormcloak": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "ArmorMaterialStormcloak" ]
+    },
+    "$ThievesGuild": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [
+        "ArmorMaterialThievesGuild",
+        "ArmorMaterialThievesGuildLeader",
+        "MCE_ArmorMaterialThievesGuildAlt",
+        "MCE_ArmorMaterialThievesGuildKarliah" ]
+    },
+    "$Vampire": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "DLC1ArmorMaterialVampire" ]
+    },
+    "$CCommon": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingCommon", 
+					"MCE_ClothingVampire", ]
+    },
+    "$CRagged": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingBeggar" ]
+    },
+    "$CNoble": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingNoble" ]
+    },
+    "$CRoyal": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingRoyal" ]
+    },
+    "$CMonk": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingGreybeard", 
+					"MCE_ClothingMonk", 
+					"MCE_ClothingMothPriest" ]
+    },
+    "$CMage": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingCollege", "MCE_ClothingNecromancer" ]
+    },
+    "$CDarkB": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingDBRobes", "MCE_ClothingDBJester" ]
+    },
+    "$CMythicDawn": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingMythicDawn" ]
+    },
+    "$CPsijicOrder": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingPsijicOrder" ]
+    },
+    "$CRedguard": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingRedguard" ]
+    },
+    "$CThalmor": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingThalmor" ]
+    },
+    "$CWedding": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingWedding" ]
+    },
+    "$CDunmer": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingDunmer", "MCE_ClothingTemplePriest", "MCE_ClothingTelvanni" ]
+    },
+    "$CCultist": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingCultist", "MCE_ClothingVaermina" ]
+    },
+    "$CSailor": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "MCE_ClothingSailor" ]
+    },
+    "$CChild": {
+      "section": "$ARMOR & CLOTHING",
+      "keywords": [ "BYOHAdoptionClothesKeyword" ]
+    },
+    "$JAmulet": {
+      "section": "$JEWELRY",
+      "keywords": [ "ClothingNecklace" ]
+    },
+    "$JCirclet": {
+      "section": "$JEWELRY",
+      "keywords": [ "ClothingCirclet" ]
+    },
+    "$JRing": {
+      "section": "$JEWELRY",
+      "keywords": [ "ClothingRing" ]
+    }
+  }
+}
