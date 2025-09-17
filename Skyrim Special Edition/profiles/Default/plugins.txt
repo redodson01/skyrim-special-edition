@@ -14,3 +14,5 @@
 *Nord Raven Battle Armor.esp
 *SeasonedTravellerbyXtudo.esp
 *DynamicLoweredHoods.esp
+*Grimoire.esp
+*Grimoire - Alternative Armors.esp
