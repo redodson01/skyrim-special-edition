@@ -2,6 +2,7 @@
 +Vanilla hair remake - Vanilla hair remake SMP - NPCs
 +Vanilla hair remake
 +High Poly Vanilla Hair
++Beard stubble
 -08-Character Appearance - Anvil_separator
 -08-Character Appearance_separator
 +Sentinel - An Equipment Overhaul - Optional Aela Outfit Fix
