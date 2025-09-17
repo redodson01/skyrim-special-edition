@@ -1,0 +1,15 @@
+ExtraBreast1L.amplitude 0.7 0.4
+ExtraBreast2L.amplitude 0.7 0.4
+ExtraBreast3L.amplitude 0.7 0.4
+ExtraBreast1R.amplitude 0.7 0.4
+ExtraBreast2R.amplitude 0.7 0.4
+ExtraBreast3R.amplitude 0.7 0.4
+
+ExtraBreast1.amplitude 0.7 0.4
+ExtraBreast2.amplitude 0.7 0.4
+ExtraBreast3.amplitude 0.7 0.4
+
+RBreast.amplitude 0.7 0.4
+LBreast.amplitude 0.7 0.4
+
+Breast.amplitude 0.7 0.4
