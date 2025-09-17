@@ -130,3 +130,4 @@ Brawl Lines Expansion.esp
 buy and sell torches.esp
 DynamicMercenaryFees.esp
 SurvivalModeImproved.esp
+BetterThirdPersonSelection.esp
