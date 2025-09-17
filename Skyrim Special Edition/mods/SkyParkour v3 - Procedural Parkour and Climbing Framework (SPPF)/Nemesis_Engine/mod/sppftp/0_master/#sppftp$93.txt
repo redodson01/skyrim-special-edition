@@ -1,0 +1,26 @@
+		<hkobject name="#sppftp$93" class="hkbStateMachine" signature="0x816c1dcb">
+			<hkparam name="variableBindingSet">#sppftp$92</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">SkyParkourAnimationSelector</hkparam>
+			<hkparam name="eventToSendWhenStateOrTransitionChanges">
+				<hkobject>
+					<hkparam name="id">-1</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="startStateChooser">null</hkparam>
+			<hkparam name="startStateId">0</hkparam>
+			<hkparam name="returnToPreviousStateEventId">-1</hkparam>
+			<hkparam name="randomTransitionEventId">-1</hkparam>
+			<hkparam name="transitionToNextHigherStateEventId">-1</hkparam>
+			<hkparam name="transitionToNextLowerStateEventId">-1</hkparam>
+			<hkparam name="syncVariableIndex">-1</hkparam>
+			<hkparam name="wrapAroundStateId">false</hkparam>
+			<hkparam name="maxSimultaneousTransitions">32</hkparam>
+			<hkparam name="startStateMode">START_STATE_MODE_DEFAULT</hkparam>
+			<hkparam name="selfTransitionMode">SELF_TRANSITION_MODE_NO_TRANSITION</hkparam>
+			<hkparam name="states" numelements="10">
+				#sppftp$91 #sppftp$84 #sppftp$77 #sppftp$70 #sppftp$54 #sppftp$38 #sppftp$31 #sppftp$24 #sppftp$17 #sppftp$9
+			</hkparam>
+			<hkparam name="wildcardTransitions">null</hkparam>
+		</hkobject>

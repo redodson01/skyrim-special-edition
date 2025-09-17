@@ -78,3 +78,4 @@
 *Simple Hunting Overhaul.esp
 *SHO - Gourmet Patch.esp
 *Death's Door.esp
+*SkyParkour.esp

@@ -1,0 +1,14 @@
+		<hkobject name="#sppftp$4" class="BSTimerModifier" signature="0x531f3292">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">SPPF_SendExit</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="alarmTimeSeconds">0.000001</hkparam>
+			<hkparam name="alarmEvent">
+				<hkobject>
+					<hkparam name="id">$eventID[SkyParkour_Stop]$</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="resetAlarm">true</hkparam>
+		</hkobject>

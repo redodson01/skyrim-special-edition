@@ -1,0 +1,10 @@
+		<hkobject name="#sppffp$104" class="hkbEventDrivenModifier" signature="0x7ed3f44e">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">OnInterrupt</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="modifier">#sppffp$103</hkparam>
+			<hkparam name="activateEventId">$eventID[SkyParkour_Interrupt]$</hkparam>
+			<hkparam name="deactivateEventId">-1</hkparam>
+			<hkparam name="activeByDefault">false</hkparam>
+		</hkobject>

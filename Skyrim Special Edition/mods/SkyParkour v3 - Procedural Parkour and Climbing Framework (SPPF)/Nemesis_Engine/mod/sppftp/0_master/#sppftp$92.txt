@@ -1,0 +1,17 @@
+		<hkobject name="#sppftp$92" class="hkbVariableBindingSet" signature="0x338ad4ff">
+			<hkparam name="bindings" numelements="2">
+				<hkobject>
+					<hkparam name="memberPath">startStateId</hkparam>
+					<hkparam name="variableIndex">$variableID[SkyParkourLedge]$</hkparam>
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="memberPath">isActive</hkparam>
+					<hkparam name="variableIndex">$variableID[SkyParkourOngoing]$</hkparam>
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="indexOfBindingToEnable">-1</hkparam>
+		</hkobject>
