@@ -3,6 +3,7 @@
 *1NGarmor.esl
 *KvetchiMercenary.esl
 *ColovianPrince.esl
+*Sentinel - Master Plugin.esp
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
@@ -14,5 +15,13 @@
 *Nord Raven Battle Armor.esp
 *SeasonedTravellerbyXtudo.esp
 *DynamicLoweredHoods.esp
+*Sentinel.esp
 *Grimoire.esp
+*Sentinel - Alternative Armors.esp
 *Grimoire - Alternative Armors.esp
+*Sentinel - Backpacks and Bandoliers.esp
+*Sentinel - City Guards.esp
+*Sentinel - Memories of Morrowind.esp
+*Sentinel - Priests and Acolytes.esp
+*Sentinel - Sailors and Swashbucklers.esp
+*aelaOutfitFix.esp
