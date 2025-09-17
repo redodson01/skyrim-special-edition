@@ -65,3 +65,4 @@
 *Remote Interactions.esp
 *Simple Hunting Overhaul.esp
 *SHO - Gourmet Patch.esp
+*SkyParkour.esp
