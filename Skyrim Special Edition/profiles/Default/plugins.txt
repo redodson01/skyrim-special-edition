@@ -3,6 +3,7 @@
 *TheNewGentleman.esp
 *NoSillyPhysicsDamage.esl
 *SmoothCam.esl
+*DynamicCollisionAdjustment.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
@@ -31,3 +32,5 @@
 *SurvivalModeImproved.esp
 *BetterThirdPersonSelection.esp
 *TrueDirectionalMovement.esp
+*SkyParkour.esp
+*ImprovedAlternateConversationCamera.esp
