@@ -1,0 +1,21 @@
+<!-- Reference templates are shortcuts to loading a slider set as a reference in Outfit Studio -->
+<RefTemplates>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniBody Ref" shape="UniBody">Sliders: CBBE 3BA UniBody</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniBody for 3BA sliders">Sliders: CBBE 3BA UniBody (Only3BA Sliders)</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniBoob Ref" shape="UniBoob">Sliders: CBBE 3BA UniBoob</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniBoob for 3BA sliders">Sliders: CBBE 3BA UniBoob (Only3BA Sliders)</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniButt Ref" shape="UniButt">Sliders: CBBE 3BA UniButt</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniButt for 3BA sliders">Sliders: CBBE 3BA UniButt (Only3BA Sliders)</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniUpperCurtain Ref" shape="UniUpperCurtain">Sliders: CBBE 3BA UniBoobCurtain</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniUpperCurtain for 3BA sliders">Sliders: CBBE 3BA UniBoobCurtain (Only3BA Sliders)</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniUpperCurtain Tight Ref" shape="UniUpperCurtain_Tight">Sliders: CBBE 3BA UniBoobCurtain LongShirt</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniUpperCurtain Tight for 3BA sliders">Sliders: CBBE 3BA UniBoobCurtain LongShirt (Only3BA Sliders)</Template>
+	<Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniLowerCurtain Ref" shape="UniLowerCurtain">Sliders: CBBE 3BA UniLowerCurtain</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniLowerCurtain for 3BA sliders">Sliders: CBBE 3BA UniLowerCurtain (Only3BA Sliders)</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniString1 Ref">Sliders: CBBE 3BA UniString1</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniString2 Ref">Sliders: CBBE 3BA UniString2</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniString3 Ref">Sliders: CBBE 3BA UniString3</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniString1 Ref for 3BA sliders">Sliders: CBBE 3BA UniString1 (Only3BA Sliders)</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniString2 Ref for 3BA sliders">Sliders: CBBE 3BA UniString2 (Only3BA Sliders)</Template>
+    <Template sourcefile="RefTemplates\CBBE 3BA\CBBE 3BA UniBody Ref.osp" set="CBBE 3BA UniString3 Ref for 3BA sliders">Sliders: CBBE 3BA UniString3 (Only3BA Sliders)</Template>
+</RefTemplates>
