@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="CBBE">
+        <Member name="CBBE Dawnguard - Body - Blind Moth Priest (Physics)"/>
+        <Member name="CBBE Dawnguard - Body - Prisoner Bloody (Physics)"/>
+        <Member name="CBBE Dawnguard - Body - Vampire Armor (Physics)"/>
+        <Member name="CBBE Dawnguard - Body - Vampire Robes (Physics)"/>
+        <Member name="CBBE Dawnguard - Body - Vampire Royal Robes (Physics)"/>
+    </Group>
+    <Group name="CBBE Vanilla Outfits Physics">
+        <Member name="CBBE Dawnguard - Body - Blind Moth Priest (Physics)"/>
+        <Member name="CBBE Dawnguard - Body - Prisoner Bloody (Physics)"/>
+        <Member name="CBBE Dawnguard - Amulet - Hawk"/>
+        <Member name="CBBE Dawnguard - Amulet - Vampire 1"/>
+        <Member name="CBBE Dawnguard - Amulet - Vampire 2"/>
+        <Member name="CBBE Dawnguard - Amulet - Vampire 3"/>
+        <Member name="CBBE Dawnguard - Amulet - Vampire 4"/>
+        <Member name="CBBE Dawnguard - Body - Dawnguard 1"/>
+        <Member name="CBBE Dawnguard - Body - Dawnguard 2"/>
+        <Member name="CBBE Dawnguard - Body - Dawnguard 3"/>
+        <Member name="CBBE Dawnguard - Body - Dawnguard 4"/>
+        <Member name="CBBE Dawnguard - Body - Dawnguard 5"/>
+        <Member name="CBBE Dawnguard - Body - Falmer Heavy"/>
+        <Member name="CBBE Dawnguard - Body - Ivory"/>
+        <Member name="CBBE Dawnguard - Feet - Dawnguard"/>
+        <Member name="CBBE Dawnguard - Feet - Falmer Heavy"/>
+        <Member name="CBBE Dawnguard - Feet - Ivory"/>
+        <Member name="CBBE Dawnguard - Feet - Moth Priest"/>
+        <Member name="CBBE Dawnguard - Feet - Prisoner Bloody"/>
+        <Member name="CBBE Dawnguard - Feet - Vampire Robe"/>
+        <Member name="CBBE Dawnguard - Hands - Dawnguard"/>
+        <Member name="CBBE Dawnguard - Hands - Falmer Heavy"/>
+        <Member name="CBBE Dawnguard - Hands - Ivory"/>
+        <Member name="CBBE Dawnguard - Body - Vampire Armor (Physics)"/>
+        <Member name="CBBE Dawnguard - Body - Vampire Robes (Physics)"/>
+        <Member name="CBBE Dawnguard - Body - Vampire Royal Robes (Physics)"/>
+        <Member name="CBBE Dawnguard - Feet - Vampire Boots"/>
+        <Member name="CBBE Dawnguard - Hands - Vampire Gauntlets"/>
+        <Member name="CBBE Dawnguard - Hands - Vampire Gloves"/>
+        <Member name="CBBE Dawnguard - Hoods - Vampire Hood"/>
+        <Member name="CBBE Dawnguard - Hoods - Vampire Hood (Arg)"/>
+        <Member name="CBBE Dawnguard - Hoods - Vampire Hood (Kha)"/>
+    </Group>
+</SliderGroups>
