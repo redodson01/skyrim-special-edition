@@ -119,3 +119,4 @@ FacegenForKids.esp
 Vanilla hair remake SMP NPCs.esp
 Faithful Faces.esp
 Faithful Faces0.esp
+Faithful Faces - Creation Club.esp
