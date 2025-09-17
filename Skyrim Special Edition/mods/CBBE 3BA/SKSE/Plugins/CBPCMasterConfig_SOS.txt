@@ -1,0 +1,17 @@
+[ConfigMap]                   
+#<
+#NPC Genitals01 [Gen01]=SOS01
+#NPC Genitals02 [Gen02]=SOS02
+#NPC Genitals03 [Gen03]=SOS03
+#NPC Genitals04 [Gen04]=SOS04
+#NPC Genitals05 [Gen05]=SOS05
+#NPC Genitals06 [Gen06]=SOS06
+#>
+<
+GenitalsLag01=SOS01
+GenitalsLag02=SOS02
+GenitalsLag03=SOS03
+GenitalsLag04=SOS04
+GenitalsLag05=SOS05
+GenitalsLag06=SOS06
+>
