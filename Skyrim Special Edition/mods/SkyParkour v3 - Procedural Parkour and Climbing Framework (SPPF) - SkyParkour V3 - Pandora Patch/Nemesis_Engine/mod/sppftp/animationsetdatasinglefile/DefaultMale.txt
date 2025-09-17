@@ -1,0 +1,11 @@
+meshes\actors\character\animations\skyparkour\skyparkour_fail.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_grab.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_vault.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_steplowleft.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_steplowright.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_stephighleft.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_stephighright.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_climblow.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_climbmedium.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_climbhigh.hkx
+meshes\actors\character\animations\skyparkour\skyparkour_climbhighest.hkx
