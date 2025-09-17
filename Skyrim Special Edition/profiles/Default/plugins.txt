@@ -27,3 +27,4 @@
 *Faithful Faces.esp
 *Faithful Faces0.esp
 *Faithful Faces - Creation Club.esp
+*CBBE.esp

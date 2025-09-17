@@ -1,0 +1,20 @@
+<RefTemplates>
+    <Template sourcefile="SliderSets\CBBE.osp" set="CBBE Body" shape="CBBE">CBBE Body</Template>
+    <Template sourcefile="SliderSets\CBBE.osp" set="CBBE Body Physics" shape="CBBE">CBBE Body Physics</Template>
+    <Template sourcefile="SliderSets\CBBE.osp" set="CBBE Feet" shape="Feet">CBBE Feet</Template>
+    <Template sourcefile="SliderSets\CBBE.osp" set="CBBE Hands" shape="Hands">CBBE Hands</Template>
+    <Template sourcefile="SliderSets\CBBE.osp" set="CBBE Hands Beast" shape="Hands">CBBE Hands Beast</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="FO4 CBBE To SSE CBBE" shape="RefCBBE">Convert: FO4 CBBE To SSE CBBE</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="SK CBBE To SSE CBBE" shape="CBBE">Convert: SK CBBE To SSE CBBE</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="SK CBBE To SSE CBBE Uniboob" shape="CBBE">Convert: SK CBBE To SSE CBBE - Uniboob Option</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="Vanilla To CBBE" shape="CBBE">Convert: Vanilla To CBBE</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="UNP Low To CBBE" shape="CBBE">Convert: UNP Low To CBBE</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="UNP High To CBBE" shape="CBBE">Convert: UNP High To CBBE</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="UNPB To CBBE" shape="CBBE">Convert: UNPB To CBBE</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="CBBE Uniboob" shape="CBBE - Uniboob">Sliders: CBBE Uniboob</Template>
+	<Template sourcefile="ConversionSets\CBBE References.osp" set="CBBE Uniboob - Breasts Only" shape="CBBE - Uniboob">Sliders: CBBE Uniboob - Breasts Only</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="CBBE Uniboob Physics" shape="CBBE - Uniboob">Sliders: CBBE Uniboob Physics</Template>
+	<Template sourcefile="ConversionSets\CBBE References.osp" set="CBBE Uniboob Physics - Breasts Only" shape="CBBE - Uniboob">Sliders: CBBE Uniboob Physics - Breasts Only</Template>
+	<Template sourcefile="ConversionSets\CBBE References.osp" set="CBBE to CBBE Uniboob" shape="CBBE - Uniboob">Convert: CBBE to CBBE Uniboob</Template>
+    <Template sourcefile="ConversionSets\CBBE References.osp" set="CBBE New Sliders 2.0.0" shape="CBBE">Sliders: CBBE New Sliders 2.0.0</Template>
+</RefTemplates>
