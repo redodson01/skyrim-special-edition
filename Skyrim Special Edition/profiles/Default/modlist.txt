@@ -2,6 +2,7 @@
 +Fuz Ro D-oh - Silent Voice - Alternate Silent Voice Files
 +Fuz Ro D-oh - Silent Voice
 +NPC AI Process Position Fix - NG
++powerofthree's Tweaks
 +Bug Fixes SSE
 +Fix Note icon for SkyUI (SKSE64 plugin)
 +Hunters Not Bandits
