@@ -52,3 +52,4 @@
 *DynamicMercenaryFees.esp
 *SurvivalModeImproved.esp
 *BetterThirdPersonSelection.esp
+*TrueDirectionalMovement.esp

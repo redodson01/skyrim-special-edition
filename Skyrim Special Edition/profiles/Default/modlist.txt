@@ -3,6 +3,7 @@
 +Better Jumping SE
 +Survival Mode Improved - SKSE
 +Better Third Person Selection - BTPS
++True Directional Movement - Modernized Third Person Gameplay
 +SmoothCam
 -10-Gameplay-General - Anvil_separator
 +Dynamic Mercenary Fees
