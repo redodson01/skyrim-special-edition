@@ -2,6 +2,7 @@
 +AI Overhaul SSE
 +Simple Offence Suppression
 +Run For Your Lives
++Tavern AI fix
 -11-Gameplay-AI and Combat - Step Modifications_separator
 -11-Gameplay-AI and Combat_separator
 +Shovels Bury Bodies - Overwrite
