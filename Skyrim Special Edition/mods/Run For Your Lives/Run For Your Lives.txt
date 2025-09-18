@@ -1,0 +1,381 @@
+Run For Your Lives
+==================
+
+A small mod that makes citizens in a village or city run indoors during a dragon or vampire attack.
+
+This was born out of frustration at seeing the citizens all trying to be a hero and rushing headlong to their doom attacking dragons and vampires. Instead, the citizens will run to safety like smart people should when faced with the horrors of giant flying fire breathing lizards (or bloodthirsty undead). NPCs who live in the attack location who own a home there will retreat to it. If the attack location has an inn, NPCs who don't live there will flee to the inn, along with any NPCs who live outdoors. If no inn is present the game picks a random interior from the surrounding area and those NPCs will flee there instead.
+
+This should work for any NPCs added by mods as well, up to a limit of 150 in the area. After that, they're on their own. The NPCs chosen are first come, first serve by the game engine. 
+
+Guards, members of The Companions, Vigilants of Stendarr, and the player's followers/teammates will not run, they will stand and fight. Farm animals will not run either, because they're stupid. That includes your horse.
+
+Spawned dragons are detected via animation events, which should allow for completely reliable detection even if the dragon never lands on something.
+
+Hand placed dragons are detected when their combat state changes* as well as when they land on any available perch objects in the area.
+
+Vampires will be detected when the events that spawn them begin running.
+
+* [Only after they land on the ground]
+
+My Patreon Page: https://www.patreon.com/arthmoor
+
+Download Locations
+==================
+
+AFK Mods              - https://www.afkmods.com/index.php?/files/file/1918-run-for-your-lives/
+Bethesda.net [PC+XB1] - https://creations.bethesda.net/en/skyrim/details/6273/Run_For_Your_Lives
+Skyrim SE Nexus       - https://www.nexusmods.com/skyrimspecialedition/mods/2272 [This download is outdated and no longer being supported]
+
+Installation Requirements
+=========================
+
+Skyrim Special Edition 1.6.1130 or greater.
+Unofficial Skyrim Special Edition Patch 4.3.2 or greater.
+
+Debug & Status MCM requires SKSE64 2.2.0 (or higher) and SkyUI-SE 5.2 (or higher) in order to use them.
+These menus are not necessary for the mod to run if you don't have SKSE64 and SkyUI-SE.
+
+DO NOT extract the contents of the BSA file into your Data folder as loose files, or let your mod manager perform an equivalent function on the contents of the file. Doing so will cause things to load in the wrong order and break the game. Skyrim is intended to load a BSA alongside it's ESM/ESP file. Circumventing this causes issues which I will not provide support for. If you insist on going against this advice, you will receive no support for the problems you generate as a result of this.
+
+Installation - Wrye Bash BAIN
+=============================
+
+Drop the archive into your Skyrim Special Edition Mods\Bash Installers folder, then install as usual.
+Make sure the mod is active in the Wrye Bash mods tab.
+
+Installation - Nexus Mod Manager
+================================
+
+Use the "Download with Manager" button on the Run For Your Lives page at Skyrim Nexus. The installer should take care of things from there.
+Then simply make sure NMM has the mod activated.
+
+Installation - Manual
+=====================
+
+Drop the Run For Your Lives.esp, Run For Your Lives.bsa, and Run For Your Lives - Textures.bsa files into your Data folder.
+Activate the mod using whatever management tool suits you.
+
+Uninstall
+=========
+
+Due to the nature of Skyrim mods, especially those adding scripts, it is strongly discouraged to attempt uninstalling a mod from your active game. Any mod that is more than pure mesh or texture replacements has the possibility to leave behind permanent changes to your save that you may not want. This is not something modders can correct for. It is how the game was designed by Bethesda. No support will be provided for anyone who uninstalls this mod from an active game and continues on with that save.
+
+To remove the mod: Delete the Run For Your Lives.esp, Run For Your Lives.bsa, and Run For Your Lives - Textures.bsa files from your Data folder. Then reload your game as usual.
+
+Known Issues
+============
+
+Detection of combat start events is inherently unreliable with dragons. Every effort has been made to ensure that when a dragon lands on the ground (yes, that has to happen before a combat detection can occur) that the quest to protect NPCs from dragons will run.
+
+The new system can only manage up to 5 dragons in a single area through alias tracking. They should cycle out as dragons are killed and the survivors trigger new registrations, but this cannot be guaranteed.
+
+Some NPCs may insist on entering combat with a dragon. Unfortunately Skyrim's AI system may not be entirely up to the task of making them follow the orders the mod is giving them. Efforts have been made to force NPCs to stop combat when the AI packs are running. Further efforts have been put in place to prevent bleedout NPCs who insist on being stupid from dying as a result. Please do not complain about NPCs who won't cooperate. I've done all I can here.
+
+A bad navmesh in an attack location can severely impact the ability of NPCs to clear the area. If you see any getting stuck and acting like they can't move, this is probably why. If the area is modified, you'll need to take this up with the author(s) of the mod(s) affecting the area. If the area is NOT modified (ie: totally vanilla) then please report such events so that I can pass them along to the USKP tracker to investigate.
+
+If an attack location has more than 150 NPCs to protect, only the first 150 will fill the quest aliases. After that, any leftovers are on their own and can still be killed! 150 NPC slots is enough to protect all of Solitude running Open Cities Skyrim with 60 slots left open. That ought to be more than enough. If it's not, there's nothing more I can do. Too many aliases in a quest leads to severe degradation in performance. I had to strike a balance somewhere.
+
+The alias fill casts a very wide net, do not be surprised if you see Khajiit from the caravans come in to seek shelter from an attack, the carriage drivers, or other NPCs who commonly live outside of a major city and have no assigned interior homes.
+
+Compatibility
+=============
+
+Tested and confirmed to work in all vanilla cities, towns, villages, and smaller settlements.
+Tested and confirmed to work with Raven Rock and the other smaller settlements on Solstheim.
+Tested and confirmed to work with all DLC added dragon types.
+Tested and confirmed to work with Open Cities Skyrim.
+Tested and confirmed to work with Immersive Citizens - AI Overhaul.
+
+Should be fully compatible with all user made dragon related mods, so long as the attacking dragon has MGRitual05DragonScript attached.
+
+Mods which alter the following scripts will not be compatible without a patch:
+
+MGRitual05DragonScript
+DragonPerchScript
+
+A Note About Immersive Citizens - AI Overhaul
+=============================================
+
+Several people have asked if this mod is still needed if they are using ICAO. The answer to that question is YES.
+
+ICAO sets up its aliases at the moment it is installed into your game. If you later install more mods that add NPCs to population areas, like Interesting NPC, Inconsequential NPCs, Cutting Room Floor, or other similar mods, then ICAO will not protect those NPCs. The only way it's at all possible to account for doing so on a consistent basis is if the protection for the NPCs is triggered on demand at the time of the event. That is what Run For Your Lives does.
+
+If someone advises you to uninstall RFYL because you're using ICAO - don't listen to them. The advice is uninformed at best.
+
+Troubleshooting Problems
+========================
+
+In order to debug any problems that may occur with the mod, some information is REQUIRED - without it, there's nothing I can do. Comments reporting problems with the mod will be ignored unless this information is supplied.
+
+In order to make this slightly easier to gather, I've updated the package with a global debug toggle that will turn on the log messages on demand.
+
+You will obviously need to make sure your SkyrimCustom.ini file has the following section:
+
+[Papyrus]
+bEnableLogging=1
+bEnableTrace=1
+bLoadDebugInformation=1
+bWarnOnFillAliasFailure=1
+bShowEventHandlingOutput=1
+
+Enable the mod's debug log:
+
+In MCM
+------
+
+Open the menu for the mod, select options, enable the "Script Debugging" option, and then close the menu. This menu will also tell you if the quest is running too.
+
+Without MCM
+-----------
+
+Open the console with the ~ key and type:
+
+Set ARTHRFYLDebugGlobal to 1
+
+The Log Files
+-------------
+
+Your Payrus logs will begin tracking any and all activity generated by the system. While playing, if you run into a problem (folks running inside for no apparent reason etc) then I will need the following from that play session:
+
+1. A copy of "C:/Users/<USERNAME>/Documents/My Games/Skyrim/Logs/Script/Papyrus.0.log"
+2. A copy of "C:/Users/<USERNAME>/Documents/My Games/Skyrim/Logs/Script/Script/AliasDump/AliasDump.0.log"
+
+Archive these files and put them on something like DropBox, or paste the contents to Pastebin.com, then provide a link to where I can get these.
+
+One thing - don't bother if you're one of those people who has altered your Papyrus memory settings. Any logs I see in which this has taken place will be dismissed. Altering those settings is bad for the game and leads to malfunctions in scripting that can cause all sorts of unwanted behavior. If you're not using default vanilla Papyrus memory settings, I don't want to hear from you. 
+
+How to Make it Work With Your Mod
+=================================
+
+For Town/Village/City Mods
+--------------------------
+
+In order for the system in place to work with a mod added location, a few things need to be set up.
+
+1. A location record (LCTN in xEdit) should be established with the keyword LocTypeHabitation.
+2. This location requires a marker with its location reference type set to LocationCenterMarker. This only works outdoors, and is best placed as close to the geographic center of your area as possible.
+3a. If your settlement has an inn, you can have that become usable by flagging the inn's location as LocTypeInn. It must be set as a child location of the location in step 1.
+3b. If you do not have an inn, then you need at least one interior location with the LocTypeDwelling keyword set. It must be a child location of the location from step 1.
+4. In the interior from step 3, a marker with its location reference type set to LocationCenterMarker must be placed. This is the target the AI packs will look for.
+5. Place some dragon perches around on the tops of your buildings. These give them places to land which will increase the chances of a good detection.
+
+When all 4 steps are complete, nothing further needs to be done. When a dragon or vampires attack your village, settlement, city, or whatever, the citizens will flee. Where they go depends on a few things:
+
+A. If they are already indoors, they will be made to stay there for the duration of the attack.
+B. If they are outside, have a home in the city that is marked as LocTypeDwelling, and their editor location is inside the home, they will go there.
+C. If the city has an inn, any non-residents and local NPCs whose editor locations are outdoors will go there.
+D. If none of the above are true, the game will select a random interior from your area matching the LocTypeDwelling keyword and the NPCs will flee there.
+
+For example, in Falkreath, the city has an inn. Any NPCs in the area who don't have a home flee there consistently.
+
+In a place like Darkwater Crossing, where there is no inn, the NPCs have two choices. Either the mine or the one house. More often than not, the game would choose the mine.
+
+Testing Dragon Attacks
+----------------------
+
+An easy way to test the system is to use the console and type: set winextdragon to 0
+
+This tells the dragon spawning system you're ready for one, and it should spawn shortly and move toward the area.
+
+Alternatively, you can hand spawn one with the console and test the results wherever you happen to be standing. Such a test may be skewed by the fact that the dragon will become immediately hostile and will be on the ground already, so detection would be automatic. This method cannot simulate an approach from outside the area unless you yourself spawn the dragon far enough away from a town.
+
+For Dragon Mods
+---------------
+
+In order for your dragons to be recognized by the combat detection, it will be required that they have the script MGRitual05DragonScript attached. This is considered normal for all dragons in the official content so that they can be used to harvest heart scales from them for the College of Winterhold. There are no properties to set. The modified script uses GetFormFromFile() to populate the needed data.
+
+Even if your dragon is not appropriate to skin for the College quest, this script needs to be attached (ie: mechanical dragons) or they will be able to reek havoc on a population center without restriction.
+
+Licensing and Legal
+===================
+
+Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.
+
+This mod may not be included in mod packs of any sort.
+
+Non-English translation versions may be uploaded without permission on the following conditions:
+
+1. All mod files contained in this archive are retained with their current names.
+2. No alterations are made to the contents of the plugins or master file other than those necessary to translate the English text.
+3. No alterations or additions are made to the meshes and textures other than those necessary to translate English text.
+4. This readme is included, in ENGLISH, exactly as it is written in the version it was downloaded with.
+
+Compatibility Patches may be distributed ONLY under the following conditions:
+
+1. Permission must be obtained from me in advance. There will be no exceptions to this.
+2. The documentation for the patch must mention that I am the creator of this mod.
+3. The documentation for the patch must contain a link back to one of the download sites listed at the top of this readme.
+4. You are solely responsible for any support issues arising from the use of the compatibility patch.
+
+All inquiries regarding this mod must be directed to me. If after 1 year contact cannot be established or you have not received a response, stewardship of this mod will fall to the community at AFK Mods (www.afkmods.com). I can be contacted via PM at AFK Mods under the username Arthmoor. A good faith effort must be made before assuming that contact cannot be established before concluding that I am no longer maintaining this mod.
+
+Requests made on Twitter, Facebook, Reddit, Discord, or any other social media format will not be acknowledged and permission will never be granted via these mediums.
+
+Mod history archives such as Morrowind Mod History are permitted to keep a copy of this mod within their archives for historical purposes provided all authorship and credit information is retained and the contents of the mod are not altered in any way.
+
+This mod is not made, guaranteed, or supported by Microsoft, Zenimax, Bethesda Game Studios, or any of their affiliates.
+
+Version History
+===============
+
+Version 4.0.6 [2024-07-26]
+--------------------------
+
+The .esp and .bsa files have been changed to lowercase filenames. This is to help facilitate universal filename compatibility for Steam Deck and regular linux users whose file systems are case sensitive. Many of them make use of the in-game menu to download mods and Bethesda.net ALWAYS downloads in lowercase. For the benefit of people using linux or the Steam Deck, it would be greatly appreciated if any mods which currently use PCS as a file dependency change the case of that dependency in their master lists. (Bug #34096)
+
+Version 4.0.5 [2023-12-06]
+--------------------------
+
+Synced with fixes for recent USSEP updates.
+
+Version 4.0.4 [2023-05-31]
+--------------------------
+
+Synced with fixes for recent USSEP updates.
+
+Version 4.0.3 [2020-04-14]
+--------------------------
+
+Another adjustment to MGRitual05DragonScript for a vanilla bug fix. (USSEP 4.2.3 Bug #28845)
+
+Version 4.0.2 [2020-01-16]
+--------------------------
+
+Adjusted MGRitual05DragonScript to account for a vanilla bug fix. (USSEP 4.2.2 Bug #28425)
+
+Version 4.0.1 [2020-01-13]
+--------------------------
+
+Dragons entering combat at more than 25000 units distance (more than 6 cells away) from the player will no longer trigger the protection quest. This fixes an edge case where for some reason dragons occasionally set off the system from the opposite side of the map.
+
+Version 4.0 [2017-11-04]
+------------------------
+
+Merger with When Vampires Attack. Both mods will now continue development within this unified package.
+
+Version 3.1.1 [2017-02-12]
+--------------------------
+
+Repaired some data corruption that caused aliases to lose their scripts and the detection event to fail when it should have come up.
+
+Version 3.1.0 [2016-12-01]
+--------------------------
+
+Added combat override packages to the citizen aliases that should keep them out of the battle even if the game puts them into combat mode.
+
+Version 3.0 [2016-11-01]
+------------------------
+
+Conversion to Skyrim Special Edition.
+
+Version 2.0.7 [2016-07-20]
+--------------------------
+
+Added an extra failsafe in case the protection quest somehow starts but the aliases for tracking dragons are not filled. If the initial alias fails, an error will be logged. Citizens will be vulnerable to attack if this happens. It is not currently know why the alias fails to fill but chances are it's induced by mods which alter how dragons work.
+
+Version 2.0.6 [2015-10-11]
+--------------------------
+
+The package used to hold an NPC inside an interior if they're already there was rooting them in place, which looked strange in most cases. This has been changed to a "sandbox near self" package that should keep them indoors but allow them to conduct normal activity.
+
+Version 2.0.5 [2015-03-16]
+--------------------------
+
+Corrected a bad alias check in the MCM menu.
+
+Version 2.0.4 [2015-02-26]
+--------------------------
+
+Added MCM menu to make turning on the script debugging easier.
+
+Version 2.0.3 [2014-07-19]
+--------------------------
+
+Spawned dragons (from events, quests, the console, etc) whose form IDs start with FF will be handled through animation events now since there is too much risk that such a dragon could fly around and spit fire on stuff without ever perching or coming down to the ground.
+The perch and combat state triggers will now be reserved for use by dragons hand placed into the game by the CK, be they from mods or the vanilla game. They are generally not threats to populated areas anyway.
+
+Version 2.0.2 [2014-06-30]
+--------------------------
+
+All 136 dragon perch markers in the vanilla game that were flagged isFullLOD have had the flag removed so they can no longer trigger dragon events for any nearby cities, towns, or villages.
+Odahviing will no longer set off the system at all since allowing him to do so will disrupt the MQ as well as any city encounters you may call him into.
+
+Version 2.0.1 [2014-05-20]
+--------------------------
+
+Enabled on demand debug messages for use in troubleshooting.
+Fixed issues with dragons in distant cells triggering flee responses in Riften, Windhelm, and Whiterun.
+
+Version 2.0 [2014-05-17]
+------------------------
+
+Complete replacement of the entire detection system. No longer uses wilderness encounter events. Dragons are now detected by combat state changes and when they land on available dragon perch objects in the area. This results in more reliable detection of dragons no matter how they spawn, including unusual events generated by mods. (Addresses Bug #12160)
+When a citizen alias is filled, the AI pack will call for them to stop all combat activity prior to sending them to their safe harbor location. This should reduce the number of wannabe heroes.
+In the event a citizen STILL decides to play hero, as long as they are protected by essential status, entering bleedout will result in them being instantly healed for up to 75 health so as to avoid a possible scenario where the NPC could die if the dragon was killed while they're bleeding out.
+The check for child location status of an NPC's editor location was backward. This resulted in every NPC in an affected target area trying to cram into the inn instead of going to their houses like they were supposed to.
+Added a condition check to the aliases to make sure they only fill with unique actors. This should eliminate accidentally picking up nearby hunters or other leveled list NPCs that shouldn't be getting dragged in.
+Added a condition check to bar the player from filling an available citizen alias. Yep, for whatever reason, this happened in a few test runs.
+All edits to vanilla quest records have been purged as they are no longer necessary. The altered vanilla quest scripts will revert back to their previous states.
+
+Version 1.2.4 [2014-01-25]
+--------------------------
+
+Merged bugfixes from USKP 2.0.1 to the WEJS18 event in with the modifications RFYL made to the quest.
+
+Version 1.2.3 [2013-10-24]
+--------------------------
+
+Data corruption appears to have built up over time which has rendered the aliases used by the WIChangeLocation09 and WE04 protection quests worthless. This has now been corrected by changing the form IDs on both quests and on all of the AI packs associated with them.
+New protection against "Corpses in the aftermath of a dragon attack, Dog left behind" (WEJS18) has been added since this triggered event can be called up near occupied areas. One of which happens to be Falkreath.
+
+Version 1.2.2 [2013-05-12]
+--------------------------
+
+The cultists from Dragonborn should no longer be caught in the safety net. dunPrisonerFaction is now considered exempt, which the cultists are a member of.
+
+Version 1.2.1 [2013-03-18]
+--------------------------
+
+The script event for dragon attacks near settlements (WIChangeLocation09) will now trigger the flee response regardless of whether guards have line of sight on the dragon or not.
+
+Version 1.2 [2013-01-03]
+------------------------
+
+Added support for random wilderness Player vs Dragon events (WE04 quest).
+Found and removed some rogue data which could have prevented the protection quests from launching.
+
+Version 1.1.3 [2012-12-12]
+--------------------------
+
+The protection quest is no longer triggered by the guards. The scene proved unreliable and so the quest now initiates when WIChangelocation09 hits stage 1.
+The AI for the flee packages has been updated to allow NPCs to retreat to the inn if the attack location has one.
+The system can now protect up to 150 NPCs in a given area.
+
+Skyrim patch 1.8.151.0.7 is now required for the mod to run.
+
+Version 1.1.2 [2012-10-17]
+--------------------------
+
+Small modification to the AI pack to only affect NPCs who are currently outdoors. If an indoor NPC steps outside, they should quickly end up back inside.
+
+Version 1.1.1 [2012-09-25]
+--------------------------
+
+Had to change the system somewhat. It now checks for "Habitation" locations and sends the NPCs to a "Dwelling" within that location. It was dumb to see NPCs flee Darkwater Crossing trying to run all the way to Kynsegrove when they have a perfectly good house and mine to hide in.
+
+Version 1.1 [2012-09-15]
+------------------------
+
+Expanded the coverage on the quest that runs the flee package to make all NPCs run for the inn instead of their editor locations. This now allows for NPCs who are stuck outdoors and would otherwise act even dumber than the farm animals.
+Moved the trigger point for the attack quest back to the first dialogue spoke by the guards so that the citizens will have more time to flee to make up for the distance and possible traffic jams before the dragon reaches the location.
+Raised the quest priority slightly to provide better coverage in the event other quests are being too assertive, and possibly causing unintended NPC deaths.
+Modified the citizen selection aliases to prevent player teammates and dismissed followers from fleeing the fight.
+The AI package has been changed to a "FleeTo" package since this will play the "duck and cover" anims while the NPCs make their way to the inn.
+The AI package has also been modified to block anyone currently in combat from fleeing to the inn until their fight is over.
+On the off chance there may be some within range of the attack, bandits and forsworn will not be covered by the system.
+Members of The Companions and/or Vigilants of Stendaar will not be covered by the system as these two factions would be considered fit to fight.
+
+Version 1.0 [2012-09-09]
+------------------------
+
+Initial release.
