@@ -83,3 +83,6 @@
 *Sit on Stuff - Take a Nap Patch.esp
 *sweepingOrganizesStuff.esp
 *ShovelBody.esp
+*AI Overhaul.esp
+*run for your lives.esp
+*TavernAIFix.esp
