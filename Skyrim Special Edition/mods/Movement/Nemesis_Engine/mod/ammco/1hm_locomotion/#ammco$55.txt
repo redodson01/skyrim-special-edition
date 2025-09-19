@@ -1,0 +1,8 @@
+		<hkobject name="#ammco$55" class="BSiStateTaggingGenerator" signature="0xf0826fc1">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">AMMCO_iStateTaggingGenerator_2HM_NC_NPC</hkparam>
+			<hkparam name="pDefaultGenerator">#0834</hkparam>
+			<hkparam name="iStateToSetAs">3004</hkparam>
+			<hkparam name="iPriority">2</hkparam>
+		</hkobject>

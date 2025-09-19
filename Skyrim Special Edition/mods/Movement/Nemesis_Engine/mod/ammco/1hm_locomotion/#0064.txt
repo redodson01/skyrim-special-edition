@@ -1,0 +1,134 @@
+		<hkobject name="#0064" class="hkbVariableValueSet" signature="0x27812d8d">
+			<hkparam name="wordVariableValues" numelements="17">
+				<hkobject>
+					<hkparam name="value">1045220557</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">6</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">7</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">8</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+<!-- MOD_CODE ~ammco~ OPEN -->
+				<hkobject>
+					<hkparam name="value">3000</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3001</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3002</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3003</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3004</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3005</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3006</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3007</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3008</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3009</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3010</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3011</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">0</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3012</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3013</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3014</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3015</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3016</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3017</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3018</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3019</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3020</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3021</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3022</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="value">3023</hkparam>
+				</hkobject>
+<!-- CLOSE -->
+			</hkparam>
+			<hkparam name="quadVariableValues" numelements="0"></hkparam>
+			<hkparam name="variantVariableValues" numelements="0"></hkparam>
+		</hkobject>

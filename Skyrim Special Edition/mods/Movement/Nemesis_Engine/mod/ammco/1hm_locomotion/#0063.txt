@@ -1,0 +1,72 @@
+		<hkobject name="#0063" class="hkbBehaviorGraphStringData" signature="0xc713064e">
+			<hkparam name="eventNames" numelements="16">
+				<hkcstring>SprintStop</hkcstring>
+				<hkcstring>SprintStart</hkcstring>
+				<hkcstring>FootLeft</hkcstring>
+				<hkcstring>FootRight</hkcstring>
+				<hkcstring>SneakStart</hkcstring>
+				<hkcstring>SneakStop</hkcstring>
+				<hkcstring>FootSprintLeft</hkcstring>
+				<hkcstring>FootSprintRight</hkcstring>
+				<hkcstring>CyclicFreeze</hkcstring>
+				<hkcstring>CyclicCrossBlend</hkcstring>
+				<hkcstring>DodgeRight</hkcstring>
+				<hkcstring>DodgeLeft</hkcstring>
+				<hkcstring>DodgeBack</hkcstring>
+				<hkcstring>tailSneakLocomotion</hkcstring>
+				<hkcstring>tailCombatLocomotion</hkcstring>
+				<hkcstring>SneakSprintStartRoll</hkcstring>
+<!-- MOD_CODE ~ammco~ OPEN -->
+				<hkcstring>moveStop</hkcstring>
+				<hkcstring>moveStart</hkcstring>
+<!-- CLOSE -->
+			</hkparam>
+			<hkparam name="attributeNames" numelements="0"></hkparam>
+			<hkparam name="variableNames" numelements="17">
+				<hkcstring>blendDefault</hkcstring>
+				<hkcstring>Direction</hkcstring>
+				<hkcstring>SpeedSampled</hkcstring>
+				<hkcstring>IsSprinting</hkcstring>
+				<hkcstring>iState</hkcstring>
+				<hkcstring>bInMoveState</hkcstring>
+				<hkcstring>iSyncSprintState</hkcstring>
+				<hkcstring>bSprintOK</hkcstring>
+				<hkcstring>iIsInSneak</hkcstring>
+				<hkcstring>iState_NPCSneaking</hkcstring>
+				<hkcstring>iRightHandType</hkcstring>
+				<hkcstring>iState_NPC1HM</hkcstring>
+				<hkcstring>iState_NPC2HM</hkcstring>
+				<hkcstring>iLeftHandType</hkcstring>
+				<hkcstring>iState_NPCBow</hkcstring>
+				<hkcstring>IsSneaking</hkcstring>
+				<hkcstring>bAllowRotation</hkcstring>
+<!-- MOD_CODE ~ammco~ OPEN -->
+				<hkcstring>iState_AmmcoNPC1HM</hkcstring>
+				<hkcstring>iState_AmmcoNPCCombat1HM</hkcstring>
+				<hkcstring>iState_AmmcoPlayer1HM</hkcstring>
+				<hkcstring>iState_AmmcoPlayerCombat1HM</hkcstring>
+				<hkcstring>iState_AmmcoNPC2HM</hkcstring>
+				<hkcstring>iState_AmmcoNPCCombat2HM</hkcstring>
+				<hkcstring>iState_AmmcoPlayer2HM</hkcstring>
+				<hkcstring>iState_AmmcoPlayerCombat2HM</hkcstring>
+				<hkcstring>iState_AmmcoNPC2HW</hkcstring>
+				<hkcstring>iState_AmmcoNPCCombat2HW</hkcstring>
+				<hkcstring>iState_AmmcoPlayer2HW</hkcstring>
+				<hkcstring>iState_AmmcoPlayerCombat2HW</hkcstring>
+				<hkcstring>AMMCO_State</hkcstring>
+				<hkcstring>iState_AmmcoNPCBow</hkcstring>
+				<hkcstring>iState_AmmcoNPCCombatBow</hkcstring>
+				<hkcstring>iState_AmmcoPlayerBow</hkcstring>
+				<hkcstring>iState_AmmcoPlayerCombatBow</hkcstring>
+				<hkcstring>iState_AmmcoNPCCrossbow</hkcstring>
+				<hkcstring>iState_AmmcoNPCCombatCrossbow</hkcstring>
+				<hkcstring>iState_AmmcoPlayerCrossbow</hkcstring>
+				<hkcstring>iState_AmmcoPlayerCombatCrossbow</hkcstring>
+				<hkcstring>iState_AmmcoNPCMagic</hkcstring>
+				<hkcstring>iState_AmmcoNPCCombatMagic</hkcstring>
+				<hkcstring>iState_AmmcoPlayerMagic</hkcstring>
+				<hkcstring>iState_AmmcoPlayerCombatMagic</hkcstring>
+<!-- CLOSE -->
+			</hkparam>
+			<hkparam name="characterPropertyNames" numelements="0"></hkparam>
+		</hkobject>
