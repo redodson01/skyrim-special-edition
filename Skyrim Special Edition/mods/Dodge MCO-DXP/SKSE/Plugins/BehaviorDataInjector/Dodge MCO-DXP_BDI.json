@@ -1,0 +1,28 @@
+[
+	{
+		"projectPath": "Actors\\Character",
+			"type": "kEvent",
+			"name": "SoundPlay"
+	},
+	{
+		"projectPath": "Actors\\Character",
+			"type": "kEvent",
+			"name": "SCAR_ComboStart"
+	},
+
+	{
+		"projectPath": "Actors\\Character",
+			"type": "kEvent",
+			"name": "FootRight"
+	},
+	{
+		"projectPath": "Actors\\Character",
+			"type": "kEvent",
+			"name": "FootLeft"
+	},
+	{
+		"projectPath": "Actors\\Character",
+			"type": "kEvent",
+			"name": "SoundPlay"
+	}
+]
