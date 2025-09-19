@@ -55,3 +55,4 @@
 *NPCs Take Cover.esp
 *Press E To Heal Followers.esp
 *SkyrimSpearMechanic.esp
+*Precision.esp
