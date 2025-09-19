@@ -1,0 +1,35 @@
+		<hkobject name="#hbtb$8" class="hkbVariableBindingSet" signature="0x338ad4ff">
+			<hkparam name="bindings" numelements="5">
+				<hkobject>
+					<hkparam name="memberPath">bIsActive0</hkparam>
+					<hkparam name="variableIndex">$variableID[bAnimationDriven]$</hkparam>
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="memberPath">bIsActive1</hkparam>
+					<hkparam name="variableIndex">$variableID[HBTB_PerfectBlock]$</hkparam>
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="memberPath">bIsActive2</hkparam>
+					<hkparam name="variableIndex">$variableID[HBTB_Invincibilty]$</hkparam>
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="memberPath">bIsActive3</hkparam>
+					<hkparam name="variableIndex">$variableID[HBTB_TimedBlock]$</hkparam>
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="memberPath">bIsActive4</hkparam>
+					<hkparam name="variableIndex">$variableID[HBTB_Anticipate]$</hkparam>
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="indexOfBindingToEnable">-1</hkparam>
+		</hkobject>
