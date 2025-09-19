@@ -44,3 +44,4 @@
 *NPCs Take Cover.esp
 *Precision.esp
 *EldenCounter.esp
+*EldenParry.esp
