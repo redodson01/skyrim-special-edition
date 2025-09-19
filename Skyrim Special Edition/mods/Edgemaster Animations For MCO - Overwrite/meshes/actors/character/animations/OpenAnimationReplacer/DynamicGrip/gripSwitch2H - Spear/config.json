@@ -1,0 +1,32 @@
+{
+    "name": "dynamicGrip2H - Spear",
+    "description": "1H -> 2H",
+    "priority": 880001,
+    "conditions": [
+        {
+            "condition": "MathStatement",
+            "requiredPlugin": "OpenAnimationReplacer-Math",
+            "requiredVersion": "1.0.0.0",
+            "Math Statement": {
+                "expression": "gripMode == 1",
+                "variables": {
+                    "gripmode": {
+                        "graphVariable": "iDynamicGripMode",
+                        "graphVariableType": "Int"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "IsEquippedHasKeyword",
+            "requiredVersion": "1.0.0.0",
+            "Keyword": {
+                "form": {
+                    "pluginName": "SkyrimSpearMechanic.esp",
+                    "formID": "000D62"
+                }
+            },
+            "Left hand": false
+        }
+    ]
+}
