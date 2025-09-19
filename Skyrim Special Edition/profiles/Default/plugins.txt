@@ -6,6 +6,8 @@
 *SmoothCam.esl
 *DynamicCollisionAdjustment.esl
 *ThirdPersonFirstPersonAiming.esl
+*Dodge_MCO-DXP.esl
+*DodgeFramework.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *DynDOLOD Resources SE.esp
