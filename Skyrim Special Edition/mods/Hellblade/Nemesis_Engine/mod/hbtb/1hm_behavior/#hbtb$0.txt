@@ -1,0 +1,10 @@
+		<hkobject name="#hbtb$0" class="hkbDelayedModifier" signature="0x8e101a7a">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">HBTB_PerfectBlock_DelayedModifier</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="modifier">#hbtb$1</hkparam>
+			<hkparam name="delaySeconds">0.000000</hkparam>
+			<hkparam name="durationSeconds">0.050000</hkparam>
+			<hkparam name="secondsElapsed">0.000000</hkparam>
+		</hkobject>
