@@ -6,6 +6,7 @@
 *DynamicCollisionAdjustment.esl
 *Dodge_MCO-DXP.esl
 *DodgeFramework.esl
+*staggeronhit.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
