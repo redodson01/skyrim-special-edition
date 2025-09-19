@@ -1,0 +1,34 @@
+		<hkobject name="#colis$69" class="hkbExpressionDataArray" signature="0x4b9ee1a2">
+			<hkparam name="expressionsData" numelements="5">
+				<hkobject>
+					<hkparam name="expression">Collision_NotAiming = 1</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ONCE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="expression">CastStop if(InterruptCast)</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ONCE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="expression">Collision_SRecoil_End_FailSafe if(1)</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ONCE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="expression">Collision_RecoilCancelable if(1)</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ONCE</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="expression">TDM_LockRotation = Collision_LockRotation</hkparam>
+					<hkparam name="assignmentVariableIndex">-1</hkparam>
+					<hkparam name="assignmentEventIndex">-1</hkparam>
+					<hkparam name="eventMode">EVENT_MODE_SEND_ONCE</hkparam>
+				</hkobject>
+			</hkparam>
+		</hkobject>
