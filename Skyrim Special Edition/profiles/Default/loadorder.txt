@@ -118,3 +118,4 @@ run for your lives.esp
 TavernAIFix.esp
 Precision.esp
 EldenCounter.esp
+EldenParry.esp

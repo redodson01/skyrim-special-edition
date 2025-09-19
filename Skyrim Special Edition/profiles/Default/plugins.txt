@@ -38,3 +38,4 @@
 *TavernAIFix.esp
 *Precision.esp
 *EldenCounter.esp
+*EldenParry.esp
