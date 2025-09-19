@@ -1,0 +1,6 @@
+# numOriginalFrames: 271
+# duration: 9.000000
+# numAnnotationTracks: 99
+# numAnnotations: 4
+1.000000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCPowerAttack", "MinDistance":250, "MaxDistance":344, "StartAngle":-35, "EndAngle":35, "Chance":30, "Type":"RPA"}
+0.500000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCNormalAttack", "MinDistance":0, "MaxDistance":96, "StartAngle":-60, "EndAngle":60, "Chance":100, "Type":"RA"}
