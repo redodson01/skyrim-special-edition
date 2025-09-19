@@ -123,3 +123,4 @@ TavernAIFix.esp
 BladeAndBlunt.esp
 NPCs Take Cover.esp
 Precision.esp
+EldenCounter.esp
