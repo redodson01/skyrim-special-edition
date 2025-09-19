@@ -1,0 +1,29 @@
+{
+    "name": "dynamicGrip2H - Hammer",
+    "description": "1H -> 2H",
+    "priority": 880004,
+    "conditions": [
+        {
+            "condition": "MathStatement",
+            "requiredPlugin": "OpenAnimationReplacer-Math",
+            "requiredVersion": "1.0.0.0",
+            "Math Statement": {
+                "expression": "gripMode == 1",
+                "variables": {
+                    "gripmode": {
+                        "graphVariable": "iDynamicGripMode",
+                        "graphVariableType": "Int"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 4.0
+            },
+            "Left hand": false
+        }
+    ]
+}

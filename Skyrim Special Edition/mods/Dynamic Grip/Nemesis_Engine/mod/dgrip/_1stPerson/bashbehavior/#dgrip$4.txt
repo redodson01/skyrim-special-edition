@@ -1,0 +1,10 @@
+		<hkobject name="#dgrip$4" class="hkbManualSelectorGenerator" signature="0xd932fab8">
+			<hkparam name="variableBindingSet">#dgrip$5</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">DG_BlockBash_RightHand</hkparam>
+			<hkparam name="generators" numelements="7">
+				#0158 #0158 #0158 #0158 #0158 #0164 #0162
+			</hkparam>
+			<hkparam name="selectedGeneratorIndex">0</hkparam>
+			<hkparam name="currentGeneratorIndex">0</hkparam>
+		</hkobject>

@@ -122,3 +122,10 @@ run for your lives.esp
 TavernAIFix.esp
 BladeAndBlunt.esp
 NPCs Take Cover.esp
+Precision.esp
+EldenCounter.esp
+EldenParry.esp
+scar-adxp-patch.esp
+DynamicGrip.esp
+DynamicGrip_MCO.esp
+DynamicGrip_NoLeftHandAttack.esp
