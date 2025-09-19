@@ -173,3 +173,4 @@ Press E To Heal Followers.esp
 SkyrimSpearMechanic.esp
 Precision.esp
 ArcheryLocationalDamage.esp
+EldenCounter.esp
