@@ -185,3 +185,4 @@ DynamicGrip_MCO.esp
 DynamicGrip_NoLeftHandAttack.esp
 Attack_DXP.esp
 MovementDXP.esp
+Hellblade - Timed Block.esp
