@@ -1,0 +1,2 @@
+IsEquippedRightType(3) AND
+IsEquippedLeftType(11)
