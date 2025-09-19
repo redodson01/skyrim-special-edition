@@ -1,0 +1,4 @@
+IsEquippedLeftType(1) OR
+IsEquippedLeftType(2) OR
+IsEquippedLeftType(3) OR
+IsEquippedLeftType(4)
