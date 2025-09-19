@@ -84,6 +84,8 @@ TheNewGentleman.esp
 NoSillyPhysicsDamage.esl
 SmoothCam.esl
 DynamicCollisionAdjustment.esl
+Dodge_MCO-DXP.esl
+DodgeFramework.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
