@@ -1,0 +1,18 @@
+		<hkobject name="#2376" class="hkbStateMachineEventPropertyArray" signature="0xb07b4388">
+			<hkparam name="events" numelements="1">
+				<hkobject>
+					<hkparam name="id">371</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+<!-- MOD_CODE ~stglck~ OPEN -->
+				<hkobject>
+					<hkparam name="id">80</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+				<hkobject>
+					<hkparam name="id">79</hkparam>
+					<hkparam name="payload">null</hkparam>
+				</hkobject>
+<!-- CLOSE -->
+			</hkparam>
+		</hkobject>
