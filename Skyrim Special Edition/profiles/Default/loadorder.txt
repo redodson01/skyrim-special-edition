@@ -119,3 +119,4 @@ TavernAIFix.esp
 Precision.esp
 EldenCounter.esp
 EldenParry.esp
+scar-adxp-patch.esp
