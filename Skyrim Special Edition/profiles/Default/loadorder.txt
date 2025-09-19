@@ -123,3 +123,4 @@ EldenCounter.esp
 EldenParry.esp
 scar-adxp-patch.esp
 Attack_DXP.esp
+MovementDXP.esp
