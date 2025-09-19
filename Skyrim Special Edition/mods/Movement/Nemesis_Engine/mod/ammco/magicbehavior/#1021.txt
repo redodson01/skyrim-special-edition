@@ -1,0 +1,16 @@
+		<hkobject name="#1021" class="BSiStateTaggingGenerator" signature="0xf0826fc1">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">MagicCasting_iStateGen</hkparam>
+<!-- MOD_CODE ~ammco~ OPEN -->
+			<hkparam name="pDefaultGenerator">#ammco$6</hkparam>
+<!-- ORIGINAL -->
+			<hkparam name="pDefaultGenerator">#1020</hkparam>
+<!-- CLOSE -->
+			<hkparam name="iStateToSetAs">10</hkparam>
+<!-- MOD_CODE ~ammco~ OPEN -->
+			<hkparam name="iPriority">0</hkparam>
+<!-- ORIGINAL -->
+			<hkparam name="iPriority">11</hkparam>
+<!-- CLOSE -->
+		</hkobject>
