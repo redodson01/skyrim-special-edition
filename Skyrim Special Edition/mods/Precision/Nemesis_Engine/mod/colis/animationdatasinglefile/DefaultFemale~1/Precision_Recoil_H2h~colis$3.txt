@@ -1,0 +1,7 @@
+Precision_Recoil_H2h
+colis$3
+1
+0
+0
+1
+recoilStop:0.8

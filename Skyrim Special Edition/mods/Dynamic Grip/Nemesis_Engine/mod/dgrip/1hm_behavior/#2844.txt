@@ -1,0 +1,24 @@
+		<hkobject name="#2844" class="hkbManualSelectorGenerator" signature="0xd932fab8">
+			<hkparam name="variableBindingSet">#2843</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">AttackForwardSprintMSG</hkparam>
+			<hkparam name="generators" numelements="7">
+<!-- MOD_CODE ~dgrip~ OPEN -->
+				#dgrip$5
+				#dgrip$5
+				#dgrip$5
+				#dgrip$5
+				#dgrip$5
+<!-- ORIGINAL -->
+				#2842
+				#2842
+				#2842
+				#2842
+				#2842
+<!-- CLOSE -->
+				#2839
+				#2837
+			</hkparam>
+			<hkparam name="selectedGeneratorIndex">0</hkparam>
+			<hkparam name="currentGeneratorIndex">0</hkparam>
+		</hkobject>

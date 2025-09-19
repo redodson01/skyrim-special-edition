@@ -1,0 +1,8 @@
+# numOriginalFrames: 11
+# duration: 0.333333
+# numAnnotationTracks: 99
+# numAnnotations: 4
+0.060000 CPR.EnableAdvance|0|60|100|80|100|150
+0.060000 CPR.EnableBackoff|0.90|0.50
+0.060000 CPR.EnableCircling|30|200|30|90
+0.060000 CPR.EnableFallback|100|150|0.25|0.5
