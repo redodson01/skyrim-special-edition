@@ -1,0 +1,139 @@
+# numOriginalFrames: 61
+# duration: 2.000000
+# numAnnotationTracks: 97
+# numAnnotations: 137
+0.150000 preHitFrame
+0.316667 weaponSwing
+0.350000 MeleeTrace_Right_Start
+0.383333 HitFrame
+0.450000 MeleeTrace_Right_Stop
+0.816667 MCO_WinOpen
+1.033333 MCO_WinClose
+1.970000 attackStop0.0 animmotion 0 0 0
+0.016667 animmotion 0 0 0
+0.033333 animmotion 0 0 0
+0.050000 animmotion 0 0 0
+0.066667 animmotion 0 0 0
+0.083333 animmotion -1 0 0
+0.100000 animmotion -1 0 0
+0.116667 animmotion -2 0 0
+0.133333 animmotion -2 0 0
+0.150000 animmotion -2 0 0
+0.166667 animmotion -2 0 0
+0.183333 animmotion -2 0 0
+0.200000 animmotion -2 0 0
+0.216667 animmotion -2 1 0
+0.233333 animmotion -2 1 0
+0.250000 animmotion -2 1 0
+0.266667 animmotion -2 1 0
+0.283333 animmotion -2 2 0
+0.300000 animmotion -2 4 0
+0.316667 animmotion -3 9 0
+0.333333 animmotion -4 17 0
+0.350000 animmotion -5 26 0
+0.366667 animmotion -6 36 0
+0.383333 animmotion -7 44 0
+0.400000 animmotion -7 49 0
+0.416667 animmotion -7 54 0
+0.433333 animmotion -8 58 0
+0.450000 animmotion -8 62 0
+0.466667 animmotion -9 68 0
+0.483333 animmotion -10 76 0
+0.500000 animmotion -10 83 0
+0.516667 animmotion -11 88 0
+0.533333 animmotion -11 96 0
+0.550000 animmotion -11 104 0
+0.566667 animmotion -11 110 0
+0.583333 animmotion -11 113 0
+0.600000 animmotion -11 114 0
+0.616667 animmotion -12 115 0
+0.633333 animmotion -12 115 0
+0.650000 animmotion -12 116 0
+0.666667 animmotion -12 116 0
+0.683333 animmotion -12 117 0
+0.700000 animmotion -12 117 0
+0.716667 animmotion -12 117 0
+0.733333 animmotion -12 118 0
+0.750000 animmotion -12 118 0
+0.766667 animmotion -12 118 0
+0.783333 animmotion -12 118 0
+0.800000 animmotion -12 118 0
+0.816667 animmotion -12 118 0
+0.833333 animmotion -12 118 0
+0.850000 animmotion -12 118 0
+0.866667 animmotion -12 118 0
+0.883333 animmotion -12 118 0
+0.900000 animmotion -12 118 0
+0.916667 animmotion -12 118 0
+0.933333 animmotion -12 118 0
+0.950000 animmotion -12 118 0
+0.966667 animmotion -12 118 0
+0.983333 animmotion -12 118 0
+1.000000 animmotion -12 118 0
+1.016667 animmotion -12 118 0
+1.033333 animmotion -12 118 0
+1.050000 animmotion -12 118 0
+1.066667 animmotion -12 118 0
+1.083333 animmotion -12 118 0
+1.100000 animmotion -12 118 0
+1.116667 animmotion -12 118 0
+1.133333 animmotion -12 118 0
+1.150000 animmotion -12 118 0
+1.166667 animmotion -12 118 0
+1.183333 animmotion -12 118 0
+1.200000 animmotion -12 118 0
+1.216667 animmotion -12 118 0
+1.233333 animmotion -12 118 0
+1.250000 animmotion -12 118 0
+1.266667 animmotion -12 118 0
+1.283333 animmotion -12 118 0
+1.300000 animmotion -12 118 0
+1.316667 animmotion -12 118 0
+1.333333 animmotion -12 118 0
+1.350000 animmotion -12 118 0
+1.366667 animmotion -12 118 0
+1.383333 animmotion -12 118 0
+1.400000 animmotion -12 118 0
+1.416667 animmotion -12 118 0
+1.433333 animmotion -12 118 0
+1.450000 animmotion -12 118 0
+1.466667 animmotion -12 118 0
+1.483333 animmotion -12 118 0
+1.500000 animmotion -12 118 0
+1.516667 animmotion -12 118 0
+1.533333 animmotion -12 118 0
+1.550000 animmotion -12 118 0
+1.566667 animmotion -12 118 0
+1.583333 animmotion -12 118 0
+1.600000 animmotion -12 118 0
+1.616667 animmotion -12 118 0
+1.633333 animmotion -12 118 0
+1.650000 animmotion -12 118 0
+1.666667 animmotion -12 118 0
+1.683333 animmotion -12 118 0
+1.700000 animmotion -12 118 0
+1.716667 animmotion -12 118 0
+1.733333 animmotion -12 118 0
+1.750000 animmotion -12 118 0
+1.766667 animmotion -12 118 0
+1.783333 animmotion -12 118 0
+1.800000 animmotion -12 118 0
+1.816667 animmotion -12 118 0
+1.833333 animmotion -12 118 0
+1.850000 animmotion -12 118 0
+1.866667 animmotion -12 118 0
+1.883333 animmotion -12 118 0
+1.900000 animmotion -12 118 0
+1.916667 animmotion -12 118 0
+1.933333 animmotion -12 118 0
+1.950000 animmotion -12 118 0
+1.966667 animmotion -12 118 0
+1.983333 animmotion -12 118 0
+0.816667 MCO_PowerWinOpen
+0.060000 PIE.@SGVI|MCO_nextpowerattack|3
+0.060000 PIE.@SGVI|MCO_nextattack|3
+1.033333 MCO_PowerWinClose
+1.033333 MCO_Recovery
+0.816667 SCAR_ComboStart
+1.000000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCPowerAttack", "MinDistance":0, "MaxDistance":161, "StartAngle":-60, "EndAngle":60, "Chance":30, "Type":"RPA"}
+0.500000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCNormalAttack", "MinDistance":0, "MaxDistance":119, "StartAngle":-60, "EndAngle":60, "Chance":100, "Type":"RA"}

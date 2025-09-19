@@ -1,0 +1,10 @@
+# numOriginalFrames: 201
+# duration: 6.666667
+# numAnnotationTracks: 99
+# numAnnotations: 4
+0.060000 PIE.@SGVF|SCAR_firstattackdistancemax|48.0104155366312
+0.060000 PIE.@SGVF|SCAR_firstattackdistancemin|0
+0.060000 PIE.@SGVF|SCAR_firstpowerattackdistancemax|247.032386540713
+0.060000 PIE.@SGVF|SCAR_firstpowerattackdistancemin|160
+1.000000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCPowerAttack", "MinDistance":160, "MaxDistance":247, "StartAngle":-45, "EndAngle":45, "Chance":30, "Type":"RPA"}
+0.500000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCNormalAttack", "MinDistance":0, "MaxDistance":48, "StartAngle":-60, "EndAngle":60, "Chance":100, "Type":"RA"}

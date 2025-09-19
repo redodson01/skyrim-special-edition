@@ -1,0 +1,10 @@
+# numOriginalFrames: 87
+# duration: 1.433333
+# numAnnotationTracks: 99
+# numAnnotations: 8
+0.000000 BeginWeaponDraw
+0.400000 FootScuffRight
+0.566667 weaponDraw
+1.266667 FootScuffLeft
+1.000000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCPowerAttack", "MinDistance":0, "MaxDistance":97, "StartAngle":-60, "EndAngle":60, "Chance":30, "Type":"RPA"}
+0.500000 SCAR_ActionData{"IdleAnimation":"ADXP_NPCNormalAttack", "MinDistance":0, "MaxDistance":107, "StartAngle":-60, "EndAngle":60, "Chance":100, "Type":"RA"}

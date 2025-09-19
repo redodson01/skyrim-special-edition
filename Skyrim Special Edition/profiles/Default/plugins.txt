@@ -97,3 +97,4 @@
 *ArcheryLocationalDamage.esp
 *EldenCounter.esp
 *EldenParry.esp
+*scar-adxp-patch.esp
