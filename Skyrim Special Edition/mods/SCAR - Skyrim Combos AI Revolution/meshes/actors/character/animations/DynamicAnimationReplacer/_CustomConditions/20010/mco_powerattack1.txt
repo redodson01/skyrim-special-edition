@@ -1,0 +1,32 @@
+# numOriginalFrames: 91
+# duration: 3.000000
+# numAnnotationTracks: 97
+# numAnnotations: 28
+0.566667 CastOKStart
+1.050000 preHitFrame
+1.333333 weaponSwing
+1.433333 HitFrame
+1.616667 weaponSwing
+1.733333 HitFrame
+2.250000 SkySA_AttackWinEnd
+3.000000 attackStop
+0.000000 animmotion 0 0 0
+0.066667 animmotion 1 6 0
+0.183333 animmotion 4 22 0
+0.316667 animmotion 4 41 0
+0.466667 animmotion 2 54 0
+1.116667 animmotion 2 54 0
+1.183333 animmotion 2 65 0
+1.233333 animmotion 1 89 0
+1.266667 animmotion 0 109 0
+1.300000 animmotion 0 127 0
+1.316667 animmotion 0 135 0
+1.333333 animmotion 0 141 0
+1.350000 animmotion 0 145 0
+1.366667 animmotion 0 147 0
+1.433333 animmotion 0 153 0
+1.500000 animmotion 0 163 0
+1.566667 animmotion 1 190 0
+1.650000 animmotion 3 224 0
+1.733333 animmotion 4 238 0
+1.800000 animmotion 4 247 0

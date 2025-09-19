@@ -1,0 +1,11 @@
+# numOriginalFrames: 41
+# duration: 1.333333
+# numAnnotationTracks: 99
+# numAnnotations: 7
+0.200000 FootScuffRight
+0.466667 weaponDraw
+0.833333 FootScuffLeft
+0.060000 CPR.EnableAdvance|90|105|200|200|300|350
+0.060000 CPR.EnableBackoff|0.85|0.95
+0.060000 CPR.EnableCircling|90|350|45|100
+0.060000 CPR.EnableFallback|200|300|0.5|0.75
