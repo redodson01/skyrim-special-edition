@@ -1,0 +1,7 @@
+Precision_Recoil_1hm
+colis$0
+1
+0
+0
+1
+recoilStop:0.8

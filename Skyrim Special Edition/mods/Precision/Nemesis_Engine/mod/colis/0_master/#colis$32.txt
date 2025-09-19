@@ -1,0 +1,10 @@
+		<hkobject name="#colis$32" class="hkbEventDrivenModifier" signature="0x7ed3f44e">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">1</hkparam>
+			<hkparam name="name">Precision_SRecoil_Cancel_EDM</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="modifier">#colis$31</hkparam>
+			<hkparam name="activateEventId">$eventID[Collision_RecoilCancelable]$</hkparam>
+			<hkparam name="deactivateEventId">109</hkparam>
+			<hkparam name="activeByDefault">false</hkparam>
+		</hkobject>
