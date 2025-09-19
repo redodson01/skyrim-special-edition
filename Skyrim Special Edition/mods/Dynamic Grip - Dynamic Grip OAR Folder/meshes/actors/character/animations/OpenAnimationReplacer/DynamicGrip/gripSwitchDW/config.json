@@ -1,0 +1,21 @@
+{
+    "name": "dynamicGripDW",
+    "description": "dual weild grip",
+    "priority": 880200,
+    "conditions": [
+        {
+            "condition": "MathStatement",
+            "requiredPlugin": "OpenAnimationReplacer-Math",
+            "requiredVersion": "1.0.0.0",
+            "Math Statement": {
+                "expression": "gripMode  == 3",
+                "variables": {
+                    "gripmode": {
+                        "graphVariable": "iDynamicGripMode",
+                        "graphVariableType": "Int"
+                    }
+                }
+            }
+        }
+    ]
+}

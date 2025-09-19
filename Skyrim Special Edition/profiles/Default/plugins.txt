@@ -5,6 +5,7 @@
 *NoSillyPhysicsDamage.esl
 *SmoothCam.esl
 *DynamicCollisionAdjustment.esl
+*ThirdPersonFirstPersonAiming.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *DynDOLOD Resources SE.esp
@@ -91,3 +92,12 @@
 *Housecarls Pre-Thaneship.esp
 *NPCs Take Cover.esp
 *Press E To Heal Followers.esp
+*SkyrimSpearMechanic.esp
+*Precision.esp
+*ArcheryLocationalDamage.esp
+*EldenCounter.esp
+*EldenParry.esp
+*scar-adxp-patch.esp
+*DynamicGrip.esp
+*DynamicGrip_MCO.esp
+*DynamicGrip_NoLeftHandAttack.esp

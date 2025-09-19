@@ -1,0 +1,1 @@
+IsEquippedRightHasKeyword("SkyrimSpearMechanic.esp" | 0x000D62)

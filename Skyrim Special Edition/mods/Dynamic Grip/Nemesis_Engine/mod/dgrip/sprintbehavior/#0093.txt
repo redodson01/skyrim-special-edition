@@ -1,0 +1,15 @@
+		<hkobject name="#0093" class="hkbVariableBindingSet" signature="0x338ad4ff">
+			<hkparam name="bindings" numelements="1">
+				<hkobject>
+					<hkparam name="memberPath">selectedGeneratorIndex</hkparam>
+<!-- MOD_CODE ~dgrip~ OPEN -->
+					<hkparam name="variableIndex">10</hkparam>
+<!-- ORIGINAL -->
+					<hkparam name="variableIndex">6</hkparam>
+<!-- CLOSE -->
+					<hkparam name="bitIndex">-1</hkparam>
+					<hkparam name="bindingType">BINDING_TYPE_VARIABLE</hkparam>
+				</hkobject>
+			</hkparam>
+			<hkparam name="indexOfBindingToEnable">-1</hkparam>
+		</hkobject>

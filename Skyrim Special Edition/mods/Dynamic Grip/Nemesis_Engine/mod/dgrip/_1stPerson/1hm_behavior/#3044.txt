@@ -1,0 +1,29 @@
+		<hkobject name="#3044" class="hkbManualSelectorGenerator" signature="0xd932fab8">
+			<hkparam name="variableBindingSet">#3051</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">Weap_SneakAttackPowerFwd_MSG</hkparam>
+			<hkparam name="generators" numelements="7">
+<!-- MOD_CODE ~dgrip~ OPEN -->
+				#dgrip$16
+				#dgrip$16
+				#dgrip$16
+				#dgrip$16
+				#dgrip$16
+<!-- ORIGINAL -->
+				#3048
+				#3048
+				#3048
+				#3048
+				#3048
+<!-- CLOSE -->
+				#3045
+				#3045
+			</hkparam>
+<!-- MOD_CODE ~dgrip~ OPEN -->
+			<hkparam name="selectedGeneratorIndex">6</hkparam>
+			<hkparam name="currentGeneratorIndex">6</hkparam>
+<!-- ORIGINAL -->
+			<hkparam name="selectedGeneratorIndex">0</hkparam>
+			<hkparam name="currentGeneratorIndex">0</hkparam>
+<!-- CLOSE -->
+		</hkobject>

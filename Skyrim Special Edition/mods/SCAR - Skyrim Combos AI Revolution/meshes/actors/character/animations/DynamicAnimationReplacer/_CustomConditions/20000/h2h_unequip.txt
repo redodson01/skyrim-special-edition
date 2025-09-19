@@ -1,0 +1,5 @@
+# numOriginalFrames: 11
+# duration: 0.333333
+# numAnnotationTracks: 99
+# numAnnotations: 0
+0.060000 CPR.DisableAll

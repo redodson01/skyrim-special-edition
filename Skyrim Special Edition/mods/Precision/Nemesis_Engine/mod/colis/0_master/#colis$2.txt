@@ -1,0 +1,7 @@
+		<hkobject name="#colis$2" class="hkbBlenderGeneratorChild" signature="0xe2b384b0">
+			<hkparam name="variableBindingSet">#colis$14</hkparam>
+			<hkparam name="generator">#colis$4</hkparam>
+			<hkparam name="boneWeights">#colis$3</hkparam>
+			<hkparam name="weight">0.000000</hkparam>
+			<hkparam name="worldFromModelWeight">0.000000</hkparam>
+		</hkobject>

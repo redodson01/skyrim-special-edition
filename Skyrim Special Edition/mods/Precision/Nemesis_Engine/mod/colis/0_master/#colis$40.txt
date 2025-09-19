@@ -1,0 +1,7 @@
+		<hkobject name="#colis$40" class="hkbEvaluateExpressionModifier" signature="0xf900f6be">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">2</hkparam>
+			<hkparam name="name">Precision_BowAiming_EEM</hkparam>
+			<hkparam name="enable">true</hkparam>
+			<hkparam name="expressions">#colis$39</hkparam>
+		</hkobject>

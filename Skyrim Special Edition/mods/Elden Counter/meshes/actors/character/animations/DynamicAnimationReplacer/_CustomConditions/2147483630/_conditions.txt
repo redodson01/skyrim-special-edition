@@ -1,0 +1,2 @@
+HasMagicEffect("EldenCounter.esp" | 0x800) AND
+IsEquippedRightType(1) AND

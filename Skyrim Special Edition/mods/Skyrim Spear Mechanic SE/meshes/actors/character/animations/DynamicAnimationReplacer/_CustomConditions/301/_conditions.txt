@@ -1,0 +1,2 @@
+IsEquippedRightHasKeyword("SkyrimSpearMechanic.esp" | 0x00D4C9) AND
+IsSneaking()
