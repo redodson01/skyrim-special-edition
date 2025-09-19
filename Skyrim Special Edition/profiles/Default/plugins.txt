@@ -94,3 +94,4 @@
 *Precision.esp
 *ArcheryLocationalDamage.esp
 *EldenCounter.esp
+*EldenParry.esp
