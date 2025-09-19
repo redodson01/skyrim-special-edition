@@ -1,0 +1,8 @@
+# numOriginalFrames: 51
+# duration: 1.666667
+# numAnnotationTracks: 99
+# numAnnotations: 3
+0.766667 FootScuffLeft
+0.833333 weaponSheathe
+0.833333 CPR.DisableAll
+1.500000 FootScuffRight

@@ -1,0 +1,14 @@
+IsEquippedRightHasKeyword("NewArmoury.esp" | 0x344733) OR
+IsEquippedRight("Skyrim.esm" | 0x000F1AC1) OR
+IsEquippedRight("Skyrim.esm" | 0x000F71CD) OR
+IsEquippedRight("Skyrim.esm" | 0x000F71CE) OR
+IsEquippedRight("Skyrim.esm" | 0x000F71CF) OR
+IsEquippedRight("Skyrim.esm" | 0x000F71D0) OR
+IsEquippedRight("Skyrim.esm" | 0x0003AEB9) OR
+IsEquippedRight("Skyrim.esm" | 0x000C1989) OR
+IsEquippedRight("Dawnguard.esm" | 0x000067CF) OR
+IsEquippedRight("Dawnguard.esm" | 0x00014555) OR
+IsEquippedRight("Skyrim.esm" | 0x0004A38F) AND
+HasMagicEffect("EldenCounter.esp" | 0x800) AND
+IsEquippedLeftType(11)
+
