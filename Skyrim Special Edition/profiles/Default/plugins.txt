@@ -66,7 +66,6 @@
 *StreamlinedFishing.esp
 *Remote Interactions.esp
 *Simple Hunting Overhaul.esp
-*SHO - Gourmet Patch.esp
 *SkyParkour.esp
 *SensibleBribes.esp
 *ImprovedAlternateConversationCamera.esp
@@ -91,3 +90,18 @@
 *MovementDXP.esp
 *Hellblade - Timed Block.esp
 *HellbladeTimedBlock.esp
+*SimpleBowCrafting.esp
+*KhajiitsStealToo.esp
+*more plants all.esp
+*More Plantable Plants for Creation Club - Bittercup.esp
+*More Plantable Plants for Creation Club - Rare Curios.esp
+*More Plantable Plants for Creation Club - Saints and Seducers.esp
+*More Plantable Plants for Creation Club - The Cause.esp
+*Plantable Animals.esp
+*ars metallica.esp
+*Gourmet.esp
+*SHO - Gourmet Patch.esp
+*GourmetTables.esp
+*GourmetFishing.esp
+*GourmetSurvival.esp
+*GourmetUSSEP.esp
