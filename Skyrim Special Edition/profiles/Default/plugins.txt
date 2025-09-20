@@ -51,3 +51,8 @@
 *SimpleBowCrafting.esp
 *KhajiitsStealToo.esp
 *ars metallica.esp
+*Gourmet.esp
+*GourmetTables.esp
+*GourmetFishing.esp
+*GourmetSurvival.esp
+*GourmetUSSEP.esp
