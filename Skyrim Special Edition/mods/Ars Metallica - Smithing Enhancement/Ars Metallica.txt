@@ -1,0 +1,263 @@
+Ars Metallica
+=============
+
+A simple mod to expand on the crafting system in Skyrim.
+
+The crafting system is one of Skyrim's better features, but for thieves and archers, there's not much use for the system. Light armor is dead easy to come by in already finished forms, but arrows can sometimes be scarce in the types you may want. Lockpicks have been known to be somewhat scarce too, yet are relatively basic to construct.
+
+Ars Metallica aims to fill in some of the basic issues I had with the crafting system by doing the following:
+
+For vanilla Skyrim:
+
+* Allow archers to forge their own arrows out of the various ore materials, wood, leather strips, and feathers. Indirectly making it somewhat useful to chop wood too.
+* Allow thieves to make their own lockpicks out of iron or steel. This doesn't mean you have to be a member of the Thieves Guild.
+* Provide skill advancement for the use of the smelter to melt down ore. After all, that's as important as knowing how to shape it once refined.
+* Provide skill advancement for the use of the tanning rack to make leather. That's far more important in my mind than the skill advances from using the leather to make stuff.
+* Provide for a small amount of skill advancement from mining the ore itself out of ore veins.
+* Provide the ability to melt down existing pieces of armor and some clutter items into ingots so that you can then use those ingots to make missing pieces of a set if you want.
+* Allow members of factions to forge equipment appropriate to their guild. Thieves can make guild armor. Assassins can make Brotherhood armor, and so on.
+
+For Dawnguard:
+
+* Modifies the dragonbone arrow recipes and the crossbow bolt recipes to conform to the same formulas as vanilla. Disabled Dawnguard's native recipes.
+
+For Hearthfire:
+
+* Provides smithing experience for using the various workbenches used to construct your homes. The drafting table does not count since nothing is actually built using it.
+
+For Dragonborn:
+
+* Modifies the stalhrim and nordic arrow recipes to conform to the same formulas as the vanilla arrows.
+* Adds smelting formulas to recover ore from stalhrim and nordic carved equipment.
+* Adds crafting feathers to the Felsaad Tern.
+
+Note that all smelting of metals requires that you know the perk associated with that metal. For example, if you wish to smelt Dwemer scrap, you need to know the Dwemer Smithing perk first. This applies not just to smelting existing goods but also to smelting raw ore. This isn't a bug, it's a feature.
+
+My Patreon Page: https://www.patreon.com/arthmoor
+
+Download Locations
+==================
+
+AFK Mods              - https://www.afkmods.com/index.php?/files/file/1890-ars-metallica-smithing-enhancement/
+ModDB.com             - https://www.moddb.com/mods/ars-metallica
+Bethesda.net [PC+XB1] - https://creations.bethesda.net/en/skyrim/details/6025/Ars_Metallica
+Bethesda.net [PS4]    - https://bethesda.net/en/mods/skyrim/mod-detail/3919839
+Skyrim SE Nexus       - https://www.nexusmods.com/skyrimspecialedition/mods/321 [This upload is outdated and no longer supported]
+
+Installation Requirements
+=========================
+
+Skyrim Special Edition 1.6.1130 or greater.
+Requires Unofficial Skyrim Special Edition Patch 4.3.2 or greater.
+
+DO NOT extract the contents of the BSA file into your Data folder as loose files, or let your mod manager perform an equivalent function on the contents of the file. Doing so will cause things to load in the wrong order and break the game. Skyrim is intended to load a BSA alongside it's ESM/ESP file. Circumventing this causes issues which I will not provide support for. If you insist on going against this advice, you will receive no support for the problems you generate as a result of this.
+
+Installation - Wrye Bash BAIN
+=============================
+
+Drop the archive into your Skyrim Special Edition Mods\Bash Installers folder, then install as usual.
+Make sure the mod is active in the Wrye Bash mods tab.
+
+Installation - Manual
+=====================
+
+Drop the Ars Metallica.esp and Ars Metallica.bsa files into your Data folder.
+Activate the mod using whatever management tool suits you.
+
+Uninstall
+=========
+
+Due to the nature of Skyrim mods, especially those adding scripts, it is strongly discouraged to attempt uninstalling a mod from your active game. Any mod that is more than pure mesh or texture replacements has the possibility to leave behind permanent changes to your save that you may not want. This is not something modders can correct for. It is how the game was designed by Bethesda. No support will be provided for anyone who uninstalls this mod from an active game and continues on with that save.
+
+To remove the mod: Delete the Ars Metallica.esp and Ars Metallica.bsa files from your Data folder. Then reload your game as usual.
+
+Known Issues
+============
+
+Silver swords and greatswords can be forged but they show up under the MISC category.
+
+Compatibility
+=============
+
+Any mod that alters the vanilla mining script, MineOreScript.psc, will be incompatible.
+
+Any mod which alters the base smelter object or the base tanning rack object is incompatible. (Mesh & Texture mods are OK though)
+
+Any mod which alters the recipes for the vanilla ingot formulas will be incompatible.
+
+Any mod adding items to chickens, pheasants, dead hawks, or the DeathItemHagraven leveled list will be incompatible without Wrye Bash.
+
+Any Dawnguard mods that modify the arrow recipes, steel bolt recipe, or dwarven bolt recipe will be incompatible. The magic crossbow bolt recipes have not been altered.
+
+Any Hearthfire mods that modify the carpenter's workbench or the other smaller workbenches in each of the houses will be incompatible.
+
+Any Dragonborn mods that modify the two arrow recipes will be incompatible.
+
+Licensing and Legal
+===================
+
+Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.
+
+This mod may not be included in mod packs of any sort.
+
+Non-English translation versions may be uploaded without permission on the following conditions:
+
+1. All mod files contained in this archive are retained with their current names.
+2. No alterations are made to the contents of the plugins or master file other than those necessary to translate the English text.
+3. No alterations or additions are made to the meshes and textures other than those necessary to translate English text.
+4. This readme is included, in ENGLISH, exactly as it is written in the version it was downloaded with.
+
+Compatibility Patches may be distributed ONLY under the following conditions:
+
+1. Permission must be obtained from me in advance. There will be no exceptions to this.
+2. The documentation for the patch must mention that I am the creator of this mod.
+3. The documentation for the patch must contain a link back to one of the download sites listed at the top of this readme.
+4. You are solely responsible for any support issues arising from the use of the compatibility patch.
+
+All inquiries regarding this mod must be directed to me. If after 1 year contact cannot be established or you have not received a response, stewardship of this mod will fall to the community at AFK Mods (www.afkmods.com). I can be contacted via PM at AFK Mods under the username Arthmoor. A good faith effort must be made before assuming that contact cannot be established before concluding that I am no longer maintaining this mod.
+
+Requests made on Twitter, Facebook, Reddit, Discord, or any other social media format will not be acknowledged and permission will never be granted via these mediums.
+
+Mod history archives such as Morrowind Mod History are permitted to keep a copy of this mod within their archives for historical purposes provided all authorship and credit information is retained and the contents of the mod are not altered in any way.
+
+This mod is not made, guaranteed, or supported by Microsoft, Zenimax, Bethesda Game Studios, or any of their affiliates.
+
+Version History
+===============
+
+Version 2.0.8 [2024-07-22]
+--------------------------
+
+The .esp and .bsa files have been changed to lowercase filenames. This is to help facilitate universal filename compatibility for Steam Deck and regular linux users whose file systems are case sensitive. Many of them make use of the in-game menu to download mods and Bethesda.net ALWAYS downloads in lowercase. For the benefit of people using linux or the Steam Deck, it would be greatly appreciated if any mods which currently use Ars as a file dependency change the case of that dependency in their master lists. (Bug #34096)
+Updated arrow recipes added by Saints & Seducers and Rare Curios to require crafting feathers and leather strips. (Bug #33683)
+
+Version 2.0.7 [2023-12-06]
+--------------------------
+
+Synced with latest USSEP fixes.
+Updated Bash Tags.
+
+Version 2.0.6 [2020-07-04]
+--------------------------
+
+Fur armor recipes have been added. The vanilla game doesn't include these because they're typically only worn by bandits.
+
+Version 2.0.5 [2019-05-11]
+--------------------------
+
+The fake torch mesh used in the crafting menu had some bad data causing minor visual issues. It has been reconverted with the latest version of SSE Nif Optimizer.
+
+Version 2.0.4 [2018-12-01]
+--------------------------
+
+Scrapping an Elven Dagger was returning too many ingots of Quicksilver. (Bug #25026)
+Scrapping a Steel War Axe was returning more steel than what it took to make it. (Bug #25379)
+
+Version 2.0.3 [2018-01-07]
+--------------------------
+
+Crafting feathers were not available on hanging pheasants due to overlooking them when porting the mod to SSE.
+
+Version 2.0.2 [2017-10-08]
+--------------------------
+
+Constructing the Thieves Guildmaster Hood was not using the improved Thieves Guild Hood like it was supposed to. The recipe was incorrectly looking for boots.
+Dwarven ingots made from the smelting recipe from the unofficial patch will no longer cause duplicate menu entries to appear.
+Making ingots out of iron daggers will now require two daggers instead of one.
+Making ingots out of ebony daggers will now require two daggers instead of one.
+
+Version 2.0.1 [2017-03-12]
+--------------------------
+
+Smelting an Ancient Nord Bow or a Honed Ancient Nord Bow is not supposed to provide Dwarven ingots. They should be steel.
+
+Version 2.0 [2016-10-17]
+------------------------
+
+Conversion to Skyrim Special Edition.
+
+Version 1.2.3 [2014-08-31]
+--------------------------
+
+Added recipes for creating and breaking down standard pickaxes.
+
+Version 1.2.2 [2014-03-25]
+--------------------------
+
+Added ingot smelting recipes for the broken maces, swords, and warhammers that can sometimes be found in junk loot.
+Added ingot smelting recipes for the Companions armor items, Skyforge weapons, and Nord Hero weapons.
+Added ingot smelting recipes for the various Ancient Nord and Honed Ancient Nord weapons.
+Added ingot smelting recipes for Imperial bows and swords to go with the USKP added crafting counterparts.
+Added ingot smelting recipes for basic gold and silver necklaces and rings.
+Added ingot smelting and crafting recipe for the basic woodcutter's axe.
+Added a crafting recipe to turn 10 embalming picks into 10 lockpicks.
+Meltdown recipes for weapons and armor have been given an added condition to prevent accidentally smelting the equipment you're wearing.
+DG: Added recipes for crafting the Dawnguard weapons and armor once Fort Dawnguard has its forge. Advanced Armors perk is required for the armor.
+DG: Added ingot smelting recipes for breaking down Dawnguard weapons and armor.
+HF: Added a recipe to make wooden swords for the kids.
+DB: Corrected the Nordic arrow and weapon smelting recipes to require steel smithing rather than advanced armors.
+
+Version 1.2.1 [2013-10-19]
+--------------------------
+
+The player can now craft Blades gear after completing the Alduin's Wall quest and gaining entry to Sky Haven Temple. Advanced Armors perk is required to craft the armor.
+Smelting recipes are now available for Blades gear.
+Synchronized the UHFP fix for BYOHHouseInteriorWorkbenchRoom01B so it won't lose the keyword correction that made this workbench useless.
+
+Version 1.2.0 [2013-02-18]
+--------------------------
+
+Added Dragonborn support.
+Updated the ore mining script to include the respawning vein fix from the USKP.
+Updated the pheasant feather script to remove the broken cleanup function on hawk containers.
+
+Version 1.1.4 [2013-01-17]
+--------------------------
+
+Synchronization of fixes made in the USKP, UDGP, and UHFP.
+
+Version 1.1.3 [2012-11-18]
+--------------------------
+
+Generated SEQ file necessary to handle start-enabled quests.
+Lockpick crafting has been modified slightly. Making picks with iron has been reduced to yield 5 picks and requires the Novice Locks perk. Making picks with steel still yields 10 picks but also now requires the Apprentice Locks perk.
+The Dawnguard module will now drop crafting feathers for Bone Hawks.
+
+Version 1.1.2 [2012-10-10]
+--------------------------
+
+Added a patch file for Hearthfire to make the carpenter's workbench and various other workbenches provide smithing experience when used.
+
+Version 1.1.1 [2012-09-22]
+--------------------------
+
+Crafting feathers should properly show up in vendor inventories now.
+
+Version 1.1 [2012-08-16]
+------------------------
+
+* A new feather object has been created called "Crafting Feathers" and will replace the pheasant and chicken feathers. This will be added as drops on hagravens and hawks as well.
+  + Any pheasant feathers you are carrying will be automatically converted into the new type when the game loads. Pheasant feathers stored in containers or on the ground will be converted when you pick them up. Chicken feathers were directly edited to become crafting feathers so they are already taken care of.
+* Added a patch file to provide proper support with Dawnguard installed.
+  + This add-on file disables Dawnguard's own arrow recipes in favor of the ones requiring feathers and leather strips.
+  + Crossbow bolts will now require feathers and leather strips, but the yield has been raised to 15 instead of 10.
+  + Crossbows can be melted down in the smelter.
+
+Version 1.0.2 [2012-06-17]
+--------------------------
+
+Updated the Ore mining script to the current game version. Skyrim 1.6.89 is now required to run this mod.
+
+Version 1.0.1 [2012-05-22]
+--------------------------
+
+Added ingredient and animal part keywords to the chicken and pheasant feathers to hopefully make them easier to acquire.
+Added recipe for making Companion Wolf Armor. Requires the Advanced Armors perk.
+Added recipe for making Thieves Guildmaster Armor. Requires improved versions of the regular Thieves Guild Armor and the Advanced Armors perk.
+Added keywords to the two new feather types to get them to show up in more shops as items for sale.
+Added a recipe to make torches out of firewood and linen wraps.
+
+Version 1.0 [2012-04-28]
+------------------------
+
+Initial release.
