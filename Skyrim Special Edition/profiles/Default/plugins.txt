@@ -66,7 +66,6 @@
 *StreamlinedFishing.esp
 *Remote Interactions.esp
 *Simple Hunting Overhaul.esp
-*SHO - Gourmet Patch.esp
 *SkyParkour.esp
 *SensibleBribes.esp
 *ImprovedAlternateConversationCamera.esp
@@ -100,3 +99,9 @@
 *More Plantable Plants for Creation Club - The Cause.esp
 *Plantable Animals.esp
 *ars metallica.esp
+*Gourmet.esp
+*SHO - Gourmet Patch.esp
+*GourmetTables.esp
+*GourmetFishing.esp
+*GourmetSurvival.esp
+*GourmetUSSEP.esp
