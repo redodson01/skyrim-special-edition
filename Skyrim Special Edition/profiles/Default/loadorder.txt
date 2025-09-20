@@ -141,7 +141,6 @@ CarriageAndStableDialogues.esp
 Wild Horses - Dialogues.esp
 Fully Harvest Hanging Carcasses.esp
 Fully Harvest Hanging Carcasses - CC Fishing Patch.esp
-Fully Harvest Hanging Carcasses - Gourmet Patch.esp
 Brawl Lines Expansion.esp
 buy and sell torches.esp
 DynamicMercenaryFees.esp
@@ -158,7 +157,6 @@ Taunt Your Enemies.esp
 StreamlinedFishing.esp
 Remote Interactions.esp
 Simple Hunting Overhaul.esp
-SHO - Gourmet Patch.esp
 Death's Door.esp
 SkyParkour.esp
 SensibleBribes.esp
@@ -195,3 +193,10 @@ More Plantable Plants for Creation Club - Saints and Seducers.esp
 More Plantable Plants for Creation Club - The Cause.esp
 ars metallica.esp
 Fully Harvest Hanging Carcasses - Ars Metallica Patch.esp
+Gourmet.esp
+Fully Harvest Hanging Carcasses - Gourmet Patch.esp
+SHO - Gourmet Patch.esp
+GourmetTables.esp
+GourmetFishing.esp
+GourmetSurvival.esp
+GourmetUSSEP.esp
