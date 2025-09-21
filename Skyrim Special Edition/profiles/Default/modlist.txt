@@ -7,6 +7,7 @@
 +SkyUI 5.2 SE Plugin with Master Added
 +Hide Quest Items in Container Menu
 +Auto Input Switch
++Essential Favorites
 -16-Interface - Anvil_separator
 +Dynamic Activation Key - Addons Collection
 +Dynamic Activation Key - Overwrite
