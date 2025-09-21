@@ -138,3 +138,4 @@ GourmetSurvival.esp
 GourmetUSSEP.esp
 point the way.esp
 UnequipQuiverSE.esp
+alternate start - live another life.esp
