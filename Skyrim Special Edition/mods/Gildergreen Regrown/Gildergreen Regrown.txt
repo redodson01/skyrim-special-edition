@@ -1,0 +1,170 @@
+Gildergreen Regrown
+===================
+
+A small mod to allow the Gildergreen in Whiterun to grow back to full size from a sapling.
+
+Danica asked you for sap from the Eldergleam to revive the dead Gildergreen in Whiterun. Instead, Maurice convinced you to bring back a sapling. All is now well in Whiterun, except for one small thing. That sapling deserves to grow into a nice big healthy proper replacement for the dead tree you helped get rid of.
+
+For those who followed the path of renewal in Blessings of Nature, but missed out on seeing the full size live tree in all its glory, this mod is for you. Now you don't have to choose the path of violence and destruction if you don't want to. Your sapling will now grow over the course of 6 in-game months from a tiny bud into a full bloom tree you and the city can be proud of.
+
+Kynareth shall smile on you for your kind ways.
+
+My Patreon Page: https://www.patreon.com/arthmoor
+
+Download Locations
+==================
+
+AFK Mods              - https://www.afkmods.com/index.php?/files/file/1899-gildergreen-regrown/
+Bethesda.net [PC+XB1] - https://creations.bethesda.net/en/skyrim/details/7935/Gildergreen_Regrown
+Skyrim SE Nexus       - https://www.nexusmods.com/skyrimspecialedition/mods/348 [This download is outdated and no longer being supported]
+
+Installation Requirements
+=========================
+
+Skyrim Special Edition 1.6.1130 or greater.
+Unofficial Skyrim Special Edition Patch 4.3.2 or greater.
+
+DO NOT extract the contents of the BSA file into your Data folder as loose files, or let your mod manager perform an equivalent function on the contents of the file. Doing so will cause things to load in the wrong order and break the game. Skyrim is intended to load a BSA alongside it's ESM/ESP file. Circumventing this causes issues which I will not provide support for. If you insist on going against this advice, you will receive no support for the problems you generate as a result of this.
+
+Installation - Wrye Bash BAIN
+=============================
+
+Drop the archive into your Skyrim Mods\Bash Installers folder, then install as usual.
+Make sure the mod is active in the Wrye Bash mods tab.
+
+Installation - Manual
+=====================
+
+Drop the Gildergreen Regrown.esp and Gildergreen Regrown.bsa files into your Data folder.
+Activate the mod using whatever management tool suits you.
+
+Uninstall
+=========
+
+Due to the nature of Skyrim mods, especially those adding scripts, it is strongly discouraged to attempt uninstalling a mod from your active game. Any mod that is more than pure mesh or texture replacements has the possibility to leave behind permanent changes to your save that you may not want. This is not something modders can correct for. It is how the game was designed by Bethesda. No support will be provided for anyone who uninstalls this mod from an active game and continues on with that save.
+
+Uninstalling this mod after the vanilla sapling grows one stage but before the vanilla adult tree grows in will result in there being NO tree, not even the dead one.
+
+You'll need to allow things to run their course before removing the mod.
+
+Remove the two files from the Data folder.
+
+Known Issues
+============
+
+None, thank God.
+
+Compatibility
+=============
+
+Compatible with Open Cities Skyrim.
+
+Does not overlap any changes in the Unofficial Skyrim Special Edition Patch.
+
+Should work with other Whiterun mods so long as they do not also touch the Gildergreen.
+
+Contains no modified vanilla scripts.
+
+Licensing and Legal
+===================
+
+Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.
+
+This mod may not be included in mod packs of any sort.
+
+Non-English translation versions may be uploaded without permission on the following conditions:
+
+1. All mod files contained in this archive are retained with their current names.
+2. No alterations are made to the contents of the plugins or master file other than those necessary to translate the English text.
+3. No alterations or additions are made to the meshes and textures other than those necessary to translate English text.
+4. This readme is included, in ENGLISH, exactly as it is written in the version it was downloaded with.
+
+Compatibility Patches may be distributed ONLY under the following conditions:
+
+1. Permission must be obtained from me in advance. There will be no exceptions to this.
+2. The documentation for the patch must mention that I am the creator of this mod.
+3. The documentation for the patch must contain a link back to one of the download sites listed at the top of this readme.
+4. You are solely responsible for any support issues arising from the use of the compatibility patch.
+
+All inquiries regarding this mod must be directed to me. If after 1 year contact cannot be established or you have not received a response, stewardship of this mod will fall to the community at AFK Mods (www.afkmods.com). I can be contacted via PM at AFK Mods under the username Arthmoor. A good faith effort must be made before assuming that contact cannot be established before concluding that I am no longer maintaining this mod.
+
+Requests made on Twitter, Facebook, Reddit, Discord, or any other social media format will not be acknowledged and permission will never be granted via these mediums.
+
+Mod history archives such as Morrowind Mod History are permitted to keep a copy of this mod within their archives for historical purposes provided all authorship and credit information is retained and the contents of the mod are not altered in any way.
+
+This mod is not made, guaranteed, or supported by Microsoft, Zenimax, Bethesda Game Studios, or any of their affiliates.
+
+Version History
+===============
+
+Version 2.0.3 [2024-07-25]
+--------------------------
+
+The .esp and .bsa files have been changed to lowercase filenames. This is to help facilitate universal filename compatibility for Steam Deck and regular linux users whose file systems are case sensitive. Many of them make use of the in-game menu to download mods and Bethesda.net ALWAYS downloads in lowercase. For the benefit of people using linux or the Steam Deck, it would be greatly appreciated if any mods which currently use this mod as a file dependency change the case of that dependency in their master lists. (Bug #34096)
+
+Version 2.0.2 [2023-12-06]
+--------------------------
+
+Updated USSEP synchronization.
+
+Version 2.0.1 [2019-05-08]
+--------------------------
+
+Updated USSEP synchronization.
+
+Version 2.0 [2016-10-20]
+------------------------
+
+Conversion to Skyrim Special Edition.
+
+Version 1.2.6 [2014-02-23]
+--------------------------
+
+Minor updates for USKP synchronization.
+
+Version 1.2.5 [2013-03-18]
+--------------------------
+
+Reverted LOD changes made in 1.2.4.
+
+Version 1.2.4 [2013-02-18]
+--------------------------
+
+Updated LOD handling for the intermediate stages of the tree to match the new way the USKP handles things.
+
+Version 1.2.3 [2012-11-18]
+--------------------------
+
+The script will no longer attempt to disable the dead tree. Use the USKP in order to correct this issue now.
+
+Version 1.2.2 [2012-10-17]
+--------------------------
+
+Cleaned with TES5Edit.
+
+Version 1.2.1 [2012-06-29]
+--------------------------
+
+No, seriously, it'll actually work NOW. *facepalm*
+
+Version 1.2 [2012-06-17]
+------------------------
+
+Rebuilt the mod from scratch after TESVSnip destroyed the script properties which rendered the mod useless. It will actually work now.
+
+Version 1.1.1 [2012-04-17]
+--------------------------
+
+Fixed the error caused by having saved the mod in TESVSnip but not in the CK afterward. Keeps Wrye Bash happy.
+
+Version 1.1 [2012-03-10]
+------------------------
+
+Updated so that the initial phase will make sure the dead tree is removed so the sapling will be visible.
+Switched from fixed properties to quest aliases to help with compatibility in case other mods end up using more direct access.
+Cleaned out dirty edits using TESVSnip.
+
+Version 1.0 [2012-03-05]
+------------------------
+
+Initial release.
