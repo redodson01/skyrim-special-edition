@@ -11,11 +11,10 @@
 *Dodge_MCO-DXP.esl
 *DodgeFramework.esl
 *3DNPC.esp
+*AHZmoreHUD.esl
 *unofficial skyrim special edition patch.esp
-*MCMHelper.esp
 *Cathedral Landscapes.esp
 *XPMSE.esp
-*FSMPM - The FSMP MCM.esp
 *Common Clothes and Armors.esp
 *Rough Leather Armor.esp
 *Mercenary Light Iron Armor.esp
@@ -186,3 +185,7 @@
 *Smart_NPC_Potions.esp
 *Ish's Souls to Perks.esp
 *Ish's Respec Mod.esp
+*ShowPlayerInMenus.esp
+*SkyUI_SE.esp
+*MCMHelper.esp
+*FSMPM - The FSMP MCM.esp
