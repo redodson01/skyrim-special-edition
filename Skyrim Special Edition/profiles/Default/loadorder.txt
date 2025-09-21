@@ -230,3 +230,6 @@ Vampire Lines Expansion - Orc Addon.esp
 Falmer Servant Lines Expansion.esp
 FSLE - More Locations.esp
 FSLE - Unique Abilities.esp
+gildergreen regrown.esp
+HereWeGoAgain.esp
+the paarthurnax dilemma.esp
