@@ -86,3 +86,4 @@
 *NoNeedToAsk.esp
 *nwsFollowerFramework.esp
 *Smart_NPC_Potions.esp
+*Ish's Souls to Perks.esp
