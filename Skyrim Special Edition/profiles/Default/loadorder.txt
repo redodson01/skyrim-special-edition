@@ -88,11 +88,10 @@ Dodge_MCO-DXP.esl
 DodgeFramework.esl
 staggeronhit.esl
 3DNPC.esp
+AHZmoreHUD.esl
 unofficial skyrim special edition patch.esp
-MCMHelper.esp
 Cathedral Landscapes.esp
 XPMSE.esp
-FSMPM - The FSMP MCM.esp
 DynamicLoweredHoods.esp
 Sentinel.esp
 Grimoire.esp
@@ -168,3 +167,6 @@ nwsFollowerFramework.esp
 Smart_NPC_Potions.esp
 Ish's Souls to Perks.esp
 Ish's Respec Mod.esp
+SkyUI_SE.esp
+MCMHelper.esp
+FSMPM - The FSMP MCM.esp
