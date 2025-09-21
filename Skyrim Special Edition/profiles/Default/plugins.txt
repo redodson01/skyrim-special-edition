@@ -66,3 +66,4 @@
 *NoNeedToAsk.esp
 *nwsFollowerFramework.esp
 *Ish's Souls to Perks.esp
+*Ish's Respec Mod.esp
