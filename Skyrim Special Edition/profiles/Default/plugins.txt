@@ -62,4 +62,5 @@
 *gildergreen regrown.esp
 *HereWeGoAgain.esp
 *the paarthurnax dilemma.esp
+*SofiaFollower.esp
 *NoNeedToAsk.esp
