@@ -1,0 +1,95 @@
+# For hotkey code reference, see:
+# https://wiki.nexusmods.com/index.php/DirectX_Scancodes_And_How_To_Use_Them
+# https://ck.uesp.net/wiki/Input_Script
+#
+# To disable a hotkey, set iHotkeyXXX and iModifierXXX to 0.
+# To disable a modifier, set iModifierXXX to 0.
+
+# Toggle UI hotkey.
+#
+# Default: 64 (F6)
+iHotkey = 64
+# Default: 0 (Disabled)
+iModifier = 0
+
+# Toggle compass hotkey.
+#
+# Default: 64 (F6)
+iHotkeyCompass = 64
+# Default: 54 (Right Shift)
+iModifierCompass = 54
+
+# Toggle player bar (Health/Magica/Stamina) hotkey.
+#
+# Default: 64 (F6)
+iHotkeyPlayerBar = 64
+# Default: 42 (Left Shift)
+iModifierPlayerBar = 42
+
+# Toggle subtitle hotkey.
+#
+# Default: 64 (F6)
+iHotkeySubtitle = 64
+# Default: 157 (Right Ctrl)
+iModifierSubtitle = 157
+
+# The list of HUD that can be toggled. Remove HUD names from the list if you
+# don't want to toggle those HUD.
+slHUDNames = [
+    # Vanilla
+    "HUD Menu",
+    # Better Third Person Selection
+    "BTPS Menu",
+    # Casting Bar
+    "CastingBar",
+    # EatingSleepingDrinking - KuNeruNomu -
+    "KNNWidgetMeter",
+    "KNNWidgetMeterOp",
+    # Equipment Durability System
+    "Durability Menu",
+    # Floating Damage
+    "Floating Damage V2",
+    # MiniMap
+    "MiniMapMenu",
+    # OStim Standalone
+    "OStimAlignMenu",
+    "OstimSceneMenu",
+    "OStimSearchMenu",
+    # Oxygen Meter 2
+    "oxygenMeter2",
+    # QuickLoot EE
+    "LootMenu",
+    # TrueHUD
+    "TrueHUD",
+]
+
+# The list of menus that can be toggled. Remove menu names from the list if you
+# want to siwth to "Toggle HUD" mode while in those menus.
+slMenuNames = [
+    "BarterMenu",
+    "Book Menu",
+    "Console",
+    "ContainerMenu",
+    "Crafting Menu",
+    "Dialogue Menu",
+    "FavoritesMenu",
+    "GiftMenu",
+    "InventoryMenu",
+    "Journal Menu",
+    "LevelUp Menu",
+    "Lockpicking Menu",
+    "MagicMenu",
+    "MapMenu",
+    "RaceSex Menu",
+    "Sleep/Wait Menu",
+    "StatsMenu",
+    "Training Menu",
+    "Tutorial Menu",
+    "TweenMenu",
+]
+
+# Move menu names from slMenuNames to slBannedMenuNames if you want to disable
+# "Toggle UI" while in those menus.
+slBannedMenuNames = [
+    "Main Menu",
+]
