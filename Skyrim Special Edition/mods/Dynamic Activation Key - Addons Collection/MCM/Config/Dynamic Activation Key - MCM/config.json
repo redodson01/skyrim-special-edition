@@ -1,0 +1,317 @@
+{
+    "modName": "Dynamic Activation Key - MCM",
+    "displayName": "$DynamicActivationKey",
+    "minMcmVersion": 9,
+    "pluginRequirements": [],
+    "cursorFillMode": "topToBottom",
+    "content": [],
+    "customContent": {},
+    "pages": [
+        {
+            "pageDisplayName": "$General_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$Hotkeys_Header"
+                },
+                {
+                    "id": "iHotkey:General",
+                    "type": "keymap",
+                    "text": "$Hotkey",
+                    "help": "",
+                    "valueOptions": {
+                        "sourceType": "ModSettingInt",
+                        "defaultValue": 42
+                    },
+                    "ignoreConflicts": false
+                },
+                {
+                    "type": "header",
+                    "text": "$Controller_Header",
+                    "position": 1
+                },
+                {
+                    "id": "iAssignKey:Controller",
+                    "type": "enum",
+                    "text": "$AssignKey",
+                    "help": "$AssignKeyController_Help",
+                    "valueOptions": {
+                        "options": [
+                            "$None_ENUM",
+                            "$DPADUP_ENUM",
+                            "$DPADDOWN_ENUM",
+                            "$DPADLEFT_ENUM",
+                            "$DPADRIGHT_ENUM",
+                            "$START_ENUM",
+                            "$BACK_ENUM",
+                            "$LEFTTHUMB_ENUM",
+                            "$RIGHTTHUMB_ENUM",
+                            "$LEFTSHOULDER_ENUM",
+                            "$RIGHTSHOULDER_ENUM",
+                            "$A_ENUM",
+                            "$B_ENUM",
+                            "$X_ENUM",
+                            "$Y_ENUM",
+                            "$LT_ENUM",
+                            "$RT_ENUM"
+                        ],
+                        "sourceType": "ModSettingInt",
+                        "defaultValue": 9
+                    }
+                }
+            ]
+        },
+        {
+            "pageDisplayName": "$Addons_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$Addons_Header"
+                },
+                {
+                    "id": "bTrade:Addons",
+                    "type": "toggle",
+                    "text": "$Trade",
+                    "help": "$TradeAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bTrain:Addons",
+                    "type": "toggle",
+                    "text": "$Train",
+                    "help": "$TrainAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bFollower:Addons",
+                    "type": "toggle",
+                    "text": "$Follower",
+                    "help": "$FollowerAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bPlants:Addons",
+                    "type": "toggle",
+                    "text": "$Plants",
+                    "help": "$PlantsAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bHorseInventory:Addons",
+                    "type": "toggle",
+                    "text": "$HorseInventory",
+                    "help": "$HorseInventoryAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bBooks:Addons",
+                    "type": "toggle",
+                    "text": "$Books",
+                    "help": "$BooksAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bArmor:Addons",
+                    "type": "toggle",
+                    "text": "$Armor",
+                    "help": "$ArmorAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bWeapon:Addons",
+                    "type": "toggle",
+                    "text": "$Weapon",
+                    "help": "$WeaponAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bFood:Addons",
+                    "type": "toggle",
+                    "text": "$Food",
+                    "help": "$FoodAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bIngredient:Addons",
+                    "type": "toggle",
+                    "text": "$Ingredient",
+                    "help": "$IngredientAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bScroll:Addons",
+                    "type": "toggle",
+                    "text": "$Scroll",
+                    "help": "$ScrollAddons_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "type": "header",
+                    "text": "$AddonsSettings_Header",
+                    "position": 1
+                },
+                {
+                    "id": "iHarvestRange:AddonsSettings",
+                    "type": "slider",
+                    "text": "$HarvestRange",
+                    "help": "$HarvestRangeAddonsSettings_Help",
+                    "valueOptions": {
+                        "min": 100,
+                        "max": 10000,
+                        "step": 1,
+                        "defaultValue": 2000,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "bShowPlanerMessages:AddonsSettings",
+                    "type": "toggle",
+                    "text": "$ShowPlanerMessages",
+                    "help": "$ShowPlanerMessagesAddonsSettings_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bDrawWeapon:AddonsSettings",
+                    "type": "toggle",
+                    "text": "$DrawWeapon",
+                    "help": "$DrawWeaponAddonsSettings_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bDrawScroll:AddonsSettings",
+                    "type": "toggle",
+                    "text": "$DrawScroll",
+                    "help": "$DrawScrollAddonsSettings_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                }
+            ]
+        },
+        {
+            "pageDisplayName": "$Maintenance_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$AutoloadSettings_Header"
+                },
+                {
+                    "id": "bEnabled:Maintenance",
+                    "type": "toggle",
+                    "text": "$Enabled",
+                    "help": "$EnabledMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "iLoadingDelay:Maintenance",
+                    "type": "slider",
+                    "text": "$LoadingDelay",
+                    "help": "$LoadingDelayMaintenance_Help",
+                    "valueOptions": {
+                        "min": 0,
+                        "max": 600,
+                        "step": 1,
+                        "defaultValue": 0,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "sLoadSettings:Maintenance",
+                    "type": "text",
+                    "text": "$LoadSettings",
+                    "help": "$LoadSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Load"
+                    }
+                },
+                {
+                    "id": "sResetSettings:Maintenance",
+                    "type": "text",
+                    "text": "$ResetSettings",
+                    "help": "$ResetSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Default"
+                    }
+                },
+                {
+                    "id": "bLoadSettingsonReload:Maintenance",
+                    "type": "toggle",
+                    "text": "$LoadSettingsonReload",
+                    "help": "$LoadSettingsonReloadMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bVerbose:Maintenance",
+                    "type": "toggle",
+                    "text": "$Verbose",
+                    "help": "$VerboseMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                }
+            ]
+        }
+    ]
+}

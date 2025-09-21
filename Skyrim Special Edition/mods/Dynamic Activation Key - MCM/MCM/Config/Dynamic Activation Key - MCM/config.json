@@ -1,0 +1,148 @@
+{
+    "modName": "Dynamic Activation Key - MCM",
+    "displayName": "$DynamicActivationKey",
+    "minMcmVersion": 9,
+    "pluginRequirements": [],
+    "cursorFillMode": "topToBottom",
+    "content": [],
+    "customContent": {},
+    "pages": [
+        {
+            "pageDisplayName": "$General_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$Hotkeys_Header"
+                },
+                {
+                    "id": "iHotkey:General",
+                    "type": "keymap",
+                    "text": "$Hotkey",
+                    "help": "",
+                    "valueOptions": {
+                        "sourceType": "ModSettingInt",
+                        "defaultValue": 42
+                    },
+                    "ignoreConflicts": false
+                },
+                {
+                    "type": "header",
+                    "text": "$Controller_Header",
+                    "position": 1
+                },
+                {
+                    "id": "iAssignKey:Controller",
+                    "type": "enum",
+                    "text": "$AssignKey",
+                    "help": "$AssignKeyController_Help",
+                    "valueOptions": {
+                        "options": [
+                            "$None_ENUM",
+                            "$DPADUP_ENUM",
+                            "$DPADDOWN_ENUM",
+                            "$DPADLEFT_ENUM",
+                            "$DPADRIGHT_ENUM",
+                            "$START_ENUM",
+                            "$BACK_ENUM",
+                            "$LEFTTHUMB_ENUM",
+                            "$RIGHTTHUMB_ENUM",
+                            "$LEFTSHOULDER_ENUM",
+                            "$RIGHTSHOULDER_ENUM",
+                            "$A_ENUM",
+                            "$B_ENUM",
+                            "$X_ENUM",
+                            "$Y_ENUM",
+                            "$LT_ENUM",
+                            "$RT_ENUM"
+                        ],
+                        "sourceType": "ModSettingInt",
+                        "defaultValue": 9
+                    }
+                }
+            ]
+        },
+        {
+            "pageDisplayName": "$Maintenance_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$AutoloadSettings_Header"
+                },
+                {
+                    "id": "bEnabled:Maintenance",
+                    "type": "toggle",
+                    "text": "$Enabled",
+                    "help": "$EnabledMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "iLoadingDelay:Maintenance",
+                    "type": "slider",
+                    "text": "$LoadingDelay",
+                    "help": "$LoadingDelayMaintenance_Help",
+                    "valueOptions": {
+                        "min": 0,
+                        "max": 600,
+                        "step": 1,
+                        "defaultValue": 0,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "sLoadSettings:Maintenance",
+                    "type": "text",
+                    "text": "$LoadSettings",
+                    "help": "$LoadSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Load"
+                    }
+                },
+                {
+                    "id": "sResetSettings:Maintenance",
+                    "type": "text",
+                    "text": "$ResetSettings",
+                    "help": "$ResetSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Default"
+                    }
+                },
+                {
+                    "id": "bLoadSettingsonReload:Maintenance",
+                    "type": "toggle",
+                    "text": "$LoadSettingsonReload",
+                    "help": "$LoadSettingsonReloadMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bVerbose:Maintenance",
+                    "type": "toggle",
+                    "text": "$Verbose",
+                    "help": "$VerboseMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                }
+            ]
+        }
+    ]
+}
