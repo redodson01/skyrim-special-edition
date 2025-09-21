@@ -104,3 +104,4 @@
 *Skyrim Unbound.esp
 *SofiaFollower.esp
 *NoNeedToAsk.esp
+*nwsFollowerFramework.esp
