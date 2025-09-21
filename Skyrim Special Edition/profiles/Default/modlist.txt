@@ -4,6 +4,7 @@
 +No Console Spam
 +SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement)
 +ConsolePlusPlus
++Compass Navigation Overhaul
 +SkyUI 5.2 SE Plugin with Master Added
 +Contextual Crosshair
 +Hide Quest Items in Container Menu
