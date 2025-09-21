@@ -8,6 +8,7 @@
 *DodgeFramework.esl
 *staggeronhit.esl
 *AHZmoreHUD.esl
+*TrueHUD.esl
 *unofficial skyrim special edition patch.esp
 *Cathedral Landscapes.esp
 *XPMSE.esp
@@ -73,3 +74,5 @@
 *Dynamic Activation Key.esp
 *Dynamic Activation Key - MCM.esp
 *Dynamic Activation Key - Addons Collection.esp
+*hideQuestItems.esp
+*QuickLootIE.esp
