@@ -89,10 +89,8 @@ DodgeFramework.esl
 staggeronhit.esl
 AHZmoreHUD.esl
 unofficial skyrim special edition patch.esp
-MCMHelper.esp
 Cathedral Landscapes.esp
 XPMSE.esp
-FSMPM - The FSMP MCM.esp
 Sentinel.esp
 Sentinel - Alternative Armors.esp
 Sentinel - Backpacks and Bandoliers.esp
@@ -149,3 +147,6 @@ nwsFollowerFramework.esp
 Ish's Souls to Perks.esp
 Ish's Respec Mod.esp
 ShowPlayerInMenus.esp
+SkyUI_SE.esp
+MCMHelper.esp
+FSMPM - The FSMP MCM.esp
