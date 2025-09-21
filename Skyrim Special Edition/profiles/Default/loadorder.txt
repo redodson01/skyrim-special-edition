@@ -232,7 +232,6 @@ FSLE - Unique Abilities.esp
 gildergreen regrown.esp
 HereWeGoAgain.esp
 the paarthurnax dilemma.esp
-NoNeedToAsk.esp
 Convenient Horses.esp
 Convenient Horses Anniversary Edition Patch.esp
 Skyrim Unbound.esp
@@ -240,3 +239,5 @@ Headhunter - Bounties Redone.esp
 BountiesRedone_MissivesExtension.esp
 Inigo.esp
 SkyrimsGotTalent-Bards_inigo.esp
+SofiaFollower.esp
+NoNeedToAsk.esp
