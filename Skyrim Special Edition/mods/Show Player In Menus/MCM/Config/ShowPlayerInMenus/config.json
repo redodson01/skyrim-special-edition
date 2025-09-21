@@ -1,0 +1,459 @@
+{
+    "modName": "ShowPlayerInMenus",
+    "displayName": "$SPIM_ShowPlayerInMenus",
+    "minMcmVersion": 9,
+    "pluginRequirements": [],
+    "cursorFillMode": "topToBottom",
+    "pages": [
+        {
+            "pageDisplayName": "$SPIM_Main_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "text": "$SPIM_Main_Header",
+                    "type": "header"
+                },
+                {
+                    "id": "bEnableInInventoryMenu:GeneralSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_EnableInventory",
+                    "help": "$SPIM_EnableInventory_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "bEnableInContainerMenu:GeneralSettings",
+                    "text": "$SPIM_EnableContainer",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableContainer_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bEnableInBarterMenu:GeneralSettings",
+                    "text": "$SPIM_EnableBarter",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableBarter_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bEnableInMagicMenu:GeneralSettings",
+                    "text": "$SPIM_EnableMagic",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableMagic_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bEnableInTweenMenu:GeneralSettings",
+                    "text": "$SPIM_EnableTween",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableTween_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				
+				{
+                    "text": "$SPIM_ConditionalSettings_Header",
+                    "type": "header"
+                },
+				{
+                    "id": "bEnableFirstPerson:ConditionalSettings",
+                    "text": "$SPIM_EnableFirstPerson",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableFirstPerson_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bEnableWhileMoving:ConditionalSettings",
+                    "text": "$SPIM_EnableMoving",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableMoving_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bEnableWhileSitting:ConditionalSettings",
+                    "text": "$SPIM_EnableSitting",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableSitting_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "bEnableDuringCombat:ConditionalSettings",
+                    "text": "$SPIM_EnableCombat",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableCombat_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "bEnableWhileAutoMoving:ConditionalSettings",
+                    "text": "$SPIM_EnableAutoMoving",
+                    "type": "toggle",
+                    "help": "$SPIM_EnableAutoMoving_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				
+				{
+                    "text": "$SPIM_ModeSettings_Header",
+                    "type": "header",
+					"position": 1
+                },
+				{
+                    "id": "bRotateCamera:ModeSettings",
+                    "text": "$SPIM_RotateCamera",
+                    "type": "toggle",
+                    "help": "$SPIM_RotateCamera_Help",
+					"groupCondition": 1,
+					"groupControl": 2,
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "bRotatePlayer:ModeSettings",
+                    "text": "$SPIM_RotatePlayer",
+                    "type": "toggle",
+                    "help": "$SPIM_RotatePlayer_Help",
+					"groupCondition": 2,
+					"groupControl": 1,
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+
+                {
+                    "text": "$SPIM_PositionSettings_Header",
+                    "type": "header"
+                },
+                {
+                    "id": "fXOffset:PositionSettings",
+                    "text": "$SPIM_XOffset",
+                    "type": "slider",
+                    "help": "$SPIM_XPositionSettings_Help",
+                    "valueOptions": {
+                        "min": -200,
+                        "max": 200,
+                        "step": 1,
+                        "sourceType": "ModSettingFloat"
+                    }
+                },
+                {
+                    "id": "fYOffset:PositionSettings",
+                    "text": "$SPIM_YOffset",
+                    "type": "slider",
+                    "help": "$SPIM_YPositionSettings_Help",
+                    "valueOptions": {
+                        "min": -200,
+                        "max": 100,
+                        "step": 1,
+                        "sourceType": "ModSettingFloat"
+                    }
+                },
+				{
+                    "id": "fZOffset:PositionSettings",
+                    "text": "$SPIM_ZOffset",
+                    "type": "slider",
+                    "help": "$SPIM_ZPositionSettings_Help",
+                    "valueOptions": {
+                        "min": -100,
+                        "max": 100,
+                        "step": 1,
+                        "sourceType": "ModSettingFloat"
+                    }
+                },
+				
+				{
+                    "text": "$SPIM_PlayerPositionSettings_Header",
+                    "type": "header"
+                },
+				{
+                    "id": "fPitch:PositionSettings",
+                    "text": "$SPIM_Pitch",
+                    "type": "slider",
+                    "help": "$SPIM_PitchSettings_Help",
+                    "valueOptions": {
+                        "min": -0.5,
+                        "max": 0.5,
+                        "step": 0.02,
+						"formatString": "{2}",
+                        "sourceType": "ModSettingFloat"
+                    }
+                },
+				{
+                    "id": "fRotation:PositionSettings",
+                    "text": "$SPIM_Rotation",
+                    "type": "slider",
+                    "help": "$SPIM_RotationSettings_Help",
+                    "valueOptions": {
+                        "min": -0.5,
+                        "max": 1.0,
+                        "step": 0.1,
+						"formatString": "{1}",
+                        "sourceType": "ModSettingFloat"
+                    }
+                },				
+				{
+                    "id": "fRotationAmount:PositionSettings",
+                    "text": "$SPIM_RotationAmount",
+                    "type": "slider",
+                    "help": "$SPIM_RotationAmountSettings_Help",
+                    "valueOptions": {
+                        "min": 0.05,
+                        "max": 0.25,
+                        "step": 0.01,
+						"formatString": "{2}",
+                        "sourceType": "ModSettingFloat"
+                    }
+                },
+				{
+                    "id": "fRotationSensitivity:PositionSettings",
+                    "text": "$SPIM_RotationSensitivity",
+                    "type": "slider",
+                    "help": "$SPIM_RotationSensitivitySettings_Help",
+                    "valueOptions": {
+                        "min": 2.0,
+                        "max": 5.0,
+                        "step": 1.0,
+                        "sourceType": "ModSettingFloat"
+                    }
+                }
+            ]
+        },
+
+		{
+            "pageDisplayName": "$SPIM_Hide_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+				{
+                    "text": "$SPIM_Inventory_Header",
+                    "type": "header"
+                },
+                {
+                    "id": "bHideAlchemyItem3D:InventoryMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Inventory_HideAlchemyItem3D",
+                    "help": "$SPIM_Inventory_HideAlchemyItem3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideAmmo3D:InventoryMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Inventory_HideAmmo3D",
+                    "help": "$SPIM_Inventory_HideAmmo3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideArmor3D:InventoryMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Inventory_HideArmor3D",
+                    "help": "$SPIM_Inventory_HideArmor3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideBooksScrolls3D:InventoryMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Inventory_HideBooksScrolls3D",
+                    "help": "$SPIM_Inventory_HideBooksScrolls3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideMisc3D:InventoryMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Inventory_HideMisc3D",
+                    "help": "$SPIM_Inventory_HideMisc3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "bHideWeapon3D:InventoryMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Inventory_HideWeapon3D",
+                    "help": "$SPIM_Inventory_HideWeapon3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				
+                {
+                    "text": "$SPIM_Container_Header",
+                    "type": "header",
+					"position": 1
+                },
+                {
+                    "id": "bHideAlchemyItem3D:ContainerMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Container_HideAlchemyItem3D",
+                    "help": "$SPIM_Container_HideAlchemyItem3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideAmmo3D:ContainerMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Container_HideAmmo3D",
+                    "help": "$SPIM_Container_HideAmmo3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideArmor3D:ContainerMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Container_HideArmor3D",
+                    "help": "$SPIM_Container_HideArmor3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideBooksScrolls3D:ContainerMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Container_HideBooksScrolls3D",
+                    "help": "$SPIM_Container_HideBooksScrolls3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideMisc3D:ContainerMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Container_HideMisc3D",
+                    "help": "$SPIM_Container_HideMisc3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "bHideWeapon3D:ContainerMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Container_HideWeapon3D",
+                    "help": "$SPIM_Container_HideWeapon3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				
+				{
+                    "text": "$SPIM_Barter_Header",
+                    "type": "header"
+                },
+                {
+                    "id": "bHideAlchemyItem3D:BarterMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Barter_HideAlchemyItem3D",
+                    "help": "$SPIM_Barter_HideAlchemyItem3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideAmmo3D:BarterMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Barter_HideAmmo3D",
+                    "help": "$SPIM_Barter_HideAmmo3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideArmor3D:BarterMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Barter_HideArmor3D",
+                    "help": "$SPIM_Barter_HideArmor3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideBooksScrolls3D:BarterMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Barter_HideBooksScrolls3D",
+                    "help": "$SPIM_Barter_HideBooksScrolls3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+				{
+                    "id": "bHideMisc3D:BarterMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Barter_HideMisc3D",
+                    "help": "$SPIM_Barter_HideMisc3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "bHideWeapon3D:BarterMenuSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Barter_HideWeapon3D",
+                    "help": "$SPIM_Barter_HideWeapon3D_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                }
+			]
+		},
+		
+		{
+            "pageDisplayName": "$SPIM_Gamepad_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+				{
+                    "text": "$SPIM_Gamepad_Header",
+                    "type": "header"
+                },
+				{
+                    "id": "bEnableRotating:GamepadSettings",
+                    "type": "toggle",
+                    "text": "$SPIM_Gamepad_Enable",
+                    "help": "$SPIM_Gamepad_Enable_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool"
+                    }
+                },
+                {
+                    "id": "iGamepadTurnMethod:GamepadSettings",
+                    "type": "enum",
+                    "text": "$SPIM_Gamepad_TurnMethod",
+                    "help": "$SPIM_Gamepad_TurnMethod_Help",
+                    "valueOptions": {
+						"options": [
+							"$SPIM_GamepadButtons_Stick",
+							"$SPIM_GamepadButtons_Trigger"
+						],
+						"sourceType": "ModSettingInt"
+					}
+                }
+			]
+		}
+     ],
+    "customContent": {
+        "source": "ShowPlayerInMenus/SPIM_Splash.swf"
+    }
+}
