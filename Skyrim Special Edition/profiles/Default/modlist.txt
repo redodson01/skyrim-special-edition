@@ -3,6 +3,7 @@
 +Immersive Equipment Displays - Default
 +Immersive Equipment Displays
 +Guard Dialogue Overhaul SE
++No Lockpick Activate (SKSE) - Updated
 -13-Gameplay-Immersion - Step Modifications_separator
 -13-Gameplay-Immersion_separator
 +Gourmet - A Cooking Overhaul - Gourmet - USSEP Patch
