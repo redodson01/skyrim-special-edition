@@ -1,0 +1,13 @@
+{
+	"requirements" : 
+	{
+		"required" : [ "Apocalypse - Waterstride Spell Addon.esp" ]
+	},
+	"spells" : 
+	{
+		"alteration" : 
+		[
+			"0xD65|Apocalypse - Waterstride Spell Addon.esp"
+		]
+	}
+}

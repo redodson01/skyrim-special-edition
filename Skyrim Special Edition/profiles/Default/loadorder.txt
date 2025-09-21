@@ -152,7 +152,6 @@ Simple Fishing Overhaul.esp
 SimplyKnock.esp
 SkyrimsGotTalent-Bards.esp
 SkyrimsGotTalent - Free Movement.esp
-SkyrimsGotTalent-Bards_inigo.esp
 Take A Peek - New Stealth Mechanic.esp
 Taunt Your Enemies.esp
 StreamlinedFishing.esp
@@ -233,4 +232,17 @@ FSLE - Unique Abilities.esp
 gildergreen regrown.esp
 HereWeGoAgain.esp
 the paarthurnax dilemma.esp
+Convenient Horses.esp
+Convenient Horses Anniversary Edition Patch.esp
+Skyrim Unbound.esp
+Headhunter - Bounties Redone.esp
+Inigo.esp
+SkyrimsGotTalent-Bards_inigo.esp
+SofiaFollower.esp
 NoNeedToAsk.esp
+Lucien.esp
+Lucien-AnniversaryEdition-Patch.esp
+nwsFollowerFramework.esp
+Missives.esp
+BountiesRedone_MissivesExtension.esp
+Sidequests of Skyrim.esp
