@@ -159,3 +159,4 @@ TaberuAnimation.esp
 3DNPC - CRF Patch.esp
 UnequipQuiverSE.esp
 gildergreen regrown.esp
+HereWeGoAgain.esp
