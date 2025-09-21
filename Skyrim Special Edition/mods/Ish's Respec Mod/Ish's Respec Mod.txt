@@ -1,0 +1,88 @@
+Name: Ish's Respec Mod
+Version: 1.6SE
+Date: 4/14/2018
+Category: Miscellaneous 
+Author: ishmaeltheforsaken
+Source: Skyrim Nexus and Steam Workshop
+
+=================
+Requirements:
+=================
+
+Skyrim Special Edition version 1.5.3.0.8 or later
+
+=================
+Description:
+=================
+
+Adds a potion allowing you to respec your perk points.
+
+
+=================
+Details:
+=================
+
+This mod adds a new potion, "Draught of Fate Unwound," to apothecaries' inventories via leveled lists (so it should show up on any of them). If you're having bad luck finding it in stock, Elgrim in Riften is guaranteed to have a few available.
+
+The potion removes the perks you've bought as you've leveled up and refunds you the appropriate number of perk points. When you drink the potion, a message will inform you that the process has begun. A second message will inform you when the process is complete. Do not try to use the skills menu until you receive the second message.
+
+If you are running SKSE64 version 2.0.7 or later, this mod will handle any changes to perk trees made by any other mods you may be running. Without SKSE64, only vanilla perks will be removed, and you will only receive perk points for those perks.
+
+
+=================
+Known Issues:
+=================
+
+* None :D
+
+
+=================
+History:
+=================
+
+4/14/2018 1.6SE - added universal compatibility with mods that alter perk trees for SKSE64 users
+
+10/31/2016, 1.5SE - Skyrim Special Edition support
+
+3/2/2016, 1.4a - removed debug spam that I had forgotten to comment out
+
+3/1/2016, 1.4 - added universal compatibility with mods that alter perk trees for SKSE users
+
+11/21/2012, 1.3 - removed SKSE dependency
+
+5/8/2012, 1.2 - further improved feedback
+
+5/6/2012, 1.1 - improved feedback
+
+5/4/2012, 1.0 - initial release
+
+
+=================
+Contact Details:
+=================
+
+Contact me at the Nexus; username: ishmaeltheforsaken
+
+
+=================
+Credits:
+=================
+
+Bethesda Game Studios for creating Skyrim
+Thanks to InsanitySorrow for his ReadMe Generator this file is based on
+The SKSE team for their wonderful utility
+Chesko for helping me work out the script
+TaliVakarian for helping test out the perk mod compatibility
+
+=================
+Tools Used:
+=================
+
+Creation Kit
+Insanity's ReadMe Generator
+
+=================
+Licensing/Legal:
+=================
+
+You must contact me and obtain my permission before re-packaging any part of this mod.
