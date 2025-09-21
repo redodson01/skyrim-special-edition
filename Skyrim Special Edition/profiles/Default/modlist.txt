@@ -4,6 +4,7 @@
 +ConsolePlusPlus
 +SkyUI 5.2 SE Plugin with Master Added
 +More Informative Console
++Auto Input Switch
 -16-Interface - Anvil_separator
 +Dynamic Activation Key - Addons Collection
 +Dynamic Activation Key
