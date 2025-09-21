@@ -161,4 +161,7 @@ UnequipQuiverSE.esp
 gildergreen regrown.esp
 HereWeGoAgain.esp
 the paarthurnax dilemma.esp
+Skyrim Unbound.esp
+SofiaFollower.esp
 NoNeedToAsk.esp
+nwsFollowerFramework.esp

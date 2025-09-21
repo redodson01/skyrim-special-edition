@@ -1,0 +1,52 @@
+{
+	"requirements" : 
+	{
+		"required" : [ "MysticismMagic.esp" ]
+	},
+	"spells" : 
+	{
+		"remove" :
+		[
+			"0x211EB|Skyrim.esm"
+		],
+		"alteration" : 
+		[
+			"0x3C2436|MysticismMagic.esp",
+			"0x5D175|Skyrim.esm"
+		],
+		"conjuration" : 
+		[
+			"0x1CE06|Dragonborn.esm",
+			"0x413541|MysticismMagic.esp",
+			"0x4DBA4|Skyrim.esm"
+		],
+		"illusion" : 
+		[
+			"0x4DEE9|Skyrim.esm"
+		],
+		"restoration" : 
+		[
+			"0x8C886D|MysticismMagic.esp",
+			"0x7388D3|MysticismMagic.esp",
+			"0x4D3F8|Skyrim.esm"
+		]
+	},
+	"staffs" :
+	{
+		"conjuration" : 
+		[
+			"0xE1FB5B|MysticismMagic.esp",
+			"0xBE122|Skyrim.esm"
+		],
+		"illusion" : 
+		[
+			"0xC62046|MysticismMagic.esp"
+		],
+		"restoration" : 
+		[
+			"0xD2C9FB|MysticismMagic.esp",
+			"0xD4B03C|MysticismMagic.esp",
+			"0x29B94|Skyrim.esm"
+		]
+	}
+}

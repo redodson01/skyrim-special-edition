@@ -1,0 +1,29 @@
+{
+	"intList" : 
+	{
+		"gold1" : [ 0, 15 ],
+		"gold2" : [ 50, 150 ],
+		"gold3" : [ 150, 400 ],
+		"gold4" : [ 400, 750 ],
+		"food1" : [ 1, 1, 1 ],
+		"food2" : [ 1, 2, 2 ],
+		"food3" : [ 1, 3, 2 ],
+		"food4" : [ 1, 3, 2 ],
+		"drinks1" : [ 1, 1, 1 ],
+		"drinks2" : [ 1, 2, 2 ],
+		"drinks3" : [ 1, 3, 2 ],
+		"drinks4" : [ 1, 3, 2 ],
+		"potions2" : [ 1, 2, 2 ],
+		"potions3" : [ 1, 3, 2 ],
+		"potions4" : [ 1, 4, 2 ],
+		"lockpicks1" : [ 1, 8, 4 ],
+		"lockpicks2" : [ 1, 8, 4 ],
+		"lockpicks3" : [ 1, 10, 4 ],
+		"lockpicks4" : [ 1, 10, 4 ],
+		"skooma1" : [ 1, 1, 1 ],
+		"skooma2" : [ 1, 2, 1 ],
+		"skooma3" : [ 1, 3, 1 ],
+		"skooma4" : [ 1, 3, 1 ],
+		"bounty" : [ 250, 2500, 60 ]
+	}
+}
