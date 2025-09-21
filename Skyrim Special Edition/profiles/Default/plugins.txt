@@ -194,3 +194,4 @@
 *FDE Faralda.esp
 *FDE Eola.esp
 *Smart_NPC_Potions.esp
+*Ish's Souls to Perks.esp
