@@ -64,3 +64,4 @@
 *the paarthurnax dilemma.esp
 *SofiaFollower.esp
 *NoNeedToAsk.esp
+*nwsFollowerFramework.esp
