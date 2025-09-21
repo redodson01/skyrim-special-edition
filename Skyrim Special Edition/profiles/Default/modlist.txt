@@ -2,6 +2,8 @@
 +Immersive Equipment Displays - Overwrite
 +Immersive Equipment Displays - Default
 +Immersive Equipment Displays
++Simple Dual Sheath - Overwrite
++Simple Dual Sheath
 +Guard Dialogue Overhaul SE
 +Point The Way
 +Relationship Dialogue Overhaul Lite
