@@ -11,11 +11,9 @@
 *3DNPC.esp
 *AHZmoreHUD.esl
 *unofficial skyrim special edition patch.esp
-*MCMHelper.esp
 *DynDOLOD Resources SE.esp
 *Cathedral Landscapes.esp
 *XPMSE.esp
-*FSMPM - The FSMP MCM.esp
 *Common Clothes and Armors.esp
 *Rough Leather Armor.esp
 *DynamicLoweredHoods.esp
@@ -198,3 +196,6 @@
 *Ish's Souls to Perks.esp
 *Ish's Respec Mod.esp
 *ShowPlayerInMenus.esp
+*SkyUI_SE.esp
+*MCMHelper.esp
+*FSMPM - The FSMP MCM.esp
