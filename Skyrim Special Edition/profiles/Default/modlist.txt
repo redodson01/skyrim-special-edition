@@ -5,6 +5,8 @@
 +Compass Navigation Overhaul
 +SkyUI 5.2 SE Plugin with Master Added
 +Contextual Crosshair
++TrueHUD - HUD Additions - Overwrite
++TrueHUD - HUD Additions
 +Hide Quest Items in Container Menu
 +More Informative Console
 +Auto Input Switch
