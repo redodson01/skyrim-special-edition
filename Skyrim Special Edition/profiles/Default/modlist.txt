@@ -5,6 +5,7 @@
 +QuickLoot IE - A QuickLoot EE Fork - Default
 +QuickLoot IE - A QuickLoot EE Fork
 +No Console Spam
++Toggle UI (SKSE Plugin)
 +SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement)
 +ConsolePlusPlus
 +Compass Navigation Overhaul
