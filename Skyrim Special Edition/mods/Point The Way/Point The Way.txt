@@ -1,0 +1,196 @@
+Point The Way
+=============
+
+Ever travel the roads and wonder how it is people find their way? Have you noticed that the roads in many places simply don't have signs that tell you where you can go while traveling them? If you were a foreign visitor to Skyrim, you've got no hope of being able to travel the intricate road network without stopping to read your map every so often, even when you're at a major intersection. Worry no more! While you weren't looking, The Empire sent out its trusty civil engineers (surely Skyrim has some) and they set about marking the roads to better assist travelers in finding their way.
+
+This mod's aim is fairly simple. Road signs have been placed at several major intersections that were either lacking signs, or didn't have enough signs to indicate the full extent of where you could travel on a road. In some cases, the smaller towns and villages aren't even mentioned - despite Bethesda having created signs for them! Others that were pointed the wrong way or had the wrong city being represented have been fixed as well.
+
+My Patreon Page: https://www.patreon.com/arthmoor
+
+Download Locations
+==================
+
+AFK Mods              - https://www.afkmods.com/index.php?/files/file/1906-point-the-way/
+Bethesda.net [PC+XB1] - https://creations.bethesda.net/en/skyrim/details/6032/Point_The_Way
+Bethesda.net [PS4]    - https://bethesda.net/en/mods/skyrim/mod-detail/2952558
+Skyrim SE Nexus       - https://www.nexusmods.com/skyrimspecialedition/mods/352/ [Outdated - This link is no longer a supported upload]
+
+Installation Requirements
+=========================
+
+Skyrim Special Edition 1.6.1130 or greater.
+Unofficial Skyrim Special Edition Patch 4.3.2 or greater.
+
+DO NOT extract the contents of the BSA file into your Data folder as loose files, or let your mod manager perform an equivalent function on the contents of the file. Doing so will cause things to load in the wrong order and break the game. Skyrim is intended to load a BSA alongside it's ESM/ESP file. Circumventing this causes issues which I will not provide support for. If you insist on going against this advice, you will receive no support for the problems you generate as a result of this.
+
+Installation - Wrye Bash BAIN
+=============================
+
+Drop the archive into your Skyrim Mods\Bash Installers folder, then install as usual.
+Make sure the mod is active in the Wrye Bash mods tab.
+
+Installation - Manual
+=====================
+
+Drop the Point The Way.esp, Point The Way.bsa, and Point The Way - Textures.bsa files into your Data folder.
+Activate the mod using whatever management tool suits you.
+
+Uninstalling
+============
+
+Remove the Point The Way.esp, Point The Way.bsa, and Point The Way - Textures.bsa files from your Data folder. No permanent changes are made by this mod.
+
+Load Order
+==========
+
+Load order should not matter terribly much as most of these are going to be away from anything important.
+
+Compatibility
+=============
+
+Works with any road sign mesh or texture replacers you're using. These are strictly vanilla road signs that have been placed, with the exception of the sign for Kynesgrove.
+
+Shares injected records for full compatibility with Cutting Room Floor and my village mods.
+
+Fully compatible with "Lanterns of Skyrim II" by WiZkiD and MannyGT. (https://www.nexusmods.com/skyrimspecialedition/mods/30817)
+
+Credits
+=======
+
+Hana - Road sign mesh and base texture for Kynesgrove.
+
+Licensing and Legal
+===================
+
+Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.
+
+This mod may not be included in mod packs of any sort.
+
+Non-English translation versions may be uploaded without permission on the following conditions:
+
+1. All mod files contained in this archive are retained with their current names.
+2. No alterations are made to the contents of the plugins or master file other than those necessary to translate the English text.
+3. No alterations or additions are made to the meshes and textures other than those necessary to translate English text.
+4. This readme is included, in ENGLISH, exactly as it is written in the version it was downloaded with.
+
+Compatibility Patches may be distributed ONLY under the following conditions:
+
+1. Permission must be obtained from me in advance. There will be no exceptions to this.
+2. The documentation for the patch must mention that I am the creator of this mod.
+3. The documentation for the patch must contain a link back to one of the download sites listed at the top of this readme.
+4. You are solely responsible for any support issues arising from the use of the compatibility patch.
+
+All inquiries regarding this mod must be directed to me. If after 1 year contact cannot be established or you have not received a response, stewardship of this mod will fall to the community at AFK Mods (www.afkmods.com). I can be contacted via PM at AFK Mods under the username Arthmoor. A good faith effort must be made before assuming that contact cannot be established before concluding that I am no longer maintaining this mod.
+
+Requests made on Twitter, Facebook, Reddit, Discord, or any other social media format will not be acknowledged and permission will never be granted via these mediums.
+
+Mod history archives such as Morrowind Mod History are permitted to keep a copy of this mod within their archives for historical purposes provided all authorship and credit information is retained and the contents of the mod are not altered in any way.
+
+This mod is not made, guaranteed, or supported by Microsoft, Zenimax, Bethesda Game Studios, or any of their affiliates.
+
+Revision History
+================
+
+Version 2.0.9 [2024-07-26]
+--------------------------
+
+The .esp and .bsa files have been changed to lowercase filenames. This is to help facilitate universal filename compatibility for Steam Deck and regular linux users whose file systems are case sensitive. Many of them make use of the in-game menu to download mods and Bethesda.net ALWAYS downloads in lowercase. For the benefit of people using linux or the Steam Deck, it would be greatly appreciated if any mods which currently use this mod as a file dependency change the case of that dependency in their master lists. (Bug #34096)
+
+Version 2.0.8 [2023-12-07]
+--------------------------
+
+Synced with latest USSEP updates.
+
+Version 2.0.7 [2020-12-14]
+--------------------------
+
+Fixed something, but I can't remember what.
+
+Version 2.0.6 [2019-12-15]
+--------------------------
+
+Removed a wild edit from DragonMoundTundraMarsh03.
+
+Version 2.0.5 [2019-07-20]
+--------------------------
+
+Updated sign set form IDs to support my Oakwood village mod.
+
+Version 2.0.4 [2018-11-25]
+--------------------------
+
+The 2 sign sets near Dragon Bridge have been changed to injected records to share with Cutting Room Floor.
+
+Version 2.0.3 [2018-05-09]
+--------------------------
+
+Moved a lightpost out of the way of one of the Manny's lightposts in Lanterns of Skyrim SE.
+
+Version 2.0.2 [2017-09-30]
+--------------------------
+
+Moved the signpost south of Steamcrag Camp over a bit to avoid a conflict with one of the lantern post mods.
+
+Version 2.0.1 [2016-11-07]
+--------------------------
+
+Fixed a missed water data update.
+
+Version 2.0 [2016-10-20]
+------------------------
+
+Conversion to Skyrim Special Edition.
+
+Version 1.0.8 [2016-02-27]
+--------------------------
+
+Moved the signpost group south of Dragon Bridge to the opposite side of the road to avoid a compatibility issue with Immersive Hold Borders.
+Moved the signpost group in Winterhold closer to the mammoth skull to avoid a compatibility issue with ETaC.
+
+Version 1.0.7 [2015-10-11]
+--------------------------
+
+Added road signs for Kynesgrove.
+Corrected positioning of signs and sign posts for shared assets used in other mods such as Cutting Room Floor.
+
+Version 1.0.6 [2015-07-13]
+--------------------------
+
+Corrected the positioning of a few road signs which were still stuck inside their posts, or slightly floating away from them.
+Placed navmesh blocking boxes around all of the posts affected by the mod so that NPCs navigating the roadways will not try to walk through them. This includes any vanilla posts that I added signs to as well.
+
+Version 1.0.5 [2015-02-11]
+--------------------------
+
+Fixed placement of several of the Morthal signs that were either embedded into the posts or floating free away from them.
+
+Version 1.0.4 [2014-10-30]
+--------------------------
+
+Resolved a minor conflict in Stonehills with Enhanced Towns & Cities.
+
+Version 1.0.3 [2014-07-13]
+--------------------------
+
+Synced fixes from USKP 2.0.5.
+
+Version 1.0.2 [2013-10-06]
+--------------------------
+
+Moved the injected compatibility records to inject into Update.esm instead of Skyrim.esm to stop the CK from being annoying about it.
+
+Version 1.0.1a [2013-04-03]
+---------------------------
+
+Woops! Forgot to check it for cleaning.
+
+Version 1.0.1 [2013-03-20]
+--------------------------
+
+Compatibility tweaks for my Keld-Nar village mod.
+Fixed an issue that left the Oakwood mod by Thirteen Oranges without its sign post.
+
+Version 1.0 [2013-03-15]
+------------------------
+
+Initial public release.
