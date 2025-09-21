@@ -149,16 +149,12 @@ Simple Fishing Overhaul.esp
 SimplyKnock.esp
 SkyrimsGotTalent-Bards.esp
 SkyrimsGotTalent - Free Movement.esp
-Take A Peek - New Stealth Mechanic.esp
 Taunt Your Enemies.esp
 StreamlinedFishing.esp
 Remote Interactions.esp
-Simple Hunting Overhaul.esp
 SkyParkour.esp
 SensibleBribes.esp
 ImprovedAlternateConversationCamera.esp
-Take a Nap.esp
-Sit on Stuff - Take a Nap Patch.esp
 sweepingOrganizesStuff.esp
 ShovelBody.esp
 AI Overhaul.esp
@@ -167,7 +163,6 @@ TavernAIFix.esp
 BladeAndBlunt.esp
 Housecarls Pre-Thaneship.esp
 NPCs Take Cover.esp
-Press E To Heal Followers.esp
 SkyrimSpearMechanic.esp
 Precision.esp
 ArcheryLocationalDamage.esp
@@ -196,7 +191,6 @@ ars metallica.esp
 Fully Harvest Hanging Carcasses - Ars Metallica Patch.esp
 Gourmet.esp
 Fully Harvest Hanging Carcasses - Gourmet Patch.esp
-SHO - Gourmet Patch.esp
 GourmetTables.esp
 GourmetFishing.esp
 GourmetSurvival.esp
@@ -216,7 +210,6 @@ NPCs React To Necromancy.esp
 NPCs React To Invisibility.esp
 NPCs React To Invisibility - Bow of Shadows Patch.esp
 Immersive Patrols II.esp
-CarryYourCarcasses - SHO.esp
 Use Those Blankets.esp
 Immersive Death Cycle.esp
 NPCsReactToFrenzy.esp
@@ -282,3 +275,13 @@ ShowPlayerInMenus.esp
 SkyUI_SE.esp
 MCMHelper.esp
 FSMPM - The FSMP MCM.esp
+Dynamic Activation Key.esp
+Take A Peek - New Stealth Mechanic.esp
+Simple Hunting Overhaul.esp
+Take a Nap.esp
+Sit on Stuff - Take a Nap Patch.esp
+Press E To Heal Followers.esp
+SHO - Gourmet Patch.esp
+CarryYourCarcasses - SHO.esp
+Dynamic Activation Key - MCM.esp
+Dynamic Activation Key - Addons Collection.esp
