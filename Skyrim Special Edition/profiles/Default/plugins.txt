@@ -10,6 +10,7 @@
 *DodgeFramework.esl
 *3DNPC.esp
 *AHZmoreHUD.esl
+*TrueHUD.esl
 *unofficial skyrim special edition patch.esp
 *DynDOLOD Resources SE.esp
 *Cathedral Landscapes.esp
