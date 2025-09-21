@@ -6,6 +6,7 @@
 +Hide Quest Items in Container Menu
 +More Informative Console
 +Auto Input Switch
++Essential Favorites
 -16-Interface - Anvil_separator
 +Dynamic Activation Key - Addons Collection
 +Dynamic Activation Key - Overwrite
