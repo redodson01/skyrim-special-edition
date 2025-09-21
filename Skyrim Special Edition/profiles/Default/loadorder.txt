@@ -231,3 +231,4 @@ Falmer Servant Lines Expansion.esp
 FSLE - More Locations.esp
 FSLE - Unique Abilities.esp
 gildergreen regrown.esp
+HereWeGoAgain.esp
