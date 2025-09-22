@@ -124,7 +124,6 @@
 *3DNPC0.esp
 *3DNPC1.esp
 *3DNPC Alternative Locations.esp
-*3DNPC - CRF Patch.esp
 *Sleeping Expanded.esp
 *NPCs React To Necromancy.esp
 *NPCs React To Invisibility.esp
@@ -209,3 +208,5 @@
 *I4IconAddon.esp
 *Nether's Follower Framework - Settings Loader.esp
 *Simple Hunting Overhaul MCM Helper.esp
+*cutting room floor.esp
+*3DNPC - CRF Patch.esp
