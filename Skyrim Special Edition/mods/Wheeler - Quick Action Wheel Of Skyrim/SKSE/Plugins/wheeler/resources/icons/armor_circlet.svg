@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="512"
+   width="512"
+   version="1.1"
+   id="svg851"
+   sodipodi:docname="armor_circlet.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs247" />
+  <sodipodi:namedview
+     id="namedview245"
+     pagecolor="#141414"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.9570313"
+     inkscape:cx="48.542913"
+     inkscape:cy="264.68662"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg851" />
+  <g
+     transform="matrix(4.0330839,0,0,2.8476197,77.838538,196.7009)"
+     id="g849">
+    <path
+       d="m 19.05,-7.7 q 5.9,4 0,8.75 l -7.3,1.1 Q 6.3,3.1 1.35,4.5 -11.35,7.95 -15.4,12.4 -17,10.55 -17.2,8.55 L -17.25,8.1 q 0,-7.2 18.6,-12.35 4.95,-1.35 10.4,-2.3 l 7.3,-1.15 M 87,-4.25 Q 105.55,0.9 105.55,8.1 v 0.6 q -0.2,1.95 -1.85,3.7 Q 99.7,7.95 87,4.5 78.85,2.3 69.25,1.05 q -4.6,-4.55 0,-8.75 9.6,1.25 17.75,3.45 m -41.9,23.3 q -2.4,0 -4.2,2.4 -1.7,2.35 -1.7,5.65 v 0.25 q 0.1,3.2 1.7,5.5 1.8,2.35 4.2,2.35 2.35,0 4,-2.35 1.7,-2.3 1.75,-5.55 v -0.2 q 0,-3.3 -1.75,-5.65 -1.65,-2.4 -4,-2.4 m 62.55,-8.5 V 28 q -0.7,6.85 -18.6,11.7 -18.55,5.1 -44.9,5.1 -26.25,0 -44.85,-5.1 -18.45,-5 -18.6,-12.15 l 0.05,-17.1 q 0.15,2.05 1.75,3.9 2.1,2.35 6.5,4.4 4.1,1.95 10.3,3.55 9.1,2.5 20.1,3.8 0.5,-3.8 3.35,-6.6 3.35,-3.4 8.15,-3.4 H 31 Q 32.1,13.45 34.2,11.4 38.5,7 44.7,7 q 6.05,0 10.35,4.4 2.05,1.95 3.1,4.4 4.7,0 8.1,3.35 2.9,2.95 3.35,6.9 10.6,-1.3 19.45,-3.75 6.2,-1.6 10.35,-3.55 4.3,-2.05 6.4,-4.4 1.6,-1.75 1.85,-3.8"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       stroke="none"
+       id="path241" />
+  </g>
+</svg>
