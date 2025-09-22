@@ -286,3 +286,4 @@ Dynamic Activation Key - Addons Collection.esp
 hideQuestItems.esp
 QuickLootIE.esp
 UnreadBooksGlow.esp
+I4IconAddon.esp

@@ -206,3 +206,4 @@
 *hideQuestItems.esp
 *QuickLootIE.esp
 *UnreadBooksGlow.esp
+*I4IconAddon.esp
