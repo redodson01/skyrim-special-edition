@@ -350,3 +350,4 @@ JK's Dark Brotherhood Sanctuary.esp
 JK's Nightingale Hall.esp
 JK's Thieves Guild.esp
 JK's Riverfall Cottage.esp
+Cathedral Weathers.esp
