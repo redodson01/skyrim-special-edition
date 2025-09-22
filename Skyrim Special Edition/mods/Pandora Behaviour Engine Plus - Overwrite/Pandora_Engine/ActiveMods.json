@@ -1,0 +1,78 @@
+{
+  "amco": {
+    "Priority": 1,
+    "Active": true
+  },
+  "dmco": {
+    "Priority": 2,
+    "Active": true
+  },
+  "eaas": {
+    "Priority": 3,
+    "Active": true
+  },
+  "ecnpc": {
+    "Priority": 4,
+    "Active": true
+  },
+  "ecdmg": {
+    "Priority": 5,
+    "Active": true
+  },
+  "ecvpc": {
+    "Priority": 6,
+    "Active": false
+  },
+  "draws": {
+    "Priority": 7,
+    "Active": true
+  },
+  "hbtb": {
+    "Priority": 8,
+    "Active": true
+  },
+  "ammco": {
+    "Priority": 9,
+    "Active": true
+  },
+  "evfmgo": {
+    "Priority": 10,
+    "Active": true
+  },
+  "colis": {
+    "Priority": 11,
+    "Active": true
+  },
+  "scar": {
+    "Priority": 12,
+    "Active": true
+  },
+  "stglck": {
+    "Priority": 13,
+    "Active": true
+  },
+  "sppffp": {
+    "Priority": 14,
+    "Active": true
+  },
+  "sppftp": {
+    "Priority": 15,
+    "Active": true
+  },
+  "tdmh": {
+    "Priority": 16,
+    "Active": true
+  },
+  "tdmv": {
+    "Priority": 17,
+    "Active": true
+  },
+  "tdmlen": {
+    "Priority": 18,
+    "Active": true
+  },
+  "xpmse": {
+    "Priority": 19,
+    "Active": true
+  }
+}
