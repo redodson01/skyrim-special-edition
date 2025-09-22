@@ -158,3 +158,13 @@
 *JK's Thieves Guild.esp
 *JK's Raven Rock.esp
 *JK's Tel Mithryn.esp
+*SnowOverSkyrim.esp
+*Cathedral Weathers.esp
+*Seasonal Landscapes.esp
+*Seasonal Landscapes - Solstheim.esp
+*Seasonal Landscapes - Unfrozen.esp
+*Seasonal Landscapes - Unfrozen - Arms of Chaos Patch.esp
+*Seasonal Landscapes - Unfrozen - CRF Patch.esp
+*Seasonal Landscapes - Unfrozen - JK's College of Winterhold Patch.esp
+*Seasonal Landscapes - Unfrozen - JKs Syrim Patch.esp
+*Seasonal Landscapes - Unfrozen - Zombies Patch.esp
