@@ -80,3 +80,4 @@
 *I4IconAddon.esp
 *cutting room floor.esp
 *WaitCarriageInns.esp
+*Cathedral Weathers.esp
