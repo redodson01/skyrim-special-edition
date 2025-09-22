@@ -109,7 +109,6 @@
 *3DNPC0.esp
 *3DNPC1.esp
 *3DNPC Alternative Locations.esp
-*3DNPC - CRF Patch.esp
 *Sleeping Expanded.esp
 *NPCs_Wear_Amulets_Of_Mara.esp
 *NPCs React To Necromancy.esp
@@ -198,3 +197,5 @@
 *UnreadBooksGlow.esp
 *I4IconAddon.esp
 *Nether's Follower Framework - Settings Loader.esp
+*cutting room floor.esp
+*3DNPC - CRF Patch.esp
