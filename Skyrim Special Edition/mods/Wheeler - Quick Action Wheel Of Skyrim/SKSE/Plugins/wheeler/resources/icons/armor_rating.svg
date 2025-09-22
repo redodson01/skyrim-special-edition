@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="512"
+   width="512"
+   version="1.1"
+   id="svg851"
+   sodipodi:docname="armor_default.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.9570312"
+     inkscape:cx="255.48902"
+     inkscape:cy="256"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg851" />
+  <g
+     transform="matrix(4.3,0,0,4.3,39.202755,-33.13511)"
+     id="g849">
+    <path
+       d="M 90.9,85.8 Q 78.35,111.85 50.45,126.15 24.1,111.85 10.35,86.3 -3.3,60.55 -2.85,28.05 L 50.45,8.3 103.7,28.35 q 0,31.55 -12.8,57.45"
+       fill="#ffffff"
+       fill-rule="evenodd"
+       stroke="none"
+       id="path2" />
+  </g>
+</svg>
