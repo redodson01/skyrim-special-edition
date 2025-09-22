@@ -179,3 +179,4 @@
 *JK's Thieves Guild.esp
 *JK's Raven Rock.esp
 *JK's Tel Mithryn.esp
+*Cathedral Weathers.esp
