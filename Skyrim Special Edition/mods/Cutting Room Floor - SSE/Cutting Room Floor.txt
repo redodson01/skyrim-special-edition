@@ -1,0 +1,725 @@
+Cutting Room Floor - Special Edition
+====================================
+
+A content restoration mod for Skyrim and the official DLCs.
+
+From the depths of the ether, or just the cutting room floor, comes forth several NPCs, some quests, and other miscellaneous content which was created but never implemented in the game. If ever you had the feeling that Skyrim was missing something, you were probably right! This mod should relieve a bit of that. Villages that were supposed to exist have been brought back. Quests that were partially implemented have been completed. Various items have been restored that were still in the data files. NPCs have been brought back to the game and given homes where appropriate. Plus plenty of other random bits of stuff that was mentioned in the game but didn't exist yet.
+
+NPCs were implemented using the list available on the UESP: https://en.uesp.net/wiki/Skyrim:Unused_NPCs
+Unimplemented quests were seeded by the following list on UESP: https://en.uesp.net/wiki/Skyrim:Unfinished_Quests
+Some unimplemented items have been added from the following UESP list: https://en.uesp.net/wiki/Skyrim:Unobtainable_Items
+
+Cut civil war content is far too complex for me to want to mess with, so for that I'd recommend Simtams's Open Civil War (https://www.nexusmods.com/skyrimspecialedition/mods/11076).
+The cut carriage system in the game data has already been done by DayDreamer's excellent Touring Carriages mod. (https://www.nexusmods.com/skyrimspecialedition/mods/15948)
+
+CRF Bug Tracker: https://afktrack.afkmods.com/index.php?a=issues&project=7
+
+My Patreon Page: https://www.patreon.com/arthmoor
+
+Download Locations
+==================
+
+AFK Mods              - https://www.afkmods.com/index.php?/files/file/1894-cutting-room-floor/
+ModDB                 - https://www.moddb.com/mods/cutting-room-floor
+Bethesda.net [PC+XB1] - https://creations.bethesda.net/en/skyrim/details/6186/Cutting_Room_Floor
+Skyrim SE NExus       - https://www.nexusmods.com/skyrimspecialedition/mods/276 [This download is outdated and no longer being supported]
+
+Installation Requirements
+=========================
+
+Skyrim Special Edition 1.6.1130 or greater.
+Unofficial Skyrim Special Edition Patch 4.3.6 or greater.
+
+DO NOT extract the contents of the BSA file into your Data folder as loose files, or let your mod manager perform an equivalent function on the contents of the file. Doing so will cause things to load in the wrong order and break the game. Skyrim is intended to load a BSA alongside it's ESM/ESP file. Circumventing this causes issues which I will not provide support for. If you insist on going against this advice, you will receive no support for the problems you generate as a result of this.
+
+Installation - Wrye Bash BAIN
+=============================
+
+Drop the archive into your Skyrim Mods\Bash Installers folder, then install as usual.
+Make sure the mod is active in the Wrye Bash mods tab.
+
+Installation - Manual
+=====================
+
+Drop the Cutting Room Floor.esp, Cutting Room Floor.bsa, and Cutting Room Floor - Textures.bsa files into your Data folder.
+Activate the mod using whatever management tool suits you.
+
+The Cutting Room Floor.modgroups file is useful for doing conflict management in xEdit. It is not required to run the mod.
+
+Upgrading
+=========
+
+Simply install the new files over the top of the old ones. Any needed internal updates will be handled automatically.
+
+Uninstalling
+============
+
+Due to the nature of Skyrim mods, especially those with scripts, it is STRONGLY recommended you do not attempt to uninstall this mod once you've begun using it. The scripts altered by the mod, as well as several portions of the content will be permanently altered and will not restore themselves to their previous states.
+
+This is not a defect in this mod, it is merely how Skyrim works with any mod that includes scripted changes. There is nothing I or anyone else can do about this. You need to load a save prior to having installed this mod in order to restore the game to its previous condition.
+
+If you insist on removing the mod and continuing with the save though, the Cutting Room Floor.esp, Cutting Room Floor.bsa, and Cutting Room Floor - Textures.bsa files must be removed from your Data folder. Any errors or residual changes left behind by doing so are your sole responsibility and any complaints about this will be ignored.
+
+Load Order
+==========
+
+Load early, as close to the top of your load list as reasonably possible since this mod deals in restored vanilla content.
+
+LOOT (https://loot.github.io/) should be used for optimal placement.
+
+Implemented in This Mod
+=======================
+
+NPCs
+====
+
+Argi Farseer - Stonehills. Works in the mine, has a home in Stonehills, takes a random stroll around the mining camp at night.
+Talib - Stonehills. Restored his house, works the mines.
+Aleuc - Blacksmith in Stonehills. Has a house and slightly modified exterior forge area. Stonehills ought to be plenty populated now.
+Captain Metilius - Castle Dour. Hangs around the war room during Bleak Falls Barrow or Jagged Crown, wanders the castle district outside otherwise. Will be disabled if the Stormcloaks have Solitude.
+Grushnag - Placed with the Markarth Khajiit caravan and will travel with them. Serves as a guard due to the dangerous nature of The Reach.
+Herebane Sorenshield - Added on the span of Kilkreath Ruins between the first and second interior areas. He will patrol the area there and is now carrying his named reward items too.
+Karinda - Dagny's horse that was originally planned for use in the darker side of The Whispering Door. Just for show now though.
+Mazgak - Added to the hunters in Bloated Man's Grotto.
+Spirit of the Ancient Traveler - Added at Wayward Pass as was apparently intended.
+Steirod - NPC planned for use at Irontree Mill.
+Trilf - NPC planned for use at Irontree Mill.
+Sulvar the Steady - Placed in Niranye's house, spends the rest of his time at the warehouse. It made no sense for him to spend his entire existence in her place.
+Tasius Tragus - Added in the Dragon Bridge tavern. Doesn't do much other than sandboxing inside and outside. Sleeps at the inn. Supposedly is Varnius Junius' boss.
+Thjollod - Added to the hunters in Bloated Man's Grotto.
+Viding - Added to the hunters in Bloated Man's Grotto.
+Mithorpa Nasyal - Dark Elf NPC assigned to Barleydark Farm.
+Uglarz - Restored for Narzulbur, involved in a quest.
+College Guard - A generic guard for the College of Winterhold. Will patrol the grounds, and sleep upstairs in the Hall of Attainment.
+Froa - Daughter of Kjeld and Iddra who is mentioned in at least two scenes but doesn't exist.
+Guards restored for Half-Moon Mill who will use the cut dialogues for that location.
+
+Items
+=====
+
+Gallus' decoded journal - Will appear once the final major portion of the Thieves Guild quest is done.
+Spectral Arrow - Spell tome reward for completing Treva's Watch.
+Falmer Supple Bow - A slightly better version of the normal Falmer bow. Added to 3 of the encounter varieties of Falmer. A tempering recipe has been provided as well.
+Briarheart Geis - A special version of a Forsworn axe, now in the hands of the Briarheart at Lost Valley Redoubt.
+Mzinchaleft Guard's Note - A note for the guards who are watching Maluril's room.
+Habd's Death Letter - A note left behind by the former owner of Frostflow Lighthouse.
+Sild's Staff - A unique item available on Sild the Warlock in Rannveig's Fast that summons subjugated ghosts.
+Circle of Vitality - Added a new tome for the spell, plus completed the missing parts.
+Stormcloak Cuirass (sleeved version) - An alternate version of the standard Stormcloak Cuirass that was never added to the game.
+Letter to Vals Veran - A short note that provides a bit of backstory to Vals Veran.
+Robes & Boots - Several articles of clothing that were not added to leveled lists are now available.
+Letter from Harkon - A short note carried by Malkus talking about Harkon's promise for finding a Moth Priest.
+
+Quests
+======
+
+Research Thief - An unfinished quest at the College of Winterhold. Nirya has something she'd like you to do. (Repeatable radiant quest)
+Filling Soul Gems - Sergius Turrianus doesn't just want you to restock them, the lazy bum! (Repeatable radiant quest)
+The Missing Apprentices - Phinis Gestor wants someone to find out what happened to the previous group of apprentices.
+Tolfdir the Absent-Minded - His alembic isn't the only thing he routinely misplaces! (Repeatable radiant quest)
+Animal Pelt Collection - Restored a radiant quest for the Companions to collect animal pelts. Needed some logic tweaks and bugfix hacks to get it into useable shape.
+Rogue Wizard - Tolfdir has more than just his absent-mindedness he needs help with. (Repeatable radiant quest)
+Hitting the Books - An extra dialogue exchange was restored between the player and Mirabelle Ervine.
+"A Wife For Mauhulakh" (name provided by CRF) - Chief Mauhulakh is lonely and longs for companionship.
+Proving Honor - Aela can now be chosen as your shield-sibling if you do more work for her than Farkas.
+Supply Line - Frost River Farm needs help distributing their mead.
+Shalidor's Insights - Added the missing fortify magicka scroll to the reward table.
+Runil's Dark Past - Restored what little there is for this. Need to retrieve his journal first before the dialogue becomes available.
+Mourning - NPCs who lose friends or loved ones may mourn the loss for a set period of time.
+
+Scenes
+======
+
+DialogueRiftenRatway - Restored a non-functional dialogue scene between the player and two thugs in the Ratway entrance. (Disabled if Live Another Life is installed and Thieves Guild start is chosen)
+DialogueWhiterun - Scene between Uthgerd the Unbroken and Skulvar Sable-Hilt at the Whiterun Stables.
+DialogueWhiterun - Scene where Mikael thanks the audience for their applause as the player first enters the Bannered Mare.
+DialogueWhiterunSceneVignarBalgruuf - Scene where Balgruuf and Vignar argue about Talos worship. Vignar simply needed to be in Dragonsreach sometimes to make it work.
+DialogueGenericVigilantsOfStendarr - Restored dialogue for the Vigilants to confront the player when they are wearing/wielding a Daedric artifact item. (https://en.uesp.net/wiki/Skyrim:Vigilants_of_Stendarr#Conversations)
+Windhelm - 2 scenes between Scouts-Many-Marshes and Ambarys unlocked by giving Scouts-Many-Marshes an AI pack to sandbox in the club after work.
+Solitude - 3 scenes involving Xander have been restored by giving him AI packages to go to each of the stores he should visit.
+MS06StartPotemaEscapesScene - Removed condition blocking the dialogue from Potema's escape sequence.
+
+Locations
+=========
+
+Thalmor Justiciar HQ in Solitude - Populated with one commander and 4 justiciars who will disable if the Stormcloaks take Solitude. Banners changed from Imperial to Thalmor, and these banners will change again to Stormcloak ones if they take the city.
+Castle Dour Tower - Restored access to an unused tower room above General Tullius' room. Captain Metilius will sandbox here for part of the day as well as sleep here since he has no bed otherwise.
+Frost River Farm - The meadery that goes with the Supply Line quest that was restored.
+Irontree Mill - Restored a missing sawmill originally designated for Haafingar Hold. Haafingar has no adequate space for it, so it's just over the border with Hjaalmarch, located next to the newly restored Frost River Farm. Steirod and Trilf live and work here.
+Trilf's House - Added with the relocation of Irontree Mill after discovering that there is a key and location data for a house. Since Steirod has nowhere else to go, he'll be living there too.
+Barleydark Farm - Restored a farm southwest of Fort Greymoor occupied by Mithorpa Nasyal. The location was already leveled out and labeled, just never actually built.
+Stonehills - Restored the village which was intended to be placed here. (Argi Farseer's house, Aleuc's house [blacksmith], Talib's house)
+Wintersand Manor - Nazeem & Ahlam's house, restored to the game at Chillfurrow Farm.
+Maiden-Loom Manor - Lilith Maiden-Loom's house, restored to the game across from Whiterun Stables.
+Cidhna Mine - Obscured Passage, restored and repurposed as an escape route out of the prison.
+Heljarchen - The village which was intended to be placed surrounding Nightgate Inn has been restored. (Blacksmith, Alchemist, 2 farmhouses, and the NPCs who live in them)
+Riften - Restores the southeast city gate to the game, which was boarded over prior to release for some reason.
+Hoarfrost Grotto - A small unfinished ice cave dungeon with ice wraiths and a frost atronach. Should work with the Companions quest "Rescue Mission" as well.
+
+Other
+=====
+
+Restored the Omen of Warding and Stop Rune powers. These were originally designed as Black Book rewards but there is no book to place them in. Instead, they have been attached to standing stones hidden on Solstheim.
+Pack Spiders! You can now create a pack spider in White Ridge Barrow that can haul some extra loot for you. Be careful, they're fragile, and you can only have one following you at a time.
+Glowing Spiders! Another spider you can also make in White Ridge Barrow that produces light while following you around. They will last for 2 in-game hours, or until killed, whichever comes first.
+Black-Heart Blight. A cut disease intended to be added to Ash Spawns which reduces carry weight by 10.
+
+Credits
+=======
+
+Hana - For a ton of beta testing my characters weren't able to do. Bethesda's rat's nest never stood a chance!
+Hana again - For the road sign resources used to make the new signs. (https://www.afkmods.com/index.php?/files/file/633-hanas-blank-roadsigns-resource/)
+nonoodles - Meshes used for the restored Riften southeast gate.
+
+Licensing and Legal
+===================
+
+Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.
+
+This mod may not be included in mod packs of any sort.
+
+Non-English translation versions may be uploaded without permission on the following conditions:
+
+1. All mod files contained in this archive are retained with their current names.
+2. No alterations are made to the contents of the plugins or master file other than those necessary to translate the English text.
+3. No alterations or additions are made to the meshes and textures other than those necessary to translate English text.
+4. This readme is included, in ENGLISH, exactly as it is written in the version it was downloaded with.
+
+Compatibility Patches may be distributed ONLY under the following conditions:
+
+1. Permission must be obtained from me in advance. There will be no exceptions to this.
+2. The documentation for the patch must mention that I am the creator of this mod.
+3. The documentation for the patch must contain a link back to one of the download sites listed at the top of this readme.
+4. You are solely responsible for any support issues arising from the use of the compatibility patch.
+
+All inquiries regarding this mod must be directed to me. If after 1 year contact cannot be established or you have not received a response, stewardship of this mod will fall to the community at AFK Mods (www.afkmods.com). I can be contacted via PM at AFK Mods under the username Arthmoor. A good faith effort must be made before assuming that contact cannot be established before concluding that I am no longer maintaining this mod.
+
+Requests made on Twitter, Facebook, Reddit, Discord, or any other social media format will not be acknowledged and permission will never be granted via these mediums.
+
+Mod history archives such as Morrowind Mod History are permitted to keep a copy of this mod within their archives for historical purposes provided all authorship and credit information is retained and the contents of the mod are not altered in any way.
+
+This mod is not made, guaranteed, or supported by Microsoft, Zenimax, Bethesda Game Studios, or any of their affiliates.
+
+Revision History
+================
+
+Version 3.1.22 [2025-08-17]
+---------------------------
+
+Added cell 18,10 to the NightgateInnExterior location. The blacksmith building mesh is centered over that cell. This will aid compatibility for mods using location data to swap building assets.
+Bench clipping the well at Frost River Farm. (Bug #35645)
+Added the unused Dwarven Helmets of [...] Alchemy to the SublistEnchArmorDwarvenHelmet04 list. Also fixed a typo on EnchArmorDwarvenHelmetAlchemy04 now that it's being used.
+Heinrik (in Frost River) was never added to his house faction when it was created.
+08021D18: Book (and the one above it) clipping the shelf in Maiden-Loom Manor. (Bug #35748)
+
+Version 3.1.21 [2025-05-21]
+---------------------------
+
+An autodoor was left behind at the old entrance to Hoarfrost Grotto which caused a soft-lock if you walked through it. (Bug #35453)
+Pulled the navmesh away from the weapon rack at the smith in Frost River in an effort to keep the NPCs from knocking the tools down. (Bug #34581)
+
+Version 3.1.20 [2025-04-12]
+---------------------------
+
+A previous add to LCharWarlockStormBossFemaleElfHaughty mistakenly used a male NPC in a list of females with specific female voice lines, resulting in the male NPC not speaking. (Bug #34685)
+01001A49, 01001A4A, 01001A4B: Bushes buried underneath houses in Stonehills. (Bug #34490)
+Animal Pelt Collection [CR03] was not handling picking up and dropping pelts before turning the quest in properly. This led to allowing the player to finish it after dropping all the pelts and in some cases also to turn in too many pelts. (Bug #35021)
+The entrance to Hoarfrost Grotto has been moved to avoid a conflict with the Fortress of Ice VC. It is now on the far northeast area of the map, on an island north of the Wreck of the Winter War.
+
+Version 3.1.19 [2024-09-02]
+---------------------------
+
+The BashTags folder was left out of the previous revision.
+The two mudcrab spawns on Solstheim have been replaced with the unused ash covered version that was in the Dragonborn DLC data.
+An unused Telvanni banner has been hung outside of Tel Mithryn.
+You can now ask Sven in Riverwood if he knows any old ballads about dragons. This line was linked to the wrong topic and wouldn't normally play. Unfortunately in order to ask him about it, a new game will be required. Apparently some aspects of dialogue bake into the save.
+000D3B08: Tree clipping the back side of Fathenda's shop in Heljarchen. (Bug #34239)
+0006F160: Tree clipping the back of Argi's house in Stonehills. (Bug #34254)
+
+Version 3.1.18 [2024-07-21]
+---------------------------
+
+The extra dragon encounter outside of the south exit to Bleak Falls Barrow is actually vanilla content which was not cut. These changes have been removed.
+Belrand needed his perks updated to conform to USSEP Bug #32513.
+01001CC1: Floating bush. (Bug #34225)
+The Thalmor Justiciar Commander or Stormcloak Officer in charge of the Justiciar's Headquarters will now sandbox properly outdoors if Open Cities Skyrim is installed. (Bug #33067)
+The .esp and .bsa files have been changed to lowercase filenames. This is to help facilitate universal filename compatibility for Steam Deck and regular linux users whose file systems are case sensitive. Many of them make use of the in-game menu to download mods and Bethesda.net ALWAYS downloads in lowercase. For the benefit of people using linux or the Steam Deck, it would be greatly appreciated if any mods which currently use CRF as a file dependency change the case of that dependency in their master lists. (Bug #34096)
+
+Version 3.1.17 [2024-04-29]
+---------------------------
+
+Fixed 2 wall meshes for Riften that had broken material types.
+
+Version 3.1.16 [2023-12-09]
+---------------------------
+
+Synced with latest USSEP fixes.
+The female farmer, "Jen" should likely have been a male farmer named "Jens" since the key originally made for this NPC was marked that way. Jens is a common Scandinavian male name. (Bug #32902)
+Dawnguard added a second map marker for the Windhelm Docks which was never enabled, even though it's referenced by the Ferry travel system.
+Thanks to Robert (of Rob's Bug Fixes fame), a bit of navmesh trimming was done in Frost River, Heljarchen, and Stonehills.
+
+Version 3.1.15 [2023-03-01]
+---------------------------
+
+Added the 4 investor perks to the formlist used by USSEP to clean up perk resets when reading Black Book: Waking Dreams.
+
+Version 3.1.14 [2023-01-30]
+---------------------------
+
+Animal Pelt Collection (CR03) was not updating the radiant quest counters when completed. (Bug #32562)
+The AI Package sending Scouts-Many-Marshes to the New Gnisis Cornerclub had too large a radius and was letting him access private areas. (Bug #32485)
+Added bash tags. (Bug #32460)
+Vignar and Olfrid will delay having their argument scene in front of the Gildergreen until after Amren and Saffir have played out their scene. Otherwise you could end up having both scenes running at the same time which would make it impossible to properly listen to both. (Bug #32459)
+Four mist objects have been removed from the Thalmor Headquarters in Solitude. (Bug #32717)
+Two mountain rock piles next to Heljarchen have been removed. There was no reason for them to be there since they were 9000 z units below the ground and marked as disabled.
+
+Version 3.1.13 [2022-06-20]
+---------------------------
+
+Added bash tags. (Bug #32173)
+Vignar should not be commenting about the brawl inside Jorrvaskr when he's still outside after performing his restored scene by the Gildergreen. (Bug #31436)
+The male first person sleeved Stormcloak cuirass is incorrectly weighted. This was originally done via USSEP 4.1.3 when it was thought that it needed the same adjustments as the non-sleeved ones. It turns out the sleeved variant doesn't need them. I will temporarily override the USSEP archive with the vanilla sleeved meshes since I've confirmed those don't have weighting issues in the game. When USSEP updates next and these files get removed, CRF will have them removed from the archive as well. (Bug #24405)
+Gargoyle Sentinels and green Gargoyle variants now have their unique abilities assigned. (Bug #31328)
+Chitin, Nordic, and Stalhrim (both heavy and light) Helmets of Waterbreathing have been added to the leveled lists with other similar enchanted helms. (Bug #31314)
+
+Version 3.1.12 [2021-12-11]
+---------------------------
+
+Removed the placement for the Ring of Khajiiti that was added in Nightingale Hall. This item has now been officially added to the game via the Fishing DLC. If you already picked up the copy I placed, you'll be able to keep it.
+
+Version 3.1.11 [2021-11-12]
+---------------------------
+
+Updated for USSEP fixes to MG07 and MG08.
+
+Version 3.1.10 [2021-07-04]
+---------------------------
+
+Synced with the latest USSEP fixes.
+Facegen for Ilas-Tei was pointing to the wrong folder for the texture data.
+Fixed ownership on some of Heigen's items outside his house in Heljarchen. (Bug #31488)
+Fixed several dialogue grammar errors, consistent with the accompanying USSEP update. (Bug #29790)
+Fixed a pair of overlapped bushes outside the Nightgate Inn. (Bug #29780)
+Ralof should no longer ditch his sleeveless armor after escaping into the keep in Helgen. (Bug #29658)
+Aela should no longer lose her Skyforge Steel Dagger after Proving Honor (C01) is completed. This fix is not retroactive. (Bug #29595)
+The guards in Heljarchen should now have proper guard dialogue. (Bug #29288)
+They will also follow any changes to the guard uniforms in Dawnstar.
+Mithorpa Nasyal and his two dogs have had their levels boosted to provide for better survivability when more advanced predators appear in the area of his farm. (Bug #29272)
+Animal Pelt Collection (CR03) should no longer generate stack dumps. The inventory event filter was in the wrong section of the quest script. (Bug #29196)
+
+Version 3.1.9 [2020-12-16]
+--------------------------
+
+NPC investment dialogue is not checking the proper gold amount. This is a fix being applied which is detailed in USSEP Bug #29335.
+Two cells of stray landscape edits were removed near Hoarfrost Grotto.
+
+Version 3.1.8a [2020-07-04]
+---------------------------
+
+A wild edit that interfered with the Umbra DLC for the Creation Club has been removed.
+
+Version 3.1.8 [2020-06-30]
+--------------------------
+
+Several tier 7 Warlock actors were created for the game but never added to any of the leveled lists for Warlocks.
+The quest script for the player alias in MGR12 did not include an Inventory Event Filter. (Bug #29068)
+The scene where Olfrid confronts Vignar about stolen crops has been restored. This will only play if the siege of Whiterun has not yet happened, as it won't make sense afterward.
+One of the added Imperial soldiers in Riften was not set up properly and became enabled all the time. This resulted in him being attacked by the Stormcloak guards which could also risk a city-wide melee due to the stray arrow shots.
+Gestur Rockbreaker now has a house in Stonehills as he was supposed to.
+
+Version 3.1.7 [2020-01-25]
+--------------------------
+
+The Spirit of the Ancient Traveler at Wayward Pass will now only appear when the player takes his skull.
+Castle Karstaag on Solstheim has been given its unique map marker icon that was never assigned.
+
+Version 3.1.6 [2019-10-01]
+--------------------------
+
+Added chicken nests to Barleydark Farm.
+Updated Max Height data from USSEP.
+Added new bash tags for keywords and text.
+
+Version 3.1.5 [2019-07-23]
+--------------------------
+
+Spectral Arrow was not set to benefit from the Apprentice Conjuration perk.
+Fixed a typo in Gallus' Journal. (Bug #26606)
+Fixed the positioning of the smelter in Frost River. (Bug #26441)
+The door marker for Hoarfrost Grotto was too close to the return bubble which could cause the player to be immediately bounced back out of the dungeon.
+The Supply Line quest was not starting due to an old location setting being checked instead of the current one for Frost River.
+
+Version 3.1.4 [2019-06-01]
+--------------------------
+
+Two sets of light poles were somehow added to the skies above Heljarchen and have been removed.
+
+Version 3.1.3 [2019-05-08]
+--------------------------
+
+Added lighting to Heljarchen and Frost River exteriors.
+Consolidated location and map marker data for Frost River to more uniformly cover the area.
+
+Version 3.1.2 [2019-03-13]
+--------------------------
+
+Added a rock to cover a gap above the entrance to Hoarfrost Grotto. (Bug #26294)
+
+Version 3.1.1 [2019-01-27]
+--------------------------
+
+The Nobles on horseback encounter (WERoad02) was not generating a saddled version of the second horse.
+The Alpha Wolf south of Riverwood had some incorrect faction and aggression settings that would cause him not to attack on sight like his pack mates.
+
+Version 3.1.0 [2018-11-27]
+--------------------------
+
+Added a blacksmith and extra farmhand for the Frost River Meadery. Gave the whole location a new map marker labeled "Frost River" since it appears as though this was to have been a small village and not just a meadery + lumber mill.
+Restored Rogen to the game and placed in the new farmhouse to be married to the new farmhand. He will be killed as part of the "Profit" questline for Dawnguard. It appears he had been intended to play the role of the carriage driver.
+Fixed a bug with the investment option at the apothecary in Heljarchen.
+Repositioned the Frost Thrall scroll due to placement fixes in USSEP.
+Windhelm's stable was supposed to have a sign that was never placed.
+The Sleeved Stormcloak Armor was missing the amulet slot fix applied to the regular version from USSEP. (Bug #25300)
+
+Note: If you are using Point The Way, you will need to update that as well or there will be duplicate sets of road signs just west of Frost River.
+
+Version 3.0.9 [2018-10-14]
+--------------------------
+
+The unimplemented Gold Sapphire Necklace has been added to the game. Should properly count for gifts to children and appear in amulet leveled lists at level 20.
+Navmesh cleaning has been done with updated versions of xEdit.
+The shader effects for Oak Flesh, Stone Flesh, Iron Flesh, Ebony Flesh, and Dragonhide have been edited to only show on skin.
+
+Version 3.0.8 [2018-07-06]
+--------------------------
+
+The Ring of Khajitti was not added to the list of Daedric artifacts that the Vigilants will confiscate.
+The modified file for the Ring of Khajitti ground object was left out of the archive.
+
+Version 3.0.7 [2018-05-08]
+--------------------------
+
+Enabled a cut line in the ending scene of the civil war for the Stormcloak side where Ulfric calls the Empire obsolete.
+Restored the unused Ring of Khajitti to the game. The ring will provide a 100% Muffle enchantment and fortify Sneak by 35 points. This is the closest approximation Skyrim's engine has to wearable invisibility. Appears in Nightingale Hall once the Thieves Guild quest is over.
+A potato bush at Frost River Farm was marked as owned when it should not be. (Bug #24190)
+Removed cobwebs from Thalmor HQ. Elves don't like spiders.
+Research Thief (FreeformWinterholdCollegeA) is not logically set up to be a repeating quest and so it should not be offered again once completed.
+
+Version 3.0.6 [2017-12-26]
+--------------------------
+
+Trilf should now be properly running the sawmill at Irontree Mill. (Bug #23227)
+The random encounter with the wandering noble should now properly clean up after itself. This will not fix encounters that have already spawned though.
+A bush was clipping with the fence in Kynsegrove, and it was possible to get stuck between the hay bales and the inn if you jumped up on them and tried to walk behind. (Bug #23223)
+
+Version 3.0.5 [2017-11-05]
+--------------------------
+
+Floating bush in Heljarchen grounded. (Bug #23008)
+Nirya has been added to the potential marriage faction so she can be married after Research Thief is done. (Bug #22978)
+Ash Spawns will now carry the Black-Heart Blight disease. (Bug #22966)
+The giant at the end of Fallowstone Cave will now wield his unique enchanted club. (Bug #22962)
+The guard at the southeast gate should handle the encounter properly if the player has not yet dealt with the one at the north gate. (Bug #22915)
+Supply Line (FreeformFrostRiver) should now properly randomize 3 delivery locations once you've completed it the first time. (Bug #22910)
+The random encounter involving the wandering noble and his bodyguard should also have generated a female companion. She has now been added to the encounter data. (Bug #22838)
+Hoarfrost Grotto has been completed and connected to the game. (Bug #22833)
+
+Version 3.0.4 [2017-08-21]
+--------------------------
+
+Froa should now move to Honorhall Orphanage if Keld and Iddra are both dead in Kynesgrove. (Assuming the orphanage isn't already at capacity)
+Tolfdir will no longer give out the Rogue Wizard quest before the Saarthal quest has been completed. This matches with his other radiant quest in the same manager branch.
+If Uglarz is killed before returning to Narzulbur the quest will now properly fail as it should have.
+
+Version 3.0.3 [2017-03-26]
+--------------------------
+
+Facegen files for Herebane Sorenshield and Froa were missing from the archive.
+The sleeved version of the Stormcloak curiass has been fixed to reduce clipping when an NPC wearing it sits down. (Bug #19738)
+
+Version 3.0.2 [2017-02-19]
+--------------------------
+
+A road sign west of Nightgate Inn was overlapping with another from Point The Way and has been adjusted.
+All of the hirelings, except Marcurio, had personal outfit entries which were not being used. These have now been assigned. (Bug #21985)
+Getting the Delayed Burial quest (DB01Misc) but never talking to Cicero (the jester) results in the quest becoming permanently stuck open in your journal. It will now properly fail if this is the case. This fix cannot be applied retroactively since the quest will already be stopped. (Bug #21772)
+Updated LOD to resolve issues with flickering buildings around Whiterun.
+
+Version 3.0.1 [2016-11-15]
+--------------------------
+
+Fixed some missed water data updates.
+All meshes have now been upgraded to the new SSE .nif format.
+
+Version 3.0 [2016-10-24]
+------------------------
+
+Conversion to Skyrim Special Edition.
+
+Version 2.0.3 [2016-09-18]
+--------------------------
+
+The collision box around Froa's bed was not set to L_NAVCUT so the NPCs naturally tried to walk through it to get to the chair next to it.
+The magic effect for Slid's Staff was using the wrong casting animations and causing the player to end in a casting stance when they shouldn't.
+Typo in Stop Rune description fixed. (Bug #20523)
+Escaping from prison in Cidhna Mine triggered an obscure bug where quest items could no longer be picked up. (Bug #20756)
+3 scenes where Xander will shop in Solitude have been restored. He will now visit Angeline's Aromatics on Tirdas and Turdas, Bits & Pieces on Middas, and Radiant Raiment on Fredas.
+A line at the end of the scene when stopping Potema's ritual in Wolfskull Cave has been restored.
+
+Version 2.0.2 [2016-04-30]
+--------------------------
+
+Shalidor's Insights: Magicka had a pitifully weak reward that was not in line with the difficulty involved in obtaining the reward. It also lacked a VendorItemScroll keyword.
+The pack spider could sometimes get lost when passing a load door due to not being persistent. The script has been modified to move him into the alias the quest had reserved for this.
+The Wayward Traveler did not have proper ghost or undead keywords set, and was dropping the wrong ash pile upon being killed.
+Froa's bed in the Braidwood Inn has been moved to a different wall to reduce conflicts with other mods.
+Talib's unfinished house in Stonehills that was accidentally left in with 2.0.1 has been completed and he now lives in it.
+Glow spiders cut from the Dragonborn DLC have been restored.
+
+Version 2.0.1 [2016-02-13]
+--------------------------
+
+New Content:
+
+Omen of Warding and Stop Rune powers restored to the game on Solstheim.
+Pack spiders cut from the Dragonborn DLC have been restored to the game.
+Crafting recipes have been added to Neloth's staff enchanting station for the Staff of Frost Rune, Staff of Fire Rune, Staff of Shock Rune, and Staff of Fade Other.
+Malkus will now carry the "Letter from Harkon" note.
+Vampire armor outfits will now include the Vampire Gauntlets that were never used.
+Barleydark Farm now has a pair of dogs living there to help defend against potential predators.
+
+Bugs Fixed:
+
+Aleuc used a voice type that had no lines recorded for the blacksmith dialogue.
+A signpost group with one of the new Heljarchen signs on it needed to be moved to match placement with Point The Way. (Bug #19799)
+Runil's quest needed some stray conditions removed to allow the dialogue to complete properly. (Bug #19520)
+The Briarheart at Lost Valley Redoubt should not respawn as he was only intended to be there once to provide access to the Briarheart Geis. (Bug #19519)
+It was possible for Mikael's restored scene to start with him upstairs and out of earshot. (Bug #19495)
+An invalid description was removed from DragonhideScroll since the underlying effect has the correct text. (Bug #19349)
+The key to Barleydark Farmhouse should be labeled as Barleydark Farmhouse Key.
+
+Version 2.0.0 [2015-11-07]
+--------------------------
+
+Converted to Legendary Edition. All future support will be on this branch ONLY.
+
+Added road signs to various intersections near Stonehills and Heljarchen for the two villages.
+Enabled the "Mourning" quest which was blocked from running despite the dialogue being completely intact. When an NPC loses a friend or loved one, they may mourn the loss for a set amount of time before resuming their usual schedule.
+Fixed an issue with Orthorn's room not enabling if there were conflicting edits to Eye of Magnus (MG08).
+Orthorn is not essential so his room should not get activated in the College of Winterhold if he's dead before the time comes.
+Hern will now be enabled by default so that he and Hert can both access their unique dialogue for when he's around. Killing him prior to the Dark Brotherhood contract was already accounted for by Bethesda.
+Nightgate Inn can now be chosen by the game as a possible place for Sam to show up for A Night To Remember.
+Missing Apprentices will now be started via a notice pinned to the doorways in each of the major halls of the College. This resolves issues with the recorded dialogue not playing for some people.
+The script controlling Animal Pelt Collection (CR03) has been optimized so that it no longer uses a continuously updating script polling the game every 10 seconds. The counting method for getting pelts for Aela also properly handles dropping them.
+
+Version 1.1.5 [2015-08-08]
+--------------------------
+
+Trilf's sandbox AI did not have its interrupt flags set.
+Captain Metilius' sandbox AI did not have its interrupt flags set.
+Grushnag should be using a heavy armor outfit since his skill set is geared toward heavy and not light armor.
+The southeast gate at Riften was supposed to have guards but somehow those changes were lost. The gate now has guards again. (Bug #19465)
+The goat pen mentioned in dialogue about Froa has been added behind the inn in Kynesgrove.
+The College guard should no longer enter the Hall of Elements during Eye of Magnus until after you are told to kill Ancano.
+Guard dialogue for the Frost River settlement was conditioned for the wrong hold. 3 of the 4 lines also did not fit with Stormcloaks once they take the hold. (Bug #19347)
+The guards at Half-Moon Mill should now be the only ones delivering the unique lines about Hert and Hern. (Bug #19347)
+The Imperial guard at Half-Moon Mill will now be identified as a "Falkreath Hold Guard" to be consistent with other hold naming conventions. (Bug #19347)
+Delayed Burial will no longer get stuck in the journal if the quest completes without actually talking to the jester. (Bug #19409)
+
+Version 1.1.4 [2015-07-03]
+--------------------------
+
+Grushnag had no weapon or shield in his inventory.
+Two meshes for the abandoned sawmill outside of Kynesgrove were accidentally left out of the package.
+LOD has been generated for the various exterior locations that have been restored.
+Max Height Data in cells with added structures has been updated. Should help with making sure dragons don't fly through houses. ( Provided another mod doesn't undo the edits :P )
+Vignar Gray-Mane will now sandbox in Dragonsreach 3 days out of the week if he's not the Jarl. This enables access to a scene that doesn't play due to him never going there otherwise.
+Forsworn Warlords have been added to the various Forsworn leveled lists they were never made a part of. You can begin encountering them at level 46 and above.
+Restored the very short Runil's Dark Past. Speak to him after retrieving his journal (and reading it) to get the dialogue for it.
+An unsent letter from one of Peryite's afflicted has been placed in Bthardamz Workshop.
+
+Version 1.1.3a [2015-06-20]
+---------------------------
+
+Orthorn needed to be added to the College of Winterhold faction, as well as the crime faction for the city of Winterhold.
+The initialization script failed due to the Reset() call for Missing Apprentices being in the wrong order with the Stop() call.
+Chickens at Barleydark Farm had no ownership.
+
+Version 1.1.3 [2015-06-20]
+--------------------------
+
+Missing guards have been restored to Half-Moon Mill. They will have access to some unused dialogue there as well. (Bug #18637)
+Missing Apprentices will now be a start-game-enabled quest to prevent issues with the aliases getting blocked due to picking up the existing items in the quest.
+Phinis College lecture about the apprentices will be rigged to play first so that the quest gets a proper chance to start the way it was intended.
+The College guard should no longer use any of the remarks about casting spells and certain skills that are related to magic. Most of them were used in a mocking tone. (Bug #18958)
+It was possible for Sild's Staff to duplicate itself due to a poorly designed status quest to ensure the item was available if the player had already been to Rannveigs Fast. (Bug #18776)
+Typos in dunRagnvaldBook01 corrected: "Sarek" -> "Saerek" (Bug #18622)
+The two miners added in Saarthal have been removed. Ongoing problems with their AI and navigation in the dungeon have been unresolvable. Plus they're clearly out of place when still in the site after MG02 is completed and everyone else has left. (Bug #18728)
+Froa, missing Nord child of Kjeld and Iddra, has been restored in Kynesgrove.
+Frostbark Lumber Mill, mentioned by Ganna, has been restored to the game in the intended location along the river across from Kynesgrove.
+
+Version 1.1.2 [2015-01-18]
+--------------------------
+
+Orthorn has dialogue implying he'll return to the college at a later date. He will now go to the Frozen Hearth in Winterhold and sandbox there until the player becomes Archmage. At that point he will take up a normal routine at the College itself.
+Fixed a poorly placed tankard and a basket clipping through the floor. (Bug #18282)
+The College guard should no longer prematurely jump Ancano to cause an infinite combat loop. (Bug #18469)
+The enchantment value on the Staff of Fading was not consistent with other expert level staves. (Bug #18475)
+The new staves added to the leveled lists were in inconsistent lists based on their spells. (Bug #18476)
+The two Saarthal miners did not have persist locations set which may have been impacting their placement when entering the dungeon. (Bug #18474)
+The civil war soldier swap at Frost River was not being done correctly. The markers for the local soldiers are now parented to the markers in Morthal and will switch when Morthal switches.
+Corrected a bad navmesh border connection in cell 8,-3 which should solve problems with navigation to Chillfurrow Farm. (carryover fix from USKP)
+The map marker at Heljarchen now has an enlarged radius so it will be discoverable from the road.
+The map marker at Stonehills will now indicate it as a settlement instead of a mine. (Bug #17593)
+
+Version 1.1.1 [2014-12-14]
+--------------------------
+
+During Staff of Magnus (MG07) and Eye of Magnus (MG08) the College Guard will be outside with everyone else until you break through the barriers, at which point he will assist in the fight against Ancano. (Bug #18248)
+Fixed some typos in the Letter to Vals Veran. (Bug #18094)
+Varnius Junius should not run his hello topic about Tasius if Tasius is dead. (Bug #17833)
+Corrected a room bounds issue in Left Hand Mine with the additional tunnel. (Bug #17831)
+Covered up a floor gap with some wood planks in Left Hand Mine where the new tunnel connects. (Bug #17831)
+The "Staff of Fading" was created to make use of the "Fade Other" staff enchantment that was left hanging. It has been added to the LItemStaffIllusion50 leveled list.
+"Staff of Fire Rune", "Staff of Frost Rune", and "Staff of Shock Rune" have been created to make use of the respective staff enchantments that were created but never used. The 3 staves have been added to the LItemStaffDestruction50 leveled list.
+The original visual effects Bethesda made for Iron Flesh, Oak Flesh, Ebony Flesh, Stone Flesh, and Dragonhide have been restored.
+The added residents of Stonehills (Argi, Aleuc, Talib) will now have proper burial urns in Solitude if they are killed. For Argi and Talib, this change will not take effect on an existing save.
+The residents of Heljarchen will now have proper grave sites if they get killed. This change will not take effect on an existing save.
+Merged necessary quest fix for Ill Met by Moonlight from USKP 2.0.8.
+
+Version 1.1 [2014-10-11]
+------------------------
+
+The two Saarthal miners sometimes get themselves stuck behind the gate used for the quest. Their AI radius has been reduced and the center marker moved further up. (Bug #17342)
+Updated the script controlling the extra hunters for Ill Met By Moonlight (DA05) so they will show up in the proper places. (Bug #17441)
+Uglarz has a dialogue topic that is no longer appropriate to use if Chief Mauhulakh is dead. (Bug #17809)
+Uglarz has two dialogue topics that are no longer appropriate to use if Urog is dead. (Bug #17810)
+Chief Mauhulakh has two hello topics that are no longer appropriate to use if Uglarz is dead. (Bug #17811)
+Bolar has a hello topic that is no longer appropriate to use if Chief Mauhulakh and/or Uglarz are dead. (Bug #17812)
+Yatul has a hello topic that is no longer appropriate to use if Chief Mauhulakh and/or Uglarz are dead. (Bug #17813)
+Urog has two hello topics that are no longer appropriate to use if Uglarz is dead. (Bug #17814)
+Dushnamub has a hello topic that is no longer appropriate to use if Chief Mauhulakh, Uglarz, Bolar, or Yatul are dead. (Bug #17815)
+Dushnamub has a hello topic that is no longer appropriate to use if Chief Mauhulakh or Uglarz are dead. (Bug #17816)
+Merged necessary quest fix for Rannveig's Fast from USKP 2.0.7.
+
+Version 1.0.9 [2014-09-05]
+--------------------------
+
+The village of Heljarchen has been restored to the game at the intended area around Nightgate Inn. (Bug #17155)
+Aleuc, missing blacksmith in Stonehills, has been restored to the game along with his house. (Bug #17156)
+Letter to Vals Veran was added in Hillgrunds Tomb.
+Imperial War Horn was added to General Tullius' quarters.
+Nord War Horn was added to Ulfric's quarters.
+Several floating and/or embedded objects in Maden-Loom Manor have been fixed. (Bug #17209)
+Some floating and/or embedded objects in Frost River Meadery have been fixed. (Bug #17218)
+Restored the fortify magicka scroll reward that was left out for Shalidor's Insights.
+Several articles of clothing that were not added to leveled lists are now available.
+
+Version 1.0.8 [2014-08-13]
+--------------------------
+
+Minor subtitle typo fixed in the Whiterun stables scene.
+The spell tome for Fade Other should have been valued at 800 instead of 80 since it's a more powerful extension of Invisibility.
+The Vault of the Vigilants did not have the key assigned to it.
+The Briarheart Geis needed MagicDisallowEnchanting added. It also did not have its critical damage value set.
+"Mzinchaleft Guard's Note" has been placed outside Maluril's door.
+"Habd's Death Letter" has been added in Frostflow Abyss.
+Sild's Staff has been given to him in Rannveig's Fast. The dunRannveigSummonGhost enchantment also needed the base cost corrected downward and the magic keywords attached. If you've already been there and killed him, the staff will be sitting on a table near his work area.
+Circle of Vitality has been completed and added to the game. It will become available when the Restoration Ritual is completed.
+Two of the Saarthal Miners have been added to the game. Restoring the other 4 would have been silly as they are simply clones of the two that have been placed. Plus the Saarthal Excavation just doesn't have room for that many NPCs.
+Stormcloak Cuirass (sleeved version) has been added to the leveled lists for Stormcloak gear.
+
+Version 1.0.7 [2014-07-07]
+--------------------------
+
+The CarryActorScript setup was missing from one of the farmers at Frost River Farm.
+Supply Line would not mark the journal as completed when finished. It also should have been marked as a Miscellaneous quest so it wouldn't have empty journal entries showing in the log.
+The unused College Guard has been added at the College of Winterhold. He'll now patrol the grounds, as well as stand watch during part of Revealing the Unseen and Containment.
+Restored a line of dialogue for Barbas in A Daedra's Best Friend (DA03) where you can ask him why Vile kicked him out.
+
+Version 1.0.6 [2014-05-30]
+--------------------------
+
+Frost River Farm has been resurrected from the depths of obscurity. It now occupies space in western Hjaalmarch, along the border area near Dragon Bridge. The "Supply Line" quest that goes with this location should now be available by speaking to Signar Iron-Blood at the farm.
+Irontree Mill has been relocated to Hjaalmarch next to Frost River Farm. The coastal location was not really appropriate.
+Trilf's House has been resurrected from the ether and placed next to the newly relocated Irontree Mill. Steirod will live there with him.
+Trim gap and wall seam repaired on the new Riften southeast gate using an old USKP mesh to copy parts from.
+Corrected a typo in FreeformCollegeAInitResponse1.
+Corrected two typos in NarzulburFreeFormWifeQuestSharedInfos.
+With Nazeem and Ahlam living in their proper house now, Jenassa has been given bed linkage to the now vacant upstairs bedroom. Marrying her will now cause this to become a valid location to get the Lover's Comfort bonus. Her sandbox package in the location has also been modified so she'll make full use of the entire cell.
+The restored scene at the Whiterun Stables should not be attempted if With Friends Like These (DB02) has started.
+Two cut lines of dialogue intended to be spoken by Eorlund Grey-Mane have been restored.
+The Wayward Pass ghost did not have its ghost script properties set. May not take effect on existing saves.
+
+Version 1.0.5 [2014-04-02]
+--------------------------
+
+Room bounds in Left Hand Mine needed to be expanded to include the exit from Cidhna Mine.
+Added the Briarheart Geis for the boss at Lost Valley Redoubt.
+Added some miscellaneous notes cut from the game.
+Added The Secrets of Ragnvald to the room where Otar the Mad spawns.
+Enabled Ghorbash's Ancestral Axe. Should be mounted over his bed in his longhouse.
+The restored dragon encounter outside of Bleak Falls Barrow never allows the dragon's corpse to be cleaned up because the quest controlling him is never stopped.
+The dragon has also been swapped from a static reference to a leveled instance of a dragon.
+Rogue Wizard will not enable the target until Tolfdir actually gives the quest to the player.
+Fixed a mismatched subtitle for Uthgerd's scene at the Whiterun Stables.
+Makhel Abbas had AI problems that were not worth attempting to resolve so his reference has been removed.
+The boarded up southeast gate in Riften has been restored to a functioning entry point.
+Karinda (Dagny's horse) has been placed at the Whiterun Stables. Not used in anything other than being there for extra decoration.
+The following unobtainable spell scrolls have been added somewhere in the world: Scroll of Dead Thrall, Scroll of Dragonhide, Scroll of Flame Thrall, Scroll of Frost Thrall, Scroll of Storm Thrall. No, I'm not going to tell you where to find them. Go exploring!
+The Fade Other spell (invisibility cast on others) has been given a spell tome and added to Drevis Neloren's expert spells list.
+Drahff's confidence value in AI has been lowered from Foolhardy to Average to allow the intimidation option for his scene a realistic chance of succeeding.
+Fixed two gaps in Dwemer ruin structured in the Cidhna Mine section that was restored.
+Fixed a bandit chest in the restored Cidhna Mine section that was rotated backward.
+Fixed some overlapping potion bottles in the restored Cidhna Mine section.
+Lilith Maiden-Loom's house has been restored to the game. She takes over the space across from the Whiterun Stables.
+Wintersand Manor has been relocated to the property at Chillfurrow Farm.
+
+Version 1.0.4 [2014-02-21]
+--------------------------
+
+Restored the Spectral Arrow spell as a reward for completing Treva's Watch.
+The decoded version of Gallus' Journal will appear in Nightingale Hall next to the beds after the Twilight Sepulcher is done.
+Reconfigured the directional facing for Wintersand Manor to avoid a direct conflict with Touring Carriages.
+Restored access to the cut portion of Cidhna Mine and repurposed it as an escape route for being in jail while not doing the Forsworn quest.
+Added the Supple Falmer Bow to 3 of the encounter varieties of Falmer. Provided a tempering recipe for it as well.
+Added an AI pack to send Scouts-Many-Marshes to the New Gnisis Corner Club which will provide access to 2 scenes that were created but never get used.
+
+Version 1.0.3 [2014-02-08]
+--------------------------
+
+Cleared up some navmesh issues at Barleydark Farm around the wheat stalks.
+Fixed a gap in the archway behind General Tullius bedroom after the wall was removed to provide access to the tower.
+The jester objective is never cleared if the Dark Brotherhood quest line is started without visiting Cicero on the road.
+Enabled Ennodius Papius since he has recorded dialogue available for before the Dark Brotherhood quest to kill him.
+Wintersand Manor has been restored across from the Whiterun Stables.
+Restored dialogue for the Vigilants of Stendarr to confront the player when they are wearing/wielding Daedric artifacts.
+++ Don't worry, if you surrender an item it won't be lost unless you want it to be - the Vigilants will whisk it away to their hall.
+++ Yes, if Dawnguard is loaded the vault they speak of will be available in the exterior should you need it.
+
+Version 1.0.2 [2013-12-04]
+--------------------------
+
+Restored a scene between Uthgerd the Unbroken and Skulvar Sable-Hilt at the Whiterun Stables.
+A trigger box for a scene with Mikael in the Bannered Mare was enabled so it would run as intended.
+Preferred path fixes to the navmesh in Stonehills.
+For the Companions, if Aela has given you more radiant quests than Farkas, she will be your Shield-Sister for Proving Honor.
+Corrected an issue with Research Thief where taking Faralda's notes was not sending the theft alarm. (Thanks, CK, but I needed that property you see)
+Corrected another issue with Research Thief where ratting Nirya out to Faralda did not clean up the generated notes.
+Corrected an issue where the Jarls would have dialogue for Rogue Wizard before Tolfdir had actually given you the quest.
+Ilas-Tei's corpse was using male Argonian parts despite Phinis clearly saying Ilas-Tei is female.
+Yisra already had a vanilla scene placed for finding her so the quest has now been corrected to make use of that instead of the one I added for it. Be aware this will reset the quest, so if you've got it in your journal already, finish it before you update the mod.
+The 4 quest items to gather for Missing Apprentices will no longer be added to Phinis' inventory when turned in because he tries to turn around and sell them to you later.
+
+Version 1.0.1 [2013-11-21]
+--------------------------
+
+Corrected an issue with Missing Apprentices where it was not properly handling the two daggers that need to be turned in if they had been taken from their original places.
+Mithorpa Nasyal has been given a boost in his levels (from 4 to 16) so he'll have a better chance of surviving in his somewhat remote location.
+Herebane Sorenshield was not consistently going hostile toward the player because his aggression settings were too low.
+Restored the Narzulbur wife quest. Doing so also activates some post-quest dialogue in Narzulbur that was already set but could not be accessed.
+
+Version 1.0 [2013-11-16]
+------------------------
+
+Initial Release.
