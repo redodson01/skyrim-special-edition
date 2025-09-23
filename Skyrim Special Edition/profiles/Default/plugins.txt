@@ -95,3 +95,7 @@
 *Gourmet - bowofshadows.esp
 *Gourmet - petnhound.esp
 *Gourmet - puzzledungeon.esp
+*Gourmet - EAAS - Fishing.esp
+*Taberu Animation - Gourmet - USSEP Patch.esp
+*Taberu Animations - Gourmet Patch.esp
+*Taberu Animations - GourmetSurvival Patch.esp
