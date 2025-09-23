@@ -300,3 +300,5 @@
 *Fishing - JKS + DoS patch.esp
 *JKs Bee and Barb - JKS + DoS Patch.esp
 *Pets of Skyrim - JK's Skyrim Patch.esp
+*Taberu Animation - Dawn of Skyrim Patch.esp
+*Taberu Animation - USSEP Patch.esp
