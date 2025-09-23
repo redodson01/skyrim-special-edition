@@ -165,3 +165,4 @@ cutting room floor.esp
 WaitCarriageInns.esp
 Cathedral Weathers.esp
 FNIS.esp
+Taberu Animation - Fishing Patch.esp
