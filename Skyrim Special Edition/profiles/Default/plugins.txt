@@ -304,3 +304,11 @@
 *Taberu Animation - USSEP Patch.esp
 *3D_FacegenForKids.esp
 *CRF_FacegenForKids.esp
+*Gourmet - 3DNPC.esp
+*Gourmet - AI Overhaul.esp
+*Gourmet - Bittercup.esp
+*Gourmet - beafarmer.esp
+*Gourmet - bowofshadows.esp
+*Gourmet - petnhound.esp
+*Gourmet - puzzledungeon.esp
+*GourmetTables - 3DNPC.esp
