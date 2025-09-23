@@ -408,3 +408,7 @@
 *JKs Sky Haven Temple - JKs Skyrim Patch.esp
 *JKs Sky Haven Temple - USSEP Patch.esp
 *JKs Thieves Guild - USSEP patch.esp
+*Gourmet - EAAS - Fishing.esp
+*Taberu Animation - Gourmet - USSEP Patch.esp
+*Taberu Animations - Gourmet Patch.esp
+*Taberu Animations - GourmetSurvival Patch.esp
