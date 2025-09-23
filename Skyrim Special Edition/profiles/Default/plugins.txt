@@ -17,6 +17,9 @@
 *JK's Blue Palace.esp
 *JK's College of Winterhold.esp
 *unofficial skyrim special edition patch.esp
+*Unofficial Elven Hunter Armor Patch.esl
+*Unofficial Daedric Mail Armor Patch.esl
+*unofficial skyrim creation club content patch.esl
 *Cathedral Landscapes.esp
 *XPMSE.esp
 *Common Clothes and Armors.esp
