@@ -368,3 +368,10 @@ JKs Bee and Barb - JKS + DoS Patch.esp
 Pets of Skyrim - JK's Skyrim Patch.esp
 Taberu Animation - Dawn of Skyrim Patch.esp
 Taberu Animation - USSEP Patch.esp
+Gourmet - 3DNPC.esp
+Gourmet - Bittercup.esp
+Gourmet - beafarmer.esp
+Gourmet - bowofshadows.esp
+Gourmet - petnhound.esp
+Gourmet - puzzledungeon.esp
+GourmetTables - 3DNPC.esp
