@@ -89,3 +89,4 @@
 *WT_Sofia_Start.esp
 *Sofia - Use Custom Skin Patch.esp
 *Sofia - USSEP & Hearthfires Patch.esp
+*Taberu Animation - USSEP Patch.esp
