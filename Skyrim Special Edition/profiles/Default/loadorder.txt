@@ -380,3 +380,117 @@ JKs Skyrim_Dawn of Skyrim_Patch.esp
 Fishing - JKS + DoS patch.esp
 JKs Bee and Barb - JKS + DoS Patch.esp
 Pets of Skyrim - JK's Skyrim Patch.esp
+Taberu Animation - Dawn of Skyrim Patch.esp
+Taberu Animation - USSEP Patch.esp
+3D_FacegenForKids.esp
+CRF_FacegenForKids.esp
+Gourmet - 3DNPC.esp
+Gourmet - AI Overhaul.esp
+Gourmet - Bittercup.esp
+Gourmet - beafarmer.esp
+Gourmet - bowofshadows.esp
+Gourmet - petnhound.esp
+Gourmet - puzzledungeon.esp
+GourmetTables - 3DNPC.esp
+JKs Skyrim_Cutting Room Floor_Patch.esp
+JK's Elgrims Elixirs - Dawn of Skyrim Patch.esp
+JKs Angelines Aromatics - AI Overhaul Patch.esp
+JKs Angelines Aromatics - USSEP Patch.esp
+JKs Arcadias Cauldron - AI Overhaul Patch.esp
+JKs Arcadias Cauldron - Bow of Shadows Patch.esp
+JKs Arcadias Cauldron - USSEP Patch.esp
+JKs Arnleif and Sons - AI Overhaul Patch.esp
+JKs Bannered Mare - AI Overhaul patch.esp
+JKs Bannered Mare - Dawn of Skyrim Patch.esp
+JKs Bannered Mare - Gourmet Tables patch.esp
+JKs Bannered Mare - Immersion Patch.esp
+JKs Bee and Barb - 3DNPC Patch.esp
+JKs Bee and Barb - AI Overhaul Patch.esp
+JKs Bee and Barb - DoS Patch.esp
+JKs Bee and Barb - Gourmet Tables Patch.esp
+JKs Belethors General Goods - AI Overhaul Patch.esp
+JKs Bits and Pieces - AI Overhaul Patch.esp
+JKs Bits and Pieces - USSEP Patch.esp
+JKs Blue Palace - 3DNPC Patch.esp
+JKs Blue Palace - AI Overhaul Patch.esp
+JKs Blue Palace - Immersion Patch.esp
+JKs Blue Palace - JKs Skyrim Patch.esp
+JKs Candlehearth Hall - 3DNPC Patch.esp
+JKs Candlehearth Hall - AI Overhaul Patch.esp
+JKs Dragonsreach - AI Overhaul.esp
+JKs Dragonsreach - Relationship Dialogue Overhaul Patch.esp
+JKs Drunken Huntsman - Civil War Champions Patch.esp
+JKs Drunken Huntsman - USSEP Patch.esp
+JKs Elgrims Elixirs - Bee and Barb Patch.esp
+JKs Elgrims Elixirs - CRF Patch.esp
+JKs Haelgas Bunkhouse - 3DNPC Patch.esp
+JKs Haelgas Bunkhouse - AI Overhaul patch.esp
+JKs Haelgas Bunkhouse - DoS patch.esp
+JKs Haelgas Bunkhouse - JKs Skyrim Patch.esp
+JKs Hags Cure - AI Overhaul Patch.esp
+JKs Mistveil Keep - 3DNPC Patch.esp
+JKs Mistveil Keep - AI Overhaul Patch.esp
+JKs New Gnisis Cornerclub - 3DNPC Patch.esp
+JKs New Gnisis Cornerclub - Gourmet Patch.esp
+JKs Palace of the Kings - AI Overhaul patch.esp
+JKs Palace of the Kings - Civil War Champions patch.esp
+JKs Palace of the Kings - USSEP Patch.esp
+JKs Radiant Raiment - 3DNPC Patch.esp
+JKs Radiant Raiment - Immersion Patch.esp
+JKs Ragged Flagon - AI Overhaul Patch.esp
+JKs Ragged Flagon - USSEP Patch.esp
+JKs Sadris Used Wares - 3DNPC Patch.esp
+JKs Silver-Blood Inn - 3DNPC Patch.esp
+JKs Silver-Blood Inn - AI Overhaul Patch.esp
+JKs Silver-Blood Inn - Alt Dwarven Plate Patch.esp
+JKs Silver-Blood Inn - Gourmet Tables patch.esp
+JKs Silver-Blood Inn - Immersion patch.esp
+JKs Silver-Blood Inn - Spell Knight Armor Patch.esp
+JKs Sinderions Field Laboratory - CC - Fishing patch.esp
+JKs Sleeping Giant Inn - 3DNPC Patch.esp
+JKs Sleeping Giant Inn - AI Overhaul SSE Patch.esp
+JKs Temple of Dibella - AI Overhaul patch.esp
+JKs Temple of Kynareth - 3DNPC patch.esp
+JKs Temple of Mara - 3DNPC Patch.esp
+JKs Temple of Mara - AI Overhaul Patch.esp
+JKs Temple of Talos - 3DNPC patch.esp
+JKs Temple of Talos - AI Overhaul patch.esp
+JKs Temple of Talos - USSEP patch.esp
+JKs Temple of the Divines - 3DNPC Patch.esp
+JKs Temple of the Divines - Alt Leather Armor Patch.esp
+JKs Temple of the Divines - USSEP Patch.esp
+JKs Understone Keep - 3DNPC.esp
+JKs Understone Keep - AI Overhaul patch.esp
+JKs Understone Keep - USSEP patch.esp
+JKs Winking Skeever - 3DNPC Patch.esp
+JKs Winking Skeever - AI Overhaul Patch.esp
+JKs Winking Skeever - Fishing Patch.esp
+JKs Winking Skeever - Immersion Patch.esp
+JKs Winking Skeever - USSEP Patch.esp
+JKs Bards College - 3DNPC patch.esp
+JKs Bards College - AI Overhaul patch.esp
+JKs Bards College - Dawn of Skyrim Patch.esp
+JKs Bards College - USSEP patch.esp
+JKs Castle Dour - 3DNPC patch.esp
+JKs Castle Dour - CRF patch.esp
+JKs Castle Volkihar - CC Fishing patch.esp
+JKs College of Winterhold - 3DNPC Patch.esp
+JKs College of Winterhold - AI Overhaul Patch.esp
+JKs College of Winterhold - CC - Goldbrand Patch.esp
+JKs College of Winterhold - CRF Patch.esp
+JKs College of Winterhold - USSEP patch.esp
+JKs Dark Brotherhood Sanctuary - AI Overhaul patch.esp
+JKs Dark Brotherhood Sanctuary - USSEP patch.esp
+JKs Fort Dawnguard - RDO patch.esp
+JKs Jorrvaskr - AI Overhaul Patch.esp
+JKs Nightingale Hall - CRF patch.esp
+JKs Sky Haven Temple - 3DNPC Patch.esp
+JKs Sky Haven Temple - JKs Skyrim Patch.esp
+JKs Sky Haven Temple - USSEP Patch.esp
+JKs Thieves Guild - USSEP patch.esp
+Gourmet - EAAS - Fishing.esp
+Taberu Animation - Gourmet - USSEP Patch.esp
+Taberu Animations - Gourmet Patch.esp
+Taberu Animations - GourmetSurvival Patch.esp
+Just Simply Knock.esp
+Just Simply Peek.esp
