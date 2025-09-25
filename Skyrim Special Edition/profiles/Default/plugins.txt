@@ -127,3 +127,4 @@
 *Immersive Death Cycle.esp
 *NPCsReactToFrenzy.esp
 *Immersive Rejections.esp
+*UnequipQuiverSE.esp
