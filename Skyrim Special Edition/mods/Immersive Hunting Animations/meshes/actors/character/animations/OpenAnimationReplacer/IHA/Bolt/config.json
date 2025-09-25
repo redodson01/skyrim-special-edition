@@ -1,0 +1,67 @@
+{
+    "name": "Remove Bolt",
+    "priority": 25100401,
+    "replacementAnimDatas": [
+        {
+            "projectName": "DefaultMale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\IHA\\Bolt\\_variants_IdleKneelIdle",
+            "variantMode": 1,
+            "variantStateScope": 2,
+            "blendBetweenVariants": true,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "Arrow.hkx",
+                    "playOnce": true
+                },
+                {
+                    "filename": "Idle.hkx"
+                }
+            ]
+        },
+        {
+            "projectName": "DefaultFemale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\IHA\\Bolt\\_variants_IdleKneelIdle",
+            "variantMode": 1,
+            "variantStateScope": 2,
+            "blendBetweenVariants": true,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "Arrow.hkx",
+                    "playOnce": true
+                },
+                {
+                    "filename": "Idle.hkx"
+                }
+            ]
+        }
+    ],
+    "interruptible": true,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "form": {
+                    "pluginName": "ImmersiveHunting.esp",
+                    "formID": "E88"
+                }
+            },
+            "Comparison": "==",
+            "Value B": {
+                "value": 401.0
+            }
+        }
+    ]
+}

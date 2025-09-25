@@ -1,0 +1,196 @@
+{
+    "name": "Deer/Elk",
+    "priority": 25150004,
+    "conditions": [
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "OR",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "1D8C"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "10B99"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "10B9A"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "215F1"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "OR",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "802"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "809"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "80A"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "81E"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "AND",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "IsActorBase",
+                            "requiredVersion": "1.0.0.0",
+                            "Actor base": {
+                                "pluginName": "Skyrim.esm",
+                                "formID": "7"
+                            }
+                        },
+                        {
+                            "condition": "OR",
+                            "requiredVersion": "1.0.0.0",
+                            "Conditions": [
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "D46"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "D48"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "EAA"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "D6D"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

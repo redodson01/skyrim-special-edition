@@ -1,0 +1,89 @@
+-------------------------------------------
+--- Using ImmersiveHuntingFunctions.psc ---
+-------------------------------------------
+
+ImmersiveHuntingFunctions Property ihFunctions Auto
+
+Just a basic readme about recommended usage of the functions script.
+You'll mostly want to focus on the animation part of the script, which is the DoAnim() functions.
+
+Advise your users to not "START" the mod with the MCM and disable functions that might conflict and then call
+the animations from your mod's side.
+
+Since I'm replacing animations with OAR, the animation "IdleKneeling" must be playing in order for the other animations to work.
+
+-- Check carcass idle - Initial animation
+
+In your mod, you can call this animation from your script or use ihFunctions.DoAnim() and set a timer if you want(around 0.8 seconds).
+
+-- Types of dagger
+
+	If fForcedDagger
+		; Uses forced dagger by another mod
+		fHuntingDagger = fForcedDagger
+		iTypeOfDagger = 1
+		CreateDisplay()
+	Else
+		; check for available daggers in player inventory
+		If iForcedTypeOfDagger <= 1
+			GetLastEquippedDagger()
+			CreateDisplay()
+			iTypeOfDagger = CheckForDagger()
+		Else ; Uses forced type of dagger by another mod
+			iTypeOfDagger = iForcedTypeOfDagger
+		EndIf
+	EndIf
+
+If using Immersive Equipment Displays, the mod will look for the last equipped dagger by default with the option to "stop" updating the dagger.
+If your mod have some sort of Hunting Knives, you can "force" the knives to the animations.
+
+When calling the function, set the parameter fForcedDagger with the record of your mod's dagger/knife.
+If your mod requires a dagger/knife but the player does not currently carry it, you can set the parameter iForcedTypeOfDagger, to use a "sharp rock" or "claws" if player is argonian/khajiit, refer to ihFunctions.CheckForDagger().
+
+-- Process animation
+
+This animation (when using a dagger) is the combination of Skinning and Butchering/Harvesting. You can call it by using ihFunctions.DoAnim(isProcess = True).
+If you want to use the realistic skinning included with the mod, also set akTargetRef and ihFunctions.fHuntingPelt.
+
+-- Skin animation
+
+The skinning animation can be called by using ihFunctions.DoAnim(1).
+If you want to use the realistic skinning included with the mod, also set akTargetRef and ihFunctions.fHuntingPelt.
+
+bToggle determines if it's a failure, if your mod has a "failed" skin action, you can set the parameter to true.
+isSmall determines if the carcass is from a small animal or not, you can set the parameter abForceSmall to true or use ihFunctions.CheckTypeOfAnimal(akTargetRef)
+
+-- Harvest animation
+
+The harvest animation can be called by using ihFunctions.DoAnim(2).
+If using Immersive Equipment Displays, set the "hunting material" object to be used before calling the animation: ihFunctions.fHuntingMaterial = your mod harvested item.
+
+bToggle determines if it's a failure, if your mod has a "failed" harvest action, you can set the parameter to true.
+isSmall determines if the carcass is from a small animal or not, you can set the parameter abForceSmall to true or use ihFunctions.CheckTypeOfAnimal(akTargetRef)
+
+-- Butcher animation
+
+The butcher animation can be called by using ihFunctions.DoAnim(3).
+If using Immersive Equipment Displays, set the "hunting food" object to be used before calling the animation: ihFunctions.fHuntingFood = your mod butchered item.
+
+bToggle determines if it's a failure, if your mod has a "failed" harvest action, you can set the parameter to true.
+isSmall determines if the carcass is from a small animal or not, you can set the parameter abForceSmall to true or use ihFunctions.CheckTypeOfAnimal(akTargetRef)
+
+-- Remove arrow animation
+
+The remove arrow animation can be called by using ihFunctions.DoAnim(4).
+If using Immersive Equipment Displays, set the "hunting arrow" object to be used before calling the animation: ihFunctions.fHuntingArrow = your mod arrow item.
+Also set the parameter akTargetRef.
+
+-- Extract animation
+
+The extract animation can be called by using ihFunctions.DoAnim(5).
+If using Immersive Equipment Displays, set the "hunting potion" object to be used before calling the animation: ihFunctions.fHuntingPotion = your mod potion item.
+
+-- Ending animation
+After all actions are finished, you can call the ihFunctions.EndAnim(True) and ihFunctions.StandUp()
+
+StandUp can also be used to dispose the carcass, should you wish to.
+
+-- Pick up animation
+If your mod has a pick up function, you can call the ihFunctions.doPickupAnim() with the value corresponding to the carcass

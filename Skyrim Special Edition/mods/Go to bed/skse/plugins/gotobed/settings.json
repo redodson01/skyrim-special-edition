@@ -1,0 +1,12 @@
+{
+    "fixes": {
+        "multipleMarkersReservation": true
+    },
+    "keys": {
+        "serveTime": -1,
+        "serveTimeMod": -1,
+        "sleep": -1,
+        "sleepMod": -1
+    },
+    "vanillaSleepOutfit": true
+}
