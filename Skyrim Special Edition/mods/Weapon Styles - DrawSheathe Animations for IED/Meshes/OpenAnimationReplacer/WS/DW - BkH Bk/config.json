@@ -1,0 +1,130 @@
+{
+    "name": "Dual Wield - On Back Hip With On Back",
+    "priority": 22000013,
+    "conditions": [
+        {
+            "condition": "IED_HasEquipSlot",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "negated": true,
+            "Left hand": false,
+            "Equipment slot": {
+                "pluginName": "Skyrim.esm",
+                "formID": "13F45"
+            }
+        },
+        {
+            "condition": "IED_GearNodeEquippedPlacementHint",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "Left hand": false,
+            "Comparison": "==",
+            "Weapon placement ID": {
+                "value": 3.0
+            }
+        },
+        {
+            "condition": "IED_IsBoundWeaponEquipped",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "negated": true,
+            "Left hand": true
+        },
+        {
+            "condition": "OR",
+            "Conditions": [
+                {
+                    "condition": "AND",
+                    "Conditions": [
+                        {
+                            "condition": "OR",
+                            "Conditions": [
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 1.0
+                                    },
+                                    "Left hand": true
+                                },
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 2.0
+                                    },
+                                    "Left hand": true
+                                },
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 3.0
+                                    },
+                                    "Left hand": true
+                                },
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 4.0
+                                    },
+                                    "Left hand": true
+                                }
+                            ]
+                        },
+                        {
+                            "condition": "IED_GearNodeEquippedPlacementHint",
+                            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                            "Left hand": true,
+                            "Comparison": "==",
+                            "Weapon placement ID": {
+                                "value": 2.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "AND",
+                    "Conditions": [
+                        {
+                            "condition": "OR",
+                            "Conditions": [
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 5.0
+                                    },
+                                    "Left hand": true
+                                },
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 6.0
+                                    },
+                                    "Left hand": true
+                                },
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 10.0
+                                    },
+                                    "Left hand": true
+                                },
+                                {
+                                    "condition": "IsEquippedType",
+                                    "Type": {
+                                        "value": 8.0
+                                    },
+                                    "Left hand": true
+                                }
+                            ]
+                        },
+                        {
+                            "condition": "IED_GearNodeEquippedPlacementHint",
+                            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                            "Left hand": true,
+                            "Comparison": "<=",
+                            "Weapon placement ID": {
+                                "value": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
