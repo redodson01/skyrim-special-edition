@@ -1,0 +1,40 @@
+{
+    "name": "Dual Wield - On Back Hip",
+    "priority": 22000011,
+    "conditions": [
+        {
+            "condition": "IED_HasEquipSlot",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "negated": true,
+            "Left hand": false,
+            "Equipment slot": {
+                "pluginName": "Skyrim.esm",
+                "formID": "13F45"
+            }
+        },
+        {
+            "condition": "IED_GearNodeEquippedPlacementHint",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "Left hand": false,
+            "Comparison": "==",
+            "Weapon placement ID": {
+                "value": 3.0
+            }
+        },
+        {
+            "condition": "IED_GearNodeEquippedPlacementHint",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "Left hand": true,
+            "Comparison": "==",
+            "Weapon placement ID": {
+                "value": 3.0
+            }
+        },
+        {
+            "condition": "IED_IsBoundWeaponEquipped",
+            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+            "negated": true,
+            "Left hand": true
+        }
+    ]
+}
