@@ -1,0 +1,47 @@
+{
+	"name": "Dual Wield - Reverse/On Ankle with Staff",
+	"priority": 22000019,
+	"conditions": [
+		{
+			"condition": "IsEquippedType",
+			"Type": {
+				"value": 8.0
+			},
+			"Left hand": true
+		},
+		{
+			"condition": "IED_GearNodePlacementHint",
+			"requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+			"Gear node ID": {
+				"value": 12.0
+			},
+			"Comparison": "<=",
+			"Weapon placement ID": {
+				"value": 1.0
+			}
+		},
+		{
+			"condition": "OR",
+			"Conditions": [
+				{
+					"condition": "IED_GearNodeEquippedPlacementHint",
+					"requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+					"Left hand": false,
+					"Comparison": "==",
+					"Weapon placement ID": {
+						"value": 4.0
+					}
+				},
+				{
+					"condition": "IED_GearNodeEquippedPlacementHint",
+					"requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+					"Left hand": false,
+					"Comparison": "==",
+					"Weapon placement ID": {
+						"value": 8.0
+					}
+				}
+			]
+		}
+	]
+}

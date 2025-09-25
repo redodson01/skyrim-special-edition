@@ -1,0 +1,97 @@
+{
+    "name": "Remove Arrow - Back-Hip",
+    "priority": 25100402,
+    "replacementAnimDatas": [
+        {
+            "projectName": "DefaultMale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\IHA\\Arrow - Bk\\_variants_IdleKneelIdle",
+            "variantMode": 1,
+            "variantStateScope": 2,
+            "blendBetweenVariants": true,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "Arrow.hkx",
+                    "playOnce": true
+                },
+                {
+                    "filename": "Idle.hkx"
+                }
+            ]
+        },
+        {
+            "projectName": "DefaultFemale",
+            "path": "data\\meshes\\actors\\character\\animations\\OpenAnimationReplacer\\IHA\\Arrow - Bk\\_variants_IdleKneelIdle",
+            "variantMode": 1,
+            "variantStateScope": 2,
+            "blendBetweenVariants": true,
+            "resetRandomOnLoopOrEcho": true,
+            "sharePlayedHistory": false,
+            "variants": [
+                {
+                    "filename": "Arrow.hkx",
+                    "playOnce": true
+                },
+                {
+                    "filename": "Idle.hkx"
+                }
+            ]
+        }
+    ],
+    "interruptible": true,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "form": {
+                    "pluginName": "ImmersiveHunting.esp",
+                    "formID": "E88"
+                }
+            },
+            "Comparison": "==",
+            "Value B": {
+                "value": 400.0
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "IED_GearNodePlacementHint",
+                    "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                    "requiredVersion": "1.0.0.0",
+                    "Gear node ID": {
+                        "value": 16.0
+                    },
+                    "Comparison": "==",
+                    "Weapon placement ID": {
+                        "value": 6.0
+                    }
+                },
+                {
+                    "condition": "IED_GearNodePlacementHint",
+                    "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                    "requiredVersion": "1.0.0.0",
+                    "Gear node ID": {
+                        "value": 16.0
+                    },
+                    "Comparison": "==",
+                    "Weapon placement ID": {
+                        "value": 5.0
+                    }
+                }
+            ]
+        }
+    ]
+}

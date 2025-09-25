@@ -88,6 +88,7 @@ DynamicCollisionAdjustment.esl
 ThirdPersonFirstPersonAiming.esl
 Dodge_MCO-DXP.esl
 DodgeFramework.esl
+3DNPC.esp
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 DynDOLOD Resources SE.esp
@@ -203,3 +204,19 @@ GourmetUSSEP.esp
 Guard Dialogue Overhaul.esp
 point the way.esp
 Relationship Dialogue Overhaul.esp
+TaberuAnimation.esp
+Conditional Expressions.esp
+ImmersiveHunting.esp
+3DNPC0.esp
+3DNPC1.esp
+3DNPC Alternative Locations.esp
+3DNPC - CRF Patch.esp
+Sleeping Expanded.esp
+NPCs React To Necromancy.esp
+NPCs React To Invisibility.esp
+NPCs React To Invisibility - Bow of Shadows Patch.esp
+CarryYourCarcasses - SHO.esp
+Use Those Blankets.esp
+Immersive Death Cycle.esp
+NPCsReactToFrenzy.esp
+UnequipQuiverSE.esp

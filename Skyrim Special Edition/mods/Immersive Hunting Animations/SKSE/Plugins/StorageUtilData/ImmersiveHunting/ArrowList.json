@@ -1,0 +1,25 @@
+{
+	"floatList" : 
+	{
+		"arrowdefault_carcass" : 
+		[
+			5,
+			0,
+			0,
+			0,
+			-18.50,
+			-87.00,
+			1
+		],
+		"arrowdefault_hand" : 
+		[
+			-0.5,
+			26.5,
+			-1,
+			0,
+			0,
+			0,
+			1
+		]
+	}
+}

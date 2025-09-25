@@ -1,0 +1,3 @@
+- Removed some double spacing after period on Thorolf and Tikrid and removed family unfriendly line of dialogue
+- Added ESL for disabling Nitter in Solitude Lighthouse
+

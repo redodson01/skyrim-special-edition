@@ -1,0 +1,64 @@
+{
+    "name": "Goat",
+    "priority": 25150002,
+    "conditions": [
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "InventoryCount",
+                    "requiredVersion": "1.1.0.0",
+                    "Form": {
+                        "pluginName": "Hunterborn.esp",
+                        "formID": "10B97"
+                    },
+                    "Comparison": ">",
+                    "Numeric value": {
+                        "value": 0.0
+                    }
+                },
+                {
+                    "condition": "InventoryCount",
+                    "requiredVersion": "1.1.0.0",
+                    "Form": {
+                        "pluginName": "Simple Hunting Overhaul.esp",
+                        "formID": "808"
+                    },
+                    "Comparison": ">",
+                    "Numeric value": {
+                        "value": 0.0
+                    }
+                },
+                {
+                    "condition": "AND",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "IsActorBase",
+                            "requiredVersion": "1.0.0.0",
+                            "Actor base": {
+                                "pluginName": "Skyrim.esm",
+                                "formID": "7"
+                            }
+                        },
+                        {
+                            "condition": "CompareValues",
+                            "requiredVersion": "1.0.0.0",
+                            "Value A": {
+                                "form": {
+                                    "pluginName": "ImmersiveHunting.esp",
+                                    "formID": "D4A"
+                                }
+                            },
+                            "Comparison": "==",
+                            "Value B": {
+                                "value": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
