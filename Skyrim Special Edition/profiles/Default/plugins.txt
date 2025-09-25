@@ -95,3 +95,4 @@
 *3DNPC Alternative Locations.esp
 *3DNPC - CRF Patch.esp
 *Immersive Patrols II.esp
+*UnequipQuiverSE.esp
