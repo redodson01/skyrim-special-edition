@@ -1,0 +1,120 @@
+{
+    "name": "Fox",
+    "priority": 25150003,
+    "conditions": [
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "OR",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "10B90"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "10B91"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "OR",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "804"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "805"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "AND",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "IsActorBase",
+                            "requiredVersion": "1.0.0.0",
+                            "Actor base": {
+                                "pluginName": "Skyrim.esm",
+                                "formID": "7"
+                            }
+                        },
+                        {
+                            "condition": "OR",
+                            "requiredVersion": "1.0.0.0",
+                            "Conditions": [
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "D49"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "EA8"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
