@@ -136,3 +136,4 @@ GourmetTables.esp
 GourmetFishing.esp
 GourmetSurvival.esp
 GourmetUSSEP.esp
+point the way.esp
