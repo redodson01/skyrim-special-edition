@@ -5,6 +5,7 @@
 *ColovianPrince.esl
 *Sentinel - Master Plugin.esp
 *TheNewGentleman.esp
+*NoSillyPhysicsDamage.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
@@ -43,3 +44,7 @@
 *Hunters Not Bandits.esp
 *Animals Swim.esp
 *Simplicity of Seeding.esp
+*CarriageAndStableDialogues.esp
+*Wild Horses - Dialogues.esp
+*Brawl Lines Expansion.esp
+*buy and sell torches.esp
