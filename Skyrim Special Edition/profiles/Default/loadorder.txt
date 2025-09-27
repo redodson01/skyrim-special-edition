@@ -150,3 +150,4 @@ ShowPlayerInMenus.esp
 SkyUI_SE.esp
 MCMHelper.esp
 FSMPM - The FSMP MCM.esp
+Dynamic Activation Key.esp
