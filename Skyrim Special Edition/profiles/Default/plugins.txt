@@ -49,3 +49,4 @@
 *HellbladeTimedBlock.esp
 *TaberuAnimation.esp
 *SimpleBowCrafting.esp
+*KhajiitsStealToo.esp
