@@ -171,3 +171,4 @@ MCMHelper.esp
 FSMPM - The FSMP MCM.esp
 Dynamic Activation Key.esp
 Take A Peek - New Stealth Mechanic.esp
+Dynamic Activation Key - MCM.esp
