@@ -98,3 +98,4 @@
 *UnequipQuiverSE.esp
 *sweepingOrganizesStuff.esp
 *ShovelBody.esp
+*gildergreen regrown.esp
