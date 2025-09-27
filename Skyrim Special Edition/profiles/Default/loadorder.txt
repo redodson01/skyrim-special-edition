@@ -81,6 +81,7 @@ ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
 Sentinel - Master Plugin.esp
 TheNewGentleman.esp
+NoSillyPhysicsDamage.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
@@ -105,3 +106,4 @@ CBBE.esp
 SOSPhysicsManager.esp
 Hunters Not Bandits.esp
 Simplicity of Seeding.esp
+buy and sell torches.esp
