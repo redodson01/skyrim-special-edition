@@ -127,16 +127,13 @@ TrueDirectionalMovement.esp
 SimplyKnock.esp
 SkyrimsGotTalent-Bards.esp
 SkyrimsGotTalent - Free Movement.esp
-Take A Peek - New Stealth Mechanic.esp
 SkyParkour.esp
 SensibleBribes.esp
 ImprovedAlternateConversationCamera.esp
-Take a Nap.esp
 run for your lives.esp
 TavernAIFix.esp
 BladeAndBlunt.esp
 NPCs Take Cover.esp
-Press E To Heal Followers.esp
 SkyrimSpearMechanic.esp
 Precision.esp
 ArcheryLocationalDamage.esp
@@ -190,3 +187,7 @@ Ish's Respec Mod.esp
 SkyUI_SE.esp
 MCMHelper.esp
 FSMPM - The FSMP MCM.esp
+Dynamic Activation Key.esp
+Take A Peek - New Stealth Mechanic.esp
+Take a Nap.esp
+Press E To Heal Followers.esp
