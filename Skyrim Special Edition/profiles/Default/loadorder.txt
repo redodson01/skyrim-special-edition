@@ -141,3 +141,4 @@ UnequipQuiverSE.esp
 alternate start - live another life.esp
 gildergreen regrown.esp
 HereWeGoAgain.esp
+the paarthurnax dilemma.esp
