@@ -72,3 +72,4 @@
 *FSMPM - The FSMP MCM.esp
 *Dynamic Activation Key.esp
 *Dynamic Activation Key - MCM.esp
+*Dynamic Activation Key - Addons Collection.esp
