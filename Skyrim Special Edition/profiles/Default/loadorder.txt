@@ -130,3 +130,4 @@ HellbladeTimedBlock.esp
 TaberuAnimation.esp
 SimpleBowCrafting.esp
 KhajiitsStealToo.esp
+ars metallica.esp
