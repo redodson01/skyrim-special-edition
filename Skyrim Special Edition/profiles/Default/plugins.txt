@@ -25,3 +25,4 @@
 *SOSPhysicsManager.esp
 *Hunters Not Bandits.esp
 *Simplicity of Seeding.esp
+*buy and sell torches.esp
