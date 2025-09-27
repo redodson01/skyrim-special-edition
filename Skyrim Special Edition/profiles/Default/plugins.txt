@@ -42,3 +42,4 @@
 *SOSPhysicsManager.esp
 *Hunters Not Bandits.esp
 *Animals Swim.esp
+*Simplicity of Seeding.esp
