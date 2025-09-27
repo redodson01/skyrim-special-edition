@@ -2,6 +2,7 @@
 +Immersive Equipment Displays - Overwrite
 +Immersive Equipment Displays - Default
 +Immersive Equipment Displays
++Point The Way
 +No Lockpick Activate (SKSE) - Updated
 -13-Gameplay-Immersion - Step Modifications_separator
 -13-Gameplay-Immersion_separator
