@@ -111,3 +111,4 @@ Faithful Faces - Creation Club.esp
 CBBE.esp
 3BBB.esp
 SOSPhysicsManager.esp
+Hunters Not Bandits.esp
