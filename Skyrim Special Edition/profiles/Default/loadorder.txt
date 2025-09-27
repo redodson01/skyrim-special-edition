@@ -281,3 +281,4 @@ Press E To Heal Followers.esp
 SHO - Gourmet Patch.esp
 CarryYourCarcasses - SHO.esp
 Dynamic Activation Key - MCM.esp
+Dynamic Activation Key - Addons Collection.esp
