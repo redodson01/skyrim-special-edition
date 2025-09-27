@@ -143,3 +143,4 @@ More Plantable Plants for Creation Club - Saints and Seducers.esp
 More Plantable Plants for Creation Club - The Cause.esp
 Plantable Animals.esp
 SimpleBowCrafting.esp
+KhajiitsStealToo.esp

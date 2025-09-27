@@ -63,3 +63,4 @@
 *More Plantable Plants for Creation Club - The Cause.esp
 *Plantable Animals.esp
 *SimpleBowCrafting.esp
+*KhajiitsStealToo.esp
