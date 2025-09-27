@@ -152,3 +152,4 @@
 *FSLE - Unique Abilities.esp
 *gildergreen regrown.esp
 *HereWeGoAgain.esp
+*the paarthurnax dilemma.esp

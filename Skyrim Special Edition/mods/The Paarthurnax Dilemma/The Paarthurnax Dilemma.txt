@@ -1,0 +1,223 @@
+The Paarthurnax Dilemma
+=======================
+
+Disappointed with how ruthless and unforgiving the Blades were at the end of the main quest? Felt like you should have been able to put your foot down and make them see reason? Well now you can!
+
+This mod is a simple, yet badly needed modification to the post-MQ quest the Blades give you to kill Paarthurnax.
+
+Approach the quest as usual. Listen to the Greybeards and Paarthurnax.
+
+Should you decide to spare his life, return to Delphine or Esbern and explain it to them. You may have to be a bit forceful in the process. They may not like what you're telling them, but they're supposed to be there to serve the Dragonborn, right?
+
+Should you choose to go through with slaying him, he will not be alone. Paarthurnax told you he was going to try and teach others the Way of the Voice, and he'll have his first group of students listening intently. Or, well, whatever dragons do when they're perched on rocks looking at each other.
+
+Are you a ruthless savage like your Blade companions, or will you show compassion and forgiveness the Blades don't appear to be capable of anymore? Make your choice, Dragonborn!
+
+My Patreon Page: https://www.patreon.com/arthmoor
+
+Download Locations
+==================
+
+AFK Mods              - https://www.afkmods.com/index.php?/files/file/1911-the-paarthurnax-dilemma/
+ModDB                 - https://www.moddb.com/mods/the-paarthurnax-dilemma
+Bethesda.net [PC+XB1] - https://creations.bethesda.net/en/skyrim/details/6013/The_Paarthurnax_Dilemma
+Skyrim SE Nexus       - https://www.nexusmods.com/skyrimspecialedition/mods/365/ [This download is outdated and no longer being supported]
+
+Installation Requirements
+=========================
+
+Skyrim Special Edition 1.6.1130 or greater.
+Unofficial Skyrim Special Edition Patch 4.3.2 or greater.
+
+You will need to turn on subtitles to see the text for Delphine and Esbern's dialogue additions.
+
+Alternately, download and use Fuz Ro D-oh - Silent Voice (https://www.nexusmods.com/skyrimspecialedition/mods/15109) to see subtitles only on those NPCs with no voiced audio. This requires SKSE64.
+
+DO NOT extract the contents of the BSA file into your Data folder as loose files, or let your mod manager perform an equivalent function on the contents of the file. Doing so will cause things to load in the wrong order and break the game. Skyrim is intended to load a BSA alongside it's ESM/ESP file. Circumventing this causes issues which I will not provide support for. If you insist on going against this advice, you will receive no support for the problems you generate as a result of this.
+
+Installation - Wrye Bash BAIN
+=============================
+
+Drop the archive into your Skyrim Mods\Bash Installers folder, then install as usual.
+Make sure the mod is active in the Wrye Bash mods tab.
+
+Installation - Manual
+=====================
+
+Drop the The Paarthurnax Dilemma.esp and The Paarthurnax Dilemma.bsa files into your Data folder.
+Activate the mod using whatever management tool suits you.
+
+Uninstall
+=========
+
+Don't do that. Uninstalling the mod will break things beyond repair. If you insist on ignoring this, you will get no help with trying to undo the damage that will be done.
+
+Known Issues
+============
+
+None, thank God.
+
+Compatibility
+=============
+
+Mods which alter the following quests will not be compatible without a patch:
+
+MQPaarthurnax - Paarthurnax
+FreeformHighHrothgarA - The Words of Power
+DialogueHighHrothgar
+MQ306
+MQ301 - The Fallen
+
+Mods which edit the following scripts will not be compatible unless patched:
+
+QF_MQPaarthurnax_0003FA16.psc
+QF_MQ301_00044C56.psc
+QF_MQ305_00046EF2.psc
+
+Credits
+=======
+
+Madcat221 - For coming up with some good lore based solutions for dialogue, dragon names, and other helpful suggestions.
+
+Licensing and Legal
+===================
+
+Redistribution is strictly forbidden without prior consent. This means do not upload it anywhere unless you have obtained permission from me.
+
+This mod may not be included in mod packs of any sort.
+
+Non-English translation versions may be uploaded without permission on the following conditions:
+
+1. All mod files contained in this archive are retained with their current names.
+2. No alterations are made to the contents of the plugins or master file other than those necessary to translate the English text.
+3. No alterations or additions are made to the meshes and textures other than those necessary to translate English text.
+4. This readme is included, in ENGLISH, exactly as it is written in the version it was downloaded with.
+
+Compatibility Patches may be distributed ONLY under the following conditions:
+
+1. Permission must be obtained from me in advance. There will be no exceptions to this.
+2. The documentation for the patch must mention that I am the creator of this mod.
+3. The documentation for the patch must contain a link back to one of the download sites listed at the top of this readme.
+4. You are solely responsible for any support issues arising from the use of the compatibility patch.
+
+All inquiries regarding this mod must be directed to me. If after 1 year contact cannot be established or you have not received a response, stewardship of this mod will fall to the community at AFK Mods (www.afkmods.com). I can be contacted via PM at AFK Mods under the username Arthmoor. A good faith effort must be made before assuming that contact cannot be established before concluding that I am no longer maintaining this mod.
+
+Requests made on Twitter, Facebook, Reddit, Discord, or any other social media format will not be acknowledged and permission will never be granted via these mediums.
+
+Mod history archives such as Morrowind Mod History are permitted to keep a copy of this mod within their archives for historical purposes provided all authorship and credit information is retained and the contents of the mod are not altered in any way.
+
+This mod is not made, guaranteed, or supported by Microsoft, Zenimax, Bethesda Game Studios, or any of their affiliates.
+
+Version History
+===============
+
+Version 2.0.4 [2024-07-26]
+--------------------------
+
+The .esp and .bsa files have been changed to lowercase filenames. This is to help facilitate universal filename compatibility for Steam Deck and regular linux users whose file systems are case sensitive. Many of them make use of the in-game menu to download mods and Bethesda.net ALWAYS downloads in lowercase. For the benefit of people using linux or the Steam Deck, it would be greatly appreciated if any mods which currently use PCS as a file dependency change the case of that dependency in their master lists. (Bug #34096)
+
+Version 2.0.3 [2023-12-06]
+--------------------------
+
+Synced with latest USSEP updates.
+
+Version 2.0.2 [2021-11-14]
+--------------------------
+
+Synced with latest USSEP updates.
+
+Version 2.0.1 [2019-03-28]
+--------------------------
+
+Cleaned up old patch quests and scripts that no longer need to be here and should have been removed in 2016.
+
+Version 2.0 [2016-10-20]
+------------------------
+
+Conversion to Skyrim Special Edition.
+
+Version 1.2.9 [2015-09-16]
+--------------------------
+
+The event that enables Paarthurnax's students could get swallowed by other events in the same node. The trigger has been moved to its own node to ensure it will activate when the time comes.
+
+Version 1.2.8 [2014-05-02]
+--------------------------
+
+Script synchronization with USKP 2.0.4 fixes to The Fallen (MQ301).
+
+Version 1.2.7 [2014-02-11]
+--------------------------
+
+Had to adjust Delphine and Esbern's aliases during The Fallen (MQ301) so that they remain essential until stage 50, which is the stage that comes after the negotiations at High Hrothgar.
+
+Version 1.2.6 [2014-01-27]
+--------------------------
+
+At the end of Dragonslayer (MQ305) the objective for the Paarthurnax quest was being disabled. This will no longer happen.
+Esbern has been marked as an optional alias during The Fallen (MQ301) so that the remainder of the quest will not fail.
+Esbern and Delphine have been marked as optional aliases for MQ306 so the scenes associated with it will not fail.
+If MQ306 was DOA due to Esbern or Delphine being dead, it will be forced to restart. If you left Throat of the World, go back to get the events to play out properly.
+Paarthurnax's "students" will now be enabled after his scene when you return from Sovngarde. Return to Throat of the World again later and they will be there.
+
+Version 1.2.5 [2013-09-19]
+--------------------------
+
+Paarthurnax's "students" will now enable once you have left Throat of the World after the first encounter with Alduin so they don't just show up unexpectedly.
+
+Version 1.2.4 [2013-05-10]
+--------------------------
+
+Minor script optimizations.
+Updated cleaning with TES5Edit 3.0.30.
+
+Version 1.2.3 [2012-11-19]
+--------------------------
+
+Minor typo correction in dialogue.
+Slight tweak to clarify one of the quest objectives.
+
+Version 1.2.2 [2012-10-18]
+--------------------------
+
+Cleaned with TES5Edit.
+Generated SEQ file necessary to handle start-enabled quests.
+
+Version 1.2.1 [2012-08-25]
+--------------------------
+
+The text used by the player to to put the Blades in their place now uses dragon words to cause the rumble.
+Paarthurnax's students will join the orbit pattern while the other dragons are running the scene after Alduin's defeat.
+Part of the scene with Delphine and Esbern after Alduin's defeat will block reminding you to kill Paarthurnax if that decision has already been made.
+
+Version 1.2 [2012-08-09]
+-----------
+
+Paarthurnax's 3 dragon students will now have names that translate to actual words in the dragon tongue and not the made up gibberish I used before.
+The 3 new dragons will now enable some distance away from and below the site of the initial battle with Alduin.
+Dovahkiin's exchange with the Blades gets a lot more testy... on both sides!
+
+Version 1.1 [2012-06-29]
+------------------------
+
+Arngeir will no longer keep the topic about the Blades wanting to kill Paarthurnax if you've spared him.
+Arngeir will once again properly offer word wall quests so long as Paarthurnax isn't actually dead.
+Odahviing will no longer be controlled by this mod due to unresolvable AI conflicts with the Call Dragon shout. His spot has been given to a new dragon.
+A missing script for the assault check system has been included.
+
+Since this update was generated using CK 1.6.89, Skyrim 1.6.89 is now required to run the mod.
+
+Version 1.0.2 [2012-06-10]
+--------------------------
+
+Bethesda activates this quest far sooner than should have been reasonable, so it was necessary to modify my kick-start activator to account for this.
+
+Version 1.0.1 [2012-06-10]
+--------------------------
+
+Had to rework the aggressiveness and hostility responses on Paarthurnax's students. Why is it so hard to get scripts to behave consistently?
+
+Version 1.0 [2012-06-09]
+------------------------
+
+Initial release.
