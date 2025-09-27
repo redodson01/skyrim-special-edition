@@ -282,3 +282,4 @@ SHO - Gourmet Patch.esp
 CarryYourCarcasses - SHO.esp
 Dynamic Activation Key - MCM.esp
 Dynamic Activation Key - Addons Collection.esp
+hideQuestItems.esp
