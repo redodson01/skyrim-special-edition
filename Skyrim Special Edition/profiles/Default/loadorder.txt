@@ -82,6 +82,7 @@ _ResourcePack.esl
 Sentinel - Master Plugin.esp
 SimpleChildren.esp
 TheNewGentleman.esp
+NoSillyPhysicsDamage.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 DynDOLOD Resources SE.esp
