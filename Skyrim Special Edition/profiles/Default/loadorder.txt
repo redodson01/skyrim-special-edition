@@ -140,7 +140,6 @@ Simplicity of Seeding.esp
 CarriageAndStableDialogues.esp
 Wild Horses - Dialogues.esp
 Fully Harvest Hanging Carcasses.esp
-Fully Harvest Hanging Carcasses - Ars Metallica Patch.esp
 Fully Harvest Hanging Carcasses - CC Fishing Patch.esp
 Fully Harvest Hanging Carcasses - Gourmet Patch.esp
 Brawl Lines Expansion.esp
@@ -194,3 +193,5 @@ More Plantable Plants for Creation Club - Bittercup.esp
 More Plantable Plants for Creation Club - Rare Curios.esp
 More Plantable Plants for Creation Club - Saints and Seducers.esp
 More Plantable Plants for Creation Club - The Cause.esp
+ars metallica.esp
+Fully Harvest Hanging Carcasses - Ars Metallica Patch.esp
