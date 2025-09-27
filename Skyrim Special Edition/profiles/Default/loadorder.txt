@@ -85,6 +85,7 @@ KvetchiMercenary.esl
 ColovianPrince.esl
 Sentinel - Master Plugin.esp
 TheNewGentleman.esp
+NoSillyPhysicsDamage.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
