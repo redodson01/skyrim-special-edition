@@ -85,3 +85,4 @@
 *GourmetSurvival.esp
 *GourmetUSSEP.esp
 *Guard Dialogue Overhaul.esp
+*point the way.esp
