@@ -130,3 +130,4 @@ Hunters Not Bandits.esp
 Robber's Gorge Fixes.esp
 Rock Traps Trigger Fixes.esp
 Animals Swim.esp
+Simplicity of Seeding.esp
