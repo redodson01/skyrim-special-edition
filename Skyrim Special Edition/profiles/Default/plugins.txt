@@ -64,3 +64,4 @@
 *Plantable Animals.esp
 *SimpleBowCrafting.esp
 *KhajiitsStealToo.esp
+*ars metallica.esp
