@@ -283,3 +283,4 @@ Sit on Stuff - Take a Nap Patch.esp
 Press E To Heal Followers.esp
 SHO - Gourmet Patch.esp
 CarryYourCarcasses - SHO.esp
+Dynamic Activation Key - MCM.esp
