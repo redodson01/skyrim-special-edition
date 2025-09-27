@@ -192,3 +192,4 @@ Take A Peek - New Stealth Mechanic.esp
 Take a Nap.esp
 Press E To Heal Followers.esp
 Dynamic Activation Key - MCM.esp
+Dynamic Activation Key - Addons Collection.esp
