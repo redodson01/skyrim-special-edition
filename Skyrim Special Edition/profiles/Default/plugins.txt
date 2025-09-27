@@ -26,3 +26,4 @@
 *3BBB.esp
 *SOSPhysicsManager.esp
 *Hunters Not Bandits.esp
+*Simplicity of Seeding.esp
