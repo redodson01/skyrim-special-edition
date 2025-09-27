@@ -187,3 +187,4 @@ Attack_DXP.esp
 MovementDXP.esp
 Hellblade - Timed Block.esp
 HellbladeTimedBlock.esp
+SimpleBowCrafting.esp
