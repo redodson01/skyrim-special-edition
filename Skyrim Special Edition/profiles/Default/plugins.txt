@@ -48,3 +48,4 @@
 *Hellblade - Timed Block.esp
 *HellbladeTimedBlock.esp
 *TaberuAnimation.esp
+*SimpleBowCrafting.esp
