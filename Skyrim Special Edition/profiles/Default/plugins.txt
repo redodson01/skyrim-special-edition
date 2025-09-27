@@ -11,6 +11,7 @@
 *3DNPC.esp
 *AHZmoreHUD.esl
 *TrueHUD.esl
+*NoBrokenWhiterunTower.esp
 *unofficial skyrim special edition patch.esp
 *DynDOLOD Resources SE.esp
 *Cathedral Landscapes.esp
@@ -210,3 +211,5 @@
 *Simple Hunting Overhaul MCM Helper.esp
 *cutting room floor.esp
 *3DNPC - CRF Patch.esp
+*WaitCarriageInns.esp
+*Dawn of Skyrim.esp
