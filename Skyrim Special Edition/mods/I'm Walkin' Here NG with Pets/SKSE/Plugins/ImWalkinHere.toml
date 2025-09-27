@@ -1,0 +1,6 @@
+[General]
+disableAllyCollision = true
+disableAllySummonCollision = true
+disableDialogueCollision = true
+disableSummonCollision = true
+disablePetCollision = true
