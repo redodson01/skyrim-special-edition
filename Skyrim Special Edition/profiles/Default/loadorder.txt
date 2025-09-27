@@ -118,7 +118,6 @@ SurvivalModeImproved.esp
 BetterThirdPersonSelection.esp
 TrueDirectionalMovement.esp
 SimplyKnock.esp
-Take A Peek - New Stealth Mechanic.esp
 SkyParkour.esp
 ImprovedAlternateConversationCamera.esp
 run for your lives.esp
@@ -170,3 +169,5 @@ Ish's Respec Mod.esp
 SkyUI_SE.esp
 MCMHelper.esp
 FSMPM - The FSMP MCM.esp
+Dynamic Activation Key.esp
+Take A Peek - New Stealth Mechanic.esp
