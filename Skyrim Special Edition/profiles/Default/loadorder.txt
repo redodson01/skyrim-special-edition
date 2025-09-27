@@ -121,3 +121,5 @@ CBBE.esp
 3BBB.esp
 SOSPhysicsManager.esp
 Hunters Not Bandits.esp
+Animals Swim.esp
+Simplicity of Seeding.esp
