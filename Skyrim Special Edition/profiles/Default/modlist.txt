@@ -3,6 +3,7 @@
 +Fuz Ro D-oh - Silent Voice
 +Bug Fixes SSE
 +Fix Note icon for SkyUI (SKSE64 plugin)
++Hunters Not Bandits
 -09-Fixes - Step Modifications_separator
 -09-Fixes_separator
 +The New Gentleman
