@@ -2,6 +2,7 @@
 +Infinity UI
 +SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement)
 +SkyUI 5.2 SE Plugin with Master Added
++More Informative Console
 -16-Interface - Anvil_separator
 +Dynamic Activation Key - Addons Collection
 +Dynamic Activation Key - Overwrite
