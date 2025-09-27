@@ -3,6 +3,7 @@
 +Quest Journal Fixes
 +Show Player In Menus
 +Whose Quest is it Anyway NG
++Yes Im Sure NG
 +OxygenMeter2
 +SkyUI - Ghost Item Bug Fix
 +moreHUD Inventory Edition
