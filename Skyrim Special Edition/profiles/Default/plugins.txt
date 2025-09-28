@@ -85,3 +85,4 @@
 *SofiaFollower.esp
 *NoNeedToAsk.esp
 *nwsFollowerFramework.esp
+*Smart_NPC_Potions.esp
