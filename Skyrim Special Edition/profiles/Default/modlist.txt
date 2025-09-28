@@ -4,6 +4,7 @@
 +Enhanced Invisibility
 +Enhanced Reanimation
 +Simplicity of Seeding - Better Hearthfires and Farming CC Planter Scripts
++First Person Animation Teleport Bug Fix
 +Sprint Sneak Movement Speed Fix
 +Animals Swim (Sort of)
 +Actor Limit Fix
