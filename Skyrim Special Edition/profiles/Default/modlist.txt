@@ -4,6 +4,7 @@
 +First Person Animation Teleport Bug Fix
 +Sprint Sneak Movement Speed Fix
 +Mfg Fix
++Flute Animation Fix
 -09-Fixes - Anvil_separator
 +Motionless Rocks Killing People Fix
 +Dual Casting Fix
