@@ -195,3 +195,4 @@
 *Seasonal Landscapes - Unfrozen - JKs Syrim Patch.esp
 *Seasonal Landscapes - Unfrozen - Zombies Patch.esp
 *FNIS.esp
+*Taberu Animation - Fishing Patch.esp
