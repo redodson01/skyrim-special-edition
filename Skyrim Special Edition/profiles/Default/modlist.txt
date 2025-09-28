@@ -9,6 +9,7 @@
 +Animals Swim (Sort of)
 +Actor Limit Fix
 +Mfg Fix
++Flute Animation Fix
 -09-Fixes - Anvil_separator
 +Dual Casting Fix
 +Motionless Rocks Killing People Fix
