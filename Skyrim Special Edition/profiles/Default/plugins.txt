@@ -173,3 +173,6 @@
 *Seasonal Landscapes - Unfrozen - Zombies Patch.esp
 *FNIS.esp
 *Taberu Animation - Fishing Patch.esp
+*WT_Sofia_Start.esp
+*Sofia - Use Custom Skin Patch.esp
+*Sofia - USSEP & Hearthfires Patch.esp
