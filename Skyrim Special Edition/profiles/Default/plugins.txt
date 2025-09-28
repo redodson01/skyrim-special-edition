@@ -35,3 +35,4 @@
 *ForswornRetexture Unique Armor of the Old Gods.esp
 *UniqueDragonPriests_XB.esp
 *CommonClothing-JarlSleeves.esp
+*BA_BardSongs_AIO.esp
