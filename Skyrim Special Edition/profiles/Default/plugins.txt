@@ -290,3 +290,8 @@
 *Taberu Animation - Fishing Patch.esp
 *Eli_InigoBloodchillPatch.esp
 *Inigo Official Patch SE (ESPFE).esp
+*WT_Sofia_Start.esp
+*Sofia - GDO Patch.esp
+*Sofia - RDO Patch.esp
+*Sofia - Use Custom Skin Patch.esp
+*Sofia - USSEP & Hearthfires Patch.esp
