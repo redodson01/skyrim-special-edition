@@ -87,3 +87,7 @@
 *AI Overhaul.esp
 *run for your lives.esp
 *TavernAIFix.esp
+*BladeAndBlunt.esp
+*Housecarls Pre-Thaneship.esp
+*NPCs Take Cover.esp
+*Press E To Heal Followers.esp
