@@ -299,3 +299,4 @@
 *JKs Skyrim_Dawn of Skyrim_Patch.esp
 *Fishing - JKS + DoS patch.esp
 *JKs Bee and Barb - JKS + DoS Patch.esp
+*Pets of Skyrim - JK's Skyrim Patch.esp
