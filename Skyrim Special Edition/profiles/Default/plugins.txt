@@ -265,3 +265,4 @@
 *JK's The Bards College.esp
 *JK's Castle Dour.esp
 *JK's Fort Dawnguard.esp
+*JK's Castle Volkihar.esp
