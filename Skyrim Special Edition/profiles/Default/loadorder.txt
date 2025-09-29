@@ -333,3 +333,4 @@ JK's Understone Keep.esp
 JK's Riverwood Trader.esp
 JK's Temple of Dibella.esp
 JK's Temple of Kynareth.esp
+JK's Temple of the Divines.esp
