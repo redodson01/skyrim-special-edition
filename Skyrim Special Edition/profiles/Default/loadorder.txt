@@ -467,3 +467,24 @@ JKs Winking Skeever - AI Overhaul Patch.esp
 JKs Winking Skeever - Fishing Patch.esp
 JKs Winking Skeever - Immersion Patch.esp
 JKs Winking Skeever - USSEP Patch.esp
+JKs Bards College - 3DNPC patch.esp
+JKs Bards College - AI Overhaul patch.esp
+JKs Bards College - Dawn of Skyrim Patch.esp
+JKs Bards College - USSEP patch.esp
+JKs Castle Dour - 3DNPC patch.esp
+JKs Castle Dour - CRF patch.esp
+JKs Castle Volkihar - CC Fishing patch.esp
+JKs College of Winterhold - 3DNPC Patch.esp
+JKs College of Winterhold - AI Overhaul Patch.esp
+JKs College of Winterhold - CC - Goldbrand Patch.esp
+JKs College of Winterhold - CRF Patch.esp
+JKs College of Winterhold - USSEP patch.esp
+JKs Dark Brotherhood Sanctuary - AI Overhaul patch.esp
+JKs Dark Brotherhood Sanctuary - USSEP patch.esp
+JKs Fort Dawnguard - RDO patch.esp
+JKs Jorrvaskr - AI Overhaul Patch.esp
+JKs Nightingale Hall - CRF patch.esp
+JKs Sky Haven Temple - 3DNPC Patch.esp
+JKs Sky Haven Temple - JKs Skyrim Patch.esp
+JKs Sky Haven Temple - USSEP Patch.esp
+JKs Thieves Guild - USSEP patch.esp
