@@ -318,3 +318,4 @@ JK's Radiant Raiment.esp
 JK's Candlehearth Hall.esp
 JK's White Phial.esp
 JK's Sadris Used Wares.esp
+JK's New Gnisis Cornerclub.esp
