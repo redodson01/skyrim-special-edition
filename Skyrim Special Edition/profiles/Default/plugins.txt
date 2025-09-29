@@ -223,3 +223,4 @@
 *JK's Solitude Outskirts.esp
 *JK's Raven Rock.esp
 *JK's Tel Mithryn.esp
+*JK's Arcadia's Cauldron.esp
