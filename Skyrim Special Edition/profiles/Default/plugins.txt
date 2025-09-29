@@ -231,3 +231,4 @@
 *JK's Dragonsreach.esp
 *JK's Sleeping Giant Inn.esp
 *JK's The Winking Skeever.esp
+*JK's Angelines Aromatics.esp
