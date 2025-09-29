@@ -152,3 +152,4 @@
 *JK's Markarth Outskirts.esp
 *JK's Solitude Outskirts.esp
 *JK's Fort Dawnguard.esp
+*JK's Castle Volkihar.esp
