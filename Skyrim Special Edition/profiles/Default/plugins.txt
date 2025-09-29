@@ -229,3 +229,4 @@
 *JK's Warmaiden's.esp
 *JK's The Bannered Mare.esp
 *JK's Dragonsreach.esp
+*JK's Sleeping Giant Inn.esp
