@@ -1,0 +1,96 @@
+JK's Skyrim and Dawn of Skyrim Patch Notes
+Author: Teabag86
+
+https://www.nexusmods.com/skyrimspecialedition/mods/16852
+
+Compatibility patch for JK's Skyrim and Dawn of Skyrim (Director's Cut) combining elements of both mods to make a mega city overhaul.
+
+Description
+If you like your cities to be busy places full to the brim with life, people, vendors and interesting things then this patch is for you.
+Jkrojmal and Vaelka each take a different approach to their city overhauls. This patch aims to bring together almost all the content from both mods and focuses on the strengths of each mod.
+So you'll still see the new structures, shrines, NPC's, pathways, hidden nooks and crannies from JK's Skyrim as well as the trees, laundry, vendors, outdoor stalls, and banners from Dawn of Skyrim.
+Plus lots of stylish well placed clutter to make the cities feel like real places where people live and work on a daily basis.
+
+I've added a new feature to dynamically hide outdoor vendor displays during the night. I did this mainly for immersion as no vendor would leave food, weapons, jewellery etc out all night, particularly in Riften!
+Plus I really like the eerie empty feeling of the barren market areas during the night and conversely how they spring to life during the day.
+
+Performance
+I have an ageing GTX760 4GB and have a solid 55-60 FPS with the Official HD texture packs installed. The more textures and high poly meshes you add to the game the more of a performance hit you will get.
+If you want to know how your GTX Titan Xp 12GB card will perform I'll gladly PM you my address and test it for a few months.
+Alternatively test it yourself with this shortcut that takes less than 2 minutes.
+
+[1]Fire up Skyrim however don't load a save or start a new game.
+[2] At the Bethesda logo open the console and type "coc whiterunorigin"
+[3] You will be teleported straight into the game with the default Skyrim dragonborn and can see first hand how your setup will handle both mods.
+
+Load order
+JKs Skyrim.esp
+Dawn of Skyrim.esp
+JKs Skyrim_Dawn of Skyrim_Patch.esp
+
+Compatibility
+This is a patch and relies on content from the mods it patches.
+Most patches for the original mods will still work perfectly you just have to be smart about the load order.
+The below patches have been made specifically to work with this mod combo. When using these patches you do not need the individual patches from the JK's Skyrim mod page.
+
+Blowing in the Wind - removes any floating lanterns and adds blowing functionality to all JKS and DoS lanterns and signs.
+Holidays - fixes clipping decorations and adds new decorations to the JKS and DoS buildings and structures.
+Immersive Laundry - replacer esp to resolve duplicate laundry in the major cities and adds laundry to the other towns and villages.
+Medieval Lanterns - replaces all JKS and DoS lanterns with Medieval versions and removes any double lanterns.
+Outlaws Refuge and Skyrim Sewers Combo Patch - adds immersive underground entrances between OR and SS. Fixes clipping and patches exterior doors to JKS and DoS navmesh.
+Storefront - fixes clipping issues in the major cities.
+
+Credits
+This patch has been made with the permission of these fantastic mod authors
+Jkrojmal for JK's Skyrim  https://www.nexusmods.com/skyrimspecialedition/mods/6289
+Vaelka for Dawn of Skyrim  https://www.nexusmods.com/skyrimspecialedition/mods/9074
+Bellyache for Bellyaches Animal and Creature Pack SSE  https://www.nexusmods.com/skyrimspecialedition/mods/6839
+
+Version 1.6
+- Dawn of Skyrim changed the file name from BluesSkyrim.esp to Dawn of Skyrim.esp. Patch updated with new master file name.
+- Compacted FormIDs and added ESL flag *Only update when you are ready to start a new game*
+- Fixed minor clipping in Whiterun and Riften - thanks to Cecell for the bug reports
+- Added ownership to containers and plates outside The Bannered Mare
+
+Version 1.5
+- Fixed clipping chair and planter outside Winking Skeever Solitude
+- Fixed wild edit to Solitude Fletcher exterior Solitude
+- Tweaked multiple barrel heights in Solitude
+- Fixed minor clipping of barrels and crates in Whiterun
+- Removed Static laundry XX091333 in Whiterun causing a crash in the CK
+- Adjusted collision markers in Whiterun DoS market area
+- Added navcut collision markers to some items in Riften
+- Packed Loose assets in bsa
+
+Version 1.4
+- Update by KorruptkSwades to fix duplicate navmesh at Riften market in the Dawn of Skyrim 1.4 release
+- Minor clipping fixes around Riften
+
+Version 1.3
+- Updated for Dawn of Skyrim 1.4 release
+- Fixed newly added DoS clipping items outside of Warmaidens
+- Although rats are now disabled in DoS they will still appear in Riften at night with this patch
+- Carried forward minor edits from latest USSEP 4.1.4
+
+Version 1.2
+- Set Windhelm and Riften rats to a timer so they only appear at night
+- Changed JKS Windhelm rats to DoS rats so all rats are the same
+- Reduced size of rats by 10%
+- Fixed missing candle flame and glow on the DoS Riften lanterns
+- Added new mesh for Companion wolves so they now have eyes
+- Added unique Bellyache textures to the Companion wolves so Masser (red) and Secunda (light grey) match the moons
+- Added some navcut collision markers for better NPC pathing in Whiterun
+- Added roots to Whiterun market pine tree
+- Rebuilt navmesh in the patch from scratch
+- Adjusted flora in Solitude and Morthal for better compatibility with Missives
+- Added toggle button to disable glowing plants outside Arcadia's Cauldron
+- Added dog idle markers for Companion wolves
+- Reduced number of banners in Whiterun (removed duplication between both mods)
+- Added toggle button to disable clutter outside Faction Pit Fighter entrance in Windhelm
+
+Version 1.1
+Fixed Statues outside Solitude Bard's College so they are no longer standing in planters
+Added Dynamic laundry. The laundry will now only appear during the day. The empty washing lines will remain during the night.
+
+Version 1
+Initial Release
