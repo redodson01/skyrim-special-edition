@@ -155,3 +155,4 @@
 *JK's Castle Volkihar.esp
 *JK's Dark Brotherhood Sanctuary.esp
 *JK's Nightingale Hall.esp
+*JK's Thieves Guild.esp
