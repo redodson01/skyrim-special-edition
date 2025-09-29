@@ -256,3 +256,4 @@
 *JK's Temple of the Divines.esp
 *JK's Temple of Talos.esp
 *JK's Haelga's Bunkhouse.esp
+*JK's Jorrvaskr.esp
