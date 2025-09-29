@@ -341,3 +341,4 @@ JK's Jorrvaskr.esp
 JK's High Hrothgar.esp
 JK's Sky Haven Temple.esp
 JK's Septimus Signus's Outpost.esp
+JK's Sinderion's Field Laboratory.esp
