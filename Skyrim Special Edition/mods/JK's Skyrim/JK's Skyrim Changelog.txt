@@ -1,0 +1,144 @@
+JK's Skyrim SE Changelog
+
+Version 1.7 (4/3/21)
+Tweaked navmesh in Winterhold, Dragonbridge and Dawnstar
+Added navcut collision markers in Falkreath and Solitude
+Changed faction ownership of merchant containers causing random CTD for some players
+Fixed wild edit to Solitude Blacksmith exterior
+Carried forward USSEP edit in Dawnstar
+Carried forward Update.esm landscape edits in Winterhold
+Changed mushroom dirt in Ivarstead
+Removed wind sound from interior hanging banners in Cedric's Trading Shop and Jauffre's Corner
+Reduced size of tree that conflicted with JK's Candlhearth Hall balcony
+
+Version 1.6 (14/4/19)
+Fixed Object Bounds wild edit
+Packaged Assets in BSA
+
+Version 1.5 (23/2/19)
+Navmesh cleaning with new versions of xEdit.
+
+Compatibility Updates (since last release)
+Added ETaC compatible replacer file
+Added Arthmoor's Falkreath Patch
+Updated Arthmoor's Patch Pack
+Added Skyrim 3D Trees Patch
+Updated Realistic Water Two Patch
+Added Outlaws Refuge Patch
+Added Blowing in the Wind Patch
+Updated No Lights Patch
+
+Version 1.4 (19/5/18)
+Removed some minor edits in a couple of interior cells for greater compatibility
+Added collision to Solitude Hall of the Dead posts (vanilla issue)
+Added occlusion planes to all buildings in Rorikstead, Dragon Bridge and Dawnstar
+Add occlusion plane to Windhelm
+Updated WaterFlow records and carried forward any changes from the latest USSEP
+Altered food baskets and crate meshes in Rorikstead for improved performance
+Added Rorikstead Baker and Butcher for inbuilt compatibility with future Arthmoor's Rorikstead patch
+Removed floating armor in Falkreath graveyard that refused to "rest in peace"!
+Attached Stormcloak shield in Dragon Bridge to appropriate Xmarker
+Changed Regner's (Rorikstead) voice to MaleBrute to better match his Blacksmith dialogue
+Fixed some lower case building names
+Landscaped some clipping grass in Rorikstead
+Fixed alignment of Bit's and Pieces sign in Solitude
+
+Compatibility
+Released Dawn of Skyrim patch
+No Snow Under the Roof Patch updated and released for SE
+Added Arthmoor's Rorikstead Patch
+Cutting Room Floor patch released removing duplicate Riften gate
+Updated Realistic Water Two Patch with Markarth waterfall fix
+Added Oblivion Gates Patch to adjust Windhelm gate position
+Added Storefront patch to fix clipping Windhelm woodpile and Riften crates
+
+
+Version 1.3 (29/4/18)
+Fixed flora clipping in Solitude
+Changed Windhelm Dunmer alchemist to female so her voice matches the vendor dialogue
+Added Face Tints to Dunmer Refugees in Windhelm
+Removed 2 wild edits; Dwarven load screen and dog idle marker, due to CK shenanigans
+Added occlusion planes in Riften for improved performance
+Changed Riverwood horse ownership (again) to WhiterunStablesFaction to stop Delphine joyriding
+
+Compatibility
+Added Greater Skaal Village Patch to fix clipping balcony behind the Greathall.
+
+
+Version 1.2 (20/4/18)
+Fixed flora clipping in towns and villages (big thanks to LoD7995 for his help and quality control)
+Disabled Sky Haven Forge map marker from appearing before the player has visited
+Changed horse ownership in Riverwood to stop Gerdur going on joy rides
+Changed idle markers behind forge so Alvor will keep working
+Stopped NPC's from sandboxing at Riverwood smelter
+Lock routine added to all JK's buildings. The doors will now lock at night and when the owners are out
+Updated NPC AI Packages so they interact more with the village
+Initially disabled Stormcloak Banner inside Dragon Bridge shop
+Added AI packages to Windhelm rats
+Fixed havok settle for floating armor in Falkreath Graveyard
+Added missing posts and ladder below the waterline for a dock in Dawnstar
+Randomized contents of alcohol barrels in Dawnstar ship
+Lowered dock in Dawnstar
+Fixed misaligned post at Falkreath Jarl's Longhouse
+Balanced the access to skill books in some homes
+Added ownership to barrels and sacks in Whiterun and Riften markets
+
+Compatibility
+Moved sunken rowboat in Dawnstar for built in compatibility with BOYD
+Shifted handcart at Dawnstar entrance to give Touring Carriages some turning room
+Realistic Water Two Patch patch released to align blacksmith water troughs in Solitude and Markarth
+Holidays patch released fixing clipping decorations and adding decorations to new JKS buildings
+Better Docks patch released
+JK's Skyrim No Lights Patch released removing all lighting for compatibility with exterior lighting overhauls
+Unique Vampire Dens SSE created and sent to mod author for hosting
+Added Carriage & Ferries Transport Overhaul to available patches
+Created patch for Training Dummies Provide XP for the mod author to host
+Mirai patch released removes clipping outside Markarth patch
+
+
+Version 1.1 (2/4/18)
+Fixed conflict with Animated Clutter. Animated Clutter replaced the vanilla sack mesh which was causing a CTD with JK's static sacks in Dawnstar. 
+Added light markers to braziers at Riften's Temple of Mara and in Markarth. 
+Fixed flora clipping in various cities. 
+Added collision marker to wall and roof in Windhelm. 
+Removed guard tower in Rorikstead that clipped with Immersive Citizens animal shed. 
+Added Navcut marker to carriages in Rorikstead to improve follower pathing. 
+Added ownership to horse in Rorikstead. 
+Lowered pathway in Dawnstar for better fit with the environment. 
+
+Compatibility 
+Arthmoor's Dawnstar, Dragon Bridge and Ivarstead individual patches released. Merged patch released for Arthmoor's villages combined into one. 
+Bal Ruhn SE player home. Lowered snow drift in Windhelm for built in compatibility. 
+Better City Entrances patch released. 
+Leaf Rest patch released. 
+Thunderchild patch released moving the Pillar of Lightning Shield in Dawnstar 20 metres to the right. 
+
+CTFO - Carriage & Ferries - Classic patch has been updated and sent to mod author for hosting. 
+Sky Haven Temple - Gardens replacer esp has been updated and sent to the mod author for hosting.
+
+
+Version 1 (29/3/18)
+Initial Release. 
+Merged Files and Version number listed below. 
+All Classic Skyrim versions have been updated for SE. 
+USLEEP changes have been carried forward into main file. 
+
+Whiterun 1.4b SE 
+Whiterun Outskirts 1.4 SE 
+Windhelm 1.2b 
+Solitude 1.2 
+Markarth 1.1 
+Riften 1 
+
+Dawnstar 1.1 
+Dragonbridge 1.2 (includes fix for Stormcloak banners) 
+Falkreath 1.1 
+Ivarstead 1.1 
+Morthal 1b 
+Riverwood 1.3d SE 
+Rorikstead 1.3 
+Winterhold 1 
+
+Skaal Village 1 
+Skyhaven Forge 1 SE
+
