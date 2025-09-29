@@ -242,3 +242,4 @@
 *JK's Palace of the Kings.esp
 *JK's Bee and Barb.esp
 *JK's Elgrims Elixirs.esp
+*JK's The Pawned Prawn.esp
