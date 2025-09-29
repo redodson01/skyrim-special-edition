@@ -248,3 +248,4 @@
 *JK's Temple of Mara.esp
 *JK's Silver-Blood Inn.esp
 *JK's Arnleif and Sons Trading Company.esp
+*JK's The Hag's Cure.esp
