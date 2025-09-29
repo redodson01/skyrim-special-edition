@@ -8,6 +8,7 @@
 *Sit on Stuff.esp
 *Dodge_MCO-DXP.esl
 *DodgeFramework.esl
+*3DNPC.esp
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
@@ -128,3 +129,7 @@
 *TaberuAnimation.esp
 *Conditional Expressions.esp
 *ImmersiveHunting.esp
+*3DNPC0.esp
+*3DNPC1.esp
+*3DNPC Alternative Locations.esp
+*3DNPC - CRF Patch.esp
