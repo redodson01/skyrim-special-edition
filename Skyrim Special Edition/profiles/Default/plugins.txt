@@ -13,6 +13,7 @@
 *TrueHUD.esl
 *NoBrokenWhiterunTower.esp
 *JKs The Drunken Huntsman.esp
+*JK's Blue Palace.esp
 *unofficial skyrim special edition patch.esp
 *DynDOLOD Resources SE.esp
 *Cathedral Landscapes.esp
