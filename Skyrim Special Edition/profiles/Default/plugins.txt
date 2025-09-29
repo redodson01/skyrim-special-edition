@@ -236,3 +236,4 @@
 *JK's Bits and Pieces.esp
 *JK's Radiant Raiment.esp
 *JK's Candlehearth Hall.esp
+*JK's White Phial.esp
