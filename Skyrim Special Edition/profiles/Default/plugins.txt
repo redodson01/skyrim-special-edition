@@ -217,3 +217,4 @@
 *JKs Skyrim - Fishing patch.esp
 *JKs Skyrim - Gray Cowl Patch.esp
 *JK's Whiterun's Outskirts.esp
+*JK's Windhelm's Outskirts.esp
