@@ -219,3 +219,4 @@
 *JK's Whiterun's Outskirts.esp
 *JK's Windhelm's Outskirts.esp
 *JK's Riften Outskirts.esp
+*JK's Markarth Outskirts.esp
