@@ -92,6 +92,7 @@ DodgeFramework.esl
 AHZmoreHUD.esl
 TrueHUD.esl
 NoBrokenWhiterunTower.esp
+JKs The Drunken Huntsman.esp
 unofficial skyrim special edition patch.esp
 DynDOLOD Resources SE.esp
 Cathedral Landscapes.esp
