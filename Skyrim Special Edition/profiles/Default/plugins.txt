@@ -298,3 +298,4 @@
 *Gotobed-HearthFires-patch.esp
 *Dynamic Mercenary Light Iron Armor.esp
 *Dynamic Nord Raven Battle Armor.esp
+*JKs Skyrim_Cutting Room Floor_Patch.esp
