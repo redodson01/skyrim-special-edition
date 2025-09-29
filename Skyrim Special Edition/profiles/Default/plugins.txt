@@ -232,3 +232,4 @@
 *JK's Sleeping Giant Inn.esp
 *JK's The Winking Skeever.esp
 *JK's Angelines Aromatics.esp
+*JK's Bits and Pieces.esp
