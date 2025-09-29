@@ -296,3 +296,6 @@
 *Sofia - Use Custom Skin Patch.esp
 *Sofia - USSEP & Hearthfires Patch.esp
 *I4_DearDiaryDarkWarm.esp
+*JKs Skyrim_Dawn of Skyrim_Patch.esp
+*Fishing - JKS + DoS patch.esp
+*JKs Bee and Barb - JKS + DoS Patch.esp
