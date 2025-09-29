@@ -293,3 +293,6 @@ cutting room floor.esp
 3DNPC - CRF Patch.esp
 WaitCarriageInns.esp
 Dawn of Skyrim.esp
+JKs Skyrim.esp
+JKs Skyrim - Fishing patch.esp
+JKs Skyrim - Gray Cowl Patch.esp
