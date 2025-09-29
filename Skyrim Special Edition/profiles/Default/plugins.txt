@@ -168,3 +168,4 @@
 *JK's The Bards College.esp
 *JK's Castle Dour.esp
 *JK's Whiterun's Outskirts.esp
+*JK's Windhelm's Outskirts.esp
