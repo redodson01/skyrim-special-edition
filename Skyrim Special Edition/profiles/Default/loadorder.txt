@@ -338,3 +338,4 @@ JK's Temple of Talos.esp
 JK's Haelga's Bunkhouse.esp
 JK's Jorrvaskr.esp
 JK's High Hrothgar.esp
+JK's Sky Haven Temple.esp
