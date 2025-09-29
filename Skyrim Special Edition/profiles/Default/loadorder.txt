@@ -343,3 +343,4 @@ JK's Sky Haven Temple.esp
 JK's Septimus Signus's Outpost.esp
 JK's Sinderion's Field Laboratory.esp
 JK's The Bards College.esp
+JK's Castle Dour.esp
