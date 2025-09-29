@@ -87,6 +87,7 @@ DynamicCollisionAdjustment.esl
 Dodge_MCO-DXP.esl
 DodgeFramework.esl
 staggeronhit.esl
+3DNPC.esp
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
@@ -169,3 +170,7 @@ point the way.esp
 Relationship Dialogue Overhaul.esp
 TaberuAnimation.esp
 Conditional Expressions.esp
+3DNPC0.esp
+3DNPC1.esp
+3DNPC Alternative Locations.esp
+3DNPC - CRF Patch.esp
