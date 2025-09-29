@@ -347,3 +347,4 @@ JK's Castle Dour.esp
 JK's Fort Dawnguard.esp
 JK's Castle Volkihar.esp
 JK's Dark Brotherhood Sanctuary.esp
+JK's Nightingale Hall.esp
