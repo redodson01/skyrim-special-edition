@@ -13,6 +13,7 @@
 *3DNPC.esp
 *AHZmoreHUD.esl
 *TrueHUD.esl
+*JKs The Drunken Huntsman.esp
 *unofficial skyrim special edition patch.esp
 *Cathedral Landscapes.esp
 *XPMSE.esp
