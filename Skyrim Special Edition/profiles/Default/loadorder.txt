@@ -326,3 +326,4 @@ JK's The Pawned Prawn.esp
 JK's The Ragged Flagon.esp
 JK's Mistveil Keep.esp
 JK's Temple of Mara.esp
+JK's Silver-Blood Inn.esp
