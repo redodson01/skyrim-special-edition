@@ -344,3 +344,4 @@ JK's Septimus Signus's Outpost.esp
 JK's Sinderion's Field Laboratory.esp
 JK's The Bards College.esp
 JK's Castle Dour.esp
+JK's Fort Dawnguard.esp
