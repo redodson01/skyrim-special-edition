@@ -222,3 +222,4 @@
 *JK's Markarth Outskirts.esp
 *JK's Solitude Outskirts.esp
 *JK's Raven Rock.esp
+*JK's Tel Mithryn.esp
