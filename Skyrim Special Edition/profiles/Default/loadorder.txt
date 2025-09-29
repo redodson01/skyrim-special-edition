@@ -392,3 +392,4 @@ Gourmet - bowofshadows.esp
 Gourmet - petnhound.esp
 Gourmet - puzzledungeon.esp
 GourmetTables - 3DNPC.esp
+JKs Skyrim_Cutting Room Floor_Patch.esp
