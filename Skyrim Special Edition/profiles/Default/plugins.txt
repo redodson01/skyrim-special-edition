@@ -98,3 +98,6 @@
 *EldenCounter.esp
 *EldenParry.esp
 *scar-adxp-patch.esp
+*DynamicGrip.esp
+*DynamicGrip_MCO.esp
+*DynamicGrip_NoLeftHandAttack.esp

@@ -1,0 +1,37 @@
+{
+    "name": "dynamicGripDW - BattleAxe",
+    "description": "dual weild grip",
+    "priority": 880202,
+    "conditions": [
+        {
+            "condition": "MathStatement",
+            "requiredPlugin": "OpenAnimationReplacer-Math",
+            "requiredVersion": "1.0.0.0",
+            "Math Statement": {
+                "expression": "gripMode  == 3",
+                "variables": {
+                    "gripmode": {
+                        "graphVariable": "iDynamicGripMode",
+                        "graphVariableType": "Int"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 6.0
+            },
+            "Left hand": false
+        },
+        {
+            "condition": "IsEquippedType",
+            "requiredVersion": "1.0.0.0",
+            "Type": {
+                "value": 6.0
+            },
+            "Left hand": true
+        }
+    ]
+}
