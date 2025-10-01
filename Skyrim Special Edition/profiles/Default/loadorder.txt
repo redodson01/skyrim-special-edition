@@ -114,3 +114,4 @@ SurvivalModeImproved.esp
 BetterThirdPersonSelection.esp
 TrueDirectionalMovement.esp
 SimplyKnock.esp
+Take A Peek - New Stealth Mechanic.esp
