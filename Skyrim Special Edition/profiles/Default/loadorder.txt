@@ -123,3 +123,4 @@ TrueDirectionalMovement.esp
 SimplyKnock.esp
 SkyrimsGotTalent-Bards.esp
 SkyrimsGotTalent - Free Movement.esp
+Take A Peek - New Stealth Mechanic.esp
