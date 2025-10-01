@@ -190,3 +190,7 @@ HellbladeTimedBlock.esp
 SimpleBowCrafting.esp
 KhajiitsStealToo.esp
 more plants all.esp
+More Plantable Plants for Creation Club - Bittercup.esp
+More Plantable Plants for Creation Club - Rare Curios.esp
+More Plantable Plants for Creation Club - Saints and Seducers.esp
+More Plantable Plants for Creation Club - The Cause.esp
