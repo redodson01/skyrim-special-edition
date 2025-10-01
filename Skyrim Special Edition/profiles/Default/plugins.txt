@@ -109,3 +109,4 @@
 *HellbladeTimedBlock.esp
 *SimpleBowCrafting.esp
 *KhajiitsStealToo.esp
+*more plants all.esp
