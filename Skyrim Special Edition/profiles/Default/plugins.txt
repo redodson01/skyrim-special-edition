@@ -412,3 +412,5 @@
 *Taberu Animation - Gourmet - USSEP Patch.esp
 *Taberu Animations - Gourmet Patch.esp
 *Taberu Animations - GourmetSurvival Patch.esp
+*Just Simply Knock.esp
+*Just Simply Peek.esp
