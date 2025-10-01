@@ -1,0 +1,10 @@
+		<hkobject name="#3660" class="hkbBehaviorReferenceGenerator" signature="0xfcb5423">
+			<hkparam name="variableBindingSet">null</hkparam>
+			<hkparam name="userData">0</hkparam>
+			<hkparam name="name">Weapon_Locomotion_BFR</hkparam>
+<!-- MOD_CODE ~dgrip~ OPEN -->
+			<hkparam name="behaviorName">behaviors\1hm_locomotion.hkx</hkparam>
+<!-- ORIGINAL -->
+			<hkparam name="behaviorName">Behaviors\1HM_Locomotion.hkx</hkparam>
+<!-- CLOSE -->
+		</hkobject>
