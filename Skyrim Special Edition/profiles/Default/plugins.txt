@@ -66,3 +66,4 @@
 *BetterThirdPersonSelection.esp
 *TrueDirectionalMovement.esp
 *Simple Fishing Overhaul.esp
+*SimplyKnock.esp
