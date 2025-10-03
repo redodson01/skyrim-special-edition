@@ -120,3 +120,5 @@ SkyParkour.esp
 ImprovedAlternateConversationCamera.esp
 run for your lives.esp
 TavernAIFix.esp
+BladeAndBlunt.esp
+NPCs Take Cover.esp
