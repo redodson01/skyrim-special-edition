@@ -51,3 +51,4 @@
 *Take a Nap.esp
 *run for your lives.esp
 *TavernAIFix.esp
+*BladeAndBlunt.esp
