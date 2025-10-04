@@ -1,0 +1,24 @@
+{
+	"requirements" : 
+	{
+		"required" : [ "ccBGSSSE001-Fish.esm" ]
+	},
+	"weapons" : 
+	[
+		{
+			"fWeapon" : "0xE44|ccBGSSSE001-Fish.esm",
+			"sType" : "Dagger",
+			"sWeaponSet" : "Ancient Nord"
+		},
+		{
+			"fWeapon" : "0xE46|ccBGSSSE001-Fish.esm",
+			"sType" : "Mace",
+			"sWeaponSet" : "Ancient Nord"
+		},
+		{
+			"fWeapon" : "0xE47|ccBGSSSE001-Fish.esm",
+			"sType" : "Warhammer",
+			"sWeaponSet" : "Ancient Nord"
+		}
+	]
+}
