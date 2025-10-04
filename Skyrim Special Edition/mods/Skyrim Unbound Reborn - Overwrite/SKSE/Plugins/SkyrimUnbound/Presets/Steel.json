@@ -1,0 +1,75 @@
+{
+	"form" : 
+	{
+		"armorset" : "0x15ee6d|Skyrim Unbound.esp",
+		"onehandedtypelist" : "0x8045bf|Skyrim Unbound.esp",
+		"rangedtypelist" : "0x8045c5|Skyrim Unbound.esp",
+		"twohandedtypelist" : "0x8045c2|Skyrim Unbound.esp",
+		"weaponsetlist" : "0x8045c8|Skyrim Unbound.esp"
+	},
+	"formList" : 
+	{
+		"addonitemsenabled" : 
+		[
+			"0x84f|ccbgssse001-fish.esm"
+		],
+		"spells" : 
+		[
+			"0x5ad5c|Skyrim.esm",
+			"0x43324|Skyrim.esm",
+			"0x4deeb|Skyrim.esm",
+			"0x4dee8|Skyrim.esm",
+			"0x21143|Skyrim.esm",
+			"0x13018|Skyrim.esm",
+			"0x12fcc|Skyrim.esm",
+			"0x7e8e1|Skyrim.esm",
+			"0x640b6|Skyrim.esm",
+			"0x211eb|Skyrim.esm",
+			"0x2dd2a|Skyrim.esm",
+			"0x2b96b|Skyrim.esm",
+			"0x12fcd|Skyrim.esm"
+		]
+	},
+	"int" : 
+	{
+		"addperkpoints" : 1,
+		"alreadyadventurer" : 0,
+		"armortype" : 3,
+		"autounlockshouts" : 0,
+		"bounty" : -1,
+		"customgold" : -1,
+		"delaydragonlevel1" : 15,
+		"delaydragonlevel2" : 25,
+		"delaydragonmax" : 21,
+		"delaydragonmin" : 7,
+		"disease" : 0,
+		"dragonborn" : 1,
+		"dragons" : 0,
+		"drinks" : 1,
+		"food" : 1,
+		"headgear" : 2,
+		"lantern" : 2,
+		"localinhabitant" : 0,
+		"lockpicks" : 1,
+		"month" : 0,
+		"onehandedcombo" : 2,
+		"onlyentrylevelarmors" : 0,
+		"pickaxe" : 1,
+		"potions" : 1,
+		"primaryschool" : 0,
+		"sameschoolchance" : 1,
+		"savedonversion" : 30002,
+		"season" : 0,
+		"secondaryschool" : 0,
+		"skooma" : 0,
+		"spells" : 3,
+		"staffschool" : 0,
+		"standingstone" : 14,
+		"timeofday" : 0,
+		"togglerandomweapon" : 0,
+		"torch" : 1,
+		"wealth" : 5,
+		"whiterunthaneprerequisite" : 2,
+		"woodcuttersaxe" : 1
+	}
+}
