@@ -1,0 +1,20 @@
+{
+	"requirements" : 
+	{
+		"required" : [ "ccBGSSSE001-Fish.esm" ]
+	},
+	"items" :
+	[
+		{
+			"fItem" : "0x84F|ccBGSSSE001-Fish.esm"
+		}
+	],
+	"armors" :
+	[
+		{
+			"fArmorSet" : "0xB76|ccBGSSSE001-Fish.esm",
+			"sName" : "$SU_FishingClothes",
+			"sType" : "Clothes"
+		}
+	]
+}
