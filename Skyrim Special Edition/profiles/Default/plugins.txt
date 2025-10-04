@@ -30,3 +30,5 @@
 *Iris.esp
 *ksmc_Elmlock.esp
 *SteelRetexture_SentinelGildedSteelArmor.esp
+*Imperial Armors and Weapons Retexture SE - Falx Carius.esp
+*Imperial Armors and Weapons Retexture SE - Penitus Pants.esp
