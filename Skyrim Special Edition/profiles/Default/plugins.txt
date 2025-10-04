@@ -27,3 +27,4 @@
 *Aerondight.esp
 *Iris.esp
 *ksmc_Elmlock.esp
+*SteelRetexture_SentinelGildedSteelArmor.esp
