@@ -160,3 +160,5 @@
 *JK's Tel Mithryn.esp
 *SnowOverSkyrim.esp
 *Cathedral Weathers.esp
+*Seasonal Landscapes.esp
+*Seasonal Landscapes - Solstheim.esp
