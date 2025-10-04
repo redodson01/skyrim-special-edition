@@ -96,3 +96,6 @@ Sentinel - Memories of Morrowind.esp
 Sentinel - Priests and Acolytes.esp
 Sentinel - Sailors and Swashbucklers.esp
 aelaOutfitFix.esp
+Imperial Armors and Weapons Retexture SE - Falx Carius.esp
+Imperial Armors and Weapons Retexture SE - Penitus Pants.esp
+SteelRetexture_SentinelGildedSteelArmor.esp
