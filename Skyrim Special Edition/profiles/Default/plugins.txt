@@ -276,3 +276,9 @@
 *SnowOverSkyrim.esp
 *Seasonal Landscapes.esp
 *Seasonal Landscapes - Solstheim.esp
+*Seasonal Landscapes - Unfrozen.esp
+*Seasonal Landscapes - Unfrozen - Arms of Chaos Patch.esp
+*Seasonal Landscapes - Unfrozen - CRF Patch.esp
+*Seasonal Landscapes - Unfrozen - JK's College of Winterhold Patch.esp
+*Seasonal Landscapes - Unfrozen - JKs Syrim Patch.esp
+*Seasonal Landscapes - Unfrozen - Zombies Patch.esp
