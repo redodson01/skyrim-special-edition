@@ -1,0 +1,57 @@
+{
+	"requirements" : 
+	{
+		"required" : [ "Apocalypse - Magic of Skyrim.esp" ]
+	},
+	"spells" : 
+	{
+		"alteration" : 
+		[
+			"0x64A2|Apocalypse - Magic of Skyrim.esp",
+			"0x541E|Apocalypse - Magic of Skyrim.esp",
+			"0x7FFD|Apocalypse - Magic of Skyrim.esp"
+		],
+		"conjuration" : 
+		[
+			"0x88694|Apocalypse - Magic of Skyrim.esp",
+			"0x16162D|Apocalypse - Magic of Skyrim.esp",
+			"0x16F92|Apocalypse - Magic of Skyrim.esp"
+		],
+		"destruction" : 
+		[
+			"0x85594|Apocalypse - Magic of Skyrim.esp",
+			"0x109653|Apocalypse - Magic of Skyrim.esp",
+			"0x2E634|Apocalypse - Magic of Skyrim.esp"
+		],
+		"illusion" : 
+		[
+			"0xBB25|Apocalypse - Magic of Skyrim.esp",
+			"0x8558A|Apocalypse - Magic of Skyrim.esp",
+			"0x15B843|Apocalypse - Magic of Skyrim.esp"
+		],
+		"restoration" : 
+		[
+			"0x3527C|Apocalypse - Magic of Skyrim.esp",
+			"0x36A05|Apocalypse - Magic of Skyrim.esp",
+			"0x82483|Apocalypse - Magic of Skyrim.esp"
+		]
+	},
+	"staffs" : 
+	{
+		"conjuration" : 
+		[
+			"0x896FB|Apocalypse - Magic of Skyrim.esp"
+		],
+		"destruction" : 
+		[
+			"0x7A799|Apocalypse - Magic of Skyrim.esp",
+			"0x7A79B|Apocalypse - Magic of Skyrim.esp",
+			"0x896FD|Apocalypse - Magic of Skyrim.esp"
+		],
+		"illusion" : 
+		[
+			"0x896FE|Apocalypse - Magic of Skyrim.esp",
+			"0x1A7932|Apocalypse - Magic of Skyrim.esp"
+		]
+	}
+}

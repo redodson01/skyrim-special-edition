@@ -1,0 +1,12 @@
+{
+	"requirements" : 
+	{
+		"required" : [ "AlchemistJournal.esp" ]
+	},
+	"items" : 
+	[
+		{
+			"fItem" : "0x803|AlchemistJournal.esp"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"requirements" : 
+	{
+		"required" : [ "Odin - Skyrim Magic Overhaul.esp" ]
+	},
+	"spells" : 
+	{
+		"alteration" : 
+		[
+			"0x541E|Odin - Skyrim Magic Overhaul.esp"
+		],
+		"conjuration" : 
+		[
+			"0x1CE06|Dragonborn.esm",
+			"0x199C3D|Odin - Skyrim Magic Overhaul.esp",
+			"0x199C3B|Odin - Skyrim Magic Overhaul.esp"
+		],
+		"illusion" : 
+		[
+			"0x229634|Odin - Skyrim Magic Overhaul.esp"
+		],
+		"restoration" : 
+		[
+			"0x251EB2|Odin - Skyrim Magic Overhaul.esp"
+		]
+	},
+	"staffs" : 
+	{
+		"illusion" : 
+		[
+			"0x22963A|Odin - Skyrim Magic Overhaul.esp"
+		]
+	}
+}
