@@ -273,3 +273,4 @@
 *Cathedral Weathers.esp
 *Seasonal Weathers Framework.esp
 *Seasonal Weathers Framework - Cathedral Weathers and Seasons.esp
+*SnowOverSkyrim.esp
