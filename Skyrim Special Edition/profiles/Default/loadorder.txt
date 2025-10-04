@@ -106,3 +106,5 @@ Sentinel - Priests and Acolytes.esp
 Sentinel - Sailors and Swashbucklers.esp
 aelaOutfitFix.esp
 SteelRetexture_SentinelGildedSteelArmor.esp
+Imperial Armors and Weapons Retexture SE - Falx Carius.esp
+Imperial Armors and Weapons Retexture SE - Penitus Pants.esp
