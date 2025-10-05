@@ -351,3 +351,14 @@ JK's Nightingale Hall.esp
 JK's Thieves Guild.esp
 JK's Riverfall Cottage.esp
 Cathedral Weathers.esp
+Seasonal Weathers Framework.esp
+Seasonal Weathers Framework - Cathedral Weathers and Seasons.esp
+SnowOverSkyrim.esp
+Seasonal Landscapes.esp
+Seasonal Landscapes - Solstheim.esp
+Seasonal Landscapes - Unfrozen.esp
+Seasonal Landscapes - Unfrozen - Arms of Chaos Patch.esp
+Seasonal Landscapes - Unfrozen - CRF Patch.esp
+Seasonal Landscapes - Unfrozen - JK's College of Winterhold Patch.esp
+Seasonal Landscapes - Unfrozen - JKs Syrim Patch.esp
+Seasonal Landscapes - Unfrozen - Zombies Patch.esp
