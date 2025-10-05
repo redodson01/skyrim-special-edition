@@ -21,3 +21,4 @@
 *SteelRetexture_SentinelGildedSteelArmor.esp
 *ForswornRetexture Unique Armor of the Old Gods.esp
 *UniqueDragonPriests_XB.esp
+*CommonClothing-JarlSleeves.esp
