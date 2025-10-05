@@ -20,3 +20,4 @@
 *Imperial Armors and Weapons Retexture SE - Penitus Pants.esp
 *SteelRetexture_SentinelGildedSteelArmor.esp
 *ForswornRetexture Unique Armor of the Old Gods.esp
+*UniqueDragonPriests_XB.esp
