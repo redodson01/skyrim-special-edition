@@ -113,3 +113,4 @@ SteelRetexture_SentinelGildedSteelArmor.esp
 Imperial Armors and Weapons Retexture SE - Falx Carius.esp
 Imperial Armors and Weapons Retexture SE - Penitus Pants.esp
 ForswornRetexture Unique Armor of the Old Gods.esp
+UniqueDragonPriests_XB.esp
