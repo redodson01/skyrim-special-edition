@@ -351,3 +351,5 @@ JK's Nightingale Hall.esp
 JK's Thieves Guild.esp
 JK's Riverfall Cottage.esp
 Cathedral Weathers.esp
+Seasonal Weathers Framework.esp
+Seasonal Weathers Framework - Cathedral Weathers and Seasons.esp
