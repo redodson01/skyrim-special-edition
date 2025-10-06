@@ -201,3 +201,4 @@ NPCs_Wear_Amulets_Of_Mara.esp
 NPCs React To Necromancy.esp
 NPCs React To Invisibility.esp
 NPCs React To Invisibility - Bow of Shadows Patch.esp
+Immersive Patrols II.esp
