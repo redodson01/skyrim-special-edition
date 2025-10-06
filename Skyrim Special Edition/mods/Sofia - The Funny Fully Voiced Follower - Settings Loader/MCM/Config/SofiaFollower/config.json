@@ -1,0 +1,342 @@
+{
+    "modName": "SofiaFollower",
+    "displayName": "$SofiaFollower",
+    "minMcmVersion": 9,
+    "pluginRequirements": [],
+    "cursorFillMode": "topToBottom",
+    "content": [],
+    "customContent": {},
+    "pages": [
+        {
+            "pageDisplayName": "$SofiaSettings_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$SofiaConfig_Header"
+                },
+                {
+                    "id": "bEnableCatchUp:SofiaConfig",
+                    "type": "toggle",
+                    "text": "$EnableCatchUp",
+                    "help": "$EnableCatchUpSofiaConfig_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "iCatchUpDistance:SofiaConfig",
+                    "type": "slider",
+                    "text": "$CatchUpDistance",
+                    "help": "$CatchUpDistanceSofiaConfig_Help",
+                    "valueOptions": {
+                        "min": 200,
+                        "max": 10000,
+                        "step": 1,
+                        "defaultValue": 3000,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0} units"
+                    }
+                },
+                {
+                    "type": "empty"
+                },
+                {
+                    "id": "bDisableCommentsDialogue:SofiaConfig",
+                    "type": "toggle",
+                    "text": "$DisableCommentsDialogue",
+                    "help": "$DisableCommentsDialogueSofiaConfig_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                },
+                {
+                    "id": "fCommentsFrequency:SofiaConfig",
+                    "type": "slider",
+                    "text": "$CommentsFrequency",
+                    "help": "$CommentsFrequencySofiaConfig_Help",
+                    "valueOptions": {
+                        "min": 0.1,
+                        "max": 24.0,
+                        "step": 0.1,
+                        "defaultValue": 1.0,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{1} hours"
+                    }
+                },
+                {
+                    "id": "bSofiaUseHorse:SofiaConfig",
+                    "type": "toggle",
+                    "text": "$SofiaUseHorse",
+                    "help": "$SofiaUseHorseSofiaConfig_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bEnableSandboxing:SofiaConfig",
+                    "type": "toggle",
+                    "text": "$EnableSandboxing",
+                    "help": "$EnableSandboxingSofiaConfig_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bIsEssential:SofiaConfig",
+                    "type": "toggle",
+                    "text": "$IsEssential",
+                    "help": "$IsEssentialSofiaConfig_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "type": "empty"
+                },
+                {
+                    "type": "header",
+                    "text": "$Combat_Header",
+                    "position": 1
+                },
+                {
+                    "id": "iSofiaHealth:Combat",
+                    "type": "slider",
+                    "text": "$SofiaHealth",
+                    "help": "$SofiaHealthCombat_Help",
+                    "valueOptions": {
+                        "min": 10,
+                        "max": 1000,
+                        "step": 10,
+                        "defaultValue": 600,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "iSofiaStamina:Combat",
+                    "type": "slider",
+                    "text": "$SofiaStamina",
+                    "help": "$SofiaStaminaCombat_Help",
+                    "valueOptions": {
+                        "min": 10,
+                        "max": 1000,
+                        "step": 10,
+                        "defaultValue": 600,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "iSofiaMagicka:Combat",
+                    "type": "slider",
+                    "text": "$SofiaMagicka",
+                    "help": "$SofiaMagickaCombat_Help",
+                    "valueOptions": {
+                        "min": 10,
+                        "max": 1000,
+                        "step": 10,
+                        "defaultValue": 600,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "fAttackDamage:Combat",
+                    "type": "slider",
+                    "text": "$AttackDamage",
+                    "help": "$AttackDamageCombat_Help",
+                    "valueOptions": {
+                        "min": 0,
+                        "max": 100,
+                        "step": 0.1,
+                        "defaultValue": 1,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{1}"
+                    }
+                },
+                {
+                    "id": "fSpellDamage:Combat",
+                    "type": "slider",
+                    "text": "$SpellDamage",
+                    "help": "$SpellDamageCombat_Help",
+                    "valueOptions": {
+                        "min": 0,
+                        "max": 100,
+                        "step": 0.1,
+                        "defaultValue": 0,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{1}"
+                    }
+                },
+                {
+                    "type": "empty"
+                },
+                {
+                    "id": "iCombatClass:Combat",
+                    "type": "enum",
+                    "text": "$CombatClass",
+                    "help": "",
+                    "valueOptions": {
+                        "options": [
+                            "Spell Sword (Default)",
+                            "Heavy One Handed",
+                            "Light One Handed",
+                            "Heavy Two Handed",
+                            "Light Two Handed",
+                            "Heavy Spellsword",
+                            "Light Spellsword",
+                            "Light Ranger",
+                            "Heavy Spellsword",
+                            "Destruction Mage",
+                            "Conjurer"
+                        ],
+                        "sourceType": "ModSettingInt",
+                        "defaultValue": 0
+                    }
+                },
+                {
+                    "id": "iCombatStyle:Combat",
+                    "type": "enum",
+                    "text": "$CombatStyle",
+                    "help": "",
+                    "valueOptions": {
+                        "options": [
+                            "Spell Sword (Default)",
+                            "One Handed",
+                            "Two Handed",
+                            "Magic",
+                            "Ranged",
+                            "Dual Wield"
+                        ],
+                        "sourceType": "ModSettingInt",
+                        "defaultValue": 0
+                    }
+                },
+                {
+                    "type": "empty"
+                },
+                {
+                    "id": "sRemoveAllSpells:Combat",
+                    "type": "text",
+                    "text": "$RemoveAllSpells",
+                    "help": "$RemoveAllSpellsCombat_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "AttemptSpellRemoval"
+                    }
+                },
+                {
+                    "id": "sResetSofia:Combat",
+                    "type": "text",
+                    "text": "$ResetSofia",
+                    "help": "$ResetSofiaCombat_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "ResetSofia"
+                    }
+                }
+            ]
+        },
+        {
+            "pageDisplayName": "$SofiaStats_Page",
+            "cursorFillMode": "topToBottom",
+            "content": []
+        },
+        {
+            "pageDisplayName": "$Maintenance_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$AutoloadSettings_Header"
+                },
+                {
+                    "id": "bEnabled:Maintenance",
+                    "type": "toggle",
+                    "text": "$Enabled",
+                    "help": "$EnabledMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "iLoadingDelay:Maintenance",
+                    "type": "slider",
+                    "text": "$LoadingDelay",
+                    "help": "$LoadingDelayMaintenance_Help",
+                    "valueOptions": {
+                        "min": 0,
+                        "max": 600,
+                        "step": 1,
+                        "defaultValue": 0,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "sLoadSettings:Maintenance",
+                    "type": "text",
+                    "text": "$LoadSettings",
+                    "help": "$LoadSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Load"
+                    }
+                },
+                {
+                    "id": "sResetSettings:Maintenance",
+                    "type": "text",
+                    "text": "$ResetSettings",
+                    "help": "$ResetSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Default"
+                    }
+                },
+                {
+                    "id": "bLoadSettingsonReload:Maintenance",
+                    "type": "toggle",
+                    "text": "$LoadSettingsonReload",
+                    "help": "$LoadSettingsonReloadMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                },
+                {
+                    "id": "bVerbose:Maintenance",
+                    "type": "toggle",
+                    "text": "$Verbose",
+                    "help": "$VerboseMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                }
+            ]
+        }
+    ]
+}
