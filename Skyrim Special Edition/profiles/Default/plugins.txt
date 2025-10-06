@@ -84,3 +84,4 @@
 *GourmetFishing.esp
 *GourmetSurvival.esp
 *GourmetUSSEP.esp
+*Guard Dialogue Overhaul.esp
