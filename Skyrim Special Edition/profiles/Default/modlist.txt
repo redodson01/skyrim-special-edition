@@ -4,6 +4,7 @@
 +Immersive Equipment Displays
 +Guard Dialogue Overhaul SE
 +Point The Way
++Relationship Dialogue Overhaul Lite
 +No Lockpick Activate (SKSE) - Updated
 -13-Gameplay-Immersion - Step Modifications_separator
 -13-Gameplay-Immersion_separator
