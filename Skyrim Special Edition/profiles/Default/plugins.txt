@@ -97,3 +97,4 @@
 *Immersive Patrols II.esp
 *UnequipQuiverSE.esp
 *sweepingOrganizesStuff.esp
+*ShovelBody.esp

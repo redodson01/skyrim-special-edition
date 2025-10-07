@@ -177,3 +177,4 @@ Conditional Expressions.esp
 Immersive Patrols II.esp
 UnequipQuiverSE.esp
 sweepingOrganizesStuff.esp
+ShovelBody.esp
