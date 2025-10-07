@@ -67,3 +67,6 @@
 *TrueDirectionalMovement.esp
 *Simple Fishing Overhaul.esp
 *SimplyKnock.esp
+*SkyrimsGotTalent-Bards.esp
+*SkyrimsGotTalent - Free Movement.esp
+*SkyrimsGotTalent-Bards_inigo.esp
