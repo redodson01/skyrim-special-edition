@@ -1,0 +1,2 @@
+IsActorBase("Skyrim.esm"|0x00000007) AND
+HasSpell("SkyrimsGotTalent-Bards.esp"|0x0022ed) 

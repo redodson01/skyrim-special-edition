@@ -121,3 +121,5 @@ SurvivalModeImproved.esp
 BetterThirdPersonSelection.esp
 TrueDirectionalMovement.esp
 SimplyKnock.esp
+SkyrimsGotTalent-Bards.esp
+SkyrimsGotTalent - Free Movement.esp
