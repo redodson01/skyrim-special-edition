@@ -46,3 +46,4 @@
 *SkyrimsGotTalent - Free Movement.esp
 *Take A Peek - New Stealth Mechanic.esp
 *SkyParkour.esp
+*SensibleBribes.esp
