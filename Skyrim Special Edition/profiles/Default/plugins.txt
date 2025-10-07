@@ -96,3 +96,4 @@
 *3DNPC - CRF Patch.esp
 *Immersive Patrols II.esp
 *UnequipQuiverSE.esp
+*sweepingOrganizesStuff.esp
