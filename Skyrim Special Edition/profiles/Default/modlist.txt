@@ -5,6 +5,7 @@
 +Sprint Sneak Movement Speed Fix
 +Animals Swim (Sort of)
 +Actor Limit Fix
++Mfg Fix
 -09-Fixes - Anvil_separator
 +Dual Casting Fix
 +Motionless Rocks Killing People Fix
