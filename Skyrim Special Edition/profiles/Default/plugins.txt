@@ -79,4 +79,5 @@
 *SkyParkour.esp
 *SensibleBribes.esp
 *ImprovedAlternateConversationCamera.esp
+*Take a Nap.esp
 *Sit on Stuff - Take a Nap Patch.esp
