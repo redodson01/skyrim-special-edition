@@ -48,3 +48,4 @@
 *Wild Horses - Dialogues.esp
 *Brawl Lines Expansion.esp
 *buy and sell torches.esp
+*DynamicMercenaryFees.esp
