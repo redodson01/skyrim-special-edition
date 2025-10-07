@@ -162,3 +162,4 @@ ImprovedAlternateConversationCamera.esp
 Take a Nap.esp
 Sit on Stuff - Take a Nap Patch.esp
 sweepingOrganizesStuff.esp
+ShovelBody.esp
