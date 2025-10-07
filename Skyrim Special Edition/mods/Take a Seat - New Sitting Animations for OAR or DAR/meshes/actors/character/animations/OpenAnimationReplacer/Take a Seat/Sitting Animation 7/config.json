@@ -1,0 +1,23 @@
+{
+    "name": "Take a Seat 7",
+    "priority": 60007,
+    "keepRandomResultsOnLoop": true,
+    "conditions": [
+        {
+            "condition": "IsFemale",
+            "requiredVersion": "1.0.0.0"
+        },
+        {
+            "condition": "Random",
+            "requiredVersion": "1.0.0.0",
+            "Random value": {
+                "min": 0.0,
+                "max": 1.0
+            },
+            "Comparison": "<",
+            "Numeric value": {
+                "value": 0.20000000298023224
+            }
+        }
+    ]
+}
