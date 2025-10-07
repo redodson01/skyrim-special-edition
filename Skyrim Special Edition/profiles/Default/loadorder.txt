@@ -162,3 +162,4 @@ SkyParkour.esp
 SensibleBribes.esp
 ImprovedAlternateConversationCamera.esp
 Take a Nap.esp
+sweepingOrganizesStuff.esp
