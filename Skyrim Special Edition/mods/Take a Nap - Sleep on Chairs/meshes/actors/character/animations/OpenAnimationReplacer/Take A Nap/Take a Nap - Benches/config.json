@@ -1,0 +1,241 @@
+{
+    "name": "Take a Nap - Benches",
+    "priority": 94001546,
+    "conditions": [
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "form": {
+                    "pluginName": "Take a Nap.esp",
+                    "formID": "804"
+                }
+            },
+            "Comparison": "==",
+            "Value B": {
+                "value": 1.0
+            }
+        },
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "66015"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "2E6CF"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "289D8"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "A4AD6"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C2A02"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "21374"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C2A03"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "6B57B"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C2A00"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "77078"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "1EE50"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "D4847"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "A4ABA"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C84A4"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "2FCBB"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "5E50F"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "1098A2"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "6B691\u0000"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C674C\u0000"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C674D\u0000"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C2A01\u0000"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "C8DB9\u0000"
+                    },
+                    "Base": true
+                },
+                {
+                    "condition": "CurrentFurniture",
+                    "requiredVersion": "1.1.0.0",
+                    "Furniture": {
+                        "pluginName": "Skyrim.esm",
+                        "formID": "10E42F"
+                    },
+                    "Base": true
+                }
+            ]
+        }
+    ]
+}
