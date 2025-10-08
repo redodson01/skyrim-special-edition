@@ -1,0 +1,17 @@
+115000	Unarmed
+116000	Swords
+116025	Rapiers
+116050	Scimitars
+116075	Katanas
+116076	New Armoury Katanas
+116077	New Armoury Katanas and Shield
+116200	Daggers
+116225	Claws
+116300	Axes
+116400	Maces (same as Axes)
+116500	Greatswords
+116525	Dai-katanas
+116600	Waraxes and Warhammers
+116650	Quarterstaffs
+116900	Pikes and Halberds
+118090	Dual Wield
