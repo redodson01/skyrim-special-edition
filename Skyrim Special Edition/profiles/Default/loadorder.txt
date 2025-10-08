@@ -156,3 +156,4 @@ TavernAIFix.esp
 BladeAndBlunt.esp
 NPCs Take Cover.esp
 Press E To Heal Followers.esp
+SkyrimSpearMechanic.esp
