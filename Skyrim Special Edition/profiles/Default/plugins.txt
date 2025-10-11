@@ -10,3 +10,4 @@
 *Rough Leather Armor.esp
 *Mercenary Light Iron Armor.esp
 *Nord Raven Battle Armor.esp
+*SeasonedTravellerbyXtudo.esp
