@@ -2,6 +2,7 @@
 *1WR.esl
 *1NGarmor.esl
 *KvetchiMercenary.esl
+*ColovianPrince.esl
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
