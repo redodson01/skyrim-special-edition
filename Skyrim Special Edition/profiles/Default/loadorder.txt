@@ -88,3 +88,4 @@ FSMPM - The FSMP MCM.esp
 Common Clothes and Armors.esp
 Rough Leather Armor.esp
 Mercenary Light Iron Armor.esp
+Nord Raven Battle Armor.esp
