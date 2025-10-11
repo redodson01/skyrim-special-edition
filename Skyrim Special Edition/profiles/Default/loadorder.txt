@@ -85,3 +85,4 @@ DynDOLOD Resources SE.esp
 Cathedral Landscapes.esp
 XPMSE.esp
 FSMPM - The FSMP MCM.esp
+Common Clothes and Armors.esp
