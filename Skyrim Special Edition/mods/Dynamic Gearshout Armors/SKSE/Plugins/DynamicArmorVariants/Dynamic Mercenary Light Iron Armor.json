@@ -1,0 +1,44 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/DynamicArmorVariants/main/docs/DynamicArmorVariants.schema.json",
+  "variants": [
+    {
+      "name": "LoweredMercenaryHoods",
+      "displayName": "$Lowered Mercenary Hood",
+      "linkTo": "DAV_HiddenHelmet",
+      "overrideHead": "showAll",
+      "replaceByForm": {
+		"Mercenary Light Iron Armor.esp.esp|D77": "Mercenary Light Iron Armor.esp|D7A",
+		"Mercenary Light Iron Armor.esp.esp|D63": "Mercenary Light Iron Armor.esp|D6A",
+		"Mercenary Light Iron Armor.esp.esp|850": "Mercenary Light Iron Armor.esp|854",
+		"Mercenary Light Iron Armor.esp.esp|851": "Mercenary Light Iron Armor.esp|854",
+		"Mercenary Light Iron Armor.esp.esp|852": "Mercenary Light Iron Armor.esp|855",
+		"Mercenary Light Iron Armor.esp.esp|853": "Mercenary Light Iron Armor.esp|855"      
+      }
+    }
+  ],
+  "states": [
+    {
+      "variant": "DAV_HiddenHelmet",
+      "conditions": [
+        "GetIsReference Player == 0 AND",
+        "IsInCombat == 0 AND",
+        "LocationHasKeyword LocTypeDwelling == 1 OR",
+        "LocationHasKeyword LocTypeInn == 1 OR"
+      ]
+    },
+    {
+      "variant": "LoweredMercenaryHoods",
+      "conditions": [
+        "IsInInterior == 1 AND",
+        "LocationHasKeyword LocTypeCemetary == 0 AND",
+        "LocationHasKeyword LocTypeCastle == 1 OR",
+        "LocationHasKeyword LocTypeDwelling == 1 OR",
+        "LocationHasKeyword LocTypeGuild == 1 OR",
+        "LocationHasKeyword LocTypeHabitation == 1 OR",
+        "LocationHasKeyword LocTypeInn == 1 OR",
+        "LocationHasKeyword LocTypeStore == 1 OR",
+        "LocationHasKeyword LocTypeTemple == 1 OR"
+      ]
+    }
+  ]
+}

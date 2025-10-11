@@ -1,0 +1,40 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/DynamicArmorVariants/main/docs/DynamicArmorVariants.schema.json",
+  "variants": [
+    {
+      "name": "LoweredRavenHoods",
+      "displayName": "$Lowered Raven Hood",
+      "linkTo": "DAV_HiddenHelmet",
+      "overrideHead": "showAll",
+      "replaceByForm": {
+        "Nord Raven Battle Armor.esp|D76": "Nord Raven Battle Armor.esp|D66",
+        "Nord Raven Battle Armor.esp|D65": "Nord Raven Battle Armor.esp|D66"       
+      }
+    }
+  ],
+  "states": [
+    {
+      "variant": "DAV_HiddenHelmet",
+      "conditions": [
+        "GetIsReference Player == 0 AND",
+        "IsInCombat == 0 AND",
+        "LocationHasKeyword LocTypeDwelling == 1 OR",
+        "LocationHasKeyword LocTypeInn == 1 OR"
+      ]
+    },
+    {
+      "variant": "LoweredRavenHoods",
+      "conditions": [
+        "IsInInterior == 1 AND",
+        "LocationHasKeyword LocTypeCemetary == 0 AND",
+        "LocationHasKeyword LocTypeCastle == 1 OR",
+        "LocationHasKeyword LocTypeDwelling == 1 OR",
+        "LocationHasKeyword LocTypeGuild == 1 OR",
+        "LocationHasKeyword LocTypeHabitation == 1 OR",
+        "LocationHasKeyword LocTypeInn == 1 OR",
+        "LocationHasKeyword LocTypeStore == 1 OR",
+        "LocationHasKeyword LocTypeTemple == 1 OR"
+      ]
+    }
+  ]
+}

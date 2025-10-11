@@ -376,3 +376,5 @@ Gourmet - petnhound.esp
 Gourmet - puzzledungeon.esp
 GourmetTables - 3DNPC.esp
 Gotobed-HearthFires-patch.esp
+Dynamic Mercenary Light Iron Armor.esp
+Dynamic Nord Raven Battle Armor.esp
