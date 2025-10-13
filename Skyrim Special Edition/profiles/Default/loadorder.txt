@@ -226,3 +226,4 @@ UnequipQuiverSE.esp
 Bandit Lines Expansion.esp
 DarkElfVoicesForBandits.esp
 Werebeasts Dont Talk.esp
+Civil War Lines Expansion.esp
