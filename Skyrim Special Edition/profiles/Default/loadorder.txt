@@ -208,3 +208,6 @@ Immersive Death Cycle.esp
 NPCsReactToFrenzy.esp
 Immersive Rejections.esp
 UnequipQuiverSE.esp
+Bandit Lines Expansion.esp
+DarkElfVoicesForBandits.esp
+Werebeasts Dont Talk.esp
