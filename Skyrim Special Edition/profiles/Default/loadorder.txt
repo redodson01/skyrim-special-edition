@@ -227,3 +227,6 @@ Civil War Lines Expansion.esp
 Forsworn and Thalmor Lines Expansion.esp
 Vampire Lines Expansion.esp
 Vampire Lines Expansion - Orc Addon.esp
+Falmer Servant Lines Expansion.esp
+FSLE - More Locations.esp
+FSLE - Unique Abilities.esp
