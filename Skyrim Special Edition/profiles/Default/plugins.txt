@@ -143,3 +143,6 @@
 *Immersive Death Cycle.esp
 *NPCsReactToFrenzy.esp
 *UnequipQuiverSE.esp
+*Bandit Lines Expansion.esp
+*DarkElfVoicesForBandits.esp
+*Werebeasts Dont Talk.esp
