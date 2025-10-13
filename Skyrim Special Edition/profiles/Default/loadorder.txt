@@ -225,3 +225,5 @@ DarkElfVoicesForBandits.esp
 Werebeasts Dont Talk.esp
 Civil War Lines Expansion.esp
 Forsworn and Thalmor Lines Expansion.esp
+Vampire Lines Expansion.esp
+Vampire Lines Expansion - Orc Addon.esp
