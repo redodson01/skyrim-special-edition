@@ -139,3 +139,4 @@
 *NPCs React To Invisibility - Bow of Shadows Patch.esp
 *Immersive Patrols II.esp
 *CarryYourCarcasses - SHO.esp
+*Use Those Blankets.esp
