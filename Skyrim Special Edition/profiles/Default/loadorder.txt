@@ -216,3 +216,4 @@ NPCs React To Necromancy.esp
 NPCs React To Invisibility.esp
 NPCs React To Invisibility - Bow of Shadows Patch.esp
 CarryYourCarcasses - SHO.esp
+Use Those Blankets.esp
