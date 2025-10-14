@@ -123,3 +123,5 @@ SOSPhysicsManager.esp
 Hunters Not Bandits.esp
 Animals Swim.esp
 Simplicity of Seeding.esp
+CarriageAndStableDialogues.esp
+Wild Horses - Dialogues.esp
