@@ -211,3 +211,4 @@ ImmersiveHunting.esp
 3DNPC1.esp
 3DNPC Alternative Locations.esp
 3DNPC - CRF Patch.esp
+Sleeping Expanded.esp
