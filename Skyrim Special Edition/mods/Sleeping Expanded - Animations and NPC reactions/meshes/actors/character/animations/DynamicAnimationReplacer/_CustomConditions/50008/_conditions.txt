@@ -1,0 +1,4 @@
+IsInCombat() AND
+NOT IsRace("Skyrim.esm"|0x00067CD8) AND
+Random(0.6) AND
+NOT IsChild()

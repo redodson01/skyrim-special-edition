@@ -1,0 +1,3 @@
+NOT IsInCombat() AND
+NOT IsRace("Skyrim.esm"|0x00067CD8) AND
+NOT IsChild()
