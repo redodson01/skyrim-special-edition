@@ -137,3 +137,4 @@ Fully Harvest Hanging Carcasses.esp
 Fully Harvest Hanging Carcasses - Ars Metallica Patch.esp
 Fully Harvest Hanging Carcasses - CC Fishing Patch.esp
 Fully Harvest Hanging Carcasses - Gourmet Patch.esp
+Brawl Lines Expansion.esp
