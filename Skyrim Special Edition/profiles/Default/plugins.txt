@@ -275,3 +275,4 @@
 *Seasonal Landscapes - Unfrozen - Zombies Patch.esp
 *FNIS.esp
 *Taberu Animation - Fishing Patch.esp
+*Eli_InigoBloodchillPatch.esp
