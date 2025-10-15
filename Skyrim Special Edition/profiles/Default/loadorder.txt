@@ -260,3 +260,4 @@ FDE Roggi.esp
 FDE Illia.esp
 FDE Illia Inigo.esp
 FDE Aranea.esp
+FDE Rayya.esp
