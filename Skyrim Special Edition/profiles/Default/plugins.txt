@@ -178,3 +178,4 @@
 *FDE Mjoll.esp
 *FDE Erik.esp
 *FDE Jordis.esp
+*FDE Lydia.esp
