@@ -368,3 +368,5 @@ Seasonal Landscapes - Unfrozen - Zombies Patch.esp
 FNIS.esp
 AI Overhaul SSE - Simple Children Patch.esp
 Taberu Animation - Fishing Patch.esp
+Eli_InigoBloodchillPatch.esp
+Inigo Official Patch SE (ESPFE).esp
