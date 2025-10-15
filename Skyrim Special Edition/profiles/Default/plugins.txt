@@ -169,3 +169,6 @@
 *mihailchickenvariants.esp
 *mihailringneckedpheasant.esp
 *mihailrooster.esp
+*FDE Brelyna.esp
+*FDE Brelyna Inigo.esp
+*FDE Brelyna Lucien.esp
