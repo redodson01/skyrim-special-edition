@@ -72,7 +72,6 @@
 *SimplyKnock.esp
 *SkyrimsGotTalent-Bards.esp
 *SkyrimsGotTalent - Free Movement.esp
-*SkyrimsGotTalent-Bards_inigo.esp
 *Take A Peek - New Stealth Mechanic.esp
 *Taunt Your Enemies.esp
 *StreamlinedFishing.esp
@@ -159,3 +158,5 @@
 *Skyrim Unbound.esp
 *Headhunter - Bounties Redone.esp
 *BountiesRedone_MissivesExtension.esp
+*Inigo.esp
+*SkyrimsGotTalent-Bards_inigo.esp
