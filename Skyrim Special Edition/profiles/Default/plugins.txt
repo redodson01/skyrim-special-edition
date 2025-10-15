@@ -171,3 +171,4 @@
 *Sidequests of Skyrim.esp
 *mihailchickenvariants.esp
 *mihailringneckedpheasant.esp
+*mihailrooster.esp
