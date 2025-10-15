@@ -2,6 +2,7 @@
 +Kill Caps Lock NG
 +Infinity UI
 +Console Commands Extender - Anniversary Edition Update
++No Console Spam
 +SkyUI 3D Item Offset Fix (Centered Item Card - Script Fix - Improvement)
 +ConsolePlusPlus
 +SkyUI 5.2 SE Plugin with Master Added
