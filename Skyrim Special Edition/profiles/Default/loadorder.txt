@@ -269,3 +269,4 @@ FDE Ysolda.esp
 FDE Camilla.esp
 FDE Faendal.esp
 FDE Borgakh.esp
+FDE Roggi.esp
