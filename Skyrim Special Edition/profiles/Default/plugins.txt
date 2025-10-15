@@ -161,3 +161,5 @@
 *SkyrimsGotTalent-Bards_inigo.esp
 *SofiaFollower.esp
 *NoNeedToAsk.esp
+*Lucien.esp
+*Lucien-AnniversaryEdition-Patch.esp
