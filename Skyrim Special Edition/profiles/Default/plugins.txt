@@ -276,3 +276,4 @@
 *FNIS.esp
 *Taberu Animation - Fishing Patch.esp
 *Eli_InigoBloodchillPatch.esp
+*Inigo Official Patch SE (ESPFE).esp
