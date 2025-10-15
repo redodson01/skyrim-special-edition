@@ -238,3 +238,4 @@ mihailpigeon.esp
 mihailhousecat.esp
 mihailchickenvariants.esp
 mihailringneckedpheasant.esp
+mihailrooster.esp
