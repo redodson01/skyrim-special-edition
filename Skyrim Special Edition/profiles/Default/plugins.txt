@@ -181,3 +181,4 @@
 *FDE Lydia.esp
 *FDE Jenassa.esp
 *FDE Jenassa Inigo.esp
+*FDE Uthgerd.esp
