@@ -180,3 +180,4 @@
 *FDE Aela Lucien.esp
 *FDE Mjoll.esp
 *FDE Erik.esp
+*FDE Jordis.esp
