@@ -234,3 +234,4 @@ nwsFollowerFramework.esp
 Missives.esp
 BountiesRedone_MissivesExtension.esp
 Sidequests of Skyrim.esp
+mihailpigeon.esp
