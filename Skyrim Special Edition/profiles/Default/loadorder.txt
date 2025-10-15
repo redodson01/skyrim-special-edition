@@ -237,3 +237,4 @@ Sidequests of Skyrim.esp
 mihailpigeon.esp
 mihailhousecat.esp
 mihailchickenvariants.esp
+mihailringneckedpheasant.esp
