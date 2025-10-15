@@ -259,3 +259,5 @@ FDE Mjoll.esp
 FDE Erik.esp
 FDE Jordis.esp
 FDE Lydia.esp
+FDE Jenassa.esp
+FDE Jenassa Inigo.esp
