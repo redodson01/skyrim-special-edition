@@ -1,0 +1,27 @@
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\weapequip.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\0_Master.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\1hm_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\_1stperson\Behaviors\mt_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\staggerbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\_1stperson\Behaviors\0_Master.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Characters Female\DefaultFemale.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\blockbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\1hm_locomotion.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\magicbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\_1stperson\Characters\FirstPerson.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Characters\DefaultMale.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\horsebehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\bashbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\magicmountedbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\bow_direction_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\mt_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\idlebehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\crossbow_direction_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\magic_readied_direction_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\shout_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\shoutmounted_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\Behaviors\sprintbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\_1stperson\Behaviors\1hm_behavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\_1stperson\Behaviors\bashbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\_1stperson\Behaviors\blockbehavior.hkx
+C:\Games\Steam\steamapps\common\Skyrim Special Edition\Data\meshes\actors\character\_1stperson\Behaviors\weapequip.hkx
