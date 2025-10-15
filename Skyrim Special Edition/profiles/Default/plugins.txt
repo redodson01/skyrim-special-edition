@@ -12,6 +12,9 @@
 *AHZmoreHUD.esl
 *TrueHUD.esl
 *NoBrokenWhiterunTower.esp
+*JKs The Drunken Huntsman.esp
+*JK's Blue Palace.esp
+*JK's College of Winterhold.esp
 *unofficial skyrim special edition patch.esp
 *DynDOLOD Resources SE.esp
 *Cathedral Landscapes.esp
@@ -223,3 +226,46 @@
 *JK's Solitude Outskirts.esp
 *JK's Raven Rock.esp
 *JK's Tel Mithryn.esp
+*JK's Arcadia's Cauldron.esp
+*JK's Belethor's General Goods.esp
+*JK's Warmaiden's.esp
+*JK's The Bannered Mare.esp
+*JK's Dragonsreach.esp
+*JK's Sleeping Giant Inn.esp
+*JK's The Winking Skeever.esp
+*JK's Angelines Aromatics.esp
+*JK's Bits and Pieces.esp
+*JK's Radiant Raiment.esp
+*JK's Candlehearth Hall.esp
+*JK's White Phial.esp
+*JK's Sadris Used Wares.esp
+*JK's New Gnisis Cornerclub.esp
+*JK's Palace of the Kings.esp
+*JK's Bee and Barb.esp
+*JK's Elgrims Elixirs.esp
+*JK's The Pawned Prawn.esp
+*JK's The Ragged Flagon.esp
+*JK's Mistveil Keep.esp
+*JK's Temple of Mara.esp
+*JK's Silver-Blood Inn.esp
+*JK's Arnleif and Sons Trading Company.esp
+*JK's The Hag's Cure.esp
+*JK's Understone Keep.esp
+*JK's Riverwood Trader.esp
+*JK's Temple of Dibella.esp
+*JK's Temple of Kynareth.esp
+*JK's Temple of the Divines.esp
+*JK's Temple of Talos.esp
+*JK's Haelga's Bunkhouse.esp
+*JK's Jorrvaskr.esp
+*JK's High Hrothgar.esp
+*JK's Sky Haven Temple.esp
+*JK's Septimus Signus's Outpost.esp
+*JK's Sinderion's Field Laboratory.esp
+*JK's The Bards College.esp
+*JK's Castle Dour.esp
+*JK's Fort Dawnguard.esp
+*JK's Castle Volkihar.esp
+*JK's Dark Brotherhood Sanctuary.esp
+*JK's Nightingale Hall.esp
+*JK's Thieves Guild.esp
