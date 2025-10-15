@@ -182,3 +182,4 @@
 *FDE Jenassa.esp
 *FDE Jenassa Inigo.esp
 *FDE Uthgerd.esp
+*FDE Ysolda.esp
