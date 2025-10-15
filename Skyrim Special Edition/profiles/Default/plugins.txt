@@ -154,3 +154,5 @@
 *HereWeGoAgain.esp
 *the paarthurnax dilemma.esp
 *NoNeedToAsk.esp
+*Convenient Horses.esp
+*Convenient Horses Anniversary Edition Patch.esp
