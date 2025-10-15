@@ -175,3 +175,4 @@
 *FDE Aela.esp
 *FDE Aela Inigo.esp
 *FDE Aela Lucien.esp
+*FDE Mjoll.esp
