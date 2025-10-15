@@ -177,3 +177,5 @@
 *FDE Faendal.esp
 *FDE Borgakh.esp
 *FDE Roggi.esp
+*FDE Illia.esp
+*FDE Illia Inigo.esp
