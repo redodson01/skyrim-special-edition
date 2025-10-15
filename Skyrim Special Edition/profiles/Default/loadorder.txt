@@ -262,3 +262,4 @@ FDE Illia Inigo.esp
 FDE Aranea.esp
 FDE Rayya.esp
 FDE Faralda.esp
+FDE Eola.esp
