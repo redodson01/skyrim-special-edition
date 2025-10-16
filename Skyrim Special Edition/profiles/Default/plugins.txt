@@ -157,3 +157,5 @@
 *Convenient Horses.esp
 *Convenient Horses Anniversary Edition Patch.esp
 *Skyrim Unbound.esp
+*Headhunter - Bounties Redone.esp
+*BountiesRedone_MissivesExtension.esp
