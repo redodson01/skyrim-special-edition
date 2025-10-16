@@ -126,3 +126,4 @@
 *Use Those Blankets.esp
 *Immersive Death Cycle.esp
 *NPCsReactToFrenzy.esp
+*Immersive Rejections.esp
