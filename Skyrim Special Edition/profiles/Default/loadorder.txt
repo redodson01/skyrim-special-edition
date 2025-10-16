@@ -239,7 +239,6 @@ Convenient Horses.esp
 Convenient Horses Anniversary Edition Patch.esp
 Skyrim Unbound.esp
 Headhunter - Bounties Redone.esp
-BountiesRedone_MissivesExtension.esp
 Inigo.esp
 SkyrimsGotTalent-Bards_inigo.esp
 SofiaFollower.esp
@@ -247,3 +246,5 @@ NoNeedToAsk.esp
 Lucien.esp
 Lucien-AnniversaryEdition-Patch.esp
 nwsFollowerFramework.esp
+Missives.esp
+BountiesRedone_MissivesExtension.esp
