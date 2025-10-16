@@ -205,3 +205,4 @@ Immersive Patrols II.esp
 CarryYourCarcasses - SHO.esp
 Use Those Blankets.esp
 Immersive Death Cycle.esp
+NPCsReactToFrenzy.esp
