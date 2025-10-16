@@ -117,3 +117,4 @@
 *3DNPC Alternative Locations.esp
 *3DNPC - CRF Patch.esp
 *Sleeping Expanded.esp
+*NPCs_Wear_Amulets_Of_Mara.esp
