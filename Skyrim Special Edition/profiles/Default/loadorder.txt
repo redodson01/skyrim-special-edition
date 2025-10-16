@@ -198,3 +198,4 @@ ImmersiveHunting.esp
 3DNPC - CRF Patch.esp
 Sleeping Expanded.esp
 NPCs_Wear_Amulets_Of_Mara.esp
+NPCs React To Necromancy.esp
