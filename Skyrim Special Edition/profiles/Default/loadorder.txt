@@ -145,3 +145,4 @@ DynamicMercenaryFees.esp
 SurvivalModeImproved.esp
 BetterThirdPersonSelection.esp
 TrueDirectionalMovement.esp
+Simple Fishing Overhaul.esp
