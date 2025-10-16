@@ -155,3 +155,5 @@ Take A Peek - New Stealth Mechanic.esp
 Taunt Your Enemies.esp
 StreamlinedFishing.esp
 Remote Interactions.esp
+Simple Hunting Overhaul.esp
+SHO - Gourmet Patch.esp
