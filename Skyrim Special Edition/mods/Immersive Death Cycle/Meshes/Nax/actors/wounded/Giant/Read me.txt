@@ -1,0 +1,1 @@
+To have giants with cloth add the cloth models to the in game "Armor" they are set to the head slot while the other meshes are body
