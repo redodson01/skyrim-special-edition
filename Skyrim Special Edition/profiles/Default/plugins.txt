@@ -69,3 +69,4 @@
 *SkyrimsGotTalent - Free Movement.esp
 *SkyrimsGotTalent-Bards_inigo.esp
 *Take A Peek - New Stealth Mechanic.esp
+*Taunt Your Enemies.esp
