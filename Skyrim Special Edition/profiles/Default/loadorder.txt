@@ -202,3 +202,4 @@ NPCs React To Necromancy.esp
 NPCs React To Invisibility.esp
 NPCs React To Invisibility - Bow of Shadows Patch.esp
 Immersive Patrols II.esp
+CarryYourCarcasses - SHO.esp
