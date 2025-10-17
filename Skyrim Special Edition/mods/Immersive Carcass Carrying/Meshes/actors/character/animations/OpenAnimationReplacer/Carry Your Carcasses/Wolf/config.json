@@ -1,0 +1,196 @@
+{
+    "name": "Wolf/Skeever/Dog",
+    "priority": 25150001,
+    "conditions": [
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "OR",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "10B94"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "10B95"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "110FE"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Hunterborn.esp",
+                                "formID": "BFCF"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "OR",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "806"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "807"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "80C"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        },
+                        {
+                            "condition": "InventoryCount",
+                            "requiredVersion": "1.1.0.0",
+                            "Form": {
+                                "pluginName": "Simple Hunting Overhaul.esp",
+                                "formID": "803"
+                            },
+                            "Comparison": ">",
+                            "Numeric value": {
+                                "value": 0.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "AND",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "IsActorBase",
+                            "requiredVersion": "1.0.0.0",
+                            "Actor base": {
+                                "pluginName": "Skyrim.esm",
+                                "formID": "7"
+                            }
+                        },
+                        {
+                            "condition": "OR",
+                            "requiredVersion": "1.0.0.0",
+                            "Conditions": [
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "D4F"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "EA9"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "D47"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                },
+                                {
+                                    "condition": "CompareValues",
+                                    "requiredVersion": "1.0.0.0",
+                                    "Value A": {
+                                        "form": {
+                                            "pluginName": "ImmersiveHunting.esp",
+                                            "formID": "D4E"
+                                        }
+                                    },
+                                    "Comparison": "==",
+                                    "Value B": {
+                                        "value": 1.0
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
