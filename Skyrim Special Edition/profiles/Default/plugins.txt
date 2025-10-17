@@ -127,3 +127,4 @@
 *Relationship Dialogue Overhaul.esp
 *TaberuAnimation.esp
 *Conditional Expressions.esp
+*ImmersiveHunting.esp
