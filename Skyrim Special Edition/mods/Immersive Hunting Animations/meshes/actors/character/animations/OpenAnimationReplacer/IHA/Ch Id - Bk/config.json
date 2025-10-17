@@ -1,0 +1,113 @@
+{
+    "name": "Check Idle - Dagger on Back Hip",
+    "priority": 25100001,
+    "interruptible": true,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "form": {
+                    "pluginName": "ImmersiveHunting.esp",
+                    "formID": "E88"
+                }
+            },
+            "Comparison": ">=",
+            "Value B": {
+                "value": 11.0
+            }
+        },
+        {
+            "condition": "OR",
+            "requiredVersion": "1.0.0.0",
+            "Conditions": [
+                {
+                    "condition": "AND",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "CompareValues",
+                            "requiredVersion": "1.0.0.0",
+                            "Value A": {
+                                "form": {
+                                    "pluginName": "ImmersiveHunting.esp",
+                                    "formID": "EAE"
+                                }
+                            },
+                            "Comparison": "==",
+                            "Value B": {
+                                "value": 10.0
+                            }
+                        },
+                        {
+                            "condition": "IED_GearNodePlacementHint",
+                            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                            "requiredVersion": "1.0.0.0",
+                            "Gear node ID": {
+                                "value": 7.0
+                            },
+                            "Comparison": "==",
+                            "Weapon placement ID": {
+                                "value": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "condition": "AND",
+                    "requiredVersion": "1.0.0.0",
+                    "Conditions": [
+                        {
+                            "condition": "CompareValues",
+                            "requiredVersion": "1.0.0.0",
+                            "Value A": {
+                                "form": {
+                                    "pluginName": "ImmersiveHunting.esp",
+                                    "formID": "EAE"
+                                }
+                            },
+                            "Comparison": "==",
+                            "Value B": {
+                                "value": 10.0
+                            }
+                        },
+                        {
+                            "condition": "IED_GearNodePlacementHint",
+                            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                            "requiredVersion": "1.0.0.0",
+                            "negated": true,
+                            "Gear node ID": {
+                                "value": 7.0
+                            },
+                            "Comparison": "==",
+                            "Weapon placement ID": {
+                                "value": 3.0
+                            }
+                        },
+                        {
+                            "condition": "IED_GearNodePlacementHint",
+                            "requiredPlugin": "OpenAnimationReplacer-IEDConditionExtensions",
+                            "requiredVersion": "1.0.0.0",
+                            "negated": true,
+                            "Gear node ID": {
+                                "value": 7.0
+                            },
+                            "Comparison": "==",
+                            "Weapon placement ID": {
+                                "value": 4.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Pick Up - Neck",
+    "priority": 25100904,
+    "conditions": [
+        {
+            "condition": "IsActorBase",
+            "requiredVersion": "1.0.0.0",
+            "Actor base": {
+                "pluginName": "Skyrim.esm",
+                "formID": "7"
+            }
+        },
+        {
+            "condition": "CompareValues",
+            "requiredVersion": "1.0.0.0",
+            "Value A": {
+                "form": {
+                    "pluginName": "ImmersiveHunting.esp",
+                    "formID": "E88"
+                }
+            },
+            "Comparison": "==",
+            "Value B": {
+                "value": 904.0
+            }
+        }
+    ]
+}
