@@ -1,0 +1,343 @@
+{
+	"modName": "ImmersiveHunting",
+	"displayName": "$_ih_Title",
+	"minMcmVersion": 9,
+	"pluginRequirements": [],
+	"cursorFillMode": "topToBottom",
+	"content": [],
+	"customContent": {
+		"source": "Immersive Hunting/ImmersiveHunting.dds"
+	},
+	"pages": [
+		{
+			"pageDisplayName": "$_ih_PageConfig",
+			"cursorFillMode": "topToBottom",
+			"content": [
+				{
+					"id": "iStartMod:Main",
+					"type": "stepper",
+					"text": "$_ih_Status",
+					"help": "$_ih_StartModDesc",
+					"valueOptions": {
+						"options": [
+							"$_ih_StartMod",
+							"$_ih_StopMod"
+						],
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iLootMode:Main",
+					"type": "stepper",
+					"text": "$_ih_LootMode",
+					"help": "$_ih_LootModeDesc",
+					"position": 1,
+					"valueOptions": {
+						"options": [
+							"$_ih_Vanilla",
+							"$_ih_Prompt",
+							"$_ih_Process"
+						],
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"type": "header",
+					"text": "$_ih_Animation",
+					"position": 2
+				},
+				{
+					"id": "iEnableProcess:Main",
+					"type": "toggle",
+					"text": "$_ih_Process",
+					"help": "$_ih_ProcessDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iEnableRemoveArrow:Main",
+					"type": "toggle",
+					"text": "$_ih_RemoveArrow",
+					"help": "$_ih_EnableRemoveArrowDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iEnableSkin:Main",
+					"type": "toggle",
+					"text": "$_ih_Skin",
+					"help": "$_ih_EnableSkinDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iEnableHarvest:Main",
+					"type": "toggle",
+					"text": "$_ih_Harvest",
+					"help": "$_ih_EnableHarvestDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iEnableButcher:Main",
+					"type": "toggle",
+					"text": "$_ih_Butcher",
+					"help": "$_ih_EnableButcherDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iEnableExtract:Main",
+					"type": "toggle",
+					"text": "$_ih_Extract",
+					"help": "$_ih_EnableExtractDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iPossibleAnimations:Main",
+					"type": "slider",
+					"text": "$_ih_PossibleAnimations",
+					"help": "$_ih_PossibleAnimationsDesc",
+					"valueOptions": {
+						"min": 1,
+						"max": 5,
+						"step": 1,
+						"formatString": "{0}",
+						"sourceType": "ModSettingInt",
+						"defaultValue": 5
+					}
+				},
+				{
+					"type": "empty"
+				},
+				{
+					"type": "header",
+					"text": "$_ih_Features"
+				},
+				{
+					"id": "iEnableDisplay:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableDisplay",
+					"help": "$_ih_EnableDisplayDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					},
+					"groupCondition": 1,
+					"groupBehavior": "skip"
+				},
+				{
+					"id": "iUpdateDagger:Main",
+					"type": "toggle",
+					"text": "$_ih_UpdateDagger",
+					"help": "$_ih_UpdateDaggerDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					},
+					"groupCondition": 1,
+					"groupBehavior": "skip"
+				},
+				{
+					"id": "iEnableTorch:Main",
+					"type": "toggle",
+					"text": "$_ih_EnablePlaceTorch",
+					"help": "$_ih_EnablePlaceTorchDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"id": "iSheatheWeapons:Main",
+					"type": "toggle",
+					"text": "$_ih_SheatheWeapons",
+					"help": "$_ih_SheatheWeaponsDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"id": "iForceThirdPerson:Main",
+					"type": "toggle",
+					"text": "$_ih_ForceThirdPerson",
+					"help": "$_ih_ForceThirdPersonDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},				
+				{
+					"id": "iEnableDispose:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableDispose",
+					"help": "$_ih_EnableDisposeDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iEnableShovel:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableShovelBury",
+					"help": "$_ih_EnableShovelBuryDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"type": "header",
+					"text": "",
+					"position": 3
+				},
+				{
+					"id": "iDaggerPosition:Main",
+					"type": "stepper",
+					"text": "$_ih_DaggerPosition",
+					"help": "$_ih_DaggerPositionDesc",
+					"valueOptions": {
+						"options": [
+							"$_ih_DaggerAnkle",
+							"$_ih_DaggerBackHip"
+						],
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"id": "iRequireDagger:Main",
+					"type": "toggle",
+					"text": "$_ih_RequireDagger",
+					"help": "$_ih_RequireDaggerDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					},
+					"groupCondition": 1,
+					"groupBehavior": "skip"
+				},
+				{
+					"id": "iEnablePickup:Main",
+					"type": "toggle",
+					"text": "$_ih_EnablePickup",
+					"help": "$_ih_EnablePickupDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					},
+					"groupCondition": 1,
+					"groupBehavior": "disable"
+				},
+				{
+					"id": "iEnableCampfire:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableCampfire",
+					"help": "$_ih_EnableCampfireDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 1
+					}
+				},
+				{
+					"id": "iEnableRequireBottle:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableRequireBottle",
+					"help": "$_ih_EnableRequireBottleDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"id": "iEnableBowAnim:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableBowAnim",
+					"help": "$_ih_EnableBowAnimDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"id": "iEnableRealisticSkin:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableRealisticSkin",
+					"help": "$_ih_EnableRealisticSkinDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"type": "hiddenToggle",
+					"groupControl": 2,
+					"valueOptions": {
+						"sourceType": "GlobalValue",
+						"sourceForm": "ImmersiveHunting.esp|D7D"
+					}
+				},
+				{
+					"type": "hiddenToggle",
+					"groupControl": 1,
+					"valueOptions": {
+						"sourceType": "PropertyValueBool",
+						"scriptName": "ImmersiveHuntingFunctions",
+						"propertyName": "isIEDInstalled"
+					}
+				},
+				{
+					"type": "text",
+					"text": "$_ih_IEDNotInstalled",
+					"help": "$_ih_IEDNotInstalledDesc",
+					"groupCondition": {
+						"NOT": 1
+					},
+					"groupBehavior": "skip"
+				},
+				{
+					"type": "header",
+					"text": "$_ih_Support",
+					"position": 21
+				},
+				{
+					"id": "iEnableSouls:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableSoulsSupport",
+					"help": "$_ih_EnableSoulsSupportDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				},
+				{
+					"id": "iEnableQuickLoot:Main",
+					"type": "toggle",
+					"text": "$_ih_EnableQuickLootSupport",
+					"help": "$_ih_EnableQuickLootSupportDesc",
+					"valueOptions": {
+						"sourceType": "ModSettingInt",
+						"defaultValue": 0
+					}
+				}
+			]
+		}
+	]
+}
