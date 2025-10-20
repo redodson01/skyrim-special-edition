@@ -84,3 +84,4 @@
 *Take a Nap.esp
 *sweepingOrganizesStuff.esp
 *ShovelBody.esp
+*AI Overhaul.esp
