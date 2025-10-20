@@ -208,3 +208,4 @@
 *UnreadBooksGlow.esp
 *I4IconAddon.esp
 *Nether's Follower Framework - Settings Loader.esp
+*Simple Hunting Overhaul MCM Helper.esp
