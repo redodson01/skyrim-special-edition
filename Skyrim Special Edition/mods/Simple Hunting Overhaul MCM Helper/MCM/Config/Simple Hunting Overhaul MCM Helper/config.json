@@ -1,0 +1,486 @@
+{
+    "modName": "Simple Hunting Overhaul MCM Helper",
+    "displayName": "$SimpleHuntingOverhaul",
+    "minMcmVersion": 9,
+    "pluginRequirements": [],
+    "cursorFillMode": "topToBottom",
+    "content": [],
+    "customContent": {},
+    "pages": [
+        {
+            "pageDisplayName": "$General_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$General_Header"
+                },
+                {
+                    "id": "sCurrentHuntingXP:General",
+                    "type": "text",
+                    "text": "$CurrentHuntingXP",
+                    "help": "$CurrentHuntingXPGeneral_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": "\"$1\""
+                    }
+                },
+                {
+                    "id": "iLootingTheAnimal:General",
+                    "type": "enum",
+                    "text": "$LootingTheAnimal",
+                    "help": "$LootingTheAnimalGeneral_Help",
+                    "valueOptions": {
+                        "options": [
+                            "$BothDisabled_ENUM",
+                            "$FADETOBLACKTIMEPASS_ENUM",
+                            "$ONLYFADETOBLACK_ENUM",
+                            "$ONLYTIMEPASS_ENUM"
+                        ],
+                        "sourceType": "ModSettingInt",
+                        "defaultValue": 1
+                    }
+                },
+                {
+                    "id": "bHuntersPermit:General",
+                    "type": "toggle",
+                    "text": "$HuntersPermit",
+                    "help": "$HuntersPermitGeneral_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bSkinnedAnimalLook:General",
+                    "type": "toggle",
+                    "text": "$SkinnedAnimalLook",
+                    "help": "$SkinnedAnimalLookGeneral_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bHorseSkinning:General",
+                    "type": "toggle",
+                    "text": "$HorseSkinning",
+                    "help": "$HorseSkinningGeneral_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                },
+                {
+                    "type": "header",
+                    "text": "$Cheats_Header",
+                    "position": 1
+                },
+                {
+                    "id": "iChangeXP:Cheats",
+                    "type": "slider",
+                    "text": "$ChangeXP",
+                    "help": "$ChangeXPCheats_Help",
+                    "valueOptions": {
+                        "min": 1,
+                        "max": 99,
+                        "step": 1,
+                        "defaultValue": 1,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "type": "empty"
+                },
+                {
+                    "type": "header",
+                    "text": "$Debug_Header"
+                },
+                {
+                    "id": "bDebugMessages:Debug",
+                    "type": "toggle",
+                    "text": "$DebugMessages",
+                    "help": "$DebugMessagesDebug_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                }
+            ]
+        },
+        {
+            "pageDisplayName": "$Rewards_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$CarcassRewards_Header"
+                },
+                {
+                    "id": "iSmall:CarcassRewards",
+                    "type": "slider",
+                    "text": "$Small",
+                    "help": "$SmallCarcassRewards_Help",
+                    "valueOptions": {
+                        "min": 1,
+                        "max": 1000,
+                        "step": 1,
+                        "defaultValue": 20,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "iMedium:CarcassRewards",
+                    "type": "slider",
+                    "text": "$Medium",
+                    "help": "$MediumCarcassRewards_Help",
+                    "valueOptions": {
+                        "min": 1,
+                        "max": 1000,
+                        "step": 1,
+                        "defaultValue": 50,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "iLarge:CarcassRewards",
+                    "type": "slider",
+                    "text": "$Large",
+                    "help": "$LargeCarcassRewards_Help",
+                    "valueOptions": {
+                        "min": 1,
+                        "max": 1000,
+                        "step": 1,
+                        "defaultValue": 75,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "iXLarge:CarcassRewards",
+                    "type": "slider",
+                    "text": "$XLarge",
+                    "help": "$XLargeCarcassRewards_Help",
+                    "valueOptions": {
+                        "min": 1,
+                        "max": 1000,
+                        "step": 1,
+                        "defaultValue": 100,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "iXXLarge:CarcassRewards",
+                    "type": "slider",
+                    "text": "$XXLarge",
+                    "help": "$XXLargeCarcassRewards_Help",
+                    "valueOptions": {
+                        "min": 1,
+                        "max": 1000,
+                        "step": 1,
+                        "defaultValue": 300,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                }
+            ]
+        },
+        {
+            "pageDisplayName": "$SkinningTime_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$General_Header"
+                },
+                {
+                    "id": "iXPMinSkinningTime:SkinningTime",
+                    "type": "slider",
+                    "text": "$XPMinSkinningTime",
+                    "help": "$XPMinSkinningTimeSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 1,
+                        "max": 99,
+                        "step": 1,
+                        "defaultValue": 20,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0} %"
+                    }
+                },
+                {
+                    "id": "fMinimalSkinningTime:SkinningTime",
+                    "type": "slider",
+                    "text": "$MinimalSkinningTime",
+                    "help": "$MinimalSkinningTimeSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 10.0,
+                        "step": 0.01,
+                        "defaultValue": 0.15,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fMaximalSkinningTime:SkinningTime",
+                    "type": "slider",
+                    "text": "$MaximalSkinningTime",
+                    "help": "$MaximalSkinningTimeSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 4.0,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "type": "header",
+                    "text": "$AnimalsSkinningTime_Header",
+                    "position": 1
+                },
+                {
+                    "id": "fMammothDragon:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$MammothDragon",
+                    "help": "$MammothDragonAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 4.0,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fBear:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$Bear",
+                    "help": "$BearAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 2.66,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fTrollWerewolf:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$TrollWerewolf",
+                    "help": "$TrollWerewolfAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 2.5,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fSabrecat:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$Sabrecat",
+                    "help": "$SabrecatAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 2.33,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fHorseCow:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$HorseCow",
+                    "help": "$HorseCowAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 2.0,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fElkDeer:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$ElkDeer",
+                    "help": "$ElkDeerAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 1.33,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fWolfBoar:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$WolfBoar",
+                    "help": "$WolfBoarAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 1.0,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fSkeeverDog:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$SkeeverDog",
+                    "help": "$SkeeverDogAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 0.75,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fGoat:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$Goat",
+                    "help": "$GoatAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 0.66,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fFox:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$Fox",
+                    "help": "$FoxAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 0.5,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                },
+                {
+                    "id": "fRabbit:AnimalsSkinningTime",
+                    "type": "slider",
+                    "text": "$Rabbit",
+                    "help": "$RabbitAnimalsSkinningTime_Help",
+                    "valueOptions": {
+                        "min": 0.01,
+                        "max": 24.0,
+                        "step": 0.01,
+                        "defaultValue": 0.15,
+                        "sourceType": "ModSettingFloat",
+                        "formatString": "{2} H"
+                    }
+                }
+            ]
+        },
+        {
+            "pageDisplayName": "$Maintenance_Page",
+            "cursorFillMode": "topToBottom",
+            "content": [
+                {
+                    "type": "header",
+                    "text": "$AutoloadSettings_Header"
+                },
+                {
+                    "id": "bEnabled:Maintenance",
+                    "type": "toggle",
+                    "text": "$Enabled",
+                    "help": "$EnabledMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "iLoadingDelay:Maintenance",
+                    "type": "slider",
+                    "text": "$LoadingDelay",
+                    "help": "$LoadingDelayMaintenance_Help",
+                    "valueOptions": {
+                        "min": 0,
+                        "max": 600,
+                        "step": 1,
+                        "defaultValue": 0,
+                        "sourceType": "ModSettingInt",
+                        "formatString": "{0}"
+                    }
+                },
+                {
+                    "id": "sLoadSettings:Maintenance",
+                    "type": "text",
+                    "text": "$LoadSettings",
+                    "help": "$LoadSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Load"
+                    }
+                },
+                {
+                    "id": "sResetSettings:Maintenance",
+                    "type": "text",
+                    "text": "$ResetSettings",
+                    "help": "$ResetSettingsMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingString",
+                        "defaultValue": ""
+                    },
+                    "action": {
+                        "type": "CallFunction",
+                        "function": "Default"
+                    }
+                },
+                {
+                    "id": "bLoadSettingsonReload:Maintenance",
+                    "type": "toggle",
+                    "text": "$LoadSettingsonReload",
+                    "help": "$LoadSettingsonReloadMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": true
+                    }
+                },
+                {
+                    "id": "bVerbose:Maintenance",
+                    "type": "toggle",
+                    "text": "$Verbose",
+                    "help": "$VerboseMaintenance_Help",
+                    "valueOptions": {
+                        "sourceType": "ModSettingBool",
+                        "defaultValue": false
+                    }
+                }
+            ]
+        }
+    ]
+}
