@@ -168,3 +168,4 @@ AI Overhaul.esp
 run for your lives.esp
 TavernAIFix.esp
 BladeAndBlunt.esp
+Housecarls Pre-Thaneship.esp
