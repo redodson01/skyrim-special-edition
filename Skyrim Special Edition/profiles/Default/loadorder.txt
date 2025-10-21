@@ -127,3 +127,4 @@ CBBE.esp
 3BBB.esp
 SOSPhysicsManager.esp
 Hunters Not Bandits.esp
+Robber's Gorge Fixes.esp
