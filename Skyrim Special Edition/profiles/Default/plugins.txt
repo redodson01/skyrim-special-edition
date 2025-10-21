@@ -106,3 +106,7 @@
 *Hellblade - Timed Block.esp
 *HellbladeTimedBlock.esp
 *SimpleBowCrafting.esp
+*Producers of Skyrim.esp
+*Producers of Skyrim - CC Fishing.esp
+*Producers of Skyrim - Redbelly Mine - Iron to Iron+Ebony.esp
+*Producers of Skyrim - Simple Fishing Overhaul Bait.esp
