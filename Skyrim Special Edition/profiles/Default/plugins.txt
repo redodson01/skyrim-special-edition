@@ -5,6 +5,7 @@
 *NoSillyPhysicsDamage.esl
 *SmoothCam.esl
 *DynamicCollisionAdjustment.esl
+*Sit on Stuff.esp
 *unofficial skyrim special edition patch.esp
 *MCMHelper.esp
 *Cathedral Landscapes.esp
@@ -78,3 +79,4 @@
 *SkyParkour.esp
 *SensibleBribes.esp
 *ImprovedAlternateConversationCamera.esp
+*Sit on Stuff - Take a Nap Patch.esp

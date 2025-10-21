@@ -85,6 +85,7 @@ TheNewGentleman.esp
 NoSillyPhysicsDamage.esl
 SmoothCam.esl
 DynamicCollisionAdjustment.esl
+Sit on Stuff.esp
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
@@ -158,3 +159,4 @@ SHO - Gourmet Patch.esp
 SkyParkour.esp
 SensibleBribes.esp
 ImprovedAlternateConversationCamera.esp
+Sit on Stuff - Take a Nap Patch.esp
