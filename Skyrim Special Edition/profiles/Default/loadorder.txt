@@ -104,3 +104,4 @@ Nord Tribal Armor.esp
 Nord Raven Battle Armor.esp
 Nord Vagabond Armor.esp
 Geralt of Rivia - KaerMohen Gear.esp
+Aerondight.esp

@@ -1,0 +1,22 @@
+[[TrailDefinition]]
+    All = true
+    Priority = 4
+    [TrailDefinition.Conditions]
+        WeaponKeywords = ["WeapTypeAerondight"]
+        EffectKeywords = ["Aerondight1Tail"]
+    [TrailDefinition.Visuals]
+        LifetimeMult = 1.25
+        BaseColorOverride = { r = 1, g = 0.9, b = 0.75, a = 1 }
+        BaseColorScaleMult = 2
+        TrailMeshOverride = "LKS_Aerondight/Effect/AttackTrailMagic.nif"	
+[[TrailDefinition]]
+    All = true
+    Priority = 5
+    [TrailDefinition.Conditions]
+        WeaponKeywords = ["WeapTypeAerondight"]
+        EffectKeywords = ["Aerondight2Tail"]
+    [TrailDefinition.Visuals]
+        LifetimeMult = 1.25
+        BaseColorOverride = { r = 1, g = 0.9, b = 0.75, a = 1 }
+        BaseColorScaleMult = 2
+        TrailMeshOverride = "LKS_Aerondight/Effect/AttackTrailMagic1.nif"					
