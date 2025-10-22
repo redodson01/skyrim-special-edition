@@ -295,3 +295,4 @@
 *Sofia - RDO Patch.esp
 *Sofia - Use Custom Skin Patch.esp
 *Sofia - USSEP & Hearthfires Patch.esp
+*I4_DearDiaryDarkWarm.esp
