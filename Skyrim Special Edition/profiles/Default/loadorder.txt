@@ -100,3 +100,4 @@ Sentinel - Priests and Acolytes.esp
 Sentinel - Sailors and Swashbucklers.esp
 aelaOutfitFix.esp
 Mercenary Light Iron Armor.esp
+Black Bear Ancient Nord Armor.esp
