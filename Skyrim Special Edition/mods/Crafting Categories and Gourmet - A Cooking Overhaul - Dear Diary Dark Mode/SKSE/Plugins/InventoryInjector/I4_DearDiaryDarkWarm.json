@@ -1,0 +1,63 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Exit-9B/InventoryInjector/main/docs/InventoryInjector.schema.json",
+  "rules": [
+    {
+      "match": {
+        "formType": "Spell",
+        "school": "Alteration",
+        "iconColor": null
+      },
+      "assign": {
+        "iconColor": "#8F6B46"
+      }
+    },
+    {
+      "match": {
+        "formType": "Spell",
+        "school": "Conjuration",
+        "iconColor": null
+      },
+      "assign": {
+        "iconColor": "#993899"
+      }
+    },
+    {
+      "match": {
+        "formType": "Spell",
+        "school": "Destruction",
+        "iconColor": null
+      },
+      "assign": {
+        "iconColor": "#C73636"
+      }
+    },
+    {
+      "match": {
+        "formType": "Spell",
+        "school": "Illusion",
+        "iconColor": null
+      },
+      "assign": {
+        "iconColor": "#4C9EA4"
+      }
+    },
+    {
+      "match": {
+        "formType": "Spell",
+        "school": "Restoration",
+        "iconColor": null
+      },
+      "assign": {
+        "iconColor": "#00AC00"
+      }
+    },
+    {
+      "match": {
+        "iconColor": { "anyOf": [ null, "#FFFFFF" ] }
+      },
+      "assign": {
+        "iconColor": "#FFCC99"
+      }
+    }
+  ]
+}
