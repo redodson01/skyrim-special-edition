@@ -106,3 +106,4 @@ Nord Vagabond Armor.esp
 Geralt of Rivia - KaerMohen Gear.esp
 Aerondight.esp
 Iris.esp
+ksmc_Elmlock.esp
