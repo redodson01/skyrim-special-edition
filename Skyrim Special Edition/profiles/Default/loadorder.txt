@@ -103,3 +103,4 @@ Mercenary Light Iron Armor.esp
 Black Bear Ancient Nord Armor.esp
 Nord Tribal Armor.esp
 Nord Raven Battle Armor.esp
+Nord Vagabond Armor.esp
