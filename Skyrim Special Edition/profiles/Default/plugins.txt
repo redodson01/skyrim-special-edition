@@ -21,3 +21,4 @@
 *aelaOutfitFix.esp
 *Mercenary Light Iron Armor.esp
 *Black Bear Ancient Nord Armor.esp
+*Nord Tribal Armor.esp
