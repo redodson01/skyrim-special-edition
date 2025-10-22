@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="CBBE">
+        <Member name="CBBE KSMC - 1st - Elmlock"/>
+        <Member name="CBBE KSMC - Body - Elmlock"/>
+        <Member name="CBBE KSMC - Feet - Elmlock"/>
+        <Member name="CBBE KSMC - Hands - Elmlock B"/>
+        <Member name="CBBE KSMC - Hands - Elmlock H"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 Arg"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 Elf"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 H"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 Kha"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 2"/>
+    </Group>
+    <Group name="CBBE KSMC - Elmlock">
+        <Member name="CBBE KSMC - 1st - Elmlock"/>
+        <Member name="CBBE KSMC - Body - Elmlock"/>
+        <Member name="CBBE KSMC - Feet - Elmlock"/>
+        <Member name="CBBE KSMC - Hands - Elmlock B"/>
+        <Member name="CBBE KSMC - Hands - Elmlock H"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 Arg"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 Elf"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 H"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 1 Kha"/>
+        <Member name="CBBE KSMC - Hood - Elmlock 2"/>
+    </Group>
+    <Group name="HIMBO">
+        <Member name="HIMBO KSMC - 1st - Elmlock"/>
+        <Member name="HIMBO KSMC - Body - Elmlock"/>
+        <Member name="HIMBO KSMC - Feet - Elmlock"/>
+        <Member name="HIMBO KSMC - Hands - Elmlock B"/>
+        <Member name="HIMBO KSMC - Hands - Elmlock H"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 Arg"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 Elf"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 H"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 Kha"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 2"/>
+    </Group>
+    <Group name="HIMBO KSMC - Elmlock">
+        <Member name="HIMBO KSMC - 1st - Elmlock"/>
+        <Member name="HIMBO KSMC - Body - Elmlock"/>
+        <Member name="HIMBO KSMC - Feet - Elmlock"/>
+        <Member name="HIMBO KSMC - Hands - Elmlock B"/>
+        <Member name="HIMBO KSMC - Hands - Elmlock H"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 Arg"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 Elf"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 H"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 1 Kha"/>
+        <Member name="HIMBO KSMC - Hood - Elmlock 2"/>
+    </Group>
+</SliderGroups>

@@ -1,0 +1,1671 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="CBBE KSMC - Body - Elmlock">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Body.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">bodyF</OutputFile>
+        <Shape target="CBBE" DataFolder="CBBE">CBBE</Shape>
+        <Shape target="brigandine">brigandine</Shape>
+        <Shape target="harness">harness</Shape>
+        <Shape target="trousers">trousers</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="trousersAnkleSize" target="trousers" local="true">Body.osd\trousersAnkleSize</Data>
+        </Slider>
+        <Slider name="AppleCheeks" invert="false" small="0" big="0">
+            <Data name="brigandineAppleCheeks" target="brigandine" local="true">Body.osd\brigandineAppleCheeks</Data>
+            <Data name="harnessAppleCheeks" target="harness" local="true">Body.osd\harnessAppleCheeks</Data>
+            <Data name="trousersAppleCheeks" target="trousers" local="true">Body.osd\trousersAppleCheeks</Data>
+        </Slider>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="CBBEBack" target="CBBE" local="true">Body.osd\CBBEBack</Data>
+            <Data name="brigandineBack" target="brigandine" local="true">Body.osd\brigandineBack</Data>
+            <Data name="harnessBack" target="harness" local="true">Body.osd\harnessBack</Data>
+            <Data name="trousersBack" target="trousers" local="true">Body.osd\trousersBack</Data>
+        </Slider>
+        <Slider name="BackArch" invert="false" small="0" big="0">
+            <Data name="brigandineBackArch" target="brigandine" local="true">Body.osd\brigandineBackArch</Data>
+            <Data name="harnessBackArch" target="harness" local="true">Body.osd\harnessBackArch</Data>
+            <Data name="trousersBackArch" target="trousers" local="true">Body.osd\trousersBackArch</Data>
+        </Slider>
+        <Slider name="Belly" invert="false" small="0" big="0">
+            <Data name="brigandineBelly" target="brigandine" local="true">Body.osd\brigandineBelly</Data>
+            <Data name="harnessBelly" target="harness" local="true">Body.osd\harnessBelly</Data>
+            <Data name="trousersBelly" target="trousers" local="true">Body.osd\trousersBelly</Data>
+        </Slider>
+        <Slider name="BigBelly" invert="false" small="0" big="0">
+            <Data name="brigandineBigBelly" target="brigandine" local="true">Body.osd\brigandineBigBelly</Data>
+            <Data name="harnessBigBelly" target="harness" local="true">Body.osd\harnessBigBelly</Data>
+            <Data name="trousersBigBelly" target="trousers" local="true">Body.osd\trousersBigBelly</Data>
+        </Slider>
+        <Slider name="BigButt" invert="false" small="0" big="0">
+            <Data name="brigandineBigButt" target="brigandine" local="true">Body.osd\brigandineBigButt</Data>
+            <Data name="harnessBigButt" target="harness" local="true">Body.osd\harnessBigButt</Data>
+            <Data name="trousersBigButt" target="trousers" local="true">Body.osd\trousersBigButt</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="CBBEBigTorso" target="CBBE" local="true">Body.osd\CBBEBigTorso</Data>
+            <Data name="brigandineBigTorso" target="brigandine" local="true">Body.osd\brigandineBigTorso</Data>
+            <Data name="harnessBigTorso" target="harness" local="true">Body.osd\harnessBigTorso</Data>
+            <Data name="trousersBigTorso" target="trousers" local="true">Body.osd\trousersBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="brigandineBreastCenter" target="brigandine" local="true">Body.osd\brigandineBreastCenter</Data>
+            <Data name="harnessBreastCenter" target="harness" local="true">Body.osd\harnessBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="brigandineBreastCenterBig" target="brigandine" local="true">Body.osd\brigandineBreastCenterBig</Data>
+            <Data name="harnessBreastCenterBig" target="harness" local="true">Body.osd\harnessBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="brigandineBreastCleavage" target="brigandine" local="true">Body.osd\brigandineBreastCleavage</Data>
+            <Data name="harnessBreastCleavage" target="harness" local="true">Body.osd\harnessBreastCleavage</Data>
+            <Data name="trousersBreastCleavage" target="trousers" local="true">Body.osd\trousersBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastFlatness2" target="brigandine" local="true">Body.osd\brigandineBreastFlatness2</Data>
+            <Data name="harnessBreastFlatness2" target="harness" local="true">Body.osd\harnessBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastGravity2" target="brigandine" local="true">Body.osd\brigandineBreastGravity2</Data>
+            <Data name="harnessBreastGravity2" target="harness" local="true">Body.osd\harnessBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="CBBEBreastHeight" target="CBBE" local="true">Body.osd\CBBEBreastHeight</Data>
+            <Data name="brigandineBreastHeight" target="brigandine" local="true">Body.osd\brigandineBreastHeight</Data>
+            <Data name="harnessBreastHeight" target="harness" local="true">Body.osd\harnessBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="brigandineBreastPerkiness" target="brigandine" local="true">Body.osd\brigandineBreastPerkiness</Data>
+            <Data name="harnessBreastPerkiness" target="harness" local="true">Body.osd\harnessBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="brigandineBreasts" target="brigandine" local="true">Body.osd\brigandineBreasts</Data>
+            <Data name="harnessBreasts" target="harness" local="true">Body.osd\harnessBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsFantasy" target="CBBE" local="true">Body.osd\CBBEBreastsFantasy</Data>
+            <Data name="brigandineBreastsFantasy" target="brigandine" local="true">Body.osd\brigandineBreastsFantasy</Data>
+            <Data name="harnessBreastsFantasy" target="harness" local="true">Body.osd\harnessBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsGone" target="CBBE" local="true">Body.osd\CBBEBreastsGone</Data>
+            <Data name="brigandineBreastsGone" target="brigandine" local="true">Body.osd\brigandineBreastsGone</Data>
+            <Data name="harnessBreastsGone" target="harness" local="true">Body.osd\harnessBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsNewSH" target="CBBE" local="true">Body.osd\CBBEBreastsNewSH</Data>
+            <Data name="brigandineBreastsNewSH" target="brigandine" local="true">Body.osd\brigandineBreastsNewSH</Data>
+            <Data name="harnessBreastsNewSH" target="harness" local="true">Body.osd\harnessBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsNewSHSymmetry" target="brigandine" local="true">Body.osd\brigandineBreastsNewSHSymmetry</Data>
+            <Data name="harnessBreastsNewSHSymmetry" target="harness" local="true">Body.osd\harnessBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsSmall" target="CBBE" local="true">Body.osd\CBBEBreastsSmall</Data>
+            <Data name="brigandineBreastsSmall" target="brigandine" local="true">Body.osd\brigandineBreastsSmall</Data>
+            <Data name="harnessBreastsSmall" target="harness" local="true">Body.osd\harnessBreastsSmall</Data>
+            <Data name="trousersBreastsSmall" target="trousers" local="true">Body.osd\trousersBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsSmall2" target="CBBE" local="true">Body.osd\CBBEBreastsSmall2</Data>
+            <Data name="brigandineBreastsSmall2" target="brigandine" local="true">Body.osd\brigandineBreastsSmall2</Data>
+            <Data name="harnessBreastsSmall2" target="harness" local="true">Body.osd\harnessBreastsSmall2</Data>
+            <Data name="trousersBreastsSmall2" target="trousers" local="true">Body.osd\trousersBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="CBBEBreastsTogether" target="CBBE" local="true">Body.osd\CBBEBreastsTogether</Data>
+            <Data name="brigandineBreastsTogether" target="brigandine" local="true">Body.osd\brigandineBreastsTogether</Data>
+            <Data name="harnessBreastsTogether" target="harness" local="true">Body.osd\harnessBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="brigandineBreastTopSlope" target="brigandine" local="true">Body.osd\brigandineBreastTopSlope</Data>
+            <Data name="harnessBreastTopSlope" target="harness" local="true">Body.osd\harnessBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="brigandineBreastWidth" target="brigandine" local="true">Body.osd\brigandineBreastWidth</Data>
+            <Data name="harnessBreastWidth" target="harness" local="true">Body.osd\harnessBreastWidth</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="brigandineBreastSideShape" target="brigandine" local="true">Body.osd\brigandineBreastSideShape</Data>
+            <Data name="harnessBreastSideShape" target="harness" local="true">Body.osd\harnessBreastSideShape</Data>
+        </Slider>
+        <Slider name="BreastUnderDepth" invert="false" small="0" big="0">
+            <Data name="brigandineBreastUnderDepth" target="brigandine" local="true">Body.osd\brigandineBreastUnderDepth</Data>
+            <Data name="harnessBreastUnderDepth" target="harness" local="true">Body.osd\harnessBreastUnderDepth</Data>
+        </Slider>
+        <Slider name="Butt" invert="false" small="0" big="0">
+            <Data name="brigandineButt" target="brigandine" local="true">Body.osd\brigandineButt</Data>
+            <Data name="trousersButt" target="trousers" local="true">Body.osd\trousersButt</Data>
+        </Slider>
+        <Slider name="ButtClassic" invert="false" small="0" big="0">
+            <Data name="brigandineButtClassic" target="brigandine" local="true">Body.osd\brigandineButtClassic</Data>
+            <Data name="harnessButtClassic" target="harness" local="true">Body.osd\harnessButtClassic</Data>
+            <Data name="trousersButtClassic" target="trousers" local="true">Body.osd\trousersButtClassic</Data>
+        </Slider>
+        <Slider name="ButtCrack" invert="false" small="0" big="0">
+            <Data name="brigandineButtCrack" target="brigandine" local="true">Body.osd\brigandineButtCrack</Data>
+            <Data name="trousersButtCrack" target="trousers" local="true">Body.osd\trousersButtCrack</Data>
+        </Slider>
+        <Slider name="ButtShape2" invert="false" small="0" big="0">
+            <Data name="brigandineButtShape2" target="brigandine" local="true">Body.osd\brigandineButtShape2</Data>
+            <Data name="harnessButtShape2" target="harness" local="true">Body.osd\harnessButtShape2</Data>
+            <Data name="trousersButtShape2" target="trousers" local="true">Body.osd\trousersButtShape2</Data>
+        </Slider>
+        <Slider name="ButtSmall" invert="false" small="0" big="0">
+            <Data name="brigandineButtSmall" target="brigandine" local="true">Body.osd\brigandineButtSmall</Data>
+            <Data name="harnessButtSmall" target="harness" local="true">Body.osd\harnessButtSmall</Data>
+            <Data name="trousersButtSmall" target="trousers" local="true">Body.osd\trousersButtSmall</Data>
+        </Slider>
+        <Slider name="ButtDimples" invert="false" small="0" big="0">
+            <Data name="brigandineButtDimples" target="brigandine" local="true">Body.osd\brigandineButtDimples</Data>
+            <Data name="trousersButtDimples" target="trousers" local="true">Body.osd\trousersButtDimples</Data>
+        </Slider>
+        <Slider name="ButtUnderFold" invert="false" small="0" big="0">
+            <Data name="brigandineButtUnderFold" target="brigandine" local="true">Body.osd\brigandineButtUnderFold</Data>
+            <Data name="trousersButtUnderFold" target="trousers" local="true">Body.osd\trousersButtUnderFold</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="trousersCalfSize" target="trousers" local="true">Body.osd\trousersCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="trousersCalfSmooth" target="trousers" local="true">Body.osd\trousersCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="CBBEChestDepth" target="CBBE" local="true">Body.osd\CBBEChestDepth</Data>
+            <Data name="brigandineChestDepth" target="brigandine" local="true">Body.osd\brigandineChestDepth</Data>
+            <Data name="harnessChestDepth" target="harness" local="true">Body.osd\harnessChestDepth</Data>
+            <Data name="trousersChestDepth" target="trousers" local="true">Body.osd\trousersChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="CBBEChestWidth" target="CBBE" local="true">Body.osd\CBBEChestWidth</Data>
+            <Data name="brigandineChestWidth" target="brigandine" local="true">Body.osd\brigandineChestWidth</Data>
+            <Data name="harnessChestWidth" target="harness" local="true">Body.osd\harnessChestWidth</Data>
+            <Data name="trousersChestWidth" target="trousers" local="true">Body.osd\trousersChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="CBBEChubbyArms" target="CBBE" local="true">Body.osd\CBBEChubbyArms</Data>
+            <Data name="brigandineChubbyArms" target="brigandine" local="true">Body.osd\brigandineChubbyArms</Data>
+            <Data name="harnessChubbyArms" target="harness" local="true">Body.osd\harnessChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyButt" invert="false" small="0" big="0">
+            <Data name="brigandineChubbyButt" target="brigandine" local="true">Body.osd\brigandineChubbyButt</Data>
+            <Data name="harnessChubbyButt" target="harness" local="true">Body.osd\harnessChubbyButt</Data>
+            <Data name="trousersChubbyButt" target="trousers" local="true">Body.osd\trousersChubbyButt</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="brigandineChubbyLegs" target="brigandine" local="true">Body.osd\brigandineChubbyLegs</Data>
+            <Data name="trousersChubbyLegs" target="trousers" local="true">Body.osd\trousersChubbyLegs</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="brigandineChubbyWaist" target="brigandine" local="true">Body.osd\brigandineChubbyWaist</Data>
+            <Data name="harnessChubbyWaist" target="harness" local="true">Body.osd\harnessChubbyWaist</Data>
+            <Data name="trousersChubbyWaist" target="trousers" local="true">Body.osd\trousersChubbyWaist</Data>
+        </Slider>
+        <Slider name="CrotchBack" invert="false" small="0" big="0">
+            <Data name="brigandineCrotchBack" target="brigandine" local="true">Body.osd\brigandineCrotchBack</Data>
+            <Data name="trousersCrotchBack" target="trousers" local="true">Body.osd\trousersCrotchBack</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="brigandineDoubleMelon" target="brigandine" local="true">Body.osd\brigandineDoubleMelon</Data>
+            <Data name="harnessDoubleMelon" target="harness" local="true">Body.osd\harnessDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="brigandineForearmSize" target="brigandine" local="true">Body.osd\brigandineForearmSize</Data>
+        </Slider>
+        <Slider name="Groin" invert="false" small="0" big="0">
+            <Data name="brigandineGroin" target="brigandine" local="true">Body.osd\brigandineGroin</Data>
+            <Data name="trousersGroin" target="trousers" local="true">Body.osd\trousersGroin</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="brigandineHipForward" target="brigandine" local="true">Body.osd\brigandineHipForward</Data>
+            <Data name="harnessHipForward" target="harness" local="true">Body.osd\harnessHipForward</Data>
+            <Data name="trousersHipForward" target="trousers" local="true">Body.osd\trousersHipForward</Data>
+        </Slider>
+        <Slider name="Hips" invert="false" small="0" big="0">
+            <Data name="brigandineHips" target="brigandine" local="true">Body.osd\brigandineHips</Data>
+            <Data name="harnessHips" target="harness" local="true">Body.osd\harnessHips</Data>
+            <Data name="trousersHips" target="trousers" local="true">Body.osd\trousersHips</Data>
+        </Slider>
+        <Slider name="HipUpperWidth" invert="false" small="0" big="0">
+            <Data name="brigandineHipUpperWidth" target="brigandine" local="true">Body.osd\brigandineHipUpperWidth</Data>
+            <Data name="harnessHipUpperWidth" target="harness" local="true">Body.osd\harnessHipUpperWidth</Data>
+            <Data name="trousersHipUpperWidth" target="trousers" local="true">Body.osd\trousersHipUpperWidth</Data>
+        </Slider>
+        <Slider name="HipCarved" invert="false" small="0" big="0">
+            <Data name="brigandineHipCarved" target="brigandine" local="true">Body.osd\brigandineHipCarved</Data>
+            <Data name="trousersHipCarved" target="trousers" local="true">Body.osd\trousersHipCarved</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="brigandineKneeHeight" target="brigandine" local="true">Body.osd\brigandineKneeHeight</Data>
+            <Data name="trousersKneeHeight" target="trousers" local="true">Body.osd\trousersKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="trousersKneeShape" target="trousers" local="true">Body.osd\trousersKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="brigandineLegShapeClassic" target="brigandine" local="true">Body.osd\brigandineLegShapeClassic</Data>
+            <Data name="trousersLegShapeClassic" target="trousers" local="true">Body.osd\trousersLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="brigandineLegsThin" target="brigandine" local="true">Body.osd\brigandineLegsThin</Data>
+            <Data name="trousersLegsThin" target="trousers" local="true">Body.osd\trousersLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleAbs" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleAbs" target="brigandine" local="true">Body.osd\brigandineMuscleAbs</Data>
+            <Data name="harnessMuscleAbs" target="harness" local="true">Body.osd\harnessMuscleAbs</Data>
+            <Data name="trousersMuscleAbs" target="trousers" local="true">Body.osd\trousersMuscleAbs</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="CBBEMuscleArms" target="CBBE" local="true">Body.osd\CBBEMuscleArms</Data>
+            <Data name="brigandineMuscleArms" target="brigandine" local="true">Body.osd\brigandineMuscleArms</Data>
+            <Data name="harnessMuscleArms" target="harness" local="true">Body.osd\harnessMuscleArms</Data>
+        </Slider>
+        <Slider name="MuscleButt" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleButt" target="brigandine" local="true">Body.osd\brigandineMuscleButt</Data>
+            <Data name="trousersMuscleButt" target="trousers" local="true">Body.osd\trousersMuscleButt</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleLegs" target="brigandine" local="true">Body.osd\brigandineMuscleLegs</Data>
+            <Data name="trousersMuscleLegs" target="trousers" local="true">Body.osd\trousersMuscleLegs</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="brigandineMusclePecs" target="brigandine" local="true">Body.osd\brigandineMusclePecs</Data>
+            <Data name="harnessMusclePecs" target="harness" local="true">Body.osd\harnessMusclePecs</Data>
+        </Slider>
+        <Slider name="NavelEven" invert="false" small="0" big="0">
+            <Data name="brigandineNavelEven" target="brigandine" local="true">Body.osd\brigandineNavelEven</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="CBBENeckSeam" target="CBBE" local="true">Body.osd\CBBENeckSeam</Data>
+            <Data name="brigandineNeckSeam" target="brigandine" local="true">Body.osd\brigandineNeckSeam</Data>
+            <Data name="harnessNeckSeam" target="harness" local="true">Body.osd\harnessNeckSeam</Data>
+        </Slider>
+        <Slider name="NipBGone" invert="false" small="0" big="0">
+            <Data name="brigandineNipBGone" target="brigandine" local="true">Body.osd\brigandineNipBGone</Data>
+            <Data name="harnessNipBGone" target="harness" local="true">Body.osd\harnessNipBGone</Data>
+        </Slider>
+        <Slider name="NippleDistance" invert="false" small="0" big="0">
+            <Data name="brigandineNippleDistance" target="brigandine" local="true">Body.osd\brigandineNippleDistance</Data>
+            <Data name="harnessNippleDistance" target="harness" local="true">Body.osd\harnessNippleDistance</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="brigandineNippleDown" target="brigandine" local="true">Body.osd\brigandineNippleDown</Data>
+            <Data name="harnessNippleDown" target="harness" local="true">Body.osd\harnessNippleDown</Data>
+        </Slider>
+        <Slider name="NippleLength" invert="false" small="0" big="0">
+            <Data name="brigandineNippleLength" target="brigandine" local="true">Body.osd\brigandineNippleLength</Data>
+        </Slider>
+        <Slider name="NippleManga" invert="false" small="0" big="0">
+            <Data name="brigandineNippleManga" target="brigandine" local="true">Body.osd\brigandineNippleManga</Data>
+        </Slider>
+        <Slider name="NipplePerkiness" invert="false" small="0" big="0">
+            <Data name="brigandineNipplePerkiness" target="brigandine" local="true">Body.osd\brigandineNipplePerkiness</Data>
+            <Data name="harnessNipplePerkiness" target="harness" local="true">Body.osd\harnessNipplePerkiness</Data>
+        </Slider>
+        <Slider name="NipplePerkManga" invert="false" small="0" big="0">
+            <Data name="brigandineNipplePerkManga" target="brigandine" local="true">Body.osd\brigandineNipplePerkManga</Data>
+            <Data name="harnessNipplePerkManga" target="harness" local="true">Body.osd\harnessNipplePerkManga</Data>
+        </Slider>
+        <Slider name="NippleSize" invert="false" small="0" big="0">
+            <Data name="brigandineNippleSize" target="brigandine" local="true">Body.osd\brigandineNippleSize</Data>
+            <Data name="harnessNippleSize" target="harness" local="true">Body.osd\harnessNippleSize</Data>
+        </Slider>
+        <Slider name="NippleTip" invert="false" small="0" big="0">
+            <Data name="brigandineNippleTip" target="brigandine" local="true">Body.osd\brigandineNippleTip</Data>
+            <Data name="harnessNippleTip" target="harness" local="true">Body.osd\harnessNippleTip</Data>
+        </Slider>
+        <Slider name="NippleTipManga" invert="false" small="0" big="0">
+            <Data name="brigandineNippleTipManga" target="brigandine" local="true">Body.osd\brigandineNippleTipManga</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="brigandineNippleUp" target="brigandine" local="true">Body.osd\brigandineNippleUp</Data>
+            <Data name="harnessNippleUp" target="harness" local="true">Body.osd\harnessNippleUp</Data>
+        </Slider>
+        <Slider name="NippleDip" invert="false" small="0" big="0">
+            <Data name="brigandineNippleDip" target="brigandine" local="true">Body.osd\brigandineNippleDip</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="brigandinePregnancyBelly" target="brigandine" local="true">Body.osd\brigandinePregnancyBelly</Data>
+            <Data name="harnessPregnancyBelly" target="harness" local="true">Body.osd\harnessPregnancyBelly</Data>
+            <Data name="trousersPregnancyBelly" target="trousers" local="true">Body.osd\trousersPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="brigandinePushUp" target="brigandine" local="true">Body.osd\brigandinePushUp</Data>
+            <Data name="harnessPushUp" target="harness" local="true">Body.osd\harnessPushUp</Data>
+        </Slider>
+        <Slider name="RibsProminance" invert="false" small="0" big="0">
+            <Data name="brigandineRibsProminance" target="brigandine" local="true">Body.osd\brigandineRibsProminance</Data>
+            <Data name="harnessRibsProminance" target="harness" local="true">Body.osd\harnessRibsProminance</Data>
+        </Slider>
+        <Slider name="RoundAss" invert="false" small="0" big="0">
+            <Data name="brigandineRoundAss" target="brigandine" local="true">Body.osd\brigandineRoundAss</Data>
+            <Data name="trousersRoundAss" target="trousers" local="true">Body.osd\trousersRoundAss</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="CBBEShoulderSmooth" target="CBBE" local="true">Body.osd\CBBEShoulderSmooth</Data>
+            <Data name="brigandineShoulderSmooth" target="brigandine" local="true">Body.osd\brigandineShoulderSmooth</Data>
+            <Data name="harnessShoulderSmooth" target="harness" local="true">Body.osd\harnessShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SlimThighs" invert="false" small="0" big="0">
+            <Data name="brigandineSlimThighs" target="brigandine" local="true">Body.osd\brigandineSlimThighs</Data>
+            <Data name="trousersSlimThighs" target="trousers" local="true">Body.osd\trousersSlimThighs</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="CBBESternumDepth" target="CBBE" local="true">Body.osd\CBBESternumDepth</Data>
+            <Data name="brigandineSternumDepth" target="brigandine" local="true">Body.osd\brigandineSternumDepth</Data>
+            <Data name="harnessSternumDepth" target="harness" local="true">Body.osd\harnessSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="CBBESternumHeight" target="CBBE" local="true">Body.osd\CBBESternumHeight</Data>
+            <Data name="brigandineSternumHeight" target="brigandine" local="true">Body.osd\brigandineSternumHeight</Data>
+            <Data name="harnessSternumHeight" target="harness" local="true">Body.osd\harnessSternumHeight</Data>
+        </Slider>
+        <Slider name="Thighs" invert="false" small="0" big="0">
+            <Data name="brigandineThighs" target="brigandine" local="true">Body.osd\brigandineThighs</Data>
+            <Data name="trousersThighs" target="trousers" local="true">Body.osd\trousersThighs</Data>
+        </Slider>
+        <Slider name="TummyTuck" invert="false" small="0" big="0">
+            <Data name="brigandineTummyTuck" target="brigandine" local="true">Body.osd\brigandineTummyTuck</Data>
+            <Data name="trousersTummyTuck" target="trousers" local="true">Body.osd\trousersTummyTuck</Data>
+        </Slider>
+        <Slider name="WaistHeight" invert="false" small="0" big="0">
+            <Data name="brigandineWaistHeight" target="brigandine" local="true">Body.osd\brigandineWaistHeight</Data>
+            <Data name="harnessWaistHeight" target="harness" local="true">Body.osd\harnessWaistHeight</Data>
+            <Data name="trousersWaistHeight" target="trousers" local="true">Body.osd\trousersWaistHeight</Data>
+        </Slider>
+        <Slider name="WideWaistLine" invert="false" small="0" big="0">
+            <Data name="brigandineWideWaistLine" target="brigandine" local="true">Body.osd\brigandineWideWaistLine</Data>
+            <Data name="harnessWideWaistLine" target="harness" local="true">Body.osd\harnessWideWaistLine</Data>
+            <Data name="trousersWideWaistLine" target="trousers" local="true">Body.osd\trousersWideWaistLine</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="brigandineWristSize" target="brigandine" local="true">Body.osd\brigandineWristSize</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="brigandine7B Lower" target="brigandine" local="true">Body.osd\brigandine7B Lower</Data>
+            <Data name="harness7B Lower" target="harness" local="true">Body.osd\harness7B Lower</Data>
+            <Data name="trousers7B Lower" target="trousers" local="true">Body.osd\trousers7B Lower</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="CBBE7B Upper" target="CBBE" local="true">Body.osd\CBBE7B Upper</Data>
+            <Data name="brigandine7B Upper" target="brigandine" local="true">Body.osd\brigandine7B Upper</Data>
+            <Data name="harness7B Upper" target="harness" local="true">Body.osd\harness7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="CBBEVanillaSSEHi" target="CBBE" local="true">Body.osd\CBBEVanillaSSEHi</Data>
+            <Data name="brigandineVanillaSSEHi" target="brigandine" local="true">Body.osd\brigandineVanillaSSEHi</Data>
+            <Data name="harnessVanillaSSEHi" target="harness" local="true">Body.osd\harnessVanillaSSEHi</Data>
+            <Data name="trousersVanillaSSEHi" target="trousers" local="true">Body.osd\trousersVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="CBBEVanillaSSELo" target="CBBE" local="true">Body.osd\CBBEVanillaSSELo</Data>
+            <Data name="brigandineVanillaSSELo" target="brigandine" local="true">Body.osd\brigandineVanillaSSELo</Data>
+            <Data name="harnessVanillaSSELo" target="harness" local="true">Body.osd\harnessVanillaSSELo</Data>
+            <Data name="trousersVanillaSSELo" target="trousers" local="true">Body.osd\trousersVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="CBBEOldBaseShape" target="CBBE" local="true">Body.osd\CBBEOldBaseShape</Data>
+            <Data name="brigandineOldBaseShape" target="brigandine" local="true">Body.osd\brigandineOldBaseShape</Data>
+            <Data name="harnessOldBaseShape" target="harness" local="true">Body.osd\harnessOldBaseShape</Data>
+            <Data name="trousersOldBaseShape" target="trousers" local="true">Body.osd\trousersOldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="brigandineArms" target="brigandine" local="true">Body.osd\brigandineArms</Data>
+            <Data name="harnessArms" target="harness" local="true">Body.osd\harnessArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="brigandineBreastFlatness" target="brigandine" local="true">Body.osd\brigandineBreastFlatness</Data>
+            <Data name="harnessBreastFlatness" target="harness" local="true">Body.osd\harnessBreastFlatness</Data>
+        </Slider>
+        <Slider name="HipBone" invert="false" small="0" big="0">
+            <Data name="brigandineHipBone" target="brigandine" local="true">Body.osd\brigandineHipBone</Data>
+            <Data name="trousersHipBone" target="trousers" local="true">Body.osd\trousersHipBone</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="brigandineShoulderTweak" target="brigandine" local="true">Body.osd\brigandineShoulderTweak</Data>
+            <Data name="harnessShoulderTweak" target="harness" local="true">Body.osd\harnessShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="brigandineShoulderWidth" target="brigandine" local="true">Body.osd\brigandineShoulderWidth</Data>
+            <Data name="harnessShoulderWidth" target="harness" local="true">Body.osd\harnessShoulderWidth</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="brigandineWaist" target="brigandine" local="true">Body.osd\brigandineWaist</Data>
+            <Data name="harnessWaist" target="harness" local="true">Body.osd\harnessWaist</Data>
+            <Data name="trousersWaist" target="trousers" local="true">Body.osd\trousersWaist</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="brigandineArmpitShape_v2" target="brigandine" local="true">Body.osd\brigandineArmpitShape_v2</Data>
+            <Data name="harnessArmpitShape_v2" target="harness" local="true">Body.osd\harnessArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="AreolaPull_v2" invert="false" small="0" big="0">
+            <Data name="brigandineAreolaPull_v2" target="brigandine" local="true">Body.osd\brigandineAreolaPull_v2</Data>
+            <Data name="harnessAreolaPull_v2" target="harness" local="true">Body.osd\harnessAreolaPull_v2</Data>
+        </Slider>
+        <Slider name="BackValley_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBackValley_v2" target="brigandine" local="true">Body.osd\brigandineBackValley_v2</Data>
+            <Data name="harnessBackValley_v2" target="harness" local="true">Body.osd\harnessBackValley_v2</Data>
+            <Data name="trousersBackValley_v2" target="trousers" local="true">Body.osd\trousersBackValley_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBackWing_v2" target="brigandine" local="true">Body.osd\brigandineBackWing_v2</Data>
+            <Data name="harnessBackWing_v2" target="harness" local="true">Body.osd\harnessBackWing_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontUpFat_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBellyFrontUpFat_v2" target="brigandine" local="true">Body.osd\brigandineBellyFrontUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellyFrontDownFat_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBellyFrontDownFat_v2" target="brigandine" local="true">Body.osd\brigandineBellyFrontDownFat_v2</Data>
+            <Data name="trousersBellyFrontDownFat_v2" target="trousers" local="true">Body.osd\trousersBellyFrontDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideUpFat_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBellySideUpFat_v2" target="brigandine" local="true">Body.osd\brigandineBellySideUpFat_v2</Data>
+        </Slider>
+        <Slider name="BellySideDownFat_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBellySideDownFat_v2" target="brigandine" local="true">Body.osd\brigandineBellySideDownFat_v2</Data>
+            <Data name="trousersBellySideDownFat_v2" target="trousers" local="true">Body.osd\trousersBellySideDownFat_v2</Data>
+        </Slider>
+        <Slider name="BellyUnder_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBellyUnder_v2" target="brigandine" local="true">Body.osd\brigandineBellyUnder_v2</Data>
+            <Data name="trousersBellyUnder_v2" target="trousers" local="true">Body.osd\trousersBellyUnder_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsConverage_v2" target="brigandine" local="true">Body.osd\brigandineBreastsConverage_v2</Data>
+            <Data name="harnessBreastsConverage_v2" target="harness" local="true">Body.osd\harnessBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsPressed_v2" target="brigandine" local="true">Body.osd\brigandineBreastsPressed_v2</Data>
+            <Data name="harnessBreastsPressed_v2" target="harness" local="true">Body.osd\harnessBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtSaggy_v2" invert="false" small="0" big="0">
+            <Data name="brigandineButtSaggy_v2" target="brigandine" local="true">Body.osd\brigandineButtSaggy_v2</Data>
+            <Data name="trousersButtSaggy_v2" target="trousers" local="true">Body.osd\trousersButtSaggy_v2</Data>
+        </Slider>
+        <Slider name="ButtPressed_v2" invert="false" small="0" big="0">
+            <Data name="brigandineButtPressed_v2" target="brigandine" local="true">Body.osd\brigandineButtPressed_v2</Data>
+            <Data name="trousersButtPressed_v2" target="trousers" local="true">Body.osd\trousersButtPressed_v2</Data>
+        </Slider>
+        <Slider name="ButtNarrow_v2" invert="false" small="0" big="0">
+            <Data name="brigandineButtNarrow_v2" target="brigandine" local="true">Body.osd\brigandineButtNarrow_v2</Data>
+            <Data name="trousersButtNarrow_v2" target="trousers" local="true">Body.osd\trousersButtNarrow_v2</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="trousersCalfFBThicc_v2" target="trousers" local="true">Body.osd\trousersCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="brigandineClavicle_v2" target="brigandine" local="true">Body.osd\brigandineClavicle_v2</Data>
+            <Data name="harnessClavicle_v2" target="harness" local="true">Body.osd\harnessClavicle_v2</Data>
+        </Slider>
+        <Slider name="HipNarrow_v2" invert="false" small="0" big="0">
+            <Data name="brigandineHipNarrow_v2" target="brigandine" local="true">Body.osd\brigandineHipNarrow_v2</Data>
+            <Data name="trousersHipNarrow_v2" target="trousers" local="true">Body.osd\trousersHipNarrow_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="brigandineKneeTogether_v2" target="brigandine" local="true">Body.osd\brigandineKneeTogether_v2</Data>
+            <Data name="trousersKneeTogether_v2" target="trousers" local="true">Body.osd\trousersKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleBack_v2" target="brigandine" local="true">Body.osd\brigandineMuscleBack_v2</Data>
+            <Data name="harnessMuscleBack_v2" target="harness" local="true">Body.osd\harnessMuscleBack_v2</Data>
+            <Data name="trousersMuscleBack_v2" target="trousers" local="true">Body.osd\trousersMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreAbs_v2" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleMoreAbs_v2" target="brigandine" local="true">Body.osd\brigandineMuscleMoreAbs_v2</Data>
+            <Data name="harnessMuscleMoreAbs_v2" target="harness" local="true">Body.osd\harnessMuscleMoreAbs_v2</Data>
+            <Data name="trousersMuscleMoreAbs_v2" target="trousers" local="true">Body.osd\trousersMuscleMoreAbs_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleMoreArms_v2" target="brigandine" local="true">Body.osd\brigandineMuscleMoreArms_v2</Data>
+            <Data name="harnessMuscleMoreArms_v2" target="harness" local="true">Body.osd\harnessMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleMoreLegs_v2" target="brigandine" local="true">Body.osd\brigandineMuscleMoreLegs_v2</Data>
+            <Data name="trousersMuscleMoreLegs_v2" target="trousers" local="true">Body.osd\trousersMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="NippleCrease_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleCrease_v2" target="brigandine" local="true">Body.osd\brigandineNippleCrease_v2</Data>
+        </Slider>
+        <Slider name="NipplePuffy_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNipplePuffy_v2" target="brigandine" local="true">Body.osd\brigandineNipplePuffy_v2</Data>
+        </Slider>
+        <Slider name="NippleShy_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleShy_v2" target="brigandine" local="true">Body.osd\brigandineNippleShy_v2</Data>
+        </Slider>
+        <Slider name="NippleThicc_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleThicc_v2" target="brigandine" local="true">Body.osd\brigandineNippleThicc_v2</Data>
+        </Slider>
+        <Slider name="NippleInvert_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleInvert_v2" target="brigandine" local="true">Body.osd\brigandineNippleInvert_v2</Data>
+            <Data name="harnessNippleInvert_v2" target="harness" local="true">Body.osd\harnessNippleInvert_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash1_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleSquash1_v2" target="brigandine" local="true">Body.osd\brigandineNippleSquash1_v2</Data>
+        </Slider>
+        <Slider name="NippleSquash2_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleSquash2_v2" target="brigandine" local="true">Body.osd\brigandineNippleSquash2_v2</Data>
+        </Slider>
+        <Slider name="NippleBump_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleBump_v2" target="brigandine" local="true">Body.osd\brigandineNippleBump_v2</Data>
+        </Slider>
+        <Slider name="NippleCrumpled_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleCrumpled_v2" target="brigandine" local="true">Body.osd\brigandineNippleCrumpled_v2</Data>
+        </Slider>
+        <Slider name="NippleTube_v2" invert="false" small="0" big="0">
+            <Data name="brigandineNippleTube_v2" target="brigandine" local="true">Body.osd\brigandineNippleTube_v2</Data>
+        </Slider>
+        <Slider name="RibsMore_v2" invert="false" small="0" big="0">
+            <Data name="brigandineRibsMore_v2" target="brigandine" local="true">Body.osd\brigandineRibsMore_v2</Data>
+            <Data name="harnessRibsMore_v2" target="harness" local="true">Body.osd\harnessRibsMore_v2</Data>
+        </Slider>
+        <Slider name="ThighOutsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="brigandineThighOutsideThicc_v2" target="brigandine" local="true">Body.osd\brigandineThighOutsideThicc_v2</Data>
+            <Data name="trousersThighOutsideThicc_v2" target="trousers" local="true">Body.osd\trousersThighOutsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighInsideThicc_v2" invert="false" small="0" big="0">
+            <Data name="brigandineThighInsideThicc_v2" target="brigandine" local="true">Body.osd\brigandineThighInsideThicc_v2</Data>
+            <Data name="trousersThighInsideThicc_v2" target="trousers" local="true">Body.osd\trousersThighInsideThicc_v2</Data>
+        </Slider>
+        <Slider name="ThighFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="brigandineThighFBThicc_v2" target="brigandine" local="true">Body.osd\brigandineThighFBThicc_v2</Data>
+            <Data name="trousersThighFBThicc_v2" target="trousers" local="true">Body.osd\trousersThighFBThicc_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="brigandineLegSpread_v2" target="brigandine" local="true">Body.osd\brigandineLegSpread_v2</Data>
+            <Data name="trousersLegSpread_v2" target="trousers" local="true">Body.osd\trousersLegSpread_v2</Data>
+        </Slider>
+        <Slider name="UNPHip_v2" invert="false" small="0" big="0">
+            <Data name="brigandineUNPHip_v2" target="brigandine" local="true">Body.osd\brigandineUNPHip_v2</Data>
+            <Data name="harnessUNPHip_v2" target="harness" local="true">Body.osd\harnessUNPHip_v2</Data>
+            <Data name="trousersUNPHip_v2" target="trousers" local="true">Body.osd\trousersUNPHip_v2</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="brigandine7BLeg_v2" target="brigandine" local="true">Body.osd\brigandine7BLeg_v2</Data>
+            <Data name="trousers7BLeg_v2" target="trousers" local="true">Body.osd\trousers7BLeg_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Hood - Elmlock 2">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 2.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood2F</OutputFile>
+        <Shape target="coif-2">coif-2</Shape>
+        <Shape target="gorget">gorget</Shape>
+        <Shape target="hood-2">hood-2</Shape>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="gorgetBack" target="gorget" local="true">Hood 2.osd\gorgetBack</Data>
+            <Data name="hood-2Back" target="hood-2" local="true">Hood 2.osd\hood-2Back</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="gorgetBigTorso" target="gorget" local="true">Hood 2.osd\gorgetBigTorso</Data>
+            <Data name="hood-2BigTorso" target="hood-2" local="true">Hood 2.osd\hood-2BigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenter" target="gorget" local="true">Hood 2.osd\gorgetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenterBig" target="gorget" local="true">Hood 2.osd\gorgetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCleavage" target="gorget" local="true">Hood 2.osd\gorgetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness2" target="gorget" local="true">Hood 2.osd\gorgetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastGravity2" target="gorget" local="true">Hood 2.osd\gorgetBreastGravity2</Data>
+            <Data name="hood-2BreastGravity2" target="hood-2" local="true">Hood 2.osd\hood-2BreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="gorgetBreastHeight" target="gorget" local="true">Hood 2.osd\gorgetBreastHeight</Data>
+            <Data name="hood-2BreastHeight" target="hood-2" local="true">Hood 2.osd\hood-2BreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastPerkiness" target="gorget" local="true">Hood 2.osd\gorgetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="gorgetBreasts" target="gorget" local="true">Hood 2.osd\gorgetBreasts</Data>
+            <Data name="hood-2Breasts" target="hood-2" local="true">Hood 2.osd\hood-2Breasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsFantasy" target="gorget" local="true">Hood 2.osd\gorgetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsGone" target="gorget" local="true">Hood 2.osd\gorgetBreastsGone</Data>
+            <Data name="hood-2BreastsGone" target="hood-2" local="true">Hood 2.osd\hood-2BreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSH" target="gorget" local="true">Hood 2.osd\gorgetBreastsNewSH</Data>
+            <Data name="hood-2BreastsNewSH" target="hood-2" local="true">Hood 2.osd\hood-2BreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSHSymmetry" target="gorget" local="true">Hood 2.osd\gorgetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall" target="gorget" local="true">Hood 2.osd\gorgetBreastsSmall</Data>
+            <Data name="hood-2BreastsSmall" target="hood-2" local="true">Hood 2.osd\hood-2BreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall2" target="gorget" local="true">Hood 2.osd\gorgetBreastsSmall2</Data>
+            <Data name="hood-2BreastsSmall2" target="hood-2" local="true">Hood 2.osd\hood-2BreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsTogether" target="gorget" local="true">Hood 2.osd\gorgetBreastsTogether</Data>
+            <Data name="hood-2BreastsTogether" target="hood-2" local="true">Hood 2.osd\hood-2BreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="gorgetBreastTopSlope" target="gorget" local="true">Hood 2.osd\gorgetBreastTopSlope</Data>
+            <Data name="hood-2BreastTopSlope" target="hood-2" local="true">Hood 2.osd\hood-2BreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="gorgetBreastWidth" target="gorget" local="true">Hood 2.osd\gorgetBreastWidth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="gorgetChestDepth" target="gorget" local="true">Hood 2.osd\gorgetChestDepth</Data>
+            <Data name="hood-2ChestDepth" target="hood-2" local="true">Hood 2.osd\hood-2ChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="gorgetChestWidth" target="gorget" local="true">Hood 2.osd\gorgetChestWidth</Data>
+            <Data name="hood-2ChestWidth" target="hood-2" local="true">Hood 2.osd\hood-2ChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="gorgetChubbyArms" target="gorget" local="true">Hood 2.osd\gorgetChubbyArms</Data>
+            <Data name="hood-2ChubbyArms" target="hood-2" local="true">Hood 2.osd\hood-2ChubbyArms</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="gorgetDoubleMelon" target="gorget" local="true">Hood 2.osd\gorgetDoubleMelon</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleArms" target="gorget" local="true">Hood 2.osd\gorgetMuscleArms</Data>
+            <Data name="hood-2MuscleArms" target="hood-2" local="true">Hood 2.osd\hood-2MuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="gorgetMusclePecs" target="gorget" local="true">Hood 2.osd\gorgetMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="coif-2NeckSeam" target="coif-2" local="true">Hood 2.osd\coif-2NeckSeam</Data>
+            <Data name="gorgetNeckSeam" target="gorget" local="true">Hood 2.osd\gorgetNeckSeam</Data>
+            <Data name="hood-2NeckSeam" target="hood-2" local="true">Hood 2.osd\hood-2NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="gorgetNippleDown" target="gorget" local="true">Hood 2.osd\gorgetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="gorgetNippleUp" target="gorget" local="true">Hood 2.osd\gorgetNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="gorgetPregnancyBelly" target="gorget" local="true">Hood 2.osd\gorgetPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="gorgetPushUp" target="gorget" local="true">Hood 2.osd\gorgetPushUp</Data>
+            <Data name="hood-2PushUp" target="hood-2" local="true">Hood 2.osd\hood-2PushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderSmooth" target="gorget" local="true">Hood 2.osd\gorgetShoulderSmooth</Data>
+            <Data name="hood-2ShoulderSmooth" target="hood-2" local="true">Hood 2.osd\hood-2ShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="gorgetSternumDepth" target="gorget" local="true">Hood 2.osd\gorgetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="gorgetSternumHeight" target="gorget" local="true">Hood 2.osd\gorgetSternumHeight</Data>
+            <Data name="hood-2SternumHeight" target="hood-2" local="true">Hood 2.osd\hood-2SternumHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="gorget7B Upper" target="gorget" local="true">Hood 2.osd\gorget7B Upper</Data>
+            <Data name="hood-27B Upper" target="hood-2" local="true">Hood 2.osd\hood-27B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSEHi" target="gorget" local="true">Hood 2.osd\gorgetVanillaSSEHi</Data>
+            <Data name="hood-2VanillaSSEHi" target="hood-2" local="true">Hood 2.osd\hood-2VanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSELo" target="gorget" local="true">Hood 2.osd\gorgetVanillaSSELo</Data>
+            <Data name="hood-2VanillaSSELo" target="hood-2" local="true">Hood 2.osd\hood-2VanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="gorgetOldBaseShape" target="gorget" local="true">Hood 2.osd\gorgetOldBaseShape</Data>
+            <Data name="hood-2OldBaseShape" target="hood-2" local="true">Hood 2.osd\hood-2OldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="gorgetArms" target="gorget" local="true">Hood 2.osd\gorgetArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness" target="gorget" local="true">Hood 2.osd\gorgetBreastFlatness</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderTweak" target="gorget" local="true">Hood 2.osd\gorgetShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderWidth" target="gorget" local="true">Hood 2.osd\gorgetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBackWing_v2" target="gorget" local="true">Hood 2.osd\gorgetBackWing_v2</Data>
+            <Data name="hood-2BackWing_v2" target="hood-2" local="true">Hood 2.osd\hood-2BackWing_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsConverage_v2" target="gorget" local="true">Hood 2.osd\gorgetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="gorgetClavicle_v2" target="gorget" local="true">Hood 2.osd\gorgetClavicle_v2</Data>
+            <Data name="hood-2Clavicle_v2" target="hood-2" local="true">Hood 2.osd\hood-2Clavicle_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleBack_v2" target="gorget" local="true">Hood 2.osd\gorgetMuscleBack_v2</Data>
+            <Data name="hood-2MuscleBack_v2" target="hood-2" local="true">Hood 2.osd\hood-2MuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleMoreArms_v2" target="gorget" local="true">Hood 2.osd\gorgetMuscleMoreArms_v2</Data>
+            <Data name="hood-2MuscleMoreArms_v2" target="hood-2" local="true">Hood 2.osd\hood-2MuscleMoreArms_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Feet - Elmlock">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Feet.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">FeetF</OutputFile>
+        <Shape target="boots">boots</Shape>
+        <Slider name="AnkleSize" invert="false" small="100" big="0">
+            <Data name="bootsAnkleSize" target="boots" local="true">Feet.osd\bootsAnkleSize</Data>
+        </Slider>
+        <Slider name="CalfSize" invert="false" small="0" big="0">
+            <Data name="bootsCalfSize" target="boots" local="true">Feet.osd\bootsCalfSize</Data>
+        </Slider>
+        <Slider name="CalfSmooth" invert="false" small="0" big="0">
+            <Data name="bootsCalfSmooth" target="boots" local="true">Feet.osd\bootsCalfSmooth</Data>
+        </Slider>
+        <Slider name="ChubbyLegs" invert="false" small="0" big="0">
+            <Data name="bootsChubbyLegs" target="boots" local="true">Feet.osd\bootsChubbyLegs</Data>
+        </Slider>
+        <Slider name="KneeHeight" invert="false" small="0" big="0">
+            <Data name="bootsKneeHeight" target="boots" local="true">Feet.osd\bootsKneeHeight</Data>
+        </Slider>
+        <Slider name="KneeShape" invert="false" small="0" big="0">
+            <Data name="bootsKneeShape" target="boots" local="true">Feet.osd\bootsKneeShape</Data>
+        </Slider>
+        <Slider name="LegShapeClassic" invert="false" small="0" big="0">
+            <Data name="bootsLegShapeClassic" target="boots" local="true">Feet.osd\bootsLegShapeClassic</Data>
+        </Slider>
+        <Slider name="LegsThin" invert="false" small="0" big="0">
+            <Data name="bootsLegsThin" target="boots" local="true">Feet.osd\bootsLegsThin</Data>
+        </Slider>
+        <Slider name="MuscleLegs" invert="false" small="0" big="0">
+            <Data name="bootsMuscleLegs" target="boots" local="true">Feet.osd\bootsMuscleLegs</Data>
+        </Slider>
+        <Slider name="7B Lower" invert="false" small="0" big="0">
+            <Data name="boots7B Lower" target="boots" local="true">Feet.osd\boots7B Lower</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="bootsVanillaSSEHi" target="boots" local="true">Feet.osd\bootsVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="bootsVanillaSSELo" target="boots" local="true">Feet.osd\bootsVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="bootsOldBaseShape" target="boots" local="true">Feet.osd\bootsOldBaseShape</Data>
+        </Slider>
+        <Slider name="CalfFBThicc_v2" invert="false" small="0" big="0">
+            <Data name="bootsCalfFBThicc_v2" target="boots" local="true">Feet.osd\bootsCalfFBThicc_v2</Data>
+        </Slider>
+        <Slider name="KneeTogether_v2" invert="false" small="0" big="0">
+            <Data name="bootsKneeTogether_v2" target="boots" local="true">Feet.osd\bootsKneeTogether_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreLegs_v2" invert="false" small="0" big="0">
+            <Data name="bootsMuscleMoreLegs_v2" target="boots" local="true">Feet.osd\bootsMuscleMoreLegs_v2</Data>
+        </Slider>
+        <Slider name="LegSpread_v2" invert="false" small="0" big="0">
+            <Data name="bootsLegSpread_v2" target="boots" local="true">Feet.osd\bootsLegSpread_v2</Data>
+        </Slider>
+        <Slider name="7BLeg_v2" invert="false" small="0" big="0">
+            <Data name="boots7BLeg_v2" target="boots" local="true">Feet.osd\boots7BLeg_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Hands - Elmlock H">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Hands H.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">HandsHF</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Shape target="bracers">bracers</Shape>
+        <Shape target="plates">plates</Shape>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="bracersBigTorso" target="bracers" local="true">Hands H.osd\bracersBigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="bracersChubbyArms" target="bracers" local="true">Hands H.osd\bracersChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="bracersForearmSize" target="bracers" local="true">Hands H.osd\bracersForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="bracersMuscleArms" target="bracers" local="true">Hands H.osd\bracersMuscleArms</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="bracersWristSize" target="bracers" local="true">Hands H.osd\bracersWristSize</Data>
+            <Data name="platesWristSize" target="plates" local="true">Hands H.osd\platesWristSize</Data>
+            <Data name="HandsWristSize" target="Hands">CBBE Hands.osd\HandsWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="bracers7B Upper" target="bracers" local="true">Hands H.osd\bracers7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="bracersVanillaSSEHi" target="bracers" local="true">Hands H.osd\bracersVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="bracersVanillaSSELo" target="bracers" local="true">Hands H.osd\bracersVanillaSSELo</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="bracersBreastsPressed_v2" target="bracers" local="true">Hands H.osd\bracersBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="bracersMuscleMoreArms_v2" target="bracers" local="true">Hands H.osd\bracersMuscleMoreArms_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Hands - Elmlock B">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Hands B.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">HandsBF</OutputFile>
+        <Shape target="Hands" DataFolder="CBBE">Hands</Shape>
+        <Shape target="bracers">bracers</Shape>
+        <Shape target="plates">plates</Shape>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="bracersBigTorso" target="bracers" local="true">Hands B.osd\bracersBigTorso</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="bracersChubbyArms" target="bracers" local="true">Hands B.osd\bracersChubbyArms</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="bracersForearmSize" target="bracers" local="true">Hands B.osd\bracersForearmSize</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="bracersMuscleArms" target="bracers" local="true">Hands B.osd\bracersMuscleArms</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="bracersWristSize" target="bracers" local="true">Hands B.osd\bracersWristSize</Data>
+            <Data name="platesWristSize" target="plates" local="true">Hands B.osd\platesWristSize</Data>
+            <Data name="HandsWristSize" target="Hands">CBBE Hands.osd\HandsWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="bracers7B Upper" target="bracers" local="true">Hands B.osd\bracers7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="bracersVanillaSSEHi" target="bracers" local="true">Hands B.osd\bracersVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="bracersVanillaSSELo" target="bracers" local="true">Hands B.osd\bracersVanillaSSELo</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="bracersBreastsPressed_v2" target="bracers" local="true">Hands B.osd\bracersBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="bracersMuscleMoreArms_v2" target="bracers" local="true">Hands B.osd\bracersMuscleMoreArms_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - 1st - Elmlock">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>1st.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">1stF</OutputFile>
+        <Shape target="brigandine">brigandine</Shape>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="brigandineBack" target="brigandine" local="true">1st.osd\brigandineBack</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="brigandineBigTorso" target="brigandine" local="true">1st.osd\brigandineBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="brigandineBreastCenter" target="brigandine" local="true">1st.osd\brigandineBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="brigandineBreastCleavage" target="brigandine" local="true">1st.osd\brigandineBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastFlatness2" target="brigandine" local="true">1st.osd\brigandineBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastGravity2" target="brigandine" local="true">1st.osd\brigandineBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="brigandineBreastHeight" target="brigandine" local="true">1st.osd\brigandineBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="brigandineBreastPerkiness" target="brigandine" local="true">1st.osd\brigandineBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="brigandineBreasts" target="brigandine" local="true">1st.osd\brigandineBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsFantasy" target="brigandine" local="true">1st.osd\brigandineBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsGone" target="brigandine" local="true">1st.osd\brigandineBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsNewSH" target="brigandine" local="true">1st.osd\brigandineBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsNewSHSymmetry" target="brigandine" local="true">1st.osd\brigandineBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsSmall" target="brigandine" local="true">1st.osd\brigandineBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsSmall2" target="brigandine" local="true">1st.osd\brigandineBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsTogether" target="brigandine" local="true">1st.osd\brigandineBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="brigandineBreastTopSlope" target="brigandine" local="true">1st.osd\brigandineBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="brigandineBreastWidth" target="brigandine" local="true">1st.osd\brigandineBreastWidth</Data>
+        </Slider>
+        <Slider name="BreastSideShape" invert="false" small="0" big="0">
+            <Data name="brigandineBreastSideShape" target="brigandine" local="true">1st.osd\brigandineBreastSideShape</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="brigandineChestDepth" target="brigandine" local="true">1st.osd\brigandineChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="brigandineChestWidth" target="brigandine" local="true">1st.osd\brigandineChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="brigandineChubbyArms" target="brigandine" local="true">1st.osd\brigandineChubbyArms</Data>
+        </Slider>
+        <Slider name="ChubbyWaist" invert="false" small="0" big="0">
+            <Data name="brigandineChubbyWaist" target="brigandine" local="true">1st.osd\brigandineChubbyWaist</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="brigandineDoubleMelon" target="brigandine" local="true">1st.osd\brigandineDoubleMelon</Data>
+        </Slider>
+        <Slider name="ForearmSize" invert="false" small="0" big="0">
+            <Data name="brigandineForearmSize" target="brigandine" local="true">1st.osd\brigandineForearmSize</Data>
+        </Slider>
+        <Slider name="HipForward" invert="false" small="0" big="0">
+            <Data name="brigandineHipForward" target="brigandine" local="true">1st.osd\brigandineHipForward</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleArms" target="brigandine" local="true">1st.osd\brigandineMuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="brigandineMusclePecs" target="brigandine" local="true">1st.osd\brigandineMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="brigandineNeckSeam" target="brigandine" local="true">1st.osd\brigandineNeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="brigandineNippleDown" target="brigandine" local="true">1st.osd\brigandineNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="brigandineNippleUp" target="brigandine" local="true">1st.osd\brigandineNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="brigandinePregnancyBelly" target="brigandine" local="true">1st.osd\brigandinePregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="brigandinePushUp" target="brigandine" local="true">1st.osd\brigandinePushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="brigandineShoulderSmooth" target="brigandine" local="true">1st.osd\brigandineShoulderSmooth</Data>
+        </Slider>
+        <Slider name="WristSize" invert="false" small="100" big="0">
+            <Data name="brigandineWristSize" target="brigandine" local="true">1st.osd\brigandineWristSize</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="brigandine7B Upper" target="brigandine" local="true">1st.osd\brigandine7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="brigandineVanillaSSEHi" target="brigandine" local="true">1st.osd\brigandineVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="brigandineVanillaSSELo" target="brigandine" local="true">1st.osd\brigandineVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="brigandineOldBaseShape" target="brigandine" local="true">1st.osd\brigandineOldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="brigandineArms" target="brigandine" local="true">1st.osd\brigandineArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="brigandineBreastFlatness" target="brigandine" local="true">1st.osd\brigandineBreastFlatness</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="brigandineShoulderTweak" target="brigandine" local="true">1st.osd\brigandineShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="brigandineShoulderWidth" target="brigandine" local="true">1st.osd\brigandineShoulderWidth</Data>
+        </Slider>
+        <Slider name="Waist" invert="false" small="0" big="0">
+            <Data name="brigandineWaist" target="brigandine" local="true">1st.osd\brigandineWaist</Data>
+        </Slider>
+        <Slider name="ArmpitShape_v2" invert="false" small="0" big="0">
+            <Data name="brigandineArmpitShape_v2" target="brigandine" local="true">1st.osd\brigandineArmpitShape_v2</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBackWing_v2" target="brigandine" local="true">1st.osd\brigandineBackWing_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsConverage_v2" target="brigandine" local="true">1st.osd\brigandineBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="BreastsPressed_v2" invert="false" small="0" big="0">
+            <Data name="brigandineBreastsPressed_v2" target="brigandine" local="true">1st.osd\brigandineBreastsPressed_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="brigandineClavicle_v2" target="brigandine" local="true">1st.osd\brigandineClavicle_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleBack_v2" target="brigandine" local="true">1st.osd\brigandineMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="brigandineMuscleMoreArms_v2" target="brigandine" local="true">1st.osd\brigandineMuscleMoreArms_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Hood - Elmlock 1 H">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 H.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1F</OutputFile>
+        <Shape target="coif-1">coif-1</Shape>
+        <Shape target="gorget">gorget</Shape>
+        <Shape target="hood-1">hood-1</Shape>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="gorgetBack" target="gorget" local="true">Hood 1 H.osd\gorgetBack</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="gorgetBigTorso" target="gorget" local="true">Hood 1 H.osd\gorgetBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenter" target="gorget" local="true">Hood 1 H.osd\gorgetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenterBig" target="gorget" local="true">Hood 1 H.osd\gorgetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCleavage" target="gorget" local="true">Hood 1 H.osd\gorgetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness2" target="gorget" local="true">Hood 1 H.osd\gorgetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastGravity2" target="gorget" local="true">Hood 1 H.osd\gorgetBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="gorgetBreastHeight" target="gorget" local="true">Hood 1 H.osd\gorgetBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastPerkiness" target="gorget" local="true">Hood 1 H.osd\gorgetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="gorgetBreasts" target="gorget" local="true">Hood 1 H.osd\gorgetBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsFantasy" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsGone" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSH" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSHSymmetry" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall2" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsTogether" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="gorgetBreastTopSlope" target="gorget" local="true">Hood 1 H.osd\gorgetBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="gorgetBreastWidth" target="gorget" local="true">Hood 1 H.osd\gorgetBreastWidth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="gorgetChestDepth" target="gorget" local="true">Hood 1 H.osd\gorgetChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="gorgetChestWidth" target="gorget" local="true">Hood 1 H.osd\gorgetChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="gorgetChubbyArms" target="gorget" local="true">Hood 1 H.osd\gorgetChubbyArms</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="gorgetDoubleMelon" target="gorget" local="true">Hood 1 H.osd\gorgetDoubleMelon</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleArms" target="gorget" local="true">Hood 1 H.osd\gorgetMuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="gorgetMusclePecs" target="gorget" local="true">Hood 1 H.osd\gorgetMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="coif-1NeckSeam" target="coif-1" local="true">Hood 1 H.osd\coif-1NeckSeam</Data>
+            <Data name="gorgetNeckSeam" target="gorget" local="true">Hood 1 H.osd\gorgetNeckSeam</Data>
+            <Data name="hood-1NeckSeam" target="hood-1" local="true">Hood 1 H.osd\hood-1NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="gorgetNippleDown" target="gorget" local="true">Hood 1 H.osd\gorgetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="gorgetNippleUp" target="gorget" local="true">Hood 1 H.osd\gorgetNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="gorgetPregnancyBelly" target="gorget" local="true">Hood 1 H.osd\gorgetPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="gorgetPushUp" target="gorget" local="true">Hood 1 H.osd\gorgetPushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderSmooth" target="gorget" local="true">Hood 1 H.osd\gorgetShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="gorgetSternumDepth" target="gorget" local="true">Hood 1 H.osd\gorgetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="gorgetSternumHeight" target="gorget" local="true">Hood 1 H.osd\gorgetSternumHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="gorget7B Upper" target="gorget" local="true">Hood 1 H.osd\gorget7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSEHi" target="gorget" local="true">Hood 1 H.osd\gorgetVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSELo" target="gorget" local="true">Hood 1 H.osd\gorgetVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="gorgetOldBaseShape" target="gorget" local="true">Hood 1 H.osd\gorgetOldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="gorgetArms" target="gorget" local="true">Hood 1 H.osd\gorgetArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness" target="gorget" local="true">Hood 1 H.osd\gorgetBreastFlatness</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderTweak" target="gorget" local="true">Hood 1 H.osd\gorgetShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderWidth" target="gorget" local="true">Hood 1 H.osd\gorgetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBackWing_v2" target="gorget" local="true">Hood 1 H.osd\gorgetBackWing_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsConverage_v2" target="gorget" local="true">Hood 1 H.osd\gorgetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="gorgetClavicle_v2" target="gorget" local="true">Hood 1 H.osd\gorgetClavicle_v2</Data>
+            <Data name="hood-1Clavicle_v2" target="hood-1" local="true">Hood 1 H.osd\hood-1Clavicle_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleBack_v2" target="gorget" local="true">Hood 1 H.osd\gorgetMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleMoreArms_v2" target="gorget" local="true">Hood 1 H.osd\gorgetMuscleMoreArms_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Hood - Elmlock 1 Elf">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 E.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1EF</OutputFile>
+        <Shape target="coif-1">coif-1</Shape>
+        <Shape target="gorget">gorget</Shape>
+        <Shape target="hood-1">hood-1</Shape>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="gorgetBack" target="gorget" local="true">Hood 1 E.osd\gorgetBack</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="gorgetBigTorso" target="gorget" local="true">Hood 1 E.osd\gorgetBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenter" target="gorget" local="true">Hood 1 E.osd\gorgetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenterBig" target="gorget" local="true">Hood 1 E.osd\gorgetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCleavage" target="gorget" local="true">Hood 1 E.osd\gorgetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness2" target="gorget" local="true">Hood 1 E.osd\gorgetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastGravity2" target="gorget" local="true">Hood 1 E.osd\gorgetBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="gorgetBreastHeight" target="gorget" local="true">Hood 1 E.osd\gorgetBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastPerkiness" target="gorget" local="true">Hood 1 E.osd\gorgetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="gorgetBreasts" target="gorget" local="true">Hood 1 E.osd\gorgetBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsFantasy" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsGone" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSH" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSHSymmetry" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall2" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsTogether" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="gorgetBreastTopSlope" target="gorget" local="true">Hood 1 E.osd\gorgetBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="gorgetBreastWidth" target="gorget" local="true">Hood 1 E.osd\gorgetBreastWidth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="gorgetChestDepth" target="gorget" local="true">Hood 1 E.osd\gorgetChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="gorgetChestWidth" target="gorget" local="true">Hood 1 E.osd\gorgetChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="gorgetChubbyArms" target="gorget" local="true">Hood 1 E.osd\gorgetChubbyArms</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="gorgetDoubleMelon" target="gorget" local="true">Hood 1 E.osd\gorgetDoubleMelon</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleArms" target="gorget" local="true">Hood 1 E.osd\gorgetMuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="gorgetMusclePecs" target="gorget" local="true">Hood 1 E.osd\gorgetMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="coif-1NeckSeam" target="coif-1" local="true">Hood 1 E.osd\coif-1NeckSeam</Data>
+            <Data name="gorgetNeckSeam" target="gorget" local="true">Hood 1 E.osd\gorgetNeckSeam</Data>
+            <Data name="hood-1NeckSeam" target="hood-1" local="true">Hood 1 E.osd\hood-1NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="gorgetNippleDown" target="gorget" local="true">Hood 1 E.osd\gorgetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="gorgetNippleUp" target="gorget" local="true">Hood 1 E.osd\gorgetNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="gorgetPregnancyBelly" target="gorget" local="true">Hood 1 E.osd\gorgetPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="gorgetPushUp" target="gorget" local="true">Hood 1 E.osd\gorgetPushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderSmooth" target="gorget" local="true">Hood 1 E.osd\gorgetShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="gorgetSternumDepth" target="gorget" local="true">Hood 1 E.osd\gorgetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="gorgetSternumHeight" target="gorget" local="true">Hood 1 E.osd\gorgetSternumHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="gorget7B Upper" target="gorget" local="true">Hood 1 E.osd\gorget7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSEHi" target="gorget" local="true">Hood 1 E.osd\gorgetVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSELo" target="gorget" local="true">Hood 1 E.osd\gorgetVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="gorgetOldBaseShape" target="gorget" local="true">Hood 1 E.osd\gorgetOldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="gorgetArms" target="gorget" local="true">Hood 1 E.osd\gorgetArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness" target="gorget" local="true">Hood 1 E.osd\gorgetBreastFlatness</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderTweak" target="gorget" local="true">Hood 1 E.osd\gorgetShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderWidth" target="gorget" local="true">Hood 1 E.osd\gorgetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBackWing_v2" target="gorget" local="true">Hood 1 E.osd\gorgetBackWing_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsConverage_v2" target="gorget" local="true">Hood 1 E.osd\gorgetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="gorgetClavicle_v2" target="gorget" local="true">Hood 1 E.osd\gorgetClavicle_v2</Data>
+            <Data name="hood-1Clavicle_v2" target="hood-1" local="true">Hood 1 E.osd\hood-1Clavicle_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleBack_v2" target="gorget" local="true">Hood 1 E.osd\gorgetMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleMoreArms_v2" target="gorget" local="true">Hood 1 E.osd\gorgetMuscleMoreArms_v2</Data>
+        </Slider>
+        <Slider name="Cutepuffyness" invert="false" small="0" big="0">
+            <Data name="coif-1Cutepuffyness" target="coif-1" local="true">Hood 1 E.osd\coif-1Cutepuffyness</Data>
+            <Data name="gorgetCutepuffyness" target="gorget" local="true">Hood 1 E.osd\gorgetCutepuffyness</Data>
+            <Data name="hood-1Cutepuffyness" target="hood-1" local="true">Hood 1 E.osd\hood-1Cutepuffyness</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Hood - Elmlock 1 Kha">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 K.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1KF</OutputFile>
+        <Shape target="coif-1">coif-1</Shape>
+        <Shape target="gorget">gorget</Shape>
+        <Shape target="hood-1">hood-1</Shape>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="gorgetBack" target="gorget" local="true">Hood 1 K.osd\gorgetBack</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="gorgetBigTorso" target="gorget" local="true">Hood 1 K.osd\gorgetBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenter" target="gorget" local="true">Hood 1 K.osd\gorgetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenterBig" target="gorget" local="true">Hood 1 K.osd\gorgetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCleavage" target="gorget" local="true">Hood 1 K.osd\gorgetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness2" target="gorget" local="true">Hood 1 K.osd\gorgetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastGravity2" target="gorget" local="true">Hood 1 K.osd\gorgetBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="gorgetBreastHeight" target="gorget" local="true">Hood 1 K.osd\gorgetBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastPerkiness" target="gorget" local="true">Hood 1 K.osd\gorgetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="gorgetBreasts" target="gorget" local="true">Hood 1 K.osd\gorgetBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsFantasy" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsGone" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSH" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSHSymmetry" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall2" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsTogether" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="gorgetBreastTopSlope" target="gorget" local="true">Hood 1 K.osd\gorgetBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="gorgetBreastWidth" target="gorget" local="true">Hood 1 K.osd\gorgetBreastWidth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="gorgetChestDepth" target="gorget" local="true">Hood 1 K.osd\gorgetChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="gorgetChestWidth" target="gorget" local="true">Hood 1 K.osd\gorgetChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="gorgetChubbyArms" target="gorget" local="true">Hood 1 K.osd\gorgetChubbyArms</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="gorgetDoubleMelon" target="gorget" local="true">Hood 1 K.osd\gorgetDoubleMelon</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleArms" target="gorget" local="true">Hood 1 K.osd\gorgetMuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="gorgetMusclePecs" target="gorget" local="true">Hood 1 K.osd\gorgetMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="coif-1NeckSeam" target="coif-1" local="true">Hood 1 K.osd\coif-1NeckSeam</Data>
+            <Data name="gorgetNeckSeam" target="gorget" local="true">Hood 1 K.osd\gorgetNeckSeam</Data>
+            <Data name="hood-1NeckSeam" target="hood-1" local="true">Hood 1 K.osd\hood-1NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="gorgetNippleDown" target="gorget" local="true">Hood 1 K.osd\gorgetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="gorgetNippleUp" target="gorget" local="true">Hood 1 K.osd\gorgetNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="gorgetPregnancyBelly" target="gorget" local="true">Hood 1 K.osd\gorgetPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="gorgetPushUp" target="gorget" local="true">Hood 1 K.osd\gorgetPushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderSmooth" target="gorget" local="true">Hood 1 K.osd\gorgetShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="gorgetSternumDepth" target="gorget" local="true">Hood 1 K.osd\gorgetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="gorgetSternumHeight" target="gorget" local="true">Hood 1 K.osd\gorgetSternumHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="gorget7B Upper" target="gorget" local="true">Hood 1 K.osd\gorget7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSEHi" target="gorget" local="true">Hood 1 K.osd\gorgetVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSELo" target="gorget" local="true">Hood 1 K.osd\gorgetVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="gorgetOldBaseShape" target="gorget" local="true">Hood 1 K.osd\gorgetOldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="gorgetArms" target="gorget" local="true">Hood 1 K.osd\gorgetArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness" target="gorget" local="true">Hood 1 K.osd\gorgetBreastFlatness</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderTweak" target="gorget" local="true">Hood 1 K.osd\gorgetShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderWidth" target="gorget" local="true">Hood 1 K.osd\gorgetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBackWing_v2" target="gorget" local="true">Hood 1 K.osd\gorgetBackWing_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsConverage_v2" target="gorget" local="true">Hood 1 K.osd\gorgetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="gorgetClavicle_v2" target="gorget" local="true">Hood 1 K.osd\gorgetClavicle_v2</Data>
+            <Data name="hood-1Clavicle_v2" target="hood-1" local="true">Hood 1 K.osd\hood-1Clavicle_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleBack_v2" target="gorget" local="true">Hood 1 K.osd\gorgetMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleMoreArms_v2" target="gorget" local="true">Hood 1 K.osd\gorgetMuscleMoreArms_v2</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="CBBE KSMC - Hood - Elmlock 1 Arg">
+        <DataFolder>CBBE KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 A.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1AF</OutputFile>
+        <Shape target="coif-1">coif-1</Shape>
+        <Shape target="gorget">gorget</Shape>
+        <Shape target="hood-1">hood-1</Shape>
+        <Slider name="Back" invert="false" small="0" big="0">
+            <Data name="gorgetBack" target="gorget" local="true">Hood 1 A.osd\gorgetBack</Data>
+        </Slider>
+        <Slider name="BigTorso" invert="false" small="0" big="0">
+            <Data name="gorgetBigTorso" target="gorget" local="true">Hood 1 A.osd\gorgetBigTorso</Data>
+        </Slider>
+        <Slider name="BreastCenter" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenter" target="gorget" local="true">Hood 1 A.osd\gorgetBreastCenter</Data>
+        </Slider>
+        <Slider name="BreastCenterBig" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCenterBig" target="gorget" local="true">Hood 1 A.osd\gorgetBreastCenterBig</Data>
+        </Slider>
+        <Slider name="BreastCleavage" invert="false" small="0" big="0">
+            <Data name="gorgetBreastCleavage" target="gorget" local="true">Hood 1 A.osd\gorgetBreastCleavage</Data>
+        </Slider>
+        <Slider name="BreastFlatness2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness2" target="gorget" local="true">Hood 1 A.osd\gorgetBreastFlatness2</Data>
+        </Slider>
+        <Slider name="BreastGravity2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastGravity2" target="gorget" local="true">Hood 1 A.osd\gorgetBreastGravity2</Data>
+        </Slider>
+        <Slider name="BreastHeight" invert="false" small="0" big="0">
+            <Data name="gorgetBreastHeight" target="gorget" local="true">Hood 1 A.osd\gorgetBreastHeight</Data>
+        </Slider>
+        <Slider name="BreastPerkiness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastPerkiness" target="gorget" local="true">Hood 1 A.osd\gorgetBreastPerkiness</Data>
+        </Slider>
+        <Slider name="Breasts" invert="false" small="0" big="0">
+            <Data name="gorgetBreasts" target="gorget" local="true">Hood 1 A.osd\gorgetBreasts</Data>
+        </Slider>
+        <Slider name="BreastsFantasy" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsFantasy" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsFantasy</Data>
+        </Slider>
+        <Slider name="BreastsGone" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsGone" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsGone</Data>
+        </Slider>
+        <Slider name="BreastsNewSH" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSH" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsNewSH</Data>
+        </Slider>
+        <Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsNewSHSymmetry" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsNewSHSymmetry</Data>
+        </Slider>
+        <Slider name="BreastsSmall" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsSmall</Data>
+        </Slider>
+        <Slider name="BreastsSmall2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsSmall2" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsSmall2</Data>
+        </Slider>
+        <Slider name="BreastsTogether" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsTogether" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsTogether</Data>
+        </Slider>
+        <Slider name="BreastTopSlope" invert="false" small="0" big="0">
+            <Data name="gorgetBreastTopSlope" target="gorget" local="true">Hood 1 A.osd\gorgetBreastTopSlope</Data>
+        </Slider>
+        <Slider name="BreastWidth" invert="false" small="0" big="0">
+            <Data name="gorgetBreastWidth" target="gorget" local="true">Hood 1 A.osd\gorgetBreastWidth</Data>
+        </Slider>
+        <Slider name="ChestDepth" invert="false" small="0" big="0">
+            <Data name="gorgetChestDepth" target="gorget" local="true">Hood 1 A.osd\gorgetChestDepth</Data>
+        </Slider>
+        <Slider name="ChestWidth" invert="false" small="0" big="0">
+            <Data name="gorgetChestWidth" target="gorget" local="true">Hood 1 A.osd\gorgetChestWidth</Data>
+        </Slider>
+        <Slider name="ChubbyArms" invert="false" small="0" big="0">
+            <Data name="gorgetChubbyArms" target="gorget" local="true">Hood 1 A.osd\gorgetChubbyArms</Data>
+        </Slider>
+        <Slider name="DoubleMelon" invert="false" small="0" big="0">
+            <Data name="gorgetDoubleMelon" target="gorget" local="true">Hood 1 A.osd\gorgetDoubleMelon</Data>
+        </Slider>
+        <Slider name="MuscleArms" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleArms" target="gorget" local="true">Hood 1 A.osd\gorgetMuscleArms</Data>
+        </Slider>
+        <Slider name="MusclePecs" invert="false" small="0" big="0">
+            <Data name="gorgetMusclePecs" target="gorget" local="true">Hood 1 A.osd\gorgetMusclePecs</Data>
+        </Slider>
+        <Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+            <Data name="coif-1NeckSeam" target="coif-1" local="true">Hood 1 A.osd\coif-1NeckSeam</Data>
+            <Data name="gorgetNeckSeam" target="gorget" local="true">Hood 1 A.osd\gorgetNeckSeam</Data>
+            <Data name="hood-1NeckSeam" target="hood-1" local="true">Hood 1 A.osd\hood-1NeckSeam</Data>
+        </Slider>
+        <Slider name="NippleDown" invert="false" small="0" big="0">
+            <Data name="gorgetNippleDown" target="gorget" local="true">Hood 1 A.osd\gorgetNippleDown</Data>
+        </Slider>
+        <Slider name="NippleUp" invert="false" small="0" big="0">
+            <Data name="gorgetNippleUp" target="gorget" local="true">Hood 1 A.osd\gorgetNippleUp</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="gorgetPregnancyBelly" target="gorget" local="true">Hood 1 A.osd\gorgetPregnancyBelly</Data>
+        </Slider>
+        <Slider name="PushUp" invert="false" small="0" big="0">
+            <Data name="gorgetPushUp" target="gorget" local="true">Hood 1 A.osd\gorgetPushUp</Data>
+        </Slider>
+        <Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderSmooth" target="gorget" local="true">Hood 1 A.osd\gorgetShoulderSmooth</Data>
+        </Slider>
+        <Slider name="SternumDepth" invert="false" small="0" big="0">
+            <Data name="gorgetSternumDepth" target="gorget" local="true">Hood 1 A.osd\gorgetSternumDepth</Data>
+        </Slider>
+        <Slider name="SternumHeight" invert="false" small="0" big="0">
+            <Data name="gorgetSternumHeight" target="gorget" local="true">Hood 1 A.osd\gorgetSternumHeight</Data>
+        </Slider>
+        <Slider name="7B Upper" invert="false" small="0" big="0">
+            <Data name="gorget7B Upper" target="gorget" local="true">Hood 1 A.osd\gorget7B Upper</Data>
+        </Slider>
+        <Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSEHi" target="gorget" local="true">Hood 1 A.osd\gorgetVanillaSSEHi</Data>
+        </Slider>
+        <Slider name="VanillaSSELo" invert="false" small="0" big="0">
+            <Data name="gorgetVanillaSSELo" target="gorget" local="true">Hood 1 A.osd\gorgetVanillaSSELo</Data>
+        </Slider>
+        <Slider name="OldBaseShape" invert="false" small="0" big="0">
+            <Data name="gorgetOldBaseShape" target="gorget" local="true">Hood 1 A.osd\gorgetOldBaseShape</Data>
+        </Slider>
+        <Slider name="Arms" invert="false" small="0" big="0">
+            <Data name="gorgetArms" target="gorget" local="true">Hood 1 A.osd\gorgetArms</Data>
+        </Slider>
+        <Slider name="BreastFlatness" invert="false" small="0" big="0">
+            <Data name="gorgetBreastFlatness" target="gorget" local="true">Hood 1 A.osd\gorgetBreastFlatness</Data>
+        </Slider>
+        <Slider name="ShoulderTweak" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderTweak" target="gorget" local="true">Hood 1 A.osd\gorgetShoulderTweak</Data>
+        </Slider>
+        <Slider name="ShoulderWidth" invert="false" small="0" big="0">
+            <Data name="gorgetShoulderWidth" target="gorget" local="true">Hood 1 A.osd\gorgetShoulderWidth</Data>
+        </Slider>
+        <Slider name="BackWing_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBackWing_v2" target="gorget" local="true">Hood 1 A.osd\gorgetBackWing_v2</Data>
+        </Slider>
+        <Slider name="BreastsConverage_v2" invert="false" small="0" big="0">
+            <Data name="gorgetBreastsConverage_v2" target="gorget" local="true">Hood 1 A.osd\gorgetBreastsConverage_v2</Data>
+        </Slider>
+        <Slider name="Clavicle_v2" invert="false" small="0" big="0">
+            <Data name="gorgetClavicle_v2" target="gorget" local="true">Hood 1 A.osd\gorgetClavicle_v2</Data>
+            <Data name="hood-1Clavicle_v2" target="hood-1" local="true">Hood 1 A.osd\hood-1Clavicle_v2</Data>
+        </Slider>
+        <Slider name="MuscleBack_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleBack_v2" target="gorget" local="true">Hood 1 A.osd\gorgetMuscleBack_v2</Data>
+        </Slider>
+        <Slider name="MuscleMoreArms_v2" invert="false" small="0" big="0">
+            <Data name="gorgetMuscleMoreArms_v2" target="gorget" local="true">Hood 1 A.osd\gorgetMuscleMoreArms_v2</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>

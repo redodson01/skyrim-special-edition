@@ -28,3 +28,4 @@
 *TW3 Geralt Prologue Gear.esp
 *Aerondight.esp
 *Iris.esp
+*ksmc_Elmlock.esp
