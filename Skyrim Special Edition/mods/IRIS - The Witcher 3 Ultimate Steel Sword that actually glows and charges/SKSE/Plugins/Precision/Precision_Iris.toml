@@ -1,0 +1,23 @@
+[[TrailDefinition]]
+    All = true
+    Priority = 5
+    [TrailDefinition.Conditions]
+        WeaponKeywords = ["WeapTypeIris"]
+        EffectKeywords = ["Iris2Tail"]
+    [TrailDefinition.Visuals]
+        LifetimeMult = 1.25
+        BaseColorOverride = { r = 1, g = 0.9, b = 0.75, a = 1 }
+        BaseColorScaleMult = 2
+        TrailMeshOverride = "LKS_Iris/Effect/AttackTrailMagic1.nif"
+
+[[TrailDefinition]]
+    All = true
+    Priority = 5
+    [TrailDefinition.Conditions]
+        WeaponKeywords = ["WeapTypeIris"]
+        EffectKeywords = ["Iris3Tail"]
+    [TrailDefinition.Visuals]
+        LifetimeMult = 1.25
+        BaseColorOverride = { r = 1, g = 0.9, b = 0.75, a = 1 }
+        BaseColorScaleMult = 2
+        TrailMeshOverride = "LKS_Iris/Effect/AttackTrailMagic2.nif"					

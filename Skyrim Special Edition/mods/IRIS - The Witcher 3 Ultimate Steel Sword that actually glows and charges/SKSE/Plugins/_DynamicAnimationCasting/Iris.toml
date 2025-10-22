@@ -1,0 +1,21 @@
+[[event]]
+AnimationEvent = "HitFrame"
+HasRaceFormID = -1
+RaceEspName = ""
+HasActorFormID = -1
+ActorEspName = ""
+IsEquippedRightFormID = 0x000800
+IsEquippedLeftFormID = -1
+HasWeaponType = -1 # does not care what esp it belongs to
+WeaponEspName = "Iris.esp"
+HasEffectFormID = 0x000815
+EffectEspName = "Iris.esp"
+HasKeywordFormID = -1
+KeywordEspName = ""
+SpellFormIDs = [0x000819]
+SpellEspName = "Iris.esp"
+TargetCaster = false
+HealthCost = 0.00
+StaminaCost = 0.00
+MagickaCost = 0.00
+Cooldown = 1
