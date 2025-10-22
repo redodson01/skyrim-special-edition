@@ -1,0 +1,1708 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+    <SliderSet name="HIMBO KSMC - Body - Elmlock">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Body.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">bodyM</OutputFile>
+        <Shape target="HIMBO - Body" DataFolder="HIMBO Ref">HIMBO - Body</Shape>
+        <Shape target="brigandine-M">brigandine-M</Shape>
+        <Shape target="harness-M">harness-M</Shape>
+        <Shape target="trousers-M">trousers-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="HIMBO - BodyWeight 0 to 1" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyWeight 0 to 1</Data>
+            <Data name="brigandine-MWeight 0 to 1" target="brigandine-M" local="true">Body.osd\brigandine-MWeight 0 to 1</Data>
+            <Data name="harness-MWeight 0 to 1" target="harness-M" local="true">Body.osd\harness-MWeight 0 to 1</Data>
+            <Data name="trousers-MWeight 0 to 1" target="trousers-M" local="true">Body.osd\trousers-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyChubby" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyChubby</Data>
+            <Data name="brigandine-MChubby" target="brigandine-M" local="true">Body.osd\brigandine-MChubby</Data>
+            <Data name="harness-MChubby" target="harness-M" local="true">Body.osd\harness-MChubby</Data>
+            <Data name="trousers-MChubby" target="trousers-M" local="true">Body.osd\trousers-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyLean" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyLean</Data>
+            <Data name="brigandine-MLean" target="brigandine-M" local="true">Body.osd\brigandine-MLean</Data>
+            <Data name="harness-MLean" target="harness-M" local="true">Body.osd\harness-MLean</Data>
+            <Data name="trousers-MLean" target="trousers-M" local="true">Body.osd\trousers-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyMuscle" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyMuscle</Data>
+            <Data name="brigandine-MMuscle" target="brigandine-M" local="true">Body.osd\brigandine-MMuscle</Data>
+            <Data name="harness-MMuscle" target="harness-M" local="true">Body.osd\harness-MMuscle</Data>
+            <Data name="trousers-MMuscle" target="trousers-M" local="true">Body.osd\trousers-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodySOSlike" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodySOSlike</Data>
+            <Data name="brigandine-MSOSlike" target="brigandine-M" local="true">Body.osd\brigandine-MSOSlike</Data>
+            <Data name="harness-MSOSlike" target="harness-M" local="true">Body.osd\harness-MSOSlike</Data>
+            <Data name="trousers-MSOSlike" target="trousers-M" local="true">Body.osd\trousers-MSOSlike</Data>
+        </Slider>
+        <Slider name="PecsClavicle" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyPecsClavicle" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyPecsClavicle</Data>
+            <Data name="brigandine-MPecsClavicle" target="brigandine-M" local="true">Body.osd\brigandine-MPecsClavicle</Data>
+            <Data name="harness-MPecsClavicle" target="harness-M" local="true">Body.osd\harness-MPecsClavicle</Data>
+        </Slider>
+        <Slider name="PecsSize" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyPecsSize" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyPecsSize</Data>
+            <Data name="brigandine-MPecsSize" target="brigandine-M" local="true">Body.osd\brigandine-MPecsSize</Data>
+            <Data name="harness-MPecsSize" target="harness-M" local="true">Body.osd\harness-MPecsSize</Data>
+        </Slider>
+        <Slider name="PecsMass" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyPecsMass" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyPecsMass</Data>
+            <Data name="brigandine-MPecsMass" target="brigandine-M" local="true">Body.osd\brigandine-MPecsMass</Data>
+            <Data name="harness-MPecsMass" target="harness-M" local="true">Body.osd\harness-MPecsMass</Data>
+        </Slider>
+        <Slider name="PecsSaggy" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsSaggy" target="brigandine-M" local="true">Body.osd\brigandine-MPecsSaggy</Data>
+            <Data name="harness-MPecsSaggy" target="harness-M" local="true">Body.osd\harness-MPecsSaggy</Data>
+        </Slider>
+        <Slider name="PecsWidth" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsWidth" target="brigandine-M" local="true">Body.osd\brigandine-MPecsWidth</Data>
+            <Data name="harness-MPecsWidth" target="harness-M" local="true">Body.osd\harness-MPecsWidth</Data>
+        </Slider>
+        <Slider name="PecsFlatten" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsFlatten" target="brigandine-M" local="true">Body.osd\brigandine-MPecsFlatten</Data>
+            <Data name="harness-MPecsFlatten" target="harness-M" local="true">Body.osd\harness-MPecsFlatten</Data>
+        </Slider>
+        <Slider name="PecsPosV" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyPecsPosV" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyPecsPosV</Data>
+            <Data name="brigandine-MPecsPosV" target="brigandine-M" local="true">Body.osd\brigandine-MPecsPosV</Data>
+            <Data name="harness-MPecsPosV" target="harness-M" local="true">Body.osd\harness-MPecsPosV</Data>
+        </Slider>
+        <Slider name="PecsPosH" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyPecsPosH" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyPecsPosH</Data>
+            <Data name="brigandine-MPecsPosH" target="brigandine-M" local="true">Body.osd\brigandine-MPecsPosH</Data>
+            <Data name="harness-MPecsPosH" target="harness-M" local="true">Body.osd\harness-MPecsPosH</Data>
+        </Slider>
+        <Slider name="PecsSide" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyPecsSide" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyPecsSide</Data>
+            <Data name="brigandine-MPecsSide" target="brigandine-M" local="true">Body.osd\brigandine-MPecsSide</Data>
+            <Data name="harness-MPecsSide" target="harness-M" local="true">Body.osd\harness-MPecsSide</Data>
+        </Slider>
+        <Slider name="PecsPush" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyPecsPush" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyPecsPush</Data>
+            <Data name="brigandine-MPecsPush" target="brigandine-M" local="true">Body.osd\brigandine-MPecsPush</Data>
+            <Data name="harness-MPecsPush" target="harness-M" local="true">Body.osd\harness-MPecsPush</Data>
+        </Slider>
+        <Slider name="PecsLowerSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsLowerSide" target="brigandine-M" local="true">Body.osd\brigandine-MPecsLowerSide</Data>
+            <Data name="harness-MPecsLowerSide" target="harness-M" local="true">Body.osd\harness-MPecsLowerSide</Data>
+        </Slider>
+        <Slider name="PecsDecrease" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsDecrease" target="brigandine-M" local="true">Body.osd\brigandine-MPecsDecrease</Data>
+            <Data name="harness-MPecsDecrease" target="harness-M" local="true">Body.osd\harness-MPecsDecrease</Data>
+        </Slider>
+        <Slider name="PecsCrease" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsCrease" target="brigandine-M" local="true">Body.osd\brigandine-MPecsCrease</Data>
+            <Data name="harness-MPecsCrease" target="harness-M" local="true">Body.osd\harness-MPecsCrease</Data>
+        </Slider>
+        <Slider name="NipsAreola" invert="false" small="0" big="0">
+            <Data name="brigandine-MNipsAreola" target="brigandine-M" local="true">Body.osd\brigandine-MNipsAreola</Data>
+            <Data name="harness-MNipsAreola" target="harness-M" local="true">Body.osd\harness-MNipsAreola</Data>
+        </Slider>
+        <Slider name="NipsTips" invert="false" small="0" big="0">
+            <Data name="brigandine-MNipsTips" target="brigandine-M" local="true">Body.osd\brigandine-MNipsTips</Data>
+        </Slider>
+        <Slider name="NipsLength" invert="false" small="0" big="0">
+            <Data name="brigandine-MNipsLength" target="brigandine-M" local="true">Body.osd\brigandine-MNipsLength</Data>
+        </Slider>
+        <Slider name="NipsRound" invert="false" small="0" big="0">
+            <Data name="brigandine-MNipsRound" target="brigandine-M" local="true">Body.osd\brigandine-MNipsRound</Data>
+        </Slider>
+        <Slider name="NipsAngle" invert="false" small="0" big="0">
+            <Data name="brigandine-MNipsAngle" target="brigandine-M" local="true">Body.osd\brigandine-MNipsAngle</Data>
+        </Slider>
+        <Slider name="NipsPuffy" invert="false" small="0" big="0">
+            <Data name="brigandine-MNipsPuffy" target="brigandine-M" local="true">Body.osd\brigandine-MNipsPuffy</Data>
+            <Data name="harness-MNipsPuffy" target="harness-M" local="true">Body.osd\harness-MNipsPuffy</Data>
+        </Slider>
+        <Slider name="NipsLower" invert="false" small="0" big="0">
+            <Data name="brigandine-MNipsLower" target="brigandine-M" local="true">Body.osd\brigandine-MNipsLower</Data>
+            <Data name="harness-MNipsLower" target="harness-M" local="true">Body.osd\harness-MNipsLower</Data>
+        </Slider>
+        <Slider name="ArmsTraps" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsTraps" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsTraps</Data>
+            <Data name="brigandine-MArmsTraps" target="brigandine-M" local="true">Body.osd\brigandine-MArmsTraps</Data>
+            <Data name="harness-MArmsTraps" target="harness-M" local="true">Body.osd\harness-MArmsTraps</Data>
+        </Slider>
+        <Slider name="ArmsTrapsMeat" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsTrapsMeat" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsTrapsMeat</Data>
+            <Data name="brigandine-MArmsTrapsMeat" target="brigandine-M" local="true">Body.osd\brigandine-MArmsTrapsMeat</Data>
+            <Data name="harness-MArmsTrapsMeat" target="harness-M" local="true">Body.osd\harness-MArmsTrapsMeat</Data>
+        </Slider>
+        <Slider name="ArmsTrapsPush" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsTrapsPush" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsTrapsPush</Data>
+            <Data name="brigandine-MArmsTrapsPush" target="brigandine-M" local="true">Body.osd\brigandine-MArmsTrapsPush</Data>
+            <Data name="harness-MArmsTrapsPush" target="harness-M" local="true">Body.osd\harness-MArmsTrapsPush</Data>
+        </Slider>
+        <Slider name="ArmsTrapsValleys" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsTrapsValleys" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsTrapsValleys</Data>
+            <Data name="brigandine-MArmsTrapsValleys" target="brigandine-M" local="true">Body.osd\brigandine-MArmsTrapsValleys</Data>
+            <Data name="harness-MArmsTrapsValleys" target="harness-M" local="true">Body.osd\harness-MArmsTrapsValleys</Data>
+        </Slider>
+        <Slider name="ArmsClavicleCurve" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsClavicleCurve" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsClavicleCurve</Data>
+            <Data name="brigandine-MArmsClavicleCurve" target="brigandine-M" local="true">Body.osd\brigandine-MArmsClavicleCurve</Data>
+            <Data name="harness-MArmsClavicleCurve" target="harness-M" local="true">Body.osd\harness-MArmsClavicleCurve</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="HIMBO - BodyArmsShoulders" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsShoulders</Data>
+            <Data name="brigandine-MArmsShoulders" target="brigandine-M" local="true">Body.osd\brigandine-MArmsShoulders</Data>
+            <Data name="harness-MArmsShoulders" target="harness-M" local="true">Body.osd\harness-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsDelts" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsDelts" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsDelts</Data>
+            <Data name="brigandine-MArmsDelts" target="brigandine-M" local="true">Body.osd\brigandine-MArmsDelts</Data>
+            <Data name="harness-MArmsDelts" target="harness-M" local="true">Body.osd\harness-MArmsDelts</Data>
+        </Slider>
+        <Slider name="ArmsDeltsBack" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsDeltsBack" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsDeltsBack</Data>
+            <Data name="brigandine-MArmsDeltsBack" target="brigandine-M" local="true">Body.osd\brigandine-MArmsDeltsBack</Data>
+            <Data name="harness-MArmsDeltsBack" target="harness-M" local="true">Body.osd\harness-MArmsDeltsBack</Data>
+        </Slider>
+        <Slider name="ArmsDeltsUpper" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsDeltsUpper" target="brigandine-M" local="true">Body.osd\brigandine-MArmsDeltsUpper</Data>
+            <Data name="harness-MArmsDeltsUpper" target="harness-M" local="true">Body.osd\harness-MArmsDeltsUpper</Data>
+        </Slider>
+        <Slider name="ArmsDeltsLower" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsDeltsLower" target="brigandine-M" local="true">Body.osd\brigandine-MArmsDeltsLower</Data>
+            <Data name="harness-MArmsDeltsLower" target="harness-M" local="true">Body.osd\harness-MArmsDeltsLower</Data>
+        </Slider>
+        <Slider name="ArmsBiceps" invert="false" small="0" big="100">
+            <Data name="brigandine-MArmsBiceps" target="brigandine-M" local="true">Body.osd\brigandine-MArmsBiceps</Data>
+            <Data name="harness-MArmsBiceps" target="harness-M" local="true">Body.osd\harness-MArmsBiceps</Data>
+        </Slider>
+        <Slider name="ArmsBicepsBack" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsBicepsBack" target="brigandine-M" local="true">Body.osd\brigandine-MArmsBicepsBack</Data>
+            <Data name="harness-MArmsBicepsBack" target="harness-M" local="true">Body.osd\harness-MArmsBicepsBack</Data>
+        </Slider>
+        <Slider name="ArmsSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsSide" target="brigandine-M" local="true">Body.osd\brigandine-MArmsSide</Data>
+            <Data name="harness-MArmsSide" target="harness-M" local="true">Body.osd\harness-MArmsSide</Data>
+        </Slider>
+        <Slider name="ArmsBrachio" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsBrachio" target="brigandine-M" local="true">Body.osd\brigandine-MArmsBrachio</Data>
+        </Slider>
+        <Slider name="ArmsFore" invert="false" small="0" big="100">
+            <Data name="brigandine-MArmsFore" target="brigandine-M" local="true">Body.osd\brigandine-MArmsFore</Data>
+        </Slider>
+        <Slider name="TorsoSterHeight" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoSterHeight" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoSterHeight</Data>
+            <Data name="harness-MTorsoSterHeight" target="harness-M" local="true">Body.osd\harness-MTorsoSterHeight</Data>
+        </Slider>
+        <Slider name="TorsoSterDepth" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoSterDepth" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoSterDepth</Data>
+            <Data name="harness-MTorsoSterDepth" target="harness-M" local="true">Body.osd\harness-MTorsoSterDepth</Data>
+        </Slider>
+        <Slider name="TorsoSterWidth" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoSterWidth" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoSterWidth</Data>
+            <Data name="harness-MTorsoSterWidth" target="harness-M" local="true">Body.osd\harness-MTorsoSterWidth</Data>
+        </Slider>
+        <Slider name="TorsoBackSize" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackSize" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBackSize</Data>
+            <Data name="harness-MTorsoBackSize" target="harness-M" local="true">Body.osd\harness-MTorsoBackSize</Data>
+            <Data name="trousers-MTorsoBackSize" target="trousers-M" local="true">Body.osd\trousers-MTorsoBackSize</Data>
+        </Slider>
+        <Slider name="TorsoBackSlope" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyTorsoBackSlope" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyTorsoBackSlope</Data>
+            <Data name="brigandine-MTorsoBackSlope" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBackSlope</Data>
+            <Data name="harness-MTorsoBackSlope" target="harness-M" local="true">Body.osd\harness-MTorsoBackSlope</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyTorsoBackShape" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyTorsoBackShape</Data>
+            <Data name="brigandine-MTorsoBackShape" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBackShape</Data>
+            <Data name="harness-MTorsoBackShape" target="harness-M" local="true">Body.osd\harness-MTorsoBackShape</Data>
+            <Data name="trousers-MTorsoBackShape" target="trousers-M" local="true">Body.osd\trousers-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoBackCenter" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackCenter" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBackCenter</Data>
+            <Data name="harness-MTorsoBackCenter" target="harness-M" local="true">Body.osd\harness-MTorsoBackCenter</Data>
+        </Slider>
+        <Slider name="TorsoBackSerratusMid" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackSerratusMid" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBackSerratusMid</Data>
+            <Data name="harness-MTorsoBackSerratusMid" target="harness-M" local="true">Body.osd\harness-MTorsoBackSerratusMid</Data>
+            <Data name="trousers-MTorsoBackSerratusMid" target="trousers-M" local="true">Body.osd\trousers-MTorsoBackSerratusMid</Data>
+        </Slider>
+        <Slider name="TorsoBackObliques" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackObliques" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBackObliques</Data>
+            <Data name="harness-MTorsoBackObliques" target="harness-M" local="true">Body.osd\harness-MTorsoBackObliques</Data>
+            <Data name="trousers-MTorsoBackObliques" target="trousers-M" local="true">Body.osd\trousers-MTorsoBackObliques</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="HIMBO - BodyTorsoMass" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyTorsoMass</Data>
+            <Data name="brigandine-MTorsoMass" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoMass</Data>
+            <Data name="harness-MTorsoMass" target="harness-M" local="true">Body.osd\harness-MTorsoMass</Data>
+            <Data name="trousers-MTorsoMass" target="trousers-M" local="true">Body.osd\trousers-MTorsoMass</Data>
+        </Slider>
+        <Slider name="TorsoWidth" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoWidth" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoWidth</Data>
+            <Data name="harness-MTorsoWidth" target="harness-M" local="true">Body.osd\harness-MTorsoWidth</Data>
+            <Data name="trousers-MTorsoWidth" target="trousers-M" local="true">Body.osd\trousers-MTorsoWidth</Data>
+        </Slider>
+        <Slider name="TorsoLower" invert="false" small="0" big="100">
+            <Data name="brigandine-MTorsoLower" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoLower</Data>
+            <Data name="harness-MTorsoLower" target="harness-M" local="true">Body.osd\harness-MTorsoLower</Data>
+            <Data name="trousers-MTorsoLower" target="trousers-M" local="true">Body.osd\trousers-MTorsoLower</Data>
+        </Slider>
+        <Slider name="TorsoWaistSize" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoWaistSize" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoWaistSize</Data>
+            <Data name="harness-MTorsoWaistSize" target="harness-M" local="true">Body.osd\harness-MTorsoWaistSize</Data>
+            <Data name="trousers-MTorsoWaistSize" target="trousers-M" local="true">Body.osd\trousers-MTorsoWaistSize</Data>
+        </Slider>
+        <Slider name="TorsoWaistHeight" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoWaistHeight" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoWaistHeight</Data>
+            <Data name="harness-MTorsoWaistHeight" target="harness-M" local="true">Body.osd\harness-MTorsoWaistHeight</Data>
+            <Data name="trousers-MTorsoWaistHeight" target="trousers-M" local="true">Body.osd\trousers-MTorsoWaistHeight</Data>
+        </Slider>
+        <Slider name="TorsoHip" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoHip" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoHip</Data>
+            <Data name="trousers-MTorsoHip" target="trousers-M" local="true">Body.osd\trousers-MTorsoHip</Data>
+        </Slider>
+        <Slider name="TorsoFlatAbs" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoFlatAbs" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoFlatAbs</Data>
+            <Data name="harness-MTorsoFlatAbs" target="harness-M" local="true">Body.osd\harness-MTorsoFlatAbs</Data>
+        </Slider>
+        <Slider name="TorsoRibsDefinition" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoRibsDefinition" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoRibsDefinition</Data>
+            <Data name="harness-MTorsoRibsDefinition" target="harness-M" local="true">Body.osd\harness-MTorsoRibsDefinition</Data>
+        </Slider>
+        <Slider name="TorsoVLine" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoVLine" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoVLine</Data>
+            <Data name="trousers-MTorsoVLine" target="trousers-M" local="true">Body.osd\trousers-MTorsoVLine</Data>
+        </Slider>
+        <Slider name="TorsoBelly" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBelly" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBelly</Data>
+            <Data name="harness-MTorsoBelly" target="harness-M" local="true">Body.osd\harness-MTorsoBelly</Data>
+            <Data name="trousers-MTorsoBelly" target="trousers-M" local="true">Body.osd\trousers-MTorsoBelly</Data>
+        </Slider>
+        <Slider name="TorsoBellyChub" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBellyChub" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBellyChub</Data>
+            <Data name="harness-MTorsoBellyChub" target="harness-M" local="true">Body.osd\harness-MTorsoBellyChub</Data>
+            <Data name="trousers-MTorsoBellyChub" target="trousers-M" local="true">Body.osd\trousers-MTorsoBellyChub</Data>
+        </Slider>
+        <Slider name="TorsoBellyLHandles" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBellyLHandles" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBellyLHandles</Data>
+            <Data name="harness-MTorsoBellyLHandles" target="harness-M" local="true">Body.osd\harness-MTorsoBellyLHandles</Data>
+            <Data name="trousers-MTorsoBellyLHandles" target="trousers-M" local="true">Body.osd\trousers-MTorsoBellyLHandles</Data>
+        </Slider>
+        <Slider name="TorsoSpine" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoSpine" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoSpine</Data>
+            <Data name="trousers-MTorsoSpine" target="trousers-M" local="true">Body.osd\trousers-MTorsoSpine</Data>
+        </Slider>
+        <Slider name="ButtBooty" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtBooty" target="brigandine-M" local="true">Body.osd\brigandine-MButtBooty</Data>
+            <Data name="trousers-MButtBooty" target="trousers-M" local="true">Body.osd\trousers-MButtBooty</Data>
+        </Slider>
+        <Slider name="ButtRoundy" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtRoundy" target="brigandine-M" local="true">Body.osd\brigandine-MButtRoundy</Data>
+            <Data name="trousers-MButtRoundy" target="trousers-M" local="true">Body.osd\trousers-MButtRoundy</Data>
+        </Slider>
+        <Slider name="ButtSaggy" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtSaggy" target="brigandine-M" local="true">Body.osd\brigandine-MButtSaggy</Data>
+            <Data name="trousers-MButtSaggy" target="trousers-M" local="true">Body.osd\trousers-MButtSaggy</Data>
+        </Slider>
+        <Slider name="ButtCleft" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtCleft" target="brigandine-M" local="true">Body.osd\brigandine-MButtCleft</Data>
+            <Data name="trousers-MButtCleft" target="trousers-M" local="true">Body.osd\trousers-MButtCleft</Data>
+        </Slider>
+        <Slider name="ButtSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtSide" target="brigandine-M" local="true">Body.osd\brigandine-MButtSide</Data>
+            <Data name="trousers-MButtSide" target="trousers-M" local="true">Body.osd\trousers-MButtSide</Data>
+        </Slider>
+        <Slider name="ButtCenterPush" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtCenterPush" target="brigandine-M" local="true">Body.osd\brigandine-MButtCenterPush</Data>
+            <Data name="trousers-MButtCenterPush" target="trousers-M" local="true">Body.osd\trousers-MButtCenterPush</Data>
+        </Slider>
+        <Slider name="ButtCurve" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtCurve" target="brigandine-M" local="true">Body.osd\brigandine-MButtCurve</Data>
+            <Data name="trousers-MButtCurve" target="trousers-M" local="true">Body.osd\trousers-MButtCurve</Data>
+        </Slider>
+        <Slider name="ButtDimpleDeepen" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtDimpleDeepen" target="brigandine-M" local="true">Body.osd\brigandine-MButtDimpleDeepen</Data>
+            <Data name="trousers-MButtDimpleDeepen" target="trousers-M" local="true">Body.osd\trousers-MButtDimpleDeepen</Data>
+        </Slider>
+        <Slider name="ButtDimpleFatten" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtDimpleFatten" target="brigandine-M" local="true">Body.osd\brigandine-MButtDimpleFatten</Data>
+            <Data name="trousers-MButtDimpleFatten" target="trousers-M" local="true">Body.osd\trousers-MButtDimpleFatten</Data>
+        </Slider>
+        <Slider name="LegsSize" invert="false" small="0" big="100">
+            <Data name="brigandine-MLegsSize" target="brigandine-M" local="true">Body.osd\brigandine-MLegsSize</Data>
+            <Data name="trousers-MLegsSize" target="trousers-M" local="true">Body.osd\trousers-MLegsSize</Data>
+        </Slider>
+        <Slider name="LegsThigh" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsThigh" target="brigandine-M" local="true">Body.osd\brigandine-MLegsThigh</Data>
+            <Data name="trousers-MLegsThigh" target="trousers-M" local="true">Body.osd\trousers-MLegsThigh</Data>
+        </Slider>
+        <Slider name="LegsThinner" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsThinner" target="brigandine-M" local="true">Body.osd\brigandine-MLegsThinner</Data>
+            <Data name="harness-MLegsThinner" target="harness-M" local="true">Body.osd\harness-MLegsThinner</Data>
+            <Data name="trousers-MLegsThinner" target="trousers-M" local="true">Body.osd\trousers-MLegsThinner</Data>
+        </Slider>
+        <Slider name="LegsChubby" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsChubby" target="brigandine-M" local="true">Body.osd\brigandine-MLegsChubby</Data>
+            <Data name="harness-MLegsChubby" target="harness-M" local="true">Body.osd\harness-MLegsChubby</Data>
+            <Data name="trousers-MLegsChubby" target="trousers-M" local="true">Body.osd\trousers-MLegsChubby</Data>
+        </Slider>
+        <Slider name="LegsGlutes" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsGlutes" target="brigandine-M" local="true">Body.osd\brigandine-MLegsGlutes</Data>
+            <Data name="trousers-MLegsGlutes" target="trousers-M" local="true">Body.osd\trousers-MLegsGlutes</Data>
+        </Slider>
+        <Slider name="LegsFemurUpper" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsFemurUpper" target="brigandine-M" local="true">Body.osd\brigandine-MLegsFemurUpper</Data>
+            <Data name="trousers-MLegsFemurUpper" target="trousers-M" local="true">Body.osd\trousers-MLegsFemurUpper</Data>
+        </Slider>
+        <Slider name="LegsFemurLower" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsFemurLower" target="brigandine-M" local="true">Body.osd\brigandine-MLegsFemurLower</Data>
+            <Data name="trousers-MLegsFemurLower" target="trousers-M" local="true">Body.osd\trousers-MLegsFemurLower</Data>
+        </Slider>
+        <Slider name="LegsFemurSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsFemurSide" target="brigandine-M" local="true">Body.osd\brigandine-MLegsFemurSide</Data>
+            <Data name="trousers-MLegsFemurSide" target="trousers-M" local="true">Body.osd\trousers-MLegsFemurSide</Data>
+        </Slider>
+        <Slider name="LegsFemurBack" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsFemurBack" target="brigandine-M" local="true">Body.osd\brigandine-MLegsFemurBack</Data>
+            <Data name="trousers-MLegsFemurBack" target="trousers-M" local="true">Body.osd\trousers-MLegsFemurBack</Data>
+        </Slider>
+        <Slider name="LegsKneePit" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsKneePit" target="trousers-M" local="true">Body.osd\trousers-MLegsKneePit</Data>
+        </Slider>
+        <Slider name="LegsCalfSize" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsCalfSize" target="trousers-M" local="true">Body.osd\trousers-MLegsCalfSize</Data>
+        </Slider>
+        <Slider name="LegsCalfWidth" invert="false" small="0" big="0">
+            <Data name="harness-MLegsCalfWidth" target="harness-M" local="true">Body.osd\harness-MLegsCalfWidth</Data>
+            <Data name="trousers-MLegsCalfWidth" target="trousers-M" local="true">Body.osd\trousers-MLegsCalfWidth</Data>
+        </Slider>
+        <Slider name="LegsCalfUpper" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsCalfUpper" target="trousers-M" local="true">Body.osd\trousers-MLegsCalfUpper</Data>
+        </Slider>
+        <Slider name="LegsCalfLower" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsCalfLower" target="trousers-M" local="true">Body.osd\trousers-MLegsCalfLower</Data>
+        </Slider>
+        <Slider name="LegsCalfFlatten" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsCalfFlatten" target="trousers-M" local="true">Body.osd\trousers-MLegsCalfFlatten</Data>
+        </Slider>
+        <Slider name="LegsShinCrease" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsShinCrease" target="trousers-M" local="true">Body.osd\trousers-MLegsShinCrease</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyFemmeT" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyFemmeT</Data>
+            <Data name="brigandine-MFemmeT" target="brigandine-M" local="true">Body.osd\brigandine-MFemmeT</Data>
+            <Data name="harness-MFemmeT" target="harness-M" local="true">Body.osd\harness-MFemmeT</Data>
+            <Data name="trousers-MFemmeT" target="trousers-M" local="true">Body.osd\trousers-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyFemmeB" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyFemmeB</Data>
+            <Data name="brigandine-MFemmeB" target="brigandine-M" local="true">Body.osd\brigandine-MFemmeB</Data>
+            <Data name="harness-MFemmeB" target="harness-M" local="true">Body.osd\harness-MFemmeB</Data>
+            <Data name="trousers-MFemmeB" target="trousers-M" local="true">Body.osd\trousers-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoHipLarge" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoHipLarge" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoHipLarge</Data>
+            <Data name="harness-MTorsoHipLarge" target="harness-M" local="true">Body.osd\harness-MTorsoHipLarge</Data>
+            <Data name="trousers-MTorsoHipLarge" target="trousers-M" local="true">Body.osd\trousers-MTorsoHipLarge</Data>
+        </Slider>
+        <Slider name="LegsThighUpperSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsThighUpperSide" target="brigandine-M" local="true">Body.osd\brigandine-MLegsThighUpperSide</Data>
+            <Data name="harness-MLegsThighUpperSide" target="harness-M" local="true">Body.osd\harness-MLegsThighUpperSide</Data>
+            <Data name="trousers-MLegsThighUpperSide" target="trousers-M" local="true">Body.osd\trousers-MLegsThighUpperSide</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyTorsoShoulderInc" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyTorsoShoulderInc</Data>
+            <Data name="brigandine-MTorsoShoulderInc" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoShoulderInc</Data>
+            <Data name="harness-MTorsoShoulderInc" target="harness-M" local="true">Body.osd\harness-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyTorsoShoulderDec" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyTorsoShoulderDec</Data>
+            <Data name="brigandine-MTorsoShoulderDec" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoShoulderDec</Data>
+            <Data name="harness-MTorsoShoulderDec" target="harness-M" local="true">Body.osd\harness-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="LegsVastusMReduction" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsVastusMReduction" target="brigandine-M" local="true">Body.osd\brigandine-MLegsVastusMReduction</Data>
+            <Data name="trousers-MLegsVastusMReduction" target="trousers-M" local="true">Body.osd\trousers-MLegsVastusMReduction</Data>
+        </Slider>
+        <Slider name="ArmsDeltsShape" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyArmsDeltsShape" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyArmsDeltsShape</Data>
+            <Data name="brigandine-MArmsDeltsShape" target="brigandine-M" local="true">Body.osd\brigandine-MArmsDeltsShape</Data>
+            <Data name="harness-MArmsDeltsShape" target="harness-M" local="true">Body.osd\harness-MArmsDeltsShape</Data>
+        </Slider>
+        <Slider name="PecsMinor" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsMinor" target="brigandine-M" local="true">Body.osd\brigandine-MPecsMinor</Data>
+            <Data name="harness-MPecsMinor" target="harness-M" local="true">Body.osd\harness-MPecsMinor</Data>
+        </Slider>
+        <Slider name="PecsLower" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsLower" target="brigandine-M" local="true">Body.osd\brigandine-MPecsLower</Data>
+            <Data name="harness-MPecsLower" target="harness-M" local="true">Body.osd\harness-MPecsLower</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyBodyMass" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyBodyMass</Data>
+            <Data name="brigandine-MBodyMass" target="brigandine-M" local="true">Body.osd\brigandine-MBodyMass</Data>
+            <Data name="harness-MBodyMass" target="harness-M" local="true">Body.osd\harness-MBodyMass</Data>
+            <Data name="trousers-MBodyMass" target="trousers-M" local="true">Body.osd\trousers-MBodyMass</Data>
+        </Slider>
+        <Slider name="BellyPot" invert="false" small="0" big="0">
+            <Data name="brigandine-MBellyPot" target="brigandine-M" local="true">Body.osd\brigandine-MBellyPot</Data>
+            <Data name="harness-MBellyPot" target="harness-M" local="true">Body.osd\harness-MBellyPot</Data>
+            <Data name="trousers-MBellyPot" target="trousers-M" local="true">Body.osd\trousers-MBellyPot</Data>
+        </Slider>
+        <Slider name="BellySmooth" invert="false" small="0" big="0">
+            <Data name="brigandine-MBellySmooth" target="brigandine-M" local="true">Body.osd\brigandine-MBellySmooth</Data>
+            <Data name="harness-MBellySmooth" target="harness-M" local="true">Body.osd\harness-MBellySmooth</Data>
+            <Data name="trousers-MBellySmooth" target="trousers-M" local="true">Body.osd\trousers-MBellySmooth</Data>
+        </Slider>
+        <Slider name="ButtTailbone" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtTailbone" target="brigandine-M" local="true">Body.osd\brigandine-MButtTailbone</Data>
+            <Data name="trousers-MButtTailbone" target="trousers-M" local="true">Body.osd\trousers-MButtTailbone</Data>
+        </Slider>
+        <Slider name="ButtUpper" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtUpper" target="brigandine-M" local="true">Body.osd\brigandine-MButtUpper</Data>
+            <Data name="trousers-MButtUpper" target="trousers-M" local="true">Body.osd\trousers-MButtUpper</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="brigandine-MPregnancyBelly" target="brigandine-M" local="true">Body.osd\brigandine-MPregnancyBelly</Data>
+            <Data name="harness-MPregnancyBelly" target="harness-M" local="true">Body.osd\harness-MPregnancyBelly</Data>
+            <Data name="trousers-MPregnancyBelly" target="trousers-M" local="true">Body.osd\trousers-MPregnancyBelly</Data>
+        </Slider>
+        <Slider name="BubbleButt" invert="false" small="0" big="0">
+            <Data name="brigandine-MBubbleButt" target="brigandine-M" local="true">Body.osd\brigandine-MBubbleButt</Data>
+            <Data name="trousers-MBubbleButt" target="trousers-M" local="true">Body.osd\trousers-MBubbleButt</Data>
+        </Slider>
+        <Slider name="SSBBW butt growth" invert="false" small="0" big="0">
+            <Data name="brigandine-MSSBBW butt growth" target="brigandine-M" local="true">Body.osd\brigandine-MSSBBW butt growth</Data>
+            <Data name="harness-MSSBBW butt growth" target="harness-M" local="true">Body.osd\harness-MSSBBW butt growth</Data>
+            <Data name="trousers-MSSBBW butt growth" target="trousers-M" local="true">Body.osd\trousers-MSSBBW butt growth</Data>
+        </Slider>
+        <Slider name="SSBBW2 boobs growth" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodySSBBW2 boobs growth" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodySSBBW2 boobs growth</Data>
+            <Data name="brigandine-MSSBBW2 boobs growth" target="brigandine-M" local="true">Body.osd\brigandine-MSSBBW2 boobs growth</Data>
+            <Data name="harness-MSSBBW2 boobs growth" target="harness-M" local="true">Body.osd\harness-MSSBBW2 boobs growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodySamuelLike" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodySamuelLike</Data>
+            <Data name="brigandine-MSamuelLike" target="brigandine-M" local="true">Body.osd\brigandine-MSamuelLike</Data>
+            <Data name="harness-MSamuelLike" target="harness-M" local="true">Body.osd\harness-MSamuelLike</Data>
+            <Data name="trousers-MSamuelLike" target="trousers-M" local="true">Body.osd\trousers-MSamuelLike</Data>
+        </Slider>
+        <Slider name="ButtLower" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtLower" target="brigandine-M" local="true">Body.osd\brigandine-MButtLower</Data>
+            <Data name="trousers-MButtLower" target="trousers-M" local="true">Body.osd\trousers-MButtLower</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyFemmeBooba" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyFemmeBooba</Data>
+            <Data name="brigandine-MFemmeBooba" target="brigandine-M" local="true">Body.osd\brigandine-MFemmeBooba</Data>
+            <Data name="harness-MFemmeBooba" target="harness-M" local="true">Body.osd\harness-MFemmeBooba</Data>
+            <Data name="trousers-MFemmeBooba" target="trousers-M" local="true">Body.osd\trousers-MFemmeBooba</Data>
+        </Slider>
+        <Slider name="FemmeBoobaBig" invert="false" small="0" big="0">
+            <Data name="brigandine-MFemmeBoobaBig" target="brigandine-M" local="true">Body.osd\brigandine-MFemmeBoobaBig</Data>
+            <Data name="harness-MFemmeBoobaBig" target="harness-M" local="true">Body.osd\harness-MFemmeBoobaBig</Data>
+        </Slider>
+        <Slider name="BellyButtonPush" invert="false" small="0" big="0">
+            <Data name="brigandine-MBellyButtonPush" target="brigandine-M" local="true">Body.osd\brigandine-MBellyButtonPush</Data>
+            <Data name="trousers-MBellyButtonPush" target="trousers-M" local="true">Body.osd\trousers-MBellyButtonPush</Data>
+        </Slider>
+        <Slider name="BellyRounder" invert="false" small="0" big="0">
+            <Data name="brigandine-MBellyRounder" target="brigandine-M" local="true">Body.osd\brigandine-MBellyRounder</Data>
+            <Data name="harness-MBellyRounder" target="harness-M" local="true">Body.osd\harness-MBellyRounder</Data>
+            <Data name="trousers-MBellyRounder" target="trousers-M" local="true">Body.osd\trousers-MBellyRounder</Data>
+        </Slider>
+        <Slider name="TorsoBackDefinition" invert="false" small="0" big="0">
+            <Data name="HIMBO - BodyTorsoBackDefinition" target="HIMBO - Body" local="true">Body.osd\HIMBO - BodyTorsoBackDefinition</Data>
+            <Data name="brigandine-MTorsoBackDefinition" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoBackDefinition</Data>
+            <Data name="harness-MTorsoBackDefinition" target="harness-M" local="true">Body.osd\harness-MTorsoBackDefinition</Data>
+        </Slider>
+        <Slider name="LegsThighInnerSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsThighInnerSide" target="brigandine-M" local="true">Body.osd\brigandine-MLegsThighInnerSide</Data>
+            <Data name="trousers-MLegsThighInnerSide" target="trousers-M" local="true">Body.osd\trousers-MLegsThighInnerSide</Data>
+        </Slider>
+        <Slider name="LegsKneeInner" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsKneeInner" target="trousers-M" local="true">Body.osd\trousers-MLegsKneeInner</Data>
+        </Slider>
+        <Slider name="LegsKneeOuter" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsKneeOuter" target="trousers-M" local="true">Body.osd\trousers-MLegsKneeOuter</Data>
+        </Slider>
+        <Slider name="LegsThighIn" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsThighIn" target="brigandine-M" local="true">Body.osd\brigandine-MLegsThighIn</Data>
+            <Data name="trousers-MLegsThighIn" target="trousers-M" local="true">Body.osd\trousers-MLegsThighIn</Data>
+        </Slider>
+        <Slider name="LegsCalfSideIn" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsCalfSideIn" target="trousers-M" local="true">Body.osd\trousers-MLegsCalfSideIn</Data>
+        </Slider>
+        <Slider name="LegsCalfOut" invert="false" small="0" big="0">
+            <Data name="trousers-MLegsCalfOut" target="trousers-M" local="true">Body.osd\trousers-MLegsCalfOut</Data>
+        </Slider>
+        <Slider name="ButtTighten" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtTighten" target="brigandine-M" local="true">Body.osd\brigandine-MButtTighten</Data>
+            <Data name="trousers-MButtTighten" target="trousers-M" local="true">Body.osd\trousers-MButtTighten</Data>
+        </Slider>
+        <Slider name="LegsThighSmoothCurve" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsThighSmoothCurve" target="brigandine-M" local="true">Body.osd\brigandine-MLegsThighSmoothCurve</Data>
+            <Data name="trousers-MLegsThighSmoothCurve" target="trousers-M" local="true">Body.osd\trousers-MLegsThighSmoothCurve</Data>
+        </Slider>
+        <Slider name="ButtScrapeUpper" invert="false" small="0" big="0">
+            <Data name="brigandine-MButtScrapeUpper" target="brigandine-M" local="true">Body.osd\brigandine-MButtScrapeUpper</Data>
+            <Data name="trousers-MButtScrapeUpper" target="trousers-M" local="true">Body.osd\trousers-MButtScrapeUpper</Data>
+        </Slider>
+        <Slider name="TorsoMassSmooth" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoMassSmooth" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoMassSmooth</Data>
+            <Data name="harness-MTorsoMassSmooth" target="harness-M" local="true">Body.osd\harness-MTorsoMassSmooth</Data>
+        </Slider>
+        <Slider name="TorsoHipSmooth" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoHipSmooth" target="brigandine-M" local="true">Body.osd\brigandine-MTorsoHipSmooth</Data>
+            <Data name="trousers-MTorsoHipSmooth" target="trousers-M" local="true">Body.osd\trousers-MTorsoHipSmooth</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - 1st - Elmlock">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>1st.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">1stM</OutputFile>
+        <Shape target="brigandine-M">brigandine-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="brigandine-MWeight 0 to 1" target="brigandine-M" local="true">1st.osd\brigandine-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="brigandine-MChubby" target="brigandine-M" local="true">1st.osd\brigandine-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="brigandine-MLean" target="brigandine-M" local="true">1st.osd\brigandine-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="brigandine-MMuscle" target="brigandine-M" local="true">1st.osd\brigandine-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="brigandine-MSOSlike" target="brigandine-M" local="true">1st.osd\brigandine-MSOSlike</Data>
+        </Slider>
+        <Slider name="PecsClavicle" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsClavicle" target="brigandine-M" local="true">1st.osd\brigandine-MPecsClavicle</Data>
+        </Slider>
+        <Slider name="PecsSize" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsSize" target="brigandine-M" local="true">1st.osd\brigandine-MPecsSize</Data>
+        </Slider>
+        <Slider name="PecsMass" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsMass" target="brigandine-M" local="true">1st.osd\brigandine-MPecsMass</Data>
+        </Slider>
+        <Slider name="PecsSaggy" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsSaggy" target="brigandine-M" local="true">1st.osd\brigandine-MPecsSaggy</Data>
+        </Slider>
+        <Slider name="PecsWidth" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsWidth" target="brigandine-M" local="true">1st.osd\brigandine-MPecsWidth</Data>
+        </Slider>
+        <Slider name="PecsFlatten" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsFlatten" target="brigandine-M" local="true">1st.osd\brigandine-MPecsFlatten</Data>
+        </Slider>
+        <Slider name="PecsPosV" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsPosV" target="brigandine-M" local="true">1st.osd\brigandine-MPecsPosV</Data>
+        </Slider>
+        <Slider name="PecsPosH" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsPosH" target="brigandine-M" local="true">1st.osd\brigandine-MPecsPosH</Data>
+        </Slider>
+        <Slider name="PecsSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsSide" target="brigandine-M" local="true">1st.osd\brigandine-MPecsSide</Data>
+        </Slider>
+        <Slider name="PecsPush" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsPush" target="brigandine-M" local="true">1st.osd\brigandine-MPecsPush</Data>
+        </Slider>
+        <Slider name="PecsLowerSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsLowerSide" target="brigandine-M" local="true">1st.osd\brigandine-MPecsLowerSide</Data>
+        </Slider>
+        <Slider name="PecsDecrease" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsDecrease" target="brigandine-M" local="true">1st.osd\brigandine-MPecsDecrease</Data>
+        </Slider>
+        <Slider name="PecsCrease" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsCrease" target="brigandine-M" local="true">1st.osd\brigandine-MPecsCrease</Data>
+        </Slider>
+        <Slider name="ArmsTraps" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsTraps" target="brigandine-M" local="true">1st.osd\brigandine-MArmsTraps</Data>
+        </Slider>
+        <Slider name="ArmsTrapsMeat" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsTrapsMeat" target="brigandine-M" local="true">1st.osd\brigandine-MArmsTrapsMeat</Data>
+        </Slider>
+        <Slider name="ArmsTrapsPush" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsTrapsPush" target="brigandine-M" local="true">1st.osd\brigandine-MArmsTrapsPush</Data>
+        </Slider>
+        <Slider name="ArmsTrapsValleys" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsTrapsValleys" target="brigandine-M" local="true">1st.osd\brigandine-MArmsTrapsValleys</Data>
+        </Slider>
+        <Slider name="ArmsClavicleCurve" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsClavicleCurve" target="brigandine-M" local="true">1st.osd\brigandine-MArmsClavicleCurve</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="brigandine-MArmsShoulders" target="brigandine-M" local="true">1st.osd\brigandine-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsDelts" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsDelts" target="brigandine-M" local="true">1st.osd\brigandine-MArmsDelts</Data>
+        </Slider>
+        <Slider name="ArmsDeltsBack" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsDeltsBack" target="brigandine-M" local="true">1st.osd\brigandine-MArmsDeltsBack</Data>
+        </Slider>
+        <Slider name="ArmsDeltsUpper" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsDeltsUpper" target="brigandine-M" local="true">1st.osd\brigandine-MArmsDeltsUpper</Data>
+        </Slider>
+        <Slider name="ArmsDeltsLower" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsDeltsLower" target="brigandine-M" local="true">1st.osd\brigandine-MArmsDeltsLower</Data>
+        </Slider>
+        <Slider name="ArmsBiceps" invert="false" small="0" big="100">
+            <Data name="brigandine-MArmsBiceps" target="brigandine-M" local="true">1st.osd\brigandine-MArmsBiceps</Data>
+        </Slider>
+        <Slider name="ArmsBicepsBack" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsBicepsBack" target="brigandine-M" local="true">1st.osd\brigandine-MArmsBicepsBack</Data>
+        </Slider>
+        <Slider name="ArmsSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsSide" target="brigandine-M" local="true">1st.osd\brigandine-MArmsSide</Data>
+        </Slider>
+        <Slider name="ArmsBrachio" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsBrachio" target="brigandine-M" local="true">1st.osd\brigandine-MArmsBrachio</Data>
+        </Slider>
+        <Slider name="ArmsFore" invert="false" small="0" big="100">
+            <Data name="brigandine-MArmsFore" target="brigandine-M" local="true">1st.osd\brigandine-MArmsFore</Data>
+        </Slider>
+        <Slider name="TorsoBackSlope" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackSlope" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoBackSlope</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackShape" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoBackCenter" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackCenter" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoBackCenter</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="brigandine-MTorsoMass" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoMass</Data>
+        </Slider>
+        <Slider name="TorsoWidth" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoWidth" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoWidth</Data>
+        </Slider>
+        <Slider name="TorsoLower" invert="false" small="0" big="100">
+            <Data name="brigandine-MTorsoLower" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoLower</Data>
+        </Slider>
+        <Slider name="TorsoWaistSize" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoWaistSize" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoWaistSize</Data>
+        </Slider>
+        <Slider name="TorsoRibsDefinition" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoRibsDefinition" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoRibsDefinition</Data>
+        </Slider>
+        <Slider name="TorsoBelly" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBelly" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoBelly</Data>
+        </Slider>
+        <Slider name="TorsoBellyChub" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBellyChub" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoBellyChub</Data>
+        </Slider>
+        <Slider name="TorsoBellyLHandles" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBellyLHandles" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoBellyLHandles</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="brigandine-MFemmeT" target="brigandine-M" local="true">1st.osd\brigandine-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="brigandine-MFemmeB" target="brigandine-M" local="true">1st.osd\brigandine-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoHipLarge" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoHipLarge" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoHipLarge</Data>
+        </Slider>
+        <Slider name="LegsThighUpperSide" invert="false" small="0" big="0">
+            <Data name="brigandine-MLegsThighUpperSide" target="brigandine-M" local="true">1st.osd\brigandine-MLegsThighUpperSide</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoShoulderInc" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoShoulderDec" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="ArmsDeltsShape" invert="false" small="0" big="0">
+            <Data name="brigandine-MArmsDeltsShape" target="brigandine-M" local="true">1st.osd\brigandine-MArmsDeltsShape</Data>
+        </Slider>
+        <Slider name="PecsMinor" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsMinor" target="brigandine-M" local="true">1st.osd\brigandine-MPecsMinor</Data>
+        </Slider>
+        <Slider name="PecsLower" invert="false" small="0" big="0">
+            <Data name="brigandine-MPecsLower" target="brigandine-M" local="true">1st.osd\brigandine-MPecsLower</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="brigandine-MBodyMass" target="brigandine-M" local="true">1st.osd\brigandine-MBodyMass</Data>
+        </Slider>
+        <Slider name="BellyPot" invert="false" small="0" big="0">
+            <Data name="brigandine-MBellyPot" target="brigandine-M" local="true">1st.osd\brigandine-MBellyPot</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="brigandine-MPregnancyBelly" target="brigandine-M" local="true">1st.osd\brigandine-MPregnancyBelly</Data>
+        </Slider>
+        <Slider name="SSBBW2 boobs growth" invert="false" small="0" big="0">
+            <Data name="brigandine-MSSBBW2 boobs growth" target="brigandine-M" local="true">1st.osd\brigandine-MSSBBW2 boobs growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="brigandine-MSamuelLike" target="brigandine-M" local="true">1st.osd\brigandine-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="brigandine-MFemmeBooba" target="brigandine-M" local="true">1st.osd\brigandine-MFemmeBooba</Data>
+        </Slider>
+        <Slider name="FemmeBoobaBig" invert="false" small="0" big="0">
+            <Data name="brigandine-MFemmeBoobaBig" target="brigandine-M" local="true">1st.osd\brigandine-MFemmeBoobaBig</Data>
+        </Slider>
+        <Slider name="TorsoBackDefinition" invert="false" small="0" big="0">
+            <Data name="brigandine-MTorsoBackDefinition" target="brigandine-M" local="true">1st.osd\brigandine-MTorsoBackDefinition</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Feet - Elmlock">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Feet.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">FeetM</OutputFile>
+        <Shape target="boots-M">boots-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="boots-MWeight 0 to 1" target="boots-M" local="true">Feet.osd\boots-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="boots-MChubby" target="boots-M" local="true">Feet.osd\boots-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="boots-MLean" target="boots-M" local="true">Feet.osd\boots-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="boots-MMuscle" target="boots-M" local="true">Feet.osd\boots-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="boots-MSOSlike" target="boots-M" local="true">Feet.osd\boots-MSOSlike</Data>
+        </Slider>
+        <Slider name="LegsSize" invert="false" small="0" big="100">
+            <Data name="boots-MLegsSize" target="boots-M" local="true">Feet.osd\boots-MLegsSize</Data>
+        </Slider>
+        <Slider name="LegsThinner" invert="false" small="0" big="0">
+            <Data name="boots-MLegsThinner" target="boots-M" local="true">Feet.osd\boots-MLegsThinner</Data>
+        </Slider>
+        <Slider name="LegsChubby" invert="false" small="0" big="0">
+            <Data name="boots-MLegsChubby" target="boots-M" local="true">Feet.osd\boots-MLegsChubby</Data>
+        </Slider>
+        <Slider name="LegsKneePit" invert="false" small="0" big="0">
+            <Data name="boots-MLegsKneePit" target="boots-M" local="true">Feet.osd\boots-MLegsKneePit</Data>
+        </Slider>
+        <Slider name="LegsCalfSize" invert="false" small="0" big="0">
+            <Data name="boots-MLegsCalfSize" target="boots-M" local="true">Feet.osd\boots-MLegsCalfSize</Data>
+        </Slider>
+        <Slider name="LegsCalfWidth" invert="false" small="0" big="0">
+            <Data name="boots-MLegsCalfWidth" target="boots-M" local="true">Feet.osd\boots-MLegsCalfWidth</Data>
+        </Slider>
+        <Slider name="LegsCalfUpper" invert="false" small="0" big="0">
+            <Data name="boots-MLegsCalfUpper" target="boots-M" local="true">Feet.osd\boots-MLegsCalfUpper</Data>
+        </Slider>
+        <Slider name="LegsCalfLower" invert="false" small="0" big="0">
+            <Data name="boots-MLegsCalfLower" target="boots-M" local="true">Feet.osd\boots-MLegsCalfLower</Data>
+        </Slider>
+        <Slider name="LegsCalfFlatten" invert="false" small="0" big="0">
+            <Data name="boots-MLegsCalfFlatten" target="boots-M" local="true">Feet.osd\boots-MLegsCalfFlatten</Data>
+        </Slider>
+        <Slider name="LegsShinCrease" invert="false" small="0" big="0">
+            <Data name="boots-MLegsShinCrease" target="boots-M" local="true">Feet.osd\boots-MLegsShinCrease</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="boots-MFemmeB" target="boots-M" local="true">Feet.osd\boots-MFemmeB</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="boots-MBodyMass" target="boots-M" local="true">Feet.osd\boots-MBodyMass</Data>
+        </Slider>
+        <Slider name="SSBBW butt growth" invert="false" small="0" big="0">
+            <Data name="boots-MSSBBW butt growth" target="boots-M" local="true">Feet.osd\boots-MSSBBW butt growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="boots-MSamuelLike" target="boots-M" local="true">Feet.osd\boots-MSamuelLike</Data>
+        </Slider>
+        <Slider name="LegsCalfSideIn" invert="false" small="0" big="0">
+            <Data name="boots-MLegsCalfSideIn" target="boots-M" local="true">Feet.osd\boots-MLegsCalfSideIn</Data>
+        </Slider>
+        <Slider name="LegsCalfOut" invert="false" small="0" big="0">
+            <Data name="boots-MLegsCalfOut" target="boots-M" local="true">Feet.osd\boots-MLegsCalfOut</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Hood - Elmlock 2">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 2.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood2M</OutputFile>
+        <Shape target="coif-2-M">coif-2-M</Shape>
+        <Shape target="gorget-M">gorget-M</Shape>
+        <Shape target="hood-2-M">hood-2-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="coif-2-MWeight 0 to 1" target="coif-2-M" local="true">Hood 2.osd\coif-2-MWeight 0 to 1</Data>
+            <Data name="gorget-MWeight 0 to 1" target="gorget-M" local="true">Hood 2.osd\gorget-MWeight 0 to 1</Data>
+            <Data name="hood-2-MWeight 0 to 1" target="hood-2-M" local="true">Hood 2.osd\hood-2-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="gorget-MChubby" target="gorget-M" local="true">Hood 2.osd\gorget-MChubby</Data>
+            <Data name="hood-2-MChubby" target="hood-2-M" local="true">Hood 2.osd\hood-2-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="gorget-MLean" target="gorget-M" local="true">Hood 2.osd\gorget-MLean</Data>
+            <Data name="hood-2-MLean" target="hood-2-M" local="true">Hood 2.osd\hood-2-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="gorget-MMuscle" target="gorget-M" local="true">Hood 2.osd\gorget-MMuscle</Data>
+            <Data name="hood-2-MMuscle" target="hood-2-M" local="true">Hood 2.osd\hood-2-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="gorget-MSOSlike" target="gorget-M" local="true">Hood 2.osd\gorget-MSOSlike</Data>
+            <Data name="hood-2-MSOSlike" target="hood-2-M" local="true">Hood 2.osd\hood-2-MSOSlike</Data>
+        </Slider>
+        <Slider name="PecsClavicle" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsClavicle" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsClavicle</Data>
+            <Data name="hood-2-MPecsClavicle" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsClavicle</Data>
+        </Slider>
+        <Slider name="PecsSize" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSize" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsSize</Data>
+            <Data name="hood-2-MPecsSize" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsSize</Data>
+        </Slider>
+        <Slider name="PecsMass" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsMass" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsMass</Data>
+            <Data name="hood-2-MPecsMass" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsMass</Data>
+        </Slider>
+        <Slider name="PecsPosV" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosV" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsPosV</Data>
+            <Data name="hood-2-MPecsPosV" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsPosV</Data>
+        </Slider>
+        <Slider name="PecsPosH" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosH" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsPosH</Data>
+            <Data name="hood-2-MPecsPosH" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsPosH</Data>
+        </Slider>
+        <Slider name="PecsSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSide" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsSide</Data>
+            <Data name="hood-2-MPecsSide" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsSide</Data>
+        </Slider>
+        <Slider name="PecsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPush" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsPush</Data>
+            <Data name="hood-2-MPecsPush" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsPush</Data>
+        </Slider>
+        <Slider name="PecsLowerSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsLowerSide" target="gorget-M" local="true">Hood 2.osd\gorget-MPecsLowerSide</Data>
+            <Data name="hood-2-MPecsLowerSide" target="hood-2-M" local="true">Hood 2.osd\hood-2-MPecsLowerSide</Data>
+        </Slider>
+        <Slider name="ArmsTraps" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTraps" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsTraps</Data>
+            <Data name="hood-2-MArmsTraps" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsTraps</Data>
+        </Slider>
+        <Slider name="ArmsTrapsMeat" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsMeat" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsTrapsMeat</Data>
+            <Data name="hood-2-MArmsTrapsMeat" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsTrapsMeat</Data>
+        </Slider>
+        <Slider name="ArmsTrapsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsPush" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsTrapsPush</Data>
+            <Data name="hood-2-MArmsTrapsPush" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsTrapsPush</Data>
+        </Slider>
+        <Slider name="ArmsTrapsValleys" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsValleys" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsTrapsValleys</Data>
+            <Data name="hood-2-MArmsTrapsValleys" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsTrapsValleys</Data>
+        </Slider>
+        <Slider name="ArmsClavicleCurve" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsClavicleCurve" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsClavicleCurve</Data>
+            <Data name="hood-2-MArmsClavicleCurve" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsClavicleCurve</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="gorget-MArmsShoulders" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsShoulders</Data>
+            <Data name="hood-2-MArmsShoulders" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsDelts" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDelts" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsDelts</Data>
+            <Data name="hood-2-MArmsDelts" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsDelts</Data>
+        </Slider>
+        <Slider name="ArmsDeltsBack" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsBack" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsDeltsBack</Data>
+            <Data name="hood-2-MArmsDeltsBack" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsDeltsBack</Data>
+        </Slider>
+        <Slider name="TorsoSterHeight" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoSterHeight" target="gorget-M" local="true">Hood 2.osd\gorget-MTorsoSterHeight</Data>
+        </Slider>
+        <Slider name="TorsoBackSlope" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackSlope" target="gorget-M" local="true">Hood 2.osd\gorget-MTorsoBackSlope</Data>
+            <Data name="hood-2-MTorsoBackSlope" target="hood-2-M" local="true">Hood 2.osd\hood-2-MTorsoBackSlope</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackShape" target="gorget-M" local="true">Hood 2.osd\gorget-MTorsoBackShape</Data>
+            <Data name="hood-2-MTorsoBackShape" target="hood-2-M" local="true">Hood 2.osd\hood-2-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="gorget-MTorsoMass" target="gorget-M" local="true">Hood 2.osd\gorget-MTorsoMass</Data>
+            <Data name="hood-2-MTorsoMass" target="hood-2-M" local="true">Hood 2.osd\hood-2-MTorsoMass</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeT" target="gorget-M" local="true">Hood 2.osd\gorget-MFemmeT</Data>
+            <Data name="hood-2-MFemmeT" target="hood-2-M" local="true">Hood 2.osd\hood-2-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeB" target="gorget-M" local="true">Hood 2.osd\gorget-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoShoulderInc" target="gorget-M" local="true">Hood 2.osd\gorget-MTorsoShoulderInc</Data>
+            <Data name="hood-2-MTorsoShoulderInc" target="hood-2-M" local="true">Hood 2.osd\hood-2-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="coif-2-MTorsoShoulderDec" target="coif-2-M" local="true">Hood 2.osd\coif-2-MTorsoShoulderDec</Data>
+            <Data name="gorget-MTorsoShoulderDec" target="gorget-M" local="true">Hood 2.osd\gorget-MTorsoShoulderDec</Data>
+            <Data name="hood-2-MTorsoShoulderDec" target="hood-2-M" local="true">Hood 2.osd\hood-2-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="ArmsDeltsShape" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsShape" target="gorget-M" local="true">Hood 2.osd\gorget-MArmsDeltsShape</Data>
+            <Data name="hood-2-MArmsDeltsShape" target="hood-2-M" local="true">Hood 2.osd\hood-2-MArmsDeltsShape</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="gorget-MBodyMass" target="gorget-M" local="true">Hood 2.osd\gorget-MBodyMass</Data>
+            <Data name="hood-2-MBodyMass" target="hood-2-M" local="true">Hood 2.osd\hood-2-MBodyMass</Data>
+        </Slider>
+        <Slider name="SSBBW2 boobs growth" invert="false" small="0" big="0">
+            <Data name="gorget-MSSBBW2 boobs growth" target="gorget-M" local="true">Hood 2.osd\gorget-MSSBBW2 boobs growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="coif-2-MSamuelLike" target="coif-2-M" local="true">Hood 2.osd\coif-2-MSamuelLike</Data>
+            <Data name="gorget-MSamuelLike" target="gorget-M" local="true">Hood 2.osd\gorget-MSamuelLike</Data>
+            <Data name="hood-2-MSamuelLike" target="hood-2-M" local="true">Hood 2.osd\hood-2-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeBooba" target="gorget-M" local="true">Hood 2.osd\gorget-MFemmeBooba</Data>
+            <Data name="hood-2-MFemmeBooba" target="hood-2-M" local="true">Hood 2.osd\hood-2-MFemmeBooba</Data>
+        </Slider>
+        <Slider name="TorsoBackDefinition" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackDefinition" target="gorget-M" local="true">Hood 2.osd\gorget-MTorsoBackDefinition</Data>
+            <Data name="hood-2-MTorsoBackDefinition" target="hood-2-M" local="true">Hood 2.osd\hood-2-MTorsoBackDefinition</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Hands - Elmlock H">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Hands H.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">HandsHM</OutputFile>
+        <Shape target="HIMBO - Hands" DataFolder="HIMBO Res">HIMBO - Hands</Shape>
+        <Shape target="bracers-M">bracers-M</Shape>
+        <Shape target="plate-M">plate-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="HIMBO - HandsWeight 0 to 1" target="HIMBO - Hands">HIMBO Hands.osd\HIMBO - HandsWeight 0 to 1</Data>
+            <Data name="bracers-MWeight 0 to 1" target="bracers-M" local="true">Hands H.osd\bracers-MWeight 0 to 1</Data>
+            <Data name="plate-MWeight 0 to 1" target="plate-M" local="true">Hands H.osd\plate-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="bracers-MChubby" target="bracers-M" local="true">Hands H.osd\bracers-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="bracers-MLean" target="bracers-M" local="true">Hands H.osd\bracers-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="bracers-MMuscle" target="bracers-M" local="true">Hands H.osd\bracers-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="bracers-MSOSlike" target="bracers-M" local="true">Hands H.osd\bracers-MSOSlike</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="bracers-MArmsShoulders" target="bracers-M" local="true">Hands H.osd\bracers-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsBiceps" invert="false" small="0" big="100">
+            <Data name="bracers-MArmsBiceps" target="bracers-M" local="true">Hands H.osd\bracers-MArmsBiceps</Data>
+        </Slider>
+        <Slider name="ArmsSide" invert="false" small="0" big="0">
+            <Data name="bracers-MArmsSide" target="bracers-M" local="true">Hands H.osd\bracers-MArmsSide</Data>
+        </Slider>
+        <Slider name="ArmsBrachio" invert="false" small="0" big="0">
+            <Data name="bracers-MArmsBrachio" target="bracers-M" local="true">Hands H.osd\bracers-MArmsBrachio</Data>
+        </Slider>
+        <Slider name="ArmsFore" invert="false" small="0" big="100">
+            <Data name="bracers-MArmsFore" target="bracers-M" local="true">Hands H.osd\bracers-MArmsFore</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="bracers-MTorsoBackShape" target="bracers-M" local="true">Hands H.osd\bracers-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="bracers-MTorsoMass" target="bracers-M" local="true">Hands H.osd\bracers-MTorsoMass</Data>
+        </Slider>
+        <Slider name="TorsoLower" invert="false" small="0" big="100">
+            <Data name="bracers-MTorsoLower" target="bracers-M" local="true">Hands H.osd\bracers-MTorsoLower</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="bracers-MFemmeT" target="bracers-M" local="true">Hands H.osd\bracers-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="bracers-MFemmeB" target="bracers-M" local="true">Hands H.osd\bracers-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="bracers-MTorsoShoulderInc" target="bracers-M" local="true">Hands H.osd\bracers-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="bracers-MTorsoShoulderDec" target="bracers-M" local="true">Hands H.osd\bracers-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="bracers-MBodyMass" target="bracers-M" local="true">Hands H.osd\bracers-MBodyMass</Data>
+        </Slider>
+        <Slider name="BellyPot" invert="false" small="0" big="0">
+            <Data name="bracers-MBellyPot" target="bracers-M" local="true">Hands H.osd\bracers-MBellyPot</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="bracers-MPregnancyBelly" target="bracers-M" local="true">Hands H.osd\bracers-MPregnancyBelly</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="bracers-MSamuelLike" target="bracers-M" local="true">Hands H.osd\bracers-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="bracers-MFemmeBooba" target="bracers-M" local="true">Hands H.osd\bracers-MFemmeBooba</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Hands - Elmlock B">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Hands B.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">HandsBM</OutputFile>
+        <Shape target="HandMaleBigArgonian3rd" DataFolder="HIMBO Res">HandMaleBigArgonian3rd</Shape>
+        <Shape target="bracers-M">bracers-M</Shape>
+        <Shape target="plate-M">plate-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="HandMaleBigArgonian3rdWeight 0 to 1" target="HandMaleBigArgonian3rd">HIMBO Hands - Beast.osd\HandMaleBigArgonian3rdWeight 0 to 1</Data>
+            <Data name="bracers-MWeight 0 to 1" target="bracers-M" local="true">Hands B.osd\bracers-MWeight 0 to 1</Data>
+            <Data name="plate-MWeight 0 to 1" target="plate-M" local="true">Hands B.osd\plate-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="bracers-MChubby" target="bracers-M" local="true">Hands B.osd\bracers-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="bracers-MLean" target="bracers-M" local="true">Hands B.osd\bracers-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="bracers-MMuscle" target="bracers-M" local="true">Hands B.osd\bracers-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="bracers-MSOSlike" target="bracers-M" local="true">Hands B.osd\bracers-MSOSlike</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="bracers-MArmsShoulders" target="bracers-M" local="true">Hands B.osd\bracers-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsBiceps" invert="false" small="0" big="100">
+            <Data name="bracers-MArmsBiceps" target="bracers-M" local="true">Hands B.osd\bracers-MArmsBiceps</Data>
+        </Slider>
+        <Slider name="ArmsSide" invert="false" small="0" big="0">
+            <Data name="bracers-MArmsSide" target="bracers-M" local="true">Hands B.osd\bracers-MArmsSide</Data>
+        </Slider>
+        <Slider name="ArmsBrachio" invert="false" small="0" big="0">
+            <Data name="bracers-MArmsBrachio" target="bracers-M" local="true">Hands B.osd\bracers-MArmsBrachio</Data>
+        </Slider>
+        <Slider name="ArmsFore" invert="false" small="0" big="100">
+            <Data name="bracers-MArmsFore" target="bracers-M" local="true">Hands B.osd\bracers-MArmsFore</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="bracers-MTorsoBackShape" target="bracers-M" local="true">Hands B.osd\bracers-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="bracers-MTorsoMass" target="bracers-M" local="true">Hands B.osd\bracers-MTorsoMass</Data>
+        </Slider>
+        <Slider name="TorsoLower" invert="false" small="0" big="100">
+            <Data name="bracers-MTorsoLower" target="bracers-M" local="true">Hands B.osd\bracers-MTorsoLower</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="bracers-MFemmeT" target="bracers-M" local="true">Hands B.osd\bracers-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="bracers-MFemmeB" target="bracers-M" local="true">Hands B.osd\bracers-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="bracers-MTorsoShoulderInc" target="bracers-M" local="true">Hands B.osd\bracers-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="bracers-MTorsoShoulderDec" target="bracers-M" local="true">Hands B.osd\bracers-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="bracers-MBodyMass" target="bracers-M" local="true">Hands B.osd\bracers-MBodyMass</Data>
+        </Slider>
+        <Slider name="BellyPot" invert="false" small="0" big="0">
+            <Data name="bracers-MBellyPot" target="bracers-M" local="true">Hands B.osd\bracers-MBellyPot</Data>
+        </Slider>
+        <Slider name="PregnancyBelly" invert="false" small="0" big="0">
+            <Data name="bracers-MPregnancyBelly" target="bracers-M" local="true">Hands B.osd\bracers-MPregnancyBelly</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="bracers-MSamuelLike" target="bracers-M" local="true">Hands B.osd\bracers-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="bracers-MFemmeBooba" target="bracers-M" local="true">Hands B.osd\bracers-MFemmeBooba</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Hood - Elmlock 1 H">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 H.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1M</OutputFile>
+        <Shape target="coif-1-M">coif-1-M</Shape>
+        <Shape target="gorget-M">gorget-M</Shape>
+        <Shape target="hood-1-M">hood-1-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="coif-1-MWeight 0 to 1" target="coif-1-M" local="true">Hood 1 H.osd\coif-1-MWeight 0 to 1</Data>
+            <Data name="gorget-MWeight 0 to 1" target="gorget-M" local="true">Hood 1 H.osd\gorget-MWeight 0 to 1</Data>
+            <Data name="hood-1-MWeight 0 to 1" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="gorget-MChubby" target="gorget-M" local="true">Hood 1 H.osd\gorget-MChubby</Data>
+            <Data name="hood-1-MChubby" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="coif-1-MLean" target="coif-1-M" local="true">Hood 1 H.osd\coif-1-MLean</Data>
+            <Data name="gorget-MLean" target="gorget-M" local="true">Hood 1 H.osd\gorget-MLean</Data>
+            <Data name="hood-1-MLean" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="gorget-MMuscle" target="gorget-M" local="true">Hood 1 H.osd\gorget-MMuscle</Data>
+            <Data name="hood-1-MMuscle" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="gorget-MSOSlike" target="gorget-M" local="true">Hood 1 H.osd\gorget-MSOSlike</Data>
+            <Data name="hood-1-MSOSlike" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MSOSlike</Data>
+        </Slider>
+        <Slider name="PecsClavicle" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsClavicle" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsClavicle</Data>
+            <Data name="hood-1-MPecsClavicle" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsClavicle</Data>
+        </Slider>
+        <Slider name="PecsSize" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSize" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsSize</Data>
+            <Data name="hood-1-MPecsSize" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsSize</Data>
+        </Slider>
+        <Slider name="PecsMass" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsMass" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsMass</Data>
+            <Data name="hood-1-MPecsMass" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsMass</Data>
+        </Slider>
+        <Slider name="PecsPosV" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosV" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsPosV</Data>
+            <Data name="hood-1-MPecsPosV" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsPosV</Data>
+        </Slider>
+        <Slider name="PecsPosH" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosH" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsPosH</Data>
+            <Data name="hood-1-MPecsPosH" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsPosH</Data>
+        </Slider>
+        <Slider name="PecsSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSide" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsSide</Data>
+            <Data name="hood-1-MPecsSide" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsSide</Data>
+        </Slider>
+        <Slider name="PecsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPush" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsPush</Data>
+            <Data name="hood-1-MPecsPush" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsPush</Data>
+        </Slider>
+        <Slider name="PecsLowerSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsLowerSide" target="gorget-M" local="true">Hood 1 H.osd\gorget-MPecsLowerSide</Data>
+            <Data name="hood-1-MPecsLowerSide" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MPecsLowerSide</Data>
+        </Slider>
+        <Slider name="ArmsTraps" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTraps" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsTraps</Data>
+            <Data name="hood-1-MArmsTraps" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsTraps</Data>
+        </Slider>
+        <Slider name="ArmsTrapsMeat" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsMeat" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsTrapsMeat</Data>
+        </Slider>
+        <Slider name="ArmsTrapsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsPush" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsTrapsPush</Data>
+            <Data name="hood-1-MArmsTrapsPush" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsTrapsPush</Data>
+        </Slider>
+        <Slider name="ArmsTrapsValleys" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsValleys" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsTrapsValleys</Data>
+            <Data name="hood-1-MArmsTrapsValleys" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsTrapsValleys</Data>
+        </Slider>
+        <Slider name="ArmsClavicleCurve" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsClavicleCurve" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsClavicleCurve</Data>
+            <Data name="hood-1-MArmsClavicleCurve" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsClavicleCurve</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="gorget-MArmsShoulders" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsShoulders</Data>
+            <Data name="hood-1-MArmsShoulders" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsDelts" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDelts" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsDelts</Data>
+            <Data name="hood-1-MArmsDelts" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsDelts</Data>
+        </Slider>
+        <Slider name="ArmsDeltsBack" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsBack" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsDeltsBack</Data>
+            <Data name="hood-1-MArmsDeltsBack" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsDeltsBack</Data>
+        </Slider>
+        <Slider name="TorsoSterHeight" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoSterHeight" target="gorget-M" local="true">Hood 1 H.osd\gorget-MTorsoSterHeight</Data>
+        </Slider>
+        <Slider name="TorsoBackSlope" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackSlope" target="gorget-M" local="true">Hood 1 H.osd\gorget-MTorsoBackSlope</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackShape" target="gorget-M" local="true">Hood 1 H.osd\gorget-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="gorget-MTorsoMass" target="gorget-M" local="true">Hood 1 H.osd\gorget-MTorsoMass</Data>
+            <Data name="hood-1-MTorsoMass" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MTorsoMass</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeT" target="gorget-M" local="true">Hood 1 H.osd\gorget-MFemmeT</Data>
+            <Data name="hood-1-MFemmeT" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeB" target="gorget-M" local="true">Hood 1 H.osd\gorget-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderInc" target="coif-1-M" local="true">Hood 1 H.osd\coif-1-MTorsoShoulderInc</Data>
+            <Data name="gorget-MTorsoShoulderInc" target="gorget-M" local="true">Hood 1 H.osd\gorget-MTorsoShoulderInc</Data>
+            <Data name="hood-1-MTorsoShoulderInc" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderDec" target="coif-1-M" local="true">Hood 1 H.osd\coif-1-MTorsoShoulderDec</Data>
+            <Data name="gorget-MTorsoShoulderDec" target="gorget-M" local="true">Hood 1 H.osd\gorget-MTorsoShoulderDec</Data>
+            <Data name="hood-1-MTorsoShoulderDec" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="ArmsDeltsShape" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsShape" target="gorget-M" local="true">Hood 1 H.osd\gorget-MArmsDeltsShape</Data>
+            <Data name="hood-1-MArmsDeltsShape" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MArmsDeltsShape</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="gorget-MBodyMass" target="gorget-M" local="true">Hood 1 H.osd\gorget-MBodyMass</Data>
+            <Data name="hood-1-MBodyMass" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MBodyMass</Data>
+        </Slider>
+        <Slider name="SSBBW2 boobs growth" invert="false" small="0" big="0">
+            <Data name="gorget-MSSBBW2 boobs growth" target="gorget-M" local="true">Hood 1 H.osd\gorget-MSSBBW2 boobs growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="coif-1-MSamuelLike" target="coif-1-M" local="true">Hood 1 H.osd\coif-1-MSamuelLike</Data>
+            <Data name="gorget-MSamuelLike" target="gorget-M" local="true">Hood 1 H.osd\gorget-MSamuelLike</Data>
+            <Data name="hood-1-MSamuelLike" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeBooba" target="gorget-M" local="true">Hood 1 H.osd\gorget-MFemmeBooba</Data>
+            <Data name="hood-1-MFemmeBooba" target="hood-1-M" local="true">Hood 1 H.osd\hood-1-MFemmeBooba</Data>
+        </Slider>
+        <Slider name="TorsoBackDefinition" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackDefinition" target="gorget-M" local="true">Hood 1 H.osd\gorget-MTorsoBackDefinition</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Hood - Elmlock 1 Arg">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 A.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1AM</OutputFile>
+        <Shape target="coif-1-M">coif-1-M</Shape>
+        <Shape target="gorget-M">gorget-M</Shape>
+        <Shape target="hood-1-M">hood-1-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="coif-1-MWeight 0 to 1" target="coif-1-M" local="true">Hood 1 A.osd\coif-1-MWeight 0 to 1</Data>
+            <Data name="gorget-MWeight 0 to 1" target="gorget-M" local="true">Hood 1 A.osd\gorget-MWeight 0 to 1</Data>
+            <Data name="hood-1-MWeight 0 to 1" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="gorget-MChubby" target="gorget-M" local="true">Hood 1 A.osd\gorget-MChubby</Data>
+            <Data name="hood-1-MChubby" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="coif-1-MLean" target="coif-1-M" local="true">Hood 1 A.osd\coif-1-MLean</Data>
+            <Data name="gorget-MLean" target="gorget-M" local="true">Hood 1 A.osd\gorget-MLean</Data>
+            <Data name="hood-1-MLean" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="gorget-MMuscle" target="gorget-M" local="true">Hood 1 A.osd\gorget-MMuscle</Data>
+            <Data name="hood-1-MMuscle" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="gorget-MSOSlike" target="gorget-M" local="true">Hood 1 A.osd\gorget-MSOSlike</Data>
+            <Data name="hood-1-MSOSlike" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MSOSlike</Data>
+        </Slider>
+        <Slider name="PecsClavicle" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsClavicle" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsClavicle</Data>
+            <Data name="hood-1-MPecsClavicle" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsClavicle</Data>
+        </Slider>
+        <Slider name="PecsSize" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSize" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsSize</Data>
+            <Data name="hood-1-MPecsSize" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsSize</Data>
+        </Slider>
+        <Slider name="PecsMass" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsMass" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsMass</Data>
+            <Data name="hood-1-MPecsMass" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsMass</Data>
+        </Slider>
+        <Slider name="PecsPosV" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosV" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsPosV</Data>
+            <Data name="hood-1-MPecsPosV" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsPosV</Data>
+        </Slider>
+        <Slider name="PecsPosH" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosH" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsPosH</Data>
+            <Data name="hood-1-MPecsPosH" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsPosH</Data>
+        </Slider>
+        <Slider name="PecsSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSide" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsSide</Data>
+            <Data name="hood-1-MPecsSide" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsSide</Data>
+        </Slider>
+        <Slider name="PecsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPush" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsPush</Data>
+            <Data name="hood-1-MPecsPush" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsPush</Data>
+        </Slider>
+        <Slider name="PecsLowerSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsLowerSide" target="gorget-M" local="true">Hood 1 A.osd\gorget-MPecsLowerSide</Data>
+            <Data name="hood-1-MPecsLowerSide" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MPecsLowerSide</Data>
+        </Slider>
+        <Slider name="ArmsTraps" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTraps" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsTraps</Data>
+            <Data name="hood-1-MArmsTraps" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsTraps</Data>
+        </Slider>
+        <Slider name="ArmsTrapsMeat" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsMeat" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsTrapsMeat</Data>
+        </Slider>
+        <Slider name="ArmsTrapsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsPush" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsTrapsPush</Data>
+            <Data name="hood-1-MArmsTrapsPush" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsTrapsPush</Data>
+        </Slider>
+        <Slider name="ArmsTrapsValleys" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsValleys" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsTrapsValleys</Data>
+            <Data name="hood-1-MArmsTrapsValleys" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsTrapsValleys</Data>
+        </Slider>
+        <Slider name="ArmsClavicleCurve" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsClavicleCurve" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsClavicleCurve</Data>
+            <Data name="hood-1-MArmsClavicleCurve" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsClavicleCurve</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="gorget-MArmsShoulders" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsShoulders</Data>
+            <Data name="hood-1-MArmsShoulders" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsDelts" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDelts" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsDelts</Data>
+            <Data name="hood-1-MArmsDelts" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsDelts</Data>
+        </Slider>
+        <Slider name="ArmsDeltsBack" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsBack" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsDeltsBack</Data>
+            <Data name="hood-1-MArmsDeltsBack" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsDeltsBack</Data>
+        </Slider>
+        <Slider name="TorsoSterHeight" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoSterHeight" target="gorget-M" local="true">Hood 1 A.osd\gorget-MTorsoSterHeight</Data>
+        </Slider>
+        <Slider name="TorsoBackSlope" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackSlope" target="gorget-M" local="true">Hood 1 A.osd\gorget-MTorsoBackSlope</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackShape" target="gorget-M" local="true">Hood 1 A.osd\gorget-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="gorget-MTorsoMass" target="gorget-M" local="true">Hood 1 A.osd\gorget-MTorsoMass</Data>
+            <Data name="hood-1-MTorsoMass" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MTorsoMass</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeT" target="gorget-M" local="true">Hood 1 A.osd\gorget-MFemmeT</Data>
+            <Data name="hood-1-MFemmeT" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeB" target="gorget-M" local="true">Hood 1 A.osd\gorget-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderInc" target="coif-1-M" local="true">Hood 1 A.osd\coif-1-MTorsoShoulderInc</Data>
+            <Data name="gorget-MTorsoShoulderInc" target="gorget-M" local="true">Hood 1 A.osd\gorget-MTorsoShoulderInc</Data>
+            <Data name="hood-1-MTorsoShoulderInc" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderDec" target="coif-1-M" local="true">Hood 1 A.osd\coif-1-MTorsoShoulderDec</Data>
+            <Data name="gorget-MTorsoShoulderDec" target="gorget-M" local="true">Hood 1 A.osd\gorget-MTorsoShoulderDec</Data>
+            <Data name="hood-1-MTorsoShoulderDec" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="ArmsDeltsShape" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsShape" target="gorget-M" local="true">Hood 1 A.osd\gorget-MArmsDeltsShape</Data>
+            <Data name="hood-1-MArmsDeltsShape" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MArmsDeltsShape</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="gorget-MBodyMass" target="gorget-M" local="true">Hood 1 A.osd\gorget-MBodyMass</Data>
+            <Data name="hood-1-MBodyMass" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MBodyMass</Data>
+        </Slider>
+        <Slider name="SSBBW2 boobs growth" invert="false" small="0" big="0">
+            <Data name="gorget-MSSBBW2 boobs growth" target="gorget-M" local="true">Hood 1 A.osd\gorget-MSSBBW2 boobs growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="coif-1-MSamuelLike" target="coif-1-M" local="true">Hood 1 A.osd\coif-1-MSamuelLike</Data>
+            <Data name="gorget-MSamuelLike" target="gorget-M" local="true">Hood 1 A.osd\gorget-MSamuelLike</Data>
+            <Data name="hood-1-MSamuelLike" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeBooba" target="gorget-M" local="true">Hood 1 A.osd\gorget-MFemmeBooba</Data>
+            <Data name="hood-1-MFemmeBooba" target="hood-1-M" local="true">Hood 1 A.osd\hood-1-MFemmeBooba</Data>
+        </Slider>
+        <Slider name="TorsoBackDefinition" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackDefinition" target="gorget-M" local="true">Hood 1 A.osd\gorget-MTorsoBackDefinition</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Hood - Elmlock 1 Elf">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 E.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1EM</OutputFile>
+        <Shape target="coif-1-M">coif-1-M</Shape>
+        <Shape target="gorget-M">gorget-M</Shape>
+        <Shape target="hood-1-M">hood-1-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="coif-1-MWeight 0 to 1" target="coif-1-M" local="true">Hood 1 E.osd\coif-1-MWeight 0 to 1</Data>
+            <Data name="gorget-MWeight 0 to 1" target="gorget-M" local="true">Hood 1 E.osd\gorget-MWeight 0 to 1</Data>
+            <Data name="hood-1-MWeight 0 to 1" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="gorget-MChubby" target="gorget-M" local="true">Hood 1 E.osd\gorget-MChubby</Data>
+            <Data name="hood-1-MChubby" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="coif-1-MLean" target="coif-1-M" local="true">Hood 1 E.osd\coif-1-MLean</Data>
+            <Data name="gorget-MLean" target="gorget-M" local="true">Hood 1 E.osd\gorget-MLean</Data>
+            <Data name="hood-1-MLean" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="gorget-MMuscle" target="gorget-M" local="true">Hood 1 E.osd\gorget-MMuscle</Data>
+            <Data name="hood-1-MMuscle" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="gorget-MSOSlike" target="gorget-M" local="true">Hood 1 E.osd\gorget-MSOSlike</Data>
+            <Data name="hood-1-MSOSlike" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MSOSlike</Data>
+        </Slider>
+        <Slider name="PecsClavicle" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsClavicle" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsClavicle</Data>
+            <Data name="hood-1-MPecsClavicle" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsClavicle</Data>
+        </Slider>
+        <Slider name="PecsSize" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSize" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsSize</Data>
+            <Data name="hood-1-MPecsSize" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsSize</Data>
+        </Slider>
+        <Slider name="PecsMass" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsMass" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsMass</Data>
+            <Data name="hood-1-MPecsMass" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsMass</Data>
+        </Slider>
+        <Slider name="PecsPosV" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosV" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsPosV</Data>
+            <Data name="hood-1-MPecsPosV" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsPosV</Data>
+        </Slider>
+        <Slider name="PecsPosH" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosH" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsPosH</Data>
+            <Data name="hood-1-MPecsPosH" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsPosH</Data>
+        </Slider>
+        <Slider name="PecsSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSide" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsSide</Data>
+            <Data name="hood-1-MPecsSide" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsSide</Data>
+        </Slider>
+        <Slider name="PecsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPush" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsPush</Data>
+            <Data name="hood-1-MPecsPush" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsPush</Data>
+        </Slider>
+        <Slider name="PecsLowerSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsLowerSide" target="gorget-M" local="true">Hood 1 E.osd\gorget-MPecsLowerSide</Data>
+            <Data name="hood-1-MPecsLowerSide" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MPecsLowerSide</Data>
+        </Slider>
+        <Slider name="ArmsTraps" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTraps" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsTraps</Data>
+            <Data name="hood-1-MArmsTraps" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsTraps</Data>
+        </Slider>
+        <Slider name="ArmsTrapsMeat" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsMeat" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsTrapsMeat</Data>
+        </Slider>
+        <Slider name="ArmsTrapsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsPush" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsTrapsPush</Data>
+            <Data name="hood-1-MArmsTrapsPush" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsTrapsPush</Data>
+        </Slider>
+        <Slider name="ArmsTrapsValleys" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsValleys" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsTrapsValleys</Data>
+            <Data name="hood-1-MArmsTrapsValleys" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsTrapsValleys</Data>
+        </Slider>
+        <Slider name="ArmsClavicleCurve" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsClavicleCurve" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsClavicleCurve</Data>
+            <Data name="hood-1-MArmsClavicleCurve" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsClavicleCurve</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="gorget-MArmsShoulders" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsShoulders</Data>
+            <Data name="hood-1-MArmsShoulders" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsDelts" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDelts" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsDelts</Data>
+            <Data name="hood-1-MArmsDelts" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsDelts</Data>
+        </Slider>
+        <Slider name="ArmsDeltsBack" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsBack" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsDeltsBack</Data>
+            <Data name="hood-1-MArmsDeltsBack" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsDeltsBack</Data>
+        </Slider>
+        <Slider name="TorsoSterHeight" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoSterHeight" target="gorget-M" local="true">Hood 1 E.osd\gorget-MTorsoSterHeight</Data>
+        </Slider>
+        <Slider name="TorsoBackSlope" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackSlope" target="gorget-M" local="true">Hood 1 E.osd\gorget-MTorsoBackSlope</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackShape" target="gorget-M" local="true">Hood 1 E.osd\gorget-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="gorget-MTorsoMass" target="gorget-M" local="true">Hood 1 E.osd\gorget-MTorsoMass</Data>
+            <Data name="hood-1-MTorsoMass" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MTorsoMass</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeT" target="gorget-M" local="true">Hood 1 E.osd\gorget-MFemmeT</Data>
+            <Data name="hood-1-MFemmeT" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeB" target="gorget-M" local="true">Hood 1 E.osd\gorget-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderInc" target="coif-1-M" local="true">Hood 1 E.osd\coif-1-MTorsoShoulderInc</Data>
+            <Data name="gorget-MTorsoShoulderInc" target="gorget-M" local="true">Hood 1 E.osd\gorget-MTorsoShoulderInc</Data>
+            <Data name="hood-1-MTorsoShoulderInc" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderDec" target="coif-1-M" local="true">Hood 1 E.osd\coif-1-MTorsoShoulderDec</Data>
+            <Data name="gorget-MTorsoShoulderDec" target="gorget-M" local="true">Hood 1 E.osd\gorget-MTorsoShoulderDec</Data>
+            <Data name="hood-1-MTorsoShoulderDec" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="ArmsDeltsShape" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsShape" target="gorget-M" local="true">Hood 1 E.osd\gorget-MArmsDeltsShape</Data>
+            <Data name="hood-1-MArmsDeltsShape" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MArmsDeltsShape</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="gorget-MBodyMass" target="gorget-M" local="true">Hood 1 E.osd\gorget-MBodyMass</Data>
+            <Data name="hood-1-MBodyMass" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MBodyMass</Data>
+        </Slider>
+        <Slider name="SSBBW2 boobs growth" invert="false" small="0" big="0">
+            <Data name="gorget-MSSBBW2 boobs growth" target="gorget-M" local="true">Hood 1 E.osd\gorget-MSSBBW2 boobs growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="coif-1-MSamuelLike" target="coif-1-M" local="true">Hood 1 E.osd\coif-1-MSamuelLike</Data>
+            <Data name="gorget-MSamuelLike" target="gorget-M" local="true">Hood 1 E.osd\gorget-MSamuelLike</Data>
+            <Data name="hood-1-MSamuelLike" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeBooba" target="gorget-M" local="true">Hood 1 E.osd\gorget-MFemmeBooba</Data>
+            <Data name="hood-1-MFemmeBooba" target="hood-1-M" local="true">Hood 1 E.osd\hood-1-MFemmeBooba</Data>
+        </Slider>
+        <Slider name="TorsoBackDefinition" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackDefinition" target="gorget-M" local="true">Hood 1 E.osd\gorget-MTorsoBackDefinition</Data>
+        </Slider>
+    </SliderSet>
+    <SliderSet name="HIMBO KSMC - Hood - Elmlock 1 Kha">
+        <DataFolder>HIMBO KSMC\Elmlock</DataFolder>
+        <SourceFile>Hood 1 K.nif</SourceFile>
+        <OutputPath>meshes\Kreis\KSMC\Elmlock</OutputPath>
+        <OutputFile GenWeights="true">Hood1KM</OutputFile>
+        <Shape target="coif-1-M">coif-1-M</Shape>
+        <Shape target="gorget-M">gorget-M</Shape>
+        <Shape target="hood-1-M">hood-1-M</Shape>
+        <Slider name="Weight 0 to 1" invert="false" small="0" big="100" hidden="true">
+            <Data name="coif-1-MWeight 0 to 1" target="coif-1-M" local="true">Hood 1 K.osd\coif-1-MWeight 0 to 1</Data>
+            <Data name="gorget-MWeight 0 to 1" target="gorget-M" local="true">Hood 1 K.osd\gorget-MWeight 0 to 1</Data>
+            <Data name="hood-1-MWeight 0 to 1" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MWeight 0 to 1</Data>
+        </Slider>
+        <Slider name="Chubby" invert="false" small="0" big="0">
+            <Data name="gorget-MChubby" target="gorget-M" local="true">Hood 1 K.osd\gorget-MChubby</Data>
+            <Data name="hood-1-MChubby" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MChubby</Data>
+        </Slider>
+        <Slider name="Lean" invert="false" small="0" big="0">
+            <Data name="coif-1-MLean" target="coif-1-M" local="true">Hood 1 K.osd\coif-1-MLean</Data>
+            <Data name="gorget-MLean" target="gorget-M" local="true">Hood 1 K.osd\gorget-MLean</Data>
+            <Data name="hood-1-MLean" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MLean</Data>
+        </Slider>
+        <Slider name="Muscle" invert="false" small="0" big="0">
+            <Data name="gorget-MMuscle" target="gorget-M" local="true">Hood 1 K.osd\gorget-MMuscle</Data>
+            <Data name="hood-1-MMuscle" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MMuscle</Data>
+        </Slider>
+        <Slider name="SOSlike" invert="false" small="0" big="0">
+            <Data name="gorget-MSOSlike" target="gorget-M" local="true">Hood 1 K.osd\gorget-MSOSlike</Data>
+            <Data name="hood-1-MSOSlike" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MSOSlike</Data>
+        </Slider>
+        <Slider name="PecsClavicle" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsClavicle" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsClavicle</Data>
+            <Data name="hood-1-MPecsClavicle" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsClavicle</Data>
+        </Slider>
+        <Slider name="PecsSize" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSize" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsSize</Data>
+            <Data name="hood-1-MPecsSize" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsSize</Data>
+        </Slider>
+        <Slider name="PecsMass" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsMass" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsMass</Data>
+            <Data name="hood-1-MPecsMass" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsMass</Data>
+        </Slider>
+        <Slider name="PecsPosV" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosV" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsPosV</Data>
+            <Data name="hood-1-MPecsPosV" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsPosV</Data>
+        </Slider>
+        <Slider name="PecsPosH" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPosH" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsPosH</Data>
+            <Data name="hood-1-MPecsPosH" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsPosH</Data>
+        </Slider>
+        <Slider name="PecsSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsSide" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsSide</Data>
+            <Data name="hood-1-MPecsSide" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsSide</Data>
+        </Slider>
+        <Slider name="PecsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsPush" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsPush</Data>
+            <Data name="hood-1-MPecsPush" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsPush</Data>
+        </Slider>
+        <Slider name="PecsLowerSide" invert="false" small="0" big="0">
+            <Data name="gorget-MPecsLowerSide" target="gorget-M" local="true">Hood 1 K.osd\gorget-MPecsLowerSide</Data>
+            <Data name="hood-1-MPecsLowerSide" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MPecsLowerSide</Data>
+        </Slider>
+        <Slider name="ArmsTraps" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTraps" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsTraps</Data>
+            <Data name="hood-1-MArmsTraps" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsTraps</Data>
+        </Slider>
+        <Slider name="ArmsTrapsMeat" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsMeat" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsTrapsMeat</Data>
+        </Slider>
+        <Slider name="ArmsTrapsPush" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsPush" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsTrapsPush</Data>
+            <Data name="hood-1-MArmsTrapsPush" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsTrapsPush</Data>
+        </Slider>
+        <Slider name="ArmsTrapsValleys" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsTrapsValleys" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsTrapsValleys</Data>
+            <Data name="hood-1-MArmsTrapsValleys" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsTrapsValleys</Data>
+        </Slider>
+        <Slider name="ArmsClavicleCurve" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsClavicleCurve" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsClavicleCurve</Data>
+            <Data name="hood-1-MArmsClavicleCurve" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsClavicleCurve</Data>
+        </Slider>
+        <Slider name="ArmsShoulders" invert="false" small="0" big="50">
+            <Data name="gorget-MArmsShoulders" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsShoulders</Data>
+            <Data name="hood-1-MArmsShoulders" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsShoulders</Data>
+        </Slider>
+        <Slider name="ArmsDelts" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDelts" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsDelts</Data>
+            <Data name="hood-1-MArmsDelts" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsDelts</Data>
+        </Slider>
+        <Slider name="ArmsDeltsBack" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsBack" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsDeltsBack</Data>
+            <Data name="hood-1-MArmsDeltsBack" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsDeltsBack</Data>
+        </Slider>
+        <Slider name="TorsoSterHeight" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoSterHeight" target="gorget-M" local="true">Hood 1 K.osd\gorget-MTorsoSterHeight</Data>
+        </Slider>
+        <Slider name="TorsoBackSlope" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackSlope" target="gorget-M" local="true">Hood 1 K.osd\gorget-MTorsoBackSlope</Data>
+        </Slider>
+        <Slider name="TorsoBackShape" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackShape" target="gorget-M" local="true">Hood 1 K.osd\gorget-MTorsoBackShape</Data>
+        </Slider>
+        <Slider name="TorsoMass" invert="false" small="0" big="100">
+            <Data name="gorget-MTorsoMass" target="gorget-M" local="true">Hood 1 K.osd\gorget-MTorsoMass</Data>
+            <Data name="hood-1-MTorsoMass" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MTorsoMass</Data>
+        </Slider>
+        <Slider name="FemmeT" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeT" target="gorget-M" local="true">Hood 1 K.osd\gorget-MFemmeT</Data>
+            <Data name="hood-1-MFemmeT" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MFemmeT</Data>
+        </Slider>
+        <Slider name="FemmeB" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeB" target="gorget-M" local="true">Hood 1 K.osd\gorget-MFemmeB</Data>
+        </Slider>
+        <Slider name="TorsoShoulderInc" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderInc" target="coif-1-M" local="true">Hood 1 K.osd\coif-1-MTorsoShoulderInc</Data>
+            <Data name="gorget-MTorsoShoulderInc" target="gorget-M" local="true">Hood 1 K.osd\gorget-MTorsoShoulderInc</Data>
+            <Data name="hood-1-MTorsoShoulderInc" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MTorsoShoulderInc</Data>
+        </Slider>
+        <Slider name="TorsoShoulderDec" invert="false" small="0" big="0">
+            <Data name="coif-1-MTorsoShoulderDec" target="coif-1-M" local="true">Hood 1 K.osd\coif-1-MTorsoShoulderDec</Data>
+            <Data name="gorget-MTorsoShoulderDec" target="gorget-M" local="true">Hood 1 K.osd\gorget-MTorsoShoulderDec</Data>
+            <Data name="hood-1-MTorsoShoulderDec" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MTorsoShoulderDec</Data>
+        </Slider>
+        <Slider name="ArmsDeltsShape" invert="false" small="0" big="0">
+            <Data name="gorget-MArmsDeltsShape" target="gorget-M" local="true">Hood 1 K.osd\gorget-MArmsDeltsShape</Data>
+            <Data name="hood-1-MArmsDeltsShape" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MArmsDeltsShape</Data>
+        </Slider>
+        <Slider name="BodyMass" invert="false" small="0" big="0">
+            <Data name="gorget-MBodyMass" target="gorget-M" local="true">Hood 1 K.osd\gorget-MBodyMass</Data>
+            <Data name="hood-1-MBodyMass" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MBodyMass</Data>
+        </Slider>
+        <Slider name="SSBBW2 boobs growth" invert="false" small="0" big="0">
+            <Data name="gorget-MSSBBW2 boobs growth" target="gorget-M" local="true">Hood 1 K.osd\gorget-MSSBBW2 boobs growth</Data>
+        </Slider>
+        <Slider name="SamuelLike" invert="false" small="0" big="0">
+            <Data name="coif-1-MSamuelLike" target="coif-1-M" local="true">Hood 1 K.osd\coif-1-MSamuelLike</Data>
+            <Data name="gorget-MSamuelLike" target="gorget-M" local="true">Hood 1 K.osd\gorget-MSamuelLike</Data>
+            <Data name="hood-1-MSamuelLike" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MSamuelLike</Data>
+        </Slider>
+        <Slider name="FemmeBooba" invert="false" small="0" big="0">
+            <Data name="gorget-MFemmeBooba" target="gorget-M" local="true">Hood 1 K.osd\gorget-MFemmeBooba</Data>
+            <Data name="hood-1-MFemmeBooba" target="hood-1-M" local="true">Hood 1 K.osd\hood-1-MFemmeBooba</Data>
+        </Slider>
+        <Slider name="TorsoBackDefinition" invert="false" small="0" big="0">
+            <Data name="gorget-MTorsoBackDefinition" target="gorget-M" local="true">Hood 1 K.osd\gorget-MTorsoBackDefinition</Data>
+        </Slider>
+    </SliderSet>
+</SliderSetInfo>
