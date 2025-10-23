@@ -302,3 +302,5 @@
 *Pets of Skyrim - JK's Skyrim Patch.esp
 *Taberu Animation - Dawn of Skyrim Patch.esp
 *Taberu Animation - USSEP Patch.esp
+*3D_FacegenForKids.esp
+*CRF_FacegenForKids.esp
