@@ -1,0 +1,86 @@
+{
+  "tpbgfx": {
+    "Priority": 1,
+    "Active": true
+  },
+  "amco": {
+    "Priority": 2,
+    "Active": true
+  },
+  "dmco": {
+    "Priority": 3,
+    "Active": true
+  },
+  "dgrip": {
+    "Priority": 4,
+    "Active": true
+  },
+  "eaas": {
+    "Priority": 5,
+    "Active": true
+  },
+  "ecnpc": {
+    "Priority": 6,
+    "Active": true
+  },
+  "ecdmg": {
+    "Priority": 7,
+    "Active": true
+  },
+  "ecvpc": {
+    "Priority": 8,
+    "Active": false
+  },
+  "draws": {
+    "Priority": 9,
+    "Active": true
+  },
+  "hbtb": {
+    "Priority": 10,
+    "Active": true
+  },
+  "ammco": {
+    "Priority": 11,
+    "Active": true
+  },
+  "evfmgo": {
+    "Priority": 12,
+    "Active": true
+  },
+  "colis": {
+    "Priority": 13,
+    "Active": true
+  },
+  "scar": {
+    "Priority": 14,
+    "Active": true
+  },
+  "stglck": {
+    "Priority": 15,
+    "Active": true
+  },
+  "sppffp": {
+    "Priority": 16,
+    "Active": true
+  },
+  "sppftp": {
+    "Priority": 17,
+    "Active": true
+  },
+  "tdmh": {
+    "Priority": 18,
+    "Active": true
+  },
+  "tdmv": {
+    "Priority": 19,
+    "Active": true
+  },
+  "tdmlen": {
+    "Priority": 20,
+    "Active": true
+  },
+  "xpmse": {
+    "Priority": 21,
+    "Active": true
+  }
+}

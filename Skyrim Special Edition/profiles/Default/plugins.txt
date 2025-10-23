@@ -282,3 +282,4 @@
 *Seasonal Landscapes - Unfrozen - JK's College of Winterhold Patch.esp
 *Seasonal Landscapes - Unfrozen - JKs Syrim Patch.esp
 *Seasonal Landscapes - Unfrozen - Zombies Patch.esp
+*FNIS.esp
