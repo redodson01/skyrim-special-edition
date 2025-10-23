@@ -80,6 +80,7 @@ cccbhsse001-gaunt.esl
 ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
 Sentinel - Master Plugin.esp
+SimpleChildren.esp
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 Cathedral Landscapes.esp
@@ -114,3 +115,4 @@ ForswornRetexture Unique Armor of the Old Gods.esp
 UniqueDragonPriests_XB.esp
 CommonClothing-JarlSleeves.esp
 BA_BardSongs_AIO.esp
+FacegenForKids.esp
