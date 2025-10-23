@@ -1,0 +1,3 @@
+// simple patch file to create and update overwrites or new records in DynDOLOD plugins at LOD generation time
+// not documented yet, ask for help or instructions in offical forum
+overwrite=skyrim.esm;0008118d,XEMI=skyrim.esm;0008277b,XLRL=skyrim.esm;00018e34
