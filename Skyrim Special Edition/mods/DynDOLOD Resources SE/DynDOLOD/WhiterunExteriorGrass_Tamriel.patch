@@ -1,0 +1,5 @@
+// simple patch file to create and update overwrites or new records in DynDOLOD plugins at LOD generation time
+//
+// use the official DynDOLOD support forum for help, instructions and explanations https://stepmodifications.org/forum/forum/223-dyndolod-xlodgen/
+// 
+overwrite2esp=skyrim.esm;0001A26F,DATA\No Grass=0
