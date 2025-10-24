@@ -414,3 +414,4 @@
 *Taberu Animations - GourmetSurvival Patch.esp
 *Just Simply Knock.esp
 *Just Simply Peek.esp
+*xLODGen Output - Seasons of Skyrim.esp
