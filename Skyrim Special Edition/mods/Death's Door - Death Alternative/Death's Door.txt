@@ -1,0 +1,63 @@
+******************************************
+
+	Death's Door
+	Author: Kamikaze
+
+******************************************
+
+DESCRIPTION
+===========
+
+Simple, immersive, and configurable alternative death system. When defeated in battle, revive by consuming a Dragon Soul or pray for Divine Intervention.
+
+When defeated in battle, you will fall to your knees and be given a choice to either revive on the spot by consuming a Dragon Soul or pray to be transported to the last place you slept by Divine Intervention.
+
+Revival carries no penalty besides losing a Dragon Soul. Divine Intervention risks losing a portion of your gold and experience. This risk increases every time you invoke it, and can only be reset by gaining a level. Werewolves and Vampire Lords risk being denied Divine Intervention and may be forced into transformation instead.
+
+There are some places where Divine Intervention is impossible. If you are about to die in such a place and you have no Dragon Souls, you will truly die and the last save game will be reloaded.
+
+Death's Door activates automatically after completing the Unbound quest and comes with an MCM menu where every aspect can be adjusted to your liking.
+
+On rare occasions you may get you stuck in a pose and be unable to move. Enter the following in the console to fix it:
+
+player.pushactoraway player 0
+
+COMPATIBILITY
+=============
+
+Should be compatible with everything except other death alternative mods.
+
+Divine Intervention is disabled in certain places to prevent quests from breaking, think of the Soul Cairn, Sovngarde, and the Thalmor Embassy. I think I got them all but it is possible that I missed one or two. Similar locations added by other mods can be covered by adding them to the DETHTeleportSpecialLocations form list.
+
+CHANGELOG
+=========
+
+Version 6:
+- Fixed experience loss percentage being reversed.
+
+Version 5:
+- Fixed Gold loss percentage being reversed.
+
+Version 4:
+- Added a Safe Houses Only option to only respawn in houses you own, guild houses, and inns.
+- Beast Curse can now choose one of three options: Off, Risk, Always.
+- The script will stop waiting for your body to come to a standstill after 45 seconds.
+
+Version 3:
+- Fixed Divine Intervention not always working as expected.
+- Fixed reviving in mid air or when ragdolling.
+- MCM menu ensures min risk < max risk.
+
+Version 2:
+- Fixed directory structure.
+
+Version 1:
+- Initial release.
+
+PERMISSIONS
+===========
+
+You may distribute and modify this mod as you see fit as long as you abide by the following:
+1) You credit me (Kamikaze) as the original author.
+2) You provide a link back to the original download page on Nexus.
+3) You do not attempt to profit off of my mod -- unless you give me a fair cut. ;)
