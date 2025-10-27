@@ -1,0 +1,191 @@
+{
+    "modName": "ThirdPersonFirstPersonAiming",          
+    "displayName": "ThirdPersonFirstPersonAiming",    
+    "minMcmVersion": 9,                 
+    "cursorFillMode": "topToBottom",    
+    "pages": [{                         
+      "pageDisplayName": "Settings",   
+      "cursorFillMode": "topToBottom",   
+      "content": [
+        {
+            "text": "Switch To FP",
+            "type": "header"
+        },
+        {
+            "text": "Switch To FP On Draw",
+            "type": "toggle",
+            "help": "This option is not compatible with >>Switch to TP<<. Choose only one.",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|800"
+            }
+
+        },
+        {
+            "text": "On Draw Bow",
+            "type": "toggle",
+            "help": "",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|801"
+            }
+
+        },
+        {
+            "text": "On Draw Magic",
+            "type": "toggle",
+            "help": "",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|802"
+            }
+
+        },
+        {
+            "text": "On Draw Melee",
+            "type": "toggle",
+            "help": "",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esp|80A"
+            }
+
+        },
+        {
+            "text": "Switch to TP",
+            "type": "header"
+        },
+        {
+            "text": "Switch To TP On Draw",
+            "type": "toggle",
+            "help": "This option is not compatible with >>Switch to FP<<. Choose only one.",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|805"
+            }
+
+        },
+        {
+            "text": "On Draw All",
+            "type": "toggle",
+            "help": "Switch on any kind of weapon or magic. Not compatible with >>On Draw Bow/Magic<<",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|808"
+            }
+
+        },
+        {
+            "text": "On Draw Bow",
+            "type": "toggle",
+            "help": "",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|806"
+            }
+
+        },
+        {
+            "text": "On Draw Magic",
+            "type": "toggle",
+            "help": "",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|807"
+            }
+
+        },
+        {
+            "text": "Switch On Aim",
+            "type": "header",
+            "position": 1
+        },
+        {
+            "text": "Switch On Aim",
+            "type": "toggle",
+            "help": "This option is not compatible with >>Switch to FP<<. Deactivate this option, when using it, otherwise it will switch you out of FP.",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|D66"
+            }
+
+        },
+        {
+            "text": "On Aim Bow",
+            "type": "toggle",
+            "help": "",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|D67"
+            }
+
+        },
+        {
+            "text": "On Aim Magic",
+            "type": "toggle",
+            "help": "",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|D68"
+            }
+
+        },
+        {
+            "text": "Other Settings",
+            "type": "header"
+        },
+        {
+            "text": "Exclude Self-Casted Spells (Recommended)",
+            "type": "toggle",
+            "help": "For example Fire Storm or Mage Armor.",
+            "valueOptions": {
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|803"
+            }
+
+        },
+        {
+            "text": "Switch back delay Bow",
+            "type": "slider",
+            "help": "in seconds",
+            "valueOptions": {
+                "min": 0.10,
+                "max": 1.00,
+                "step": 0.05,
+                "formatString": "{2}",
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|D69"
+            }
+        },
+        {
+            "text": "Switch back delay Magic",
+            "type": "slider",
+            "help": "in seconds",
+            "valueOptions": {
+                "min": 0.10,
+                "max": 1.00,
+                "step": 0.05,
+                "formatString": "{2}",
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|D6A"
+            }
+        },
+        {
+            "text": "Switch back delay Melee",
+            "type": "slider",
+            "help": "in seconds",
+            "valueOptions": {
+                "min": 0.10,
+                "max": 1.00,
+                "step": 0.05,
+                "formatString": "{2}",
+                "sourceType": "GlobalValue",
+                "sourceForm": "ThirdPersonFirstPersonAiming.esl|80B"
+            }
+        }
+
+
+
+      ]                  
+    }]
+  }

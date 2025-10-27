@@ -85,6 +85,7 @@ TheNewGentleman.esp
 NoSillyPhysicsDamage.esl
 SmoothCam.esl
 DynamicCollisionAdjustment.esl
+ThirdPersonFirstPersonAiming.esl
 unofficial skyrim special edition patch.esp
 MCMHelper.esp
 DynDOLOD Resources SE.esp
